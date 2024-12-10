@@ -1,0 +1,31 @@
+VER 3 0000000001000002 "AI" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Arcane Intellect(Rank 1)
+END
+VER 3 0000000001000003 "CW" "134400"
+#showtooltip
+/use Conjure Water
+END
+VER 3 0000000001000005 "FBl" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Fire Blast;
+END
+VER 3 0000000001000001 "FiB" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Fireball;
+END
+VER 3 0000000001000004 "FrB" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Frostbolt
+END
+VER 3 0000000001000006 "FrB1" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Frostbolt(Rank 1)
+END
+VER 3 0000000001000007 "P" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Polymorph
+END

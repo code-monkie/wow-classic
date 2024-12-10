@@ -1,0 +1,31 @@
+VER 3 0000000001000002 "HT" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Healing Touch
+END
+VER 3 0000000001000005 "M" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Mark of the Wild
+END
+VER 3 0000000001000007 "Maul" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Maul
+END
+VER 3 0000000001000004 "MF" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Moonfire;
+END
+VER 3 0000000001000003 "Rej" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Rejuvenation
+END
+VER 3 0000000001000006 "T" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Thorns
+END
+VER 3 0000000001000001 "W" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Wrath
+END

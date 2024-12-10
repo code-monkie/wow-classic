@@ -1,0 +1,4 @@
+Blizzard_CompactRaidFrames: enabled
+Blizzard_CombatText: enabled
+AI_VoiceOver: disabled
+AI_VoiceOverData_Vanilla: disabled

@@ -1,0 +1,26 @@
+VER 3 0000000001000003 "E" "134400"
+#showtooltip
+/console Sound_EnableErrorSpeech 0
+/use [@mouseover,nodead,harm] [] Eviscerate
+/run UIErrorsFrame:Clear()
+/console Sound_EnableErrorSpeech 1
+END
+VER 3 0000000001000004 "G" "134400"
+#showtooltip
+/stopattack
+/use Gouge
+END
+VER 3 0000000001000002 "S" "134400"
+#showtooltip
+/use [stealth] Pick Pocket
+/dismount [mounted]
+/use [nostealth] Stealth
+END
+VER 3 0000000001000001 "SS" "134400"
+#showtooltip
+/console Sound_EnableErrorSpeech 0
+/use [stealth] Pick Pocket
+/use [@mouseover,nodead,harm] [] Sinister Strike
+/run UIErrorsFrame:Clear()
+/console Sound_EnableErrorSpeech 1
+END

@@ -1,0 +1,9 @@
+VER 3 0000000001000002 "HT" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Healing Touch;
+END
+VER 3 0000000001000001 "Wrath" "134400"
+#showtooltip Wrath
+/startattack
+/use [@mouseover,nodead,harm] [] Wrath
+END

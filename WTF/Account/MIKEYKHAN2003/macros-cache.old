@@ -1,0 +1,61 @@
+VER 3 0000000000000007 "Cancel" "136047"
+/cancelform
+/dismount [mounted]
+END
+VER 3 0000000000000008 "CT" "134400"
+/console floatingCombatTextCombatDamage 1
+/console floatingCombatTextCombatHealing 1
+END
+VER 3 000000000000000B "Enchant" "134400"
+/click CraftCreateButton
+/use 9
+/click StaticPopup1Button1
+END
+VER 3 000000000000000A "F - A" "134400"
+/follow aldez
+END
+VER 3 0000000000000005 "F-A" "134149"
+/follow party2
+END
+VER 3 000000000000000C "Follow" "134148"
+/follow party1
+END
+VER 3 000000000000000E "Mark" "134400"
+/script SetRaidTarget("player",6)
+/script SetRaidTarget("party1",5)
+/script SetRaidTarget("party2",8)
+END
+VER 3 0000000000000013 "S EBT" "134400"
+#showtooltip
+/use Earthbind Totem
+END
+VER 3 0000000000000011 "S ES" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Earth Shock
+END
+VER 3 0000000000000014 "S HW" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Healing Wave
+END
+VER 3 0000000000000010 "S LB" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Lightning Bolt;
+END
+VER 3 0000000000000012 "S SST" "134400"
+#showtooltip
+/use Stoneskin Totem
+END
+VER 3 000000000000000F "Toggle Find" "134400"
+#showtooltip
+/castsequence [nocombat] find herbs, find minerals
+END
+VER 3 0000000000000002 "TTF" "132089"
+/y To the FACE!!!
+END
+VER 3 0000000000000015 "Wand" "134400"
+#showtooltip
+/startattack
+/use Shoot
+END

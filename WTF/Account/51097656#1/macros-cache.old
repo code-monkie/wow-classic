@@ -1,0 +1,86 @@
+VER 3 000000000000000F "Cancel" "136047"
+/dismount
+/cancelaura Levitate
+/cancelaura Divine Protection
+/cancelattack
+/cancelaura stealth
+END
+VER 3 0000000000000024 "CF" "134400"
+#showtooltip
+/use Conjure Food
+END
+VER 3 000000000000002E "D Mark" "134400"
+#showtooltip
+/use Mark of the Wild
+END
+VER 3 0000000000000016 "Drink" "135861"
+/use Conjured Crystal Water
+/use Conjured Sparkling Water
+END
+VER 3 0000000000000022 "Follow" "134148"
+/follow party1
+END
+VER 3 000000000000002D "Follow2" "134149"
+/follow party2
+END
+VER 3 000000000000000E "GH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount [mounted]
+/use [@mouseover,nodead,help] [] Greater Heal;
+END
+VER 3 0000000000000011 "PS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount [mounted]
+/use Psychic Scream
+END
+VER 3 0000000000000008 "PW: F" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount [mounted]
+/use [@mouseover,nodead,help] [] Prayer of Fortitude(Rank 2);
+END
+VER 3 000000000000002B "S EBT" "134400"
+#showtooltip
+/use Earthbind Totem
+END
+VER 3 000000000000002A "S ES" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Earth Shock;
+END
+VER 3 0000000000000026 "S HW" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Healing Wave
+END
+VER 3 0000000000000025 "S LB" "134400"
+#showtooltip
+/startattack
+/use Lightning Bolt
+END
+VER 3 0000000000000029 "S SST" "134400"
+#showtooltip
+/use Stoneskin Totem
+END
+VER 3 0000000000000028 "S SST" "134400"
+#showtooltip
+/use Stoneskin Totem
+END
+VER 3 000000000000001D "SCT" "132223"
+/console floatingCombatTextCombatDamage 1
+END
+VER 3 0000000000000001 "To the Face" "132089"
+/yell To the FACE!!!
+END
+VER 3 0000000000000002 "Uhoh" "135966"
+#showtooltip
+/use Greater Healthstone
+/use Healthstone
+/use Greater Healing Potion;
+/use Superior Healing Potion;
+/use Healing Potion;
+/use Minor Healing Potion
+END
+VER 3 000000000000002C "Wand" "134400"
+#showtooltip
+/startattack
+/use Shoot
+END
