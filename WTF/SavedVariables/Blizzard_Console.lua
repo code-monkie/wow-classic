@@ -1,369 +1,8 @@
 
 Blizzard_Console_SavedVars = {
 ["version"] = 3,
-["height"] = 300.0000915527344,
 ["messageHistory"] = {
 {
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733842253\" expirationTime=\"1733856653\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[IBN_Login] [F] Joining realm subRegion=\"81-1-89\" realmAddress=\"81-2-52\"",
-0,
-},
-{
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net established.",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-0000030BB038] [WowAccount-0-0000002F658B] Initialized with 3 entitlements.",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
 "Sorting particles normally.",
 0,
 },
@@ -436,15 +75,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Water detail changed to 2",
+"Water detail changed to 0",
 0,
 },
 {
-"Ripple detail changed to 1",
+"Ripple detail changed to 2",
 0,
 },
 {
-"Reflection mode changed to 0",
+"Reflection mode changed to 3",
 0,
 },
 {
@@ -452,11 +91,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Sunshafts quality changed to 2",
+"Sunshafts quality changed to 0",
 0,
 },
 {
-"Projected textures enabled.",
+"Projected textures disabled.",
 0,
 },
 {
@@ -464,11 +103,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
+"Shadow mode changed to 0 - Blob shadows, precomputed terrain shadows",
 0,
 },
 {
-"Shadow texture size changed to 2048.",
+"Shadow texture size changed to 1024.",
 0,
 },
 {
@@ -476,7 +115,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Shadow cascade blending changed to 1",
+"Shadow cascade blending changed to 0",
 0,
 },
 {
@@ -500,7 +139,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"SSAO mode set to 3",
+"SSAO mode set to 0",
 0,
 },
 {
@@ -520,7 +159,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Render scale changed to 0.983333",
+"Render scale changed to 1",
 0,
 },
 {
@@ -577,6 +216,90 @@ Blizzard_Console_SavedVars = {
 },
 {
 "World preload high res textures enabled.",
+0,
+},
+{
+"SSAO mode set to 3",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Sunshafts quality changed to 2",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Spell Clutter set to dynamic",
+0,
+},
+{
+"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
+0,
+},
+{
+"Shadow texture size changed to 2048.",
+0,
+},
+{
+"Soft shadows changed to 0.",
+0,
+},
+{
+"Shadow cascade blending changed to 1",
+0,
+},
+{
+"Water detail changed to 2",
+0,
+},
+{
+"Reflection mode changed to 0",
+0,
+},
+{
+"Ripple detail changed to 1",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"set pending gxRestart",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"GxApi set pending GxRestart",
 0,
 },
 {
@@ -656,3651 +379,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733842332\" expirationTime=\"1733856732\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[IBN_Login] [F] Joining realm subRegion=\"81-1-89\" realmAddress=\"81-2-52\"",
-0,
-},
-{
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net established.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-0000030BB038] [WowAccount-0-0000035ABFB3] Initialized with 2 entitlements.",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733846400\" expirationTime=\"1733860800\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_GAME_UTILITY_SERVER_NO_SERVER (34200)\"",
-0,
-},
-{
-"[GlueLogin] [F] Fatal error while logging in result=\"( code=\"ERROR_GAME_UTILITY_SERVER_NO_SERVER (34200)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733847618\" expirationTime=\"1733862018\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm lists numSubRegions=\"1\"",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm lists numSubRegions=\"1\"",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm lists numSubRegions=\"1\"",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm lists numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733847748\" expirationTime=\"1733862148\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"2\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"2\" result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733848048\" expirationTime=\"1733862448\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733849141\" expirationTime=\"1733863541\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733849397\" expirationTime=\"1733863797\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733851250\" expirationTime=\"1733865650\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733851447\" expirationTime=\"1733865847\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733851656\" expirationTime=\"1733866056\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733851996\" expirationTime=\"1733866396\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 0.983333",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsWorldGeo' failed validation for its initial value.",
-0,
-},
-{
-"Variable Rate Shading not supported on this hardware",
-0,
-},
-{
-"CVar 'vrsParticles' failed validation for its initial value.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733853541\" expirationTime=\"1733867941\"",
+"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733855423\" expirationTime=\"1733869823\"",
 0,
 },
 {
@@ -4355,10 +434,362 @@ Blizzard_Console_SavedVars = {
 "[IBN_Login] [F] Destroying isInitialized=\"true\"",
 0,
 },
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
 },
-["isShown"] = false,
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Use trigger on BeginDrawComplete enabled.",
+4,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 2",
+0,
+},
+{
+"Ripple detail changed to 1",
+0,
+},
+{
+"Reflection mode changed to 0",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 2",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Spell Clutter set to dynamic",
+0,
+},
+{
+"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
+0,
+},
+{
+"Shadow texture size changed to 2048.",
+0,
+},
+{
+"Soft shadows changed to 0.",
+0,
+},
+{
+"Shadow cascade blending changed to 1",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading enabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 3",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"Variable Rate Shading not supported on this hardware",
+0,
+},
+{
+"CVar 'vrsWorldGeo' failed validation for its initial value.",
+0,
+},
+{
+"Variable Rate Shading not supported on this hardware",
+0,
+},
+{
+"CVar 'vrsParticles' failed validation for its initial value.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"[GlueLogin] [F] Starting login launcherPortal=\"us.actual.battle.net\" loginPortal=\"us.actual.battle.net:1119\"",
+0,
+},
+{
+"[GlueLogin] [F] Resetting",
+0,
+},
+{
+"[IBN_Login] [F] Initializing",
+0,
+},
+{
+"[IBN_Login] [F] Attempting logon host=\"us.actual.battle.net\" port=\"1119\"",
+0,
+},
+{
+"[GlueLogin] [F] Waiting for server response.",
+0,
+},
+{
+"[GlueLogin] [F] Waiting for server response.",
+0,
+},
+{
+"[GlueLogin] [F] Waiting for server response.",
+0,
+},
+{
+"[GlueLogin] [F] Logon complete.",
+0,
+},
+{
+"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1733855908\" expirationTime=\"1733870308\"",
+0,
+},
+{
+"[GlueLogin] [F] Waiting for realm list.",
+0,
+},
+{
+"[IBN_Login] [F] Requesting realm list ticket",
+0,
+},
+{
+"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"[GlueLogin] [F] Waiting for realm list.",
+0,
+},
+{
+"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"[IBN_Login] [F] Requesting last played chars numSubRegions=\"1\"",
+0,
+},
+{
+"[GlueLogin] [F] Realm list ready.",
+0,
+},
+{
+"[GlueLogin] [F] Explicitly disconnecting from realm server",
+0,
+},
+{
+"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
+0,
+},
+{
+"[GlueLogin] [F] Disconnecting from authentication server.",
+0,
+},
+{
+"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"[GlueLogin] [F] Disconnected from authentication server.",
+0,
+},
+{
+"[IBN_Login] [F] Destroying isInitialized=\"true\"",
+0,
+},
+},
+["height"] = 300,
 ["fontHeight"] = 14,
+["isShown"] = false,
 ["commandHistory"] = {
 },
 }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

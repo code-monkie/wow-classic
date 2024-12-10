@@ -1,7 +1,0 @@
-## Interface: 11403
-## Title: Cpt. Stadics' Vendor Treasures
-## Notes: Displays gear and potion vendors on the world map.
-## Author: Stadics (built on RareAware by Mokilok)
-## Version: 1.3
-
-CptStadicsVendorTreasures.lua
