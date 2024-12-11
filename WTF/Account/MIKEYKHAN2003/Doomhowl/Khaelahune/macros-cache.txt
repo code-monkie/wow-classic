@@ -1,4 +1,8 @@
-VER 3 0000000001000002 "HT" "134400"
+VER 3 0000000001000008 "B" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Bash
+END
+VER 3 0000000001000009 "HT" "134400"
 #showtooltip
 /use [@mouseover,nodead,help] [] Healing Touch
 END
@@ -15,6 +19,10 @@ VER 3 0000000001000004 "MF" "134400"
 #showtooltip
 /startattack
 /use [@mouseover,nodead,harm] [] Moonfire;
+END
+VER 3 0000000001000002 "R" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Regrowth
 END
 VER 3 0000000001000003 "Rej" "134400"
 #showtooltip

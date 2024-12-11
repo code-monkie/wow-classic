@@ -1,4 +1,5 @@
-SET cameraDistanceMaxZoomFactor "4"
+SET cameraDistanceMaxZoomFactor "1"
+SET cameraZoomSpeed "20"
 SET UnitNameEnemyPlayerName "0"
 SET lockActionBars "1"
 SET showTutorials "0"

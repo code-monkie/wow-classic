@@ -1,0 +1,14 @@
+
+DynamicCamDB = {
+["profileKeys"] = {
+["Stashe - Doomhowl"] = "Default",
+["Khaelshmi - Doomhowl"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["version"] = 4,
+},
+},
+}
+minZoomValues = {
+}

@@ -1,0 +1,6 @@
+VER 3 0000000001000001 "SS" "134400"
+#showtooltip
+/startattack
+/use Sinister Strike
+/run UIErrorsFrame:Clear()
+END

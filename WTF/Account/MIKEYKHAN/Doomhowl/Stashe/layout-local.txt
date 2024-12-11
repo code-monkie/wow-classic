@@ -11,8 +11,8 @@ FrameLevel: 1
 Anchor: TOPLEFT
 X: 0
 Y: 0
-W: 610
-H: 438
+W: 1024
+H: 712
 Frame: VoiceOverFrame
 FrameLevel: 1
 Anchor: BOTTOM

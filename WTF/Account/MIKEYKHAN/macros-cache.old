@@ -57,6 +57,6 @@ END
 VER 3 0000000000000029 "W DS" "134400"
 #showtooltip 
 /use Defensive Stance
-/equip Tribal Warrior's Shield
+/equip Welding Shield
 /equip Copper Axe
 END

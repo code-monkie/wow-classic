@@ -13,7 +13,6 @@ EasyFramesDB = {
 ["Updated"] = {
 ["player"] = {
 ["portrait"] = "1",
-["scaleFrame"] = 1.25,
 },
 ["general"] = {
 ["classColoredForShamans"] = true,
@@ -35,10 +34,8 @@ nil,
 },
 },
 ["showWelcomeMessage"] = false,
+["frameToSetPoints"] = "target",
 ["hideOutOfCombatOpacity"] = 0.6,
-},
-["target"] = {
-["scaleFrame"] = 1.25,
 },
 },
 ["Doomhowl"] = {

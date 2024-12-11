@@ -2,6 +2,10 @@ VER 3 0000000001000006 "Fort" "134400"
 #showtooltip
 /use [@mouseover,nodead,help] []  Power Word: Fortitude
 END
+VER 3 000000000100000A "IF" "134400"
+#showtooltip
+/use Inner Fire
+END
 VER 3 0000000001000002 "LH" "134400"
 #showtooltip
 /use [@mouseover,nodead,help] [] Lesser Heal

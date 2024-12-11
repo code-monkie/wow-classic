@@ -5,15 +5,17 @@ EasyFramesDB = {
 ["Khaeldez - Doomhowl"] = "Default",
 ["Eldreth - Doomhowl"] = "Default",
 ["Robertshock - Doomhowl"] = "Default",
-["Stashexfer - Doomhowl"] = "Default",
 ["Akahune - Doomhowl"] = "Default",
+["Stashexfer - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-["player"] = {
+["party"] = {
 ["scaleFrame"] = 1.25,
 },
 ["general"] = {
+["classColoredForShamans"] = true,
+["hideOutOfCombat"] = true,
 ["framesPoints"] = {
 ["target"] = {
 "TOPLEFT",
@@ -22,8 +24,8 @@ EasyFramesDB = {
 ["firstTimeLoaded"] = 1,
 },
 "TOPLEFT",
-249.9999847412109,
--3.999999761581421,
+1100.000244140625,
+-499.9999694824219,
 },
 ["player"] = {
 "TOPLEFT",
@@ -32,17 +34,18 @@ EasyFramesDB = {
 ["firstTimeLoaded"] = 1,
 },
 "TOPLEFT",
--116.0000152587891,
-106,
+699.9999389648438,
+-499.9999389648438,
 },
 },
+["forceManaBarTexture"] = true,
 ["showWelcomeMessage"] = false,
-["frameToSetPoints"] = "target",
+["hideOutOfCombatOpacity"] = 0.25,
 },
 ["target"] = {
 ["scaleFrame"] = 1.25,
 },
-["party"] = {
+["player"] = {
 ["scaleFrame"] = 1.25,
 },
 },

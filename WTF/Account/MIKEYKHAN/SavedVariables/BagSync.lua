@@ -2,30 +2,20 @@
 BagSyncDB = {
 ["Doomhowl"] = {
 ["Khaelshmi"] = {
-["bank"] = {
-[-1] = {
-},
-},
 ["bag"] = {
 {
 "5064;2",
 "2457;3",
-"5340",
-"5062;9",
-"5030;3",
+"5030;4",
 },
 {
 "5068",
 "5467",
-"2934;5",
-"2318;6",
-"6462",
 },
 {
 "818;2",
 "6889",
-"1251;2",
-"118;3",
+"1251;14",
 },
 {
 "5175",
@@ -36,37 +26,14 @@ BagSyncDB = {
 },
 [0] = {
 "3383;2",
-"5119;2",
-"783",
+"10327",
+"5088",
+"2770;3",
 },
 },
-["realmKey"] = "Doomhowl",
 ["guid"] = "Player-6105-035CFDD6",
-["money"] = 4110,
 ["class"] = "SHAMAN",
-["gender"] = 2,
 ["currency"] = {
-},
-["equipbags"] = {
-["bag"] = {
-"5574;1;bagslot=1",
-"4238;1;bagslot=2",
-"4238;1;bagslot=3",
-"4238;1;bagslot=4",
-},
-["bank"] = {
-},
-},
-["race"] = "Tauren",
-["rwsKey"] = "Doomhowl",
-["faction"] = "Horde",
-["professions"] = {
-},
-["auction"] = {
-["lastscan"] = 1733240355,
-["bag"] = {
-},
-["count"] = 0,
 },
 ["equip"] = {
 "154",
@@ -77,8 +44,36 @@ BagSyncDB = {
 "4973",
 "4239",
 "2310",
-"4971",
+"15222",
 "15494",
+},
+["bank"] = {
+[-1] = {
+},
+},
+["realmKey"] = "Doomhowl",
+["rwsKey"] = "Doomhowl",
+["gender"] = 2,
+["auction"] = {
+["lastscan"] = 1733240355,
+["bag"] = {
+},
+["count"] = 0,
+},
+["money"] = 2151,
+["faction"] = "Horde",
+["professions"] = {
+},
+["race"] = "Tauren",
+["equipbags"] = {
+["bag"] = {
+"5574;1;bagslot=1",
+"4238;1;bagslot=2",
+"4238;1;bagslot=3",
+"4238;1;bagslot=4",
+},
+["bank"] = {
+},
 },
 ["mailbox"] = {
 },
@@ -96,7 +91,6 @@ BagSyncDB = {
 "12223;6",
 "774;8",
 "2447;20",
-"5498",
 "2672;10",
 "6889;10",
 "2934;20",
@@ -126,8 +120,6 @@ BagSyncDB = {
 },
 [0] = {
 "5134;3",
-"10939",
-"2589;20",
 "15303",
 "4436",
 "4408",
@@ -135,15 +127,19 @@ BagSyncDB = {
 "2075",
 "15969",
 "5477;11",
+"6527",
+"5069",
 "6889;3",
 "14097",
 },
 },
 ["realmKey"] = "Doomhowl",
 ["guid"] = "Player-6105-036FBC43",
-["money"] = 43758,
+["money"] = 12196,
 ["class"] = "WARRIOR",
 ["gender"] = 2,
+["professions"] = {
+},
 ["equipbags"] = {
 ["bank"] = {
 },
@@ -152,14 +148,7 @@ BagSyncDB = {
 "4496;1;bagslot=2",
 },
 },
-["professions"] = {
-},
-["auction"] = {
-["lastscan"] = 1733841525,
-["bag"] = {
-},
-["count"] = 0,
-},
+["race"] = "Scourge",
 ["currency"] = {
 },
 ["faction"] = "Horde",
@@ -170,11 +159,15 @@ BagSyncDB = {
 "4560",
 "2362",
 },
-["race"] = "Scourge",
+["auction"] = {
+["lastscan"] = 1733841525,
+["bag"] = {
+},
+["count"] = 0,
+},
 ["rwsKey"] = "Doomhowl",
 ["mailbox"] = {
-"6527",
-"5069",
+"15491",
 },
 },
 ["Khaelboom"] = {
@@ -223,9 +216,6 @@ BagSyncDB = {
 ["guid"] = "Player-6105-03588A23",
 ["rwsKey"] = "Doomhowl",
 ["class"] = "WARRIOR",
-["professions"] = {
-},
-["race"] = "Tauren",
 ["equipbags"] = {
 ["bank"] = {
 "4238;1;bagslot=5",
@@ -243,6 +233,10 @@ BagSyncDB = {
 },
 ["count"] = 0,
 },
+["professions"] = {
+},
+["currency"] = {
+},
 ["money"] = 1796,
 ["faction"] = "Horde",
 ["equip"] = {
@@ -257,8 +251,7 @@ BagSyncDB = {
 "3195",
 "4577",
 },
-["currency"] = {
-},
+["race"] = "Tauren",
 ["gender"] = 2,
 ["bank"] = {
 [5] = {
@@ -287,6 +280,7 @@ BagSyncDB = {
 ["mailbox"] = {
 "2140",
 "5572",
+"118;2",
 },
 ["bag"] = {
 {
@@ -336,10 +330,15 @@ BagSyncDB = {
 ["money"] = 18374,
 ["class"] = "ROGUE",
 ["rwsKey"] = "Doomhowl",
-["race"] = "Scourge",
+["currency"] = {
+},
 ["professions"] = {
 },
-["currency"] = {
+["auction"] = {
+["lastscan"] = 1733590144,
+["bag"] = {
+},
+["count"] = 0,
 },
 ["equip"] = {
 "1793",
@@ -366,12 +365,7 @@ BagSyncDB = {
 "22250;1;bagslot=4",
 },
 },
-["auction"] = {
-["lastscan"] = 1733590144,
-["bag"] = {
-},
-["count"] = 0,
-},
+["race"] = "Scourge",
 ["gender"] = 2,
 ["bank"] = {
 [-1] = {
@@ -411,17 +405,10 @@ BagSyncDB = {
 ["money"] = 59,
 ["class"] = "MAGE",
 ["gender"] = 2,
-["race"] = "Troll",
+["currency"] = {
+},
 ["rwsKey"] = "Doomhowl",
 ["faction"] = "Horde",
-["professions"] = {
-},
-["equipbags"] = {
-["bag"] = {
-},
-["bank"] = {
-},
-},
 ["equip"] = {
 "6096",
 "4916",
@@ -432,8 +419,15 @@ BagSyncDB = {
 "1376",
 "5778",
 },
-["currency"] = {
+["equipbags"] = {
+["bag"] = {
 },
+["bank"] = {
+},
+},
+["professions"] = {
+},
+["race"] = "Troll",
 },
 ["Khaelshot"] = {
 ["bag"] = {
@@ -458,11 +452,19 @@ nil,
 ["money"] = 215,
 ["class"] = "HUNTER",
 ["gender"] = 2,
+["race"] = "Tauren",
 ["currency"] = {
 },
-["race"] = "Tauren",
 ["rwsKey"] = "Doomhowl",
 ["faction"] = "Horde",
+["equipbags"] = {
+["bag"] = {
+"5572;1;bagslot=1",
+"2102;1;bagslot=4",
+},
+["bank"] = {
+},
+},
 ["professions"] = {
 },
 ["equip"] = {
@@ -475,14 +477,6 @@ nil,
 "2652",
 "1383",
 "8182",
-},
-["equipbags"] = {
-["bag"] = {
-"5572;1;bagslot=1",
-"2102;1;bagslot=4",
-},
-["bank"] = {
-},
 },
 ["mailbox"] = {
 },
@@ -509,9 +503,9 @@ nil,
 ["mailbox"] = {
 },
 ["rwsKey"] = "Doomhowl",
+["race"] = "Scourge",
 ["currency"] = {
 },
-["race"] = "Scourge",
 ["equipbags"] = {
 ["bag"] = {
 },
@@ -519,10 +513,10 @@ nil,
 },
 },
 ["faction"] = "Horde",
-["professions"] = {
-},
 ["equip"] = {
 "6125",
+},
+["professions"] = {
 },
 ["gender"] = 3,
 ["bank"] = {
@@ -568,9 +562,9 @@ nil,
 ["bank"] = true,
 ["auction"] = true,
 ["reagents"] = false,
-["professions"] = true,
 ["void"] = false,
 ["equip"] = true,
+["professions"] = true,
 ["currency"] = true,
 ["mailbox"] = true,
 },
@@ -583,20 +577,20 @@ nil,
 ["enableLoginVersionInfo"] = true,
 ["enableAccurateBattlePets"] = true,
 ["showRaceIcons"] = true,
-["extTT_Font"] = "Friz Quadrata TT",
-["extTT_FontOutline"] = "OUTLINE",
 ["enableTooltipGreenCheck"] = true,
+["extTT_FontOutline"] = "OUTLINE",
+["enableFaction"] = true,
 ["addonversion"] = "19.59",
 ["minimap"] = {
 ["minimapPos"] = 39.06293727422852,
 ["hide"] = false,
 },
 ["showCurrentCharacterOnly"] = false,
-["enableFaction"] = true,
+["enableRealmShortName"] = false,
 ["enableTooltipSeparator"] = true,
 ["enableCurrentRealmName"] = false,
 ["tooltipModifer"] = "NONE",
-["enableItemTypes"] = true,
+["enableBNET"] = false,
 ["enableUnitClass"] = true,
 ["enableShowUniqueItemsTotals"] = true,
 ["sortTooltipByTotals"] = false,
@@ -605,9 +599,9 @@ nil,
 ["sortByCustomOrder"] = false,
 ["enable_GSC_Display"] = false,
 ["enableTooltips"] = true,
-["enableBNET"] = false,
+["enableItemTypes"] = true,
 ["enableCurrencyWindowTooltipData"] = true,
-["enableRealmShortName"] = false,
+["extTT_Font"] = "Friz Quadrata TT",
 ["showGuildTabs"] = false,
 ["colors"] = {
 ["warband"] = {

@@ -28,6 +28,18 @@ END
 VER 3 0000000000000022 "Isha" "134400"
 /tar isha awak
 END
+VER 3 000000000000002E "S FNT" "134400"
+#showtooltip
+/use Fire Nova Totem
+END
+VER 3 000000000000002D "S SCT" "134400"
+#showtooltip
+/use Stoneclaw Totem
+END
+VER 3 000000000000002C "S SST" "134400"
+#showtooltip
+/use Stoneskin Totem
+END
 VER 3 000000000000002B "T" "134400"
 /target Arra'chea
 END

@@ -14,3 +14,5 @@ AI_VoiceOverData_Vanilla: enabled
 WhatsTraining: enabled
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

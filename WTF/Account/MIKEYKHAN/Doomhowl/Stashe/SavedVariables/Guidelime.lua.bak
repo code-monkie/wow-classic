@@ -31,8 +31,8 @@ GuidelimeDataChar = {
 ["level"] = 1,
 ["mainFrameFontSize"] = 14,
 ["arrowX"] = 0,
-["mainFrameShowScrollBar"] = true,
 ["showArrow"] = true,
+["mainFrameShowScrollBar"] = true,
 ["editorFrameRelative"] = "CENTER",
 ["guideSize"] = {
 },
