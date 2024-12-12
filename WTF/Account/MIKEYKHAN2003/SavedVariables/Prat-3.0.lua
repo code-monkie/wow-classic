@@ -6,14 +6,9 @@ Prat3DB = {
 ["Default"] = {
 ["colors"] = {
 ["hcdeathalertschannel"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
-},
-["localdefense"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
-["b"] = 0.7529412508010864,
+["g"] = 0.7490196228027344,
+["b"] = 0.7490196228027344,
 },
 },
 },
@@ -42,8 +37,8 @@ Prat3DB = {
 ["Prat_Frames"] = {
 ["profiles"] = {
 ["Default"] = {
-["initialized"] = true,
 ["minchatwidthdefault"] = 295.9999694824219,
+["initialized"] = true,
 ["maxchatheightdefault"] = 400,
 ["maxchatwidthdefault"] = 608,
 ["minchatheightdefault"] = 119.9999923706055,
@@ -60,11 +55,11 @@ Prat3DB = {
 },
 ["Prat_Bubbles"] = {
 },
-["Prat_TellTarget"] = {
-},
-["Prat_Achievements"] = {
+["Prat_Timestamps"] = {
 },
 ["Prat_Paragraph"] = {
+},
+["Prat_Achievements"] = {
 },
 ["Prat_DebugModules"] = {
 },
@@ -76,13 +71,13 @@ Prat3DB = {
 },
 ["Prat_Sounds"] = {
 },
-["Prat_ChannelSticky"] = {
+["Prat_ChannelNames"] = {
 },
 ["Prat_Invites"] = {
 },
 ["Prat_LinkInfoIcons"] = {
 },
-["Prat_ChannelNames"] = {
+["Prat_ChannelSticky"] = {
 },
 ["Prat_ChatLog"] = {
 },
@@ -90,24 +85,18 @@ Prat3DB = {
 },
 ["Prat_Buttons"] = {
 },
-["Prat_Timestamps"] = {
+["Prat_TellTarget"] = {
 },
 ["Prat_HoverTips"] = {
 },
 },
 ["profileKeys"] = {
-["Khaeloche - Doomhowl"] = "Default",
-["Jimmyporter - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
-["Khaelnume - Doomhowl"] = "Default",
-["Akahune - Lava Lash"] = "Default",
-["Khaelhune - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["Alias"] = 2,
+["ChatLog"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -117,7 +106,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["ChatLog"] = 2,
+["Alias"] = 2,
 },
 },
 },

@@ -1,4 +1,0 @@
-VER 3 0000000001000001 "S RB" "134400"
-#showtooltip
-/use Rockbiter Weapon
-END

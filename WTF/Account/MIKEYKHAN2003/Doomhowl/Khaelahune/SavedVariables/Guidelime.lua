@@ -1,23 +1,20 @@
 
 GuidelimeDataChar = {
-["mainFrameHeight"] = 400,
+["mainFrameHeight"] = 474.9036560058594,
 ["showUnavailableSteps"] = true,
 ["guideSkip"] = {
-["Tactics Hardcore Route 15-22 Barrens"] = {
-},
 },
 ["maxNumOfTargetButtons"] = 8,
 ["arrowY"] = -20,
 ["arrowRelative"] = "TOP",
-["mainFrameX"] = 54,
+["mainFrameX"] = 39,
 ["mainFrameLocked"] = false,
 ["arrowLocked"] = false,
 ["guidesFrameY"] = 0,
 ["guidesFrameX"] = 0,
 ["mainFrameAlpha"] = 0.5,
-["currentGuide"] = "Tactics Hardcore Route 15-22 Barrens",
 ["showTitle"] = true,
-["mainFrameY"] = 87,
+["mainFrameY"] = 20,
 ["learnedSpells"] = {
 },
 ["version"] = "4.010",
@@ -27,7 +24,7 @@ GuidelimeDataChar = {
 ["arrowAlpha"] = 0.8,
 ["arrowFontSize"] = 14,
 ["editorFrameX"] = 0,
-["mainFrameWidth"] = 350,
+["mainFrameWidth"] = 402.1480712890625,
 ["editorFrameY"] = 0,
 ["showCompletedSteps"] = false,
 ["maxNumOfItemButtons"] = 8,
@@ -38,13 +35,10 @@ GuidelimeDataChar = {
 ["mainFrameShowScrollBar"] = true,
 ["editorFrameRelative"] = "CENTER",
 ["guideSize"] = {
-["Tactics Hardcore Route 15-22 Barrens"] = 255,
 },
 ["arrowSize"] = 64,
 ["mainFrameShowing"] = true,
 ["completedSteps"] = {
-[8] = true,
-[23] = true,
 },
 ["showUseItemButtons"] = "LEFT",
 ["showMinimapButton"] = true,

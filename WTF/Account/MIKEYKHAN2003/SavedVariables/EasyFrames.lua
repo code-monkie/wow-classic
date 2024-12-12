@@ -1,46 +1,29 @@
 
 EasyFramesDB = {
 ["profileKeys"] = {
-["Khaeloche - Doomhowl"] = "Default",
-["Jimmyporter - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
-["Khaelnume - Doomhowl"] = "Default",
-["Akahune - Lava Lash"] = "Default",
-["Khaelhune - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-["player"] = {
-["scaleFrame"] = 1.25,
-},
 ["general"] = {
-["forceManaBarTexture"] = true,
 ["classColoredForShamans"] = true,
-["hideOutOfCombat"] = true,
 ["framesPoints"] = {
 ["target"] = {
-"BOTTOM",
+"CENTER",
 nil,
-"BOTTOM",
-131,
-113.0000076293945,
+"CENTER",
+148.8742523193359,
+-139.4224090576172,
 },
 ["player"] = {
-"BOTTOM",
+"CENTER",
 nil,
-"BOTTOM",
--118.0000076293945,
-113.0000076293945,
+"CENTER",
+-148.5703277587891,
+-142.2667236328125,
 },
 },
-["showWelcomeMessage"] = false,
-["lightTexture"] = true,
-["hideOutOfCombatOpacity"] = 0.25,
 ["frameToSetPoints"] = "target",
-},
-["target"] = {
-["scaleFrame"] = 1.25,
 },
 },
 },
