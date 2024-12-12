@@ -9,12 +9,12 @@ WeakAurasSaved = {
 ["minimap"] = {
 ["hide"] = false,
 },
-["historyCutoff"] = 730,
+["lastUpgrade"] = 1733863558,
 ["dbVersion"] = 78,
 ["migrationCutoff"] = 730,
-["features"] = {
-},
-["lastUpgrade"] = 1733863558,
 ["registered"] = {
+},
+["historyCutoff"] = 730,
+["features"] = {
 },
 }

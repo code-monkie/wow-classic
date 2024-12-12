@@ -28,6 +28,11 @@ END
 VER 3 0000000000000022 "Isha" "134400"
 /tar isha awak
 END
+VER 3 000000000000002F "Mark" "134400"
+/script SetRaidTarget("player",6)
+/script SetRaidTarget("party1",4)
+/script SetRaidTarget("party2",3)
+END
 VER 3 000000000000002E "S FNT" "134400"
 #showtooltip
 /use Fire Nova Totem

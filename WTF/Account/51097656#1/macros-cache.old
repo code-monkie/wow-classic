@@ -3,6 +3,7 @@ VER 3 000000000000000F "Cancel" "136047"
 /cancelaura Levitate
 /cancelaura Divine Protection
 /cancelattack
+/cancelform
 /cancelaura stealth
 END
 VER 3 0000000000000024 "CF" "134400"

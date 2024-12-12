@@ -2,42 +2,40 @@
 BetterBagsDB = {
 ["profileKeys"] = {
 ["Akahune - Doomhowl"] = "Default",
+["Robertshock - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-["categoryOptions"] = {
-["Two-Hand"] = {
-["shown"] = true,
+["newItemBlizzIgnore"] = false,
+["size"] = {
+nil,
+{
+[0] = {
+["columnCount"] = 1,
 },
-["One-Hand"] = {
-["shown"] = true,
-},
-["Trade Goods"] = {
-["shown"] = true,
-},
-["Miscellaneous"] = {
-["shown"] = true,
-},
-["Free Space"] = {
-["shown"] = true,
-},
-["Consumable"] = {
-["shown"] = true,
-},
-["Hands"] = {
-["shown"] = true,
-},
-["Recent Items"] = {
-["shown"] = true,
-},
-["Quest"] = {
-["shown"] = true,
-},
-["Junk"] = {
-["shown"] = true,
 },
 },
 ["ephemeralCategoryFilters"] = {
+["Miscellaneous"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Miscellaneous",
+["dynamic"] = true,
+},
+["Quest"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Quest",
+["dynamic"] = true,
+},
 ["Two-Hand"] = {
 ["enabled"] = {
 true,
@@ -68,24 +66,24 @@ true,
 ["name"] = "Trade Goods",
 ["dynamic"] = true,
 },
-["Miscellaneous"] = {
+["Back"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Miscellaneous",
+["name"] = "Back",
 ["dynamic"] = true,
 },
-["Free Space"] = {
+["Chest"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Free Space",
+["name"] = "Chest",
 ["dynamic"] = true,
 },
 ["Consumable"] = {
@@ -96,6 +94,26 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Consumable",
+["dynamic"] = true,
+},
+["Reagent"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Reagent",
+["dynamic"] = true,
+},
+["Main Hand"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Main Hand",
 ["dynamic"] = true,
 },
 ["Hands"] = {
@@ -118,16 +136,6 @@ true,
 ["name"] = "Recent Items",
 ["dynamic"] = true,
 },
-["Quest"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Quest",
-["dynamic"] = true,
-},
 ["Junk"] = {
 ["enabled"] = {
 true,
@@ -138,17 +146,80 @@ true,
 ["name"] = "Junk",
 ["dynamic"] = true,
 },
+["Free Space"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Free Space",
+["dynamic"] = true,
+},
 },
 ["itemLevel"] = {
 {
-["sort"] = false,
 ["descending"] = false,
+["sort"] = false,
 },
 [0] = {
-["sort"] = false,
 ["descending"] = false,
+["sort"] = false,
 },
 },
+["categoryOptions"] = {
+["Miscellaneous"] = {
+["shown"] = true,
+},
+["Quest"] = {
+["shown"] = true,
+},
+["Two-Hand"] = {
+["shown"] = true,
+},
+["One-Hand"] = {
+["shown"] = true,
+},
+["Trade Goods"] = {
+["shown"] = true,
+},
+["Back"] = {
+["shown"] = true,
+},
+["Chest"] = {
+["shown"] = true,
+},
+["Consumable"] = {
+["shown"] = true,
+},
+["Reagent"] = {
+["shown"] = true,
+},
+["Main Hand"] = {
+["shown"] = true,
+},
+["Hands"] = {
+["shown"] = true,
+},
+["Recent Items"] = {
+["shown"] = true,
+},
+["Junk"] = {
+["shown"] = true,
+},
+["Free Space"] = {
+["shown"] = true,
+},
+},
+["positions"] = {
+[0] = {
+["y"] = 124.1544189453125,
+["x"] = -300.5673828125,
+["point"] = "RIGHT",
+["scale"] = 1,
+},
+},
+["firstTimeMenu"] = false,
 },
 },
 }

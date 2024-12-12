@@ -2,28 +2,26 @@
 BagSyncDB = {
 ["Doomhowl"] = {
 ["Khaelahune"] = {
-["mailbox"] = {
+["bank"] = {
+[-1] = {
+},
 },
 ["bag"] = {
 {
 "5022",
-"5030",
-"5068",
-"6462",
-"5062;6",
+"5030;2",
+"5062;11",
 "5134",
 },
 {
 "2449;8",
-"2770;9",
 "774",
 "2835;13",
 "818",
 "2447;9",
 },
 {
-"17056;10",
-"2840;7",
+"2840;16",
 "2452;2",
 "785;3",
 "765;4",
@@ -37,14 +35,17 @@ BagSyncDB = {
 "6948",
 },
 [0] = {
+"3301",
+"4570",
+"5088",
 },
 },
 ["realmKey"] = "Doomhowl",
 ["guid"] = "Player-6105-035CFD48",
-["money"] = 3782,
+["money"] = 730,
 ["class"] = "DRUID",
-["rwsKey"] = "Doomhowl",
-["professions"] = {
+["gender"] = 2,
+["currency"] = {
 },
 ["equipbags"] = {
 ["bag"] = {
@@ -56,15 +57,7 @@ BagSyncDB = {
 ["bank"] = {
 },
 },
-["auction"] = {
-["lastscan"] = 1733605295,
-["bag"] = {
-},
-["count"] = 0,
-},
-["currency"] = {
-},
-["faction"] = "Horde",
+["race"] = "Tauren",
 ["equip"] = {
 "2300",
 "4237",
@@ -75,60 +68,55 @@ BagSyncDB = {
 "7276",
 "5340",
 },
-["race"] = "Tauren",
-["gender"] = 2,
-["bank"] = {
-[-1] = {
+["faction"] = "Horde",
+["professions"] = {
 },
+["auction"] = {
+["lastscan"] = 1733605295,
+["bag"] = {
+},
+["count"] = 0,
+},
+["rwsKey"] = "Doomhowl",
+["mailbox"] = {
 },
 },
 ["Khaeldez"] = {
 ["bag"] = {
 [0] = {
-"11583",
+"117;4",
 "6948",
 "14649",
-"117;2",
-"7098;5",
-"2649",
-"2649",
-"1376",
-"4865;3",
-"1368",
-"16114",
-"7099",
 },
 },
 ["realmKey"] = "Doomhowl",
-["guid"] = "Player-6105-0379C296",
-["money"] = 71,
+["guid"] = "Player-6105-037ACCB0",
+["money"] = 0,
 ["class"] = "ROGUE",
 ["gender"] = 2,
 ["race"] = "Troll",
 ["currency"] = {
 },
-["equip"] = {
-"6136",
-"6137",
-"6138",
-"4914",
-"2092",
-"3111;100",
-},
-["faction"] = "Horde",
 ["equipbags"] = {
 ["bank"] = {
 },
 ["bag"] = {
 },
 },
+["faction"] = "Horde",
 ["professions"] = {
+},
+["equip"] = {
+"6136",
+"6137",
+"6138",
+"2092",
+"3111;100",
 },
 ["rwsKey"] = "Doomhowl",
 ["mailbox"] = {
-"4238",
-"4240",
-"4240",
+"7166",
+"2862;10",
 },
 },
 ["Khaelnume"] = {
@@ -169,6 +157,16 @@ BagSyncDB = {
 ["race"] = "Tauren",
 ["rwsKey"] = "Doomhowl",
 ["faction"] = "Horde",
+["equipbags"] = {
+["bag"] = {
+"4238;1;bagslot=1",
+"4238;1;bagslot=2",
+"4238;1;bagslot=3",
+"4238;1;bagslot=4",
+},
+["bank"] = {
+},
+},
 ["equip"] = {
 "154",
 "2300",
@@ -182,16 +180,6 @@ BagSyncDB = {
 "4911",
 },
 ["professions"] = {
-},
-["equipbags"] = {
-["bag"] = {
-"4238;1;bagslot=1",
-"4238;1;bagslot=2",
-"4238;1;bagslot=3",
-"4238;1;bagslot=4",
-},
-["bank"] = {
-},
 },
 ["mailbox"] = {
 },
@@ -209,18 +197,7 @@ BagSyncDB = {
 ["money"] = 28,
 ["class"] = "MAGE",
 ["gender"] = 2,
-["currency"] = {
-},
-["rwsKey"] = "Doomhowl",
-["faction"] = "Horde",
-["equipbags"] = {
-["bag"] = {
-},
-["bank"] = {
-},
-},
-["professions"] = {
-},
+["race"] = "Troll",
 ["equip"] = {
 "6096",
 "4916",
@@ -229,7 +206,18 @@ BagSyncDB = {
 "4915",
 "5778",
 },
-["race"] = "Troll",
+["faction"] = "Horde",
+["professions"] = {
+},
+["equipbags"] = {
+["bag"] = {
+},
+["bank"] = {
+},
+},
+["currency"] = {
+},
+["rwsKey"] = "Doomhowl",
 },
 ["Khaelhune"] = {
 ["bag"] = {
@@ -251,64 +239,22 @@ BagSyncDB = {
 ["gender"] = 2,
 ["currency"] = {
 },
+["professions"] = {
+},
+["faction"] = "Horde",
+["equip"] = {
+},
 ["equipbags"] = {
 ["bag"] = {
 },
 ["bank"] = {
 },
 },
-["faction"] = "Horde",
-["professions"] = {
-},
-["equip"] = {
-},
 ["race"] = "Tauren",
 ["mailbox"] = {
 },
 },
 ["Khaeloche"] = {
-["bag"] = {
-{
-"5088",
-"5068",
-"5075;7",
-},
-{
-},
-{
-"2455;2",
-"2456;3",
-},
-{
-"3434;5",
-"6948",
-"6218",
-},
-[0] = {
-"10327",
-"4893;5",
-"11142",
-"5340",
-"783",
-"6145",
-},
-},
-["guid"] = "Player-6105-036A5C53",
-["class"] = "PRIEST",
-["currency"] = {
-},
-["equip"] = {
-"5107",
-"2578",
-"3442",
-"4309",
-"4312",
-"3642",
-"4310",
-"5542",
-"4566",
-"11288",
-},
 ["bank"] = {
 [-1] = {
 "2672",
@@ -326,8 +272,36 @@ BagSyncDB = {
 "10940;8",
 },
 },
+["bag"] = {
+{
+"5088",
+"5068",
+"5075;7",
+},
+nil,
+{
+"2455;2",
+"2456;3",
+},
+{
+"3434;5",
+"6948",
+"6218",
+},
+[0] = {
+"6531",
+"10327",
+"4893;5",
+"11142",
+"5340",
+"783",
+"6145",
+},
+},
 ["realmKey"] = "Doomhowl",
+["guid"] = "Player-6105-036A5C53",
 ["rwsKey"] = "Doomhowl",
+["class"] = "PRIEST",
 ["gender"] = 2,
 ["auction"] = {
 ["lastscan"] = 1733921288,
@@ -335,11 +309,25 @@ BagSyncDB = {
 },
 ["count"] = 0,
 },
+["equip"] = {
+"5107",
+"2578",
+"3442",
+"4309",
+"4312",
+"3642",
+"4310",
+"5542",
+"4566",
+"11288",
+},
+["race"] = "Scourge",
 ["money"] = 895,
 ["faction"] = "Horde",
 ["professions"] = {
 },
-["race"] = "Scourge",
+["currency"] = {
+},
 ["equipbags"] = {
 ["bank"] = {
 },
@@ -506,9 +494,9 @@ BagSyncDB = {
 ["mailbox"] = true,
 ["auction"] = true,
 ["currency"] = true,
-["equip"] = true,
 ["professions"] = true,
 ["void"] = false,
+["equip"] = true,
 ["reagents"] = false,
 ["bank"] = true,
 },

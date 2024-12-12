@@ -15,7 +15,9 @@ EasyFramesDB = {
 ["scaleFrame"] = 1.25,
 },
 ["general"] = {
+["forceManaBarTexture"] = true,
 ["classColoredForShamans"] = true,
+["hideOutOfCombat"] = true,
 ["framesPoints"] = {
 ["target"] = {
 "BOTTOM",
@@ -32,10 +34,10 @@ nil,
 113.0000076293945,
 },
 },
-["hideOutOfCombat"] = true,
+["showWelcomeMessage"] = false,
+["lightTexture"] = true,
 ["hideOutOfCombatOpacity"] = 0.25,
 ["frameToSetPoints"] = "target",
-["forceManaBarTexture"] = true,
 },
 ["target"] = {
 ["scaleFrame"] = 1.25,

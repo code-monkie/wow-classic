@@ -2,7 +2,10 @@
 DynamicCamDB = {
 ["profileKeys"] = {
 ["Stashe - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
 ["Khaelshmi - Doomhowl"] = "Default",
+["Khaelshot - Doomhowl"] = "Default",
+["Khaelboom - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

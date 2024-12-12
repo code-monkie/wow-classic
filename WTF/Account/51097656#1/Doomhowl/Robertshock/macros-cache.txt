@@ -3,12 +3,11 @@ VER 3 0000000001000003 "ES" "134400"
 /startattack
 /use [@mouseover,nodead,harm] [] Earth Shock
 END
-VER 3 0000000001000002 "HW" "134400"
+VER 3 0000000001000005 "LS" "134400"
 #showtooltip
-/use [@mouseover,nodead,help] [] Healing Wave;
+/use Lightning Shield
 END
-VER 3 0000000001000001 "LB" "134400"
+VER 3 0000000001000004 "RB" "134400"
 #showtooltip
-/startattack
-/use [@mouseover,nodead,harm] [] Lightning Bolt;
+/use Rockbiter Weapon
 END

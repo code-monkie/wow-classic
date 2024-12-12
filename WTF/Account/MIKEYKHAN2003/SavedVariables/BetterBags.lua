@@ -3,6 +3,8 @@ BetterBagsDB = {
 ["profileKeys"] = {
 ["Khaeloche - Doomhowl"] = "Default",
 ["Khaeldez - Doomhowl"] = "Default",
+["Jimmyporter - Doomhowl"] = "Default",
+["Khaelnume - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
 },
 ["profiles"] = {
@@ -19,6 +21,16 @@ nil,
 },
 },
 ["ephemeralCategoryFilters"] = {
+["Ranged"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Ranged",
+["dynamic"] = true,
+},
 ["Bag"] = {
 ["enabled"] = {
 true,
@@ -27,6 +39,16 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Bag",
+["dynamic"] = true,
+},
+["Legs"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Legs",
 ["dynamic"] = true,
 },
 ["One-Hand"] = {
@@ -69,6 +91,16 @@ true,
 ["name"] = "Miscellaneous - Junk",
 ["dynamic"] = true,
 },
+["Reagent"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Reagent",
+["dynamic"] = true,
+},
 ["Hands"] = {
 ["enabled"] = {
 true,
@@ -107,6 +139,26 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Two-Hand",
+["dynamic"] = true,
+},
+["Chest"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Chest",
+["dynamic"] = true,
+},
+["Miscellaneous"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Miscellaneous",
 ["dynamic"] = true,
 },
 ["Feet"] = {
@@ -149,16 +201,6 @@ true,
 ["name"] = "Quest - Quest",
 ["dynamic"] = true,
 },
-["Miscellaneous"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Miscellaneous",
-["dynamic"] = true,
-},
 ["Quest"] = {
 ["enabled"] = {
 true,
@@ -199,6 +241,16 @@ true,
 ["name"] = "Recipe",
 ["dynamic"] = true,
 },
+["Armor"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Armor",
+["dynamic"] = true,
+},
 },
 ["itemLevel"] = {
 {
@@ -219,14 +271,20 @@ true,
 ["scale"] = 1,
 },
 [0] = {
-["y"] = 116.5540007350719,
-["x"] = -310.653101404605,
+["y"] = 83.17944939867448,
+["x"] = -279.633262021438,
 ["point"] = "RIGHT",
 ["scale"] = 0.8600000143051147,
 },
 },
 ["categoryOptions"] = {
+["Ranged"] = {
+["shown"] = true,
+},
 ["Bag"] = {
+["shown"] = true,
+},
+["Legs"] = {
 ["shown"] = true,
 },
 ["One-Hand"] = {
@@ -241,6 +299,9 @@ true,
 ["Miscellaneous - Junk"] = {
 ["shown"] = true,
 },
+["Reagent"] = {
+["shown"] = true,
+},
 ["Hands"] = {
 ["shown"] = true,
 },
@@ -251,6 +312,12 @@ true,
 ["shown"] = true,
 },
 ["Two-Hand"] = {
+["shown"] = true,
+},
+["Chest"] = {
+["shown"] = true,
+},
+["Miscellaneous"] = {
 ["shown"] = true,
 },
 ["Feet"] = {
@@ -265,9 +332,6 @@ true,
 ["Quest - Quest"] = {
 ["shown"] = true,
 },
-["Miscellaneous"] = {
-["shown"] = true,
-},
 ["Junk"] = {
 ["shown"] = true,
 },
@@ -278,6 +342,9 @@ true,
 ["shown"] = true,
 },
 ["Recipe"] = {
+["shown"] = true,
+},
+["Armor"] = {
 ["shown"] = true,
 },
 },

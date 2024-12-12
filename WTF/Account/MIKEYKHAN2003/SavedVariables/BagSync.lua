@@ -10,8 +10,7 @@ BagSyncDB = {
 "5068",
 "5075;7",
 },
-{
-},
+nil,
 {
 "2455;2",
 "2456;3",
@@ -22,6 +21,7 @@ BagSyncDB = {
 "6218",
 },
 [0] = {
+"2996",
 "10327",
 "4893;5",
 "11142",
@@ -43,16 +43,21 @@ BagSyncDB = {
 ["bank"] = {
 },
 },
-["race"] = "Scourge",
-["professions"] = {
-},
 ["currency"] = {
 },
-["money"] = 895,
+["professions"] = {
+},
+["auction"] = {
+["lastscan"] = 1733921288,
+["bag"] = {
+},
+["count"] = 0,
+},
+["money"] = 715,
 ["faction"] = "Horde",
 ["equip"] = {
 "5107",
-"2578",
+"6531",
 "3442",
 "4309",
 "4312",
@@ -62,12 +67,7 @@ BagSyncDB = {
 "4566",
 "11288",
 },
-["auction"] = {
-["lastscan"] = 1733921288,
-["bag"] = {
-},
-["count"] = 0,
-},
+["race"] = "Scourge",
 ["gender"] = 2,
 ["bank"] = {
 [-1] = {
@@ -90,50 +90,42 @@ BagSyncDB = {
 ["Khaeldez"] = {
 ["bag"] = {
 [0] = {
-"11583",
+"117;4",
 "6948",
 "14649",
-"117;2",
-"7098;5",
-"2649",
-"2649",
-"1376",
-"4865;3",
-"1368",
-"16114",
-"7099",
 },
 },
 ["realmKey"] = "Doomhowl",
-["guid"] = "Player-6105-0379C296",
-["money"] = 71,
+["guid"] = "Player-6105-037ACCB0",
+["money"] = 0,
 ["class"] = "ROGUE",
 ["gender"] = 2,
 ["rwsKey"] = "Doomhowl",
 ["race"] = "Troll",
-["professions"] = {
-},
-["faction"] = "Horde",
 ["equip"] = {
 "6136",
 "6137",
 "6138",
-"4914",
 "2092",
 "3111;100",
 },
+["faction"] = "Horde",
 ["equipbags"] = {
 ["bag"] = {
 },
 ["bank"] = {
 },
 },
+["professions"] = {
+},
 ["currency"] = {
 },
 ["mailbox"] = {
+"7166",
+"2862;10",
 "4238",
-"4240",
-"4240",
+"4238",
+"4238",
 },
 },
 ["Khaelnume"] = {
@@ -169,21 +161,10 @@ BagSyncDB = {
 ["money"] = 654,
 ["class"] = "SHAMAN",
 ["gender"] = 2,
-["equipbags"] = {
-["bank"] = {
-},
-["bag"] = {
-"4238;1;bagslot=1",
-"4238;1;bagslot=2",
-"4238;1;bagslot=3",
-"4238;1;bagslot=4",
-},
+["professions"] = {
 },
 ["currency"] = {
 },
-["professions"] = {
-},
-["faction"] = "Horde",
 ["equip"] = {
 "154",
 "2300",
@@ -195,6 +176,17 @@ BagSyncDB = {
 "1376",
 "2844",
 "4911",
+},
+["faction"] = "Horde",
+["equipbags"] = {
+["bank"] = {
+},
+["bag"] = {
+"4238;1;bagslot=1",
+"4238;1;bagslot=2",
+"4238;1;bagslot=3",
+"4238;1;bagslot=4",
+},
 },
 ["rwsKey"] = "Doomhowl",
 ["race"] = "Tauren",
@@ -221,28 +213,28 @@ BagSyncDB = {
 ["race"] = "Tauren",
 ["currency"] = {
 },
-["equip"] = {
-},
-["faction"] = "Horde",
 ["equipbags"] = {
 ["bank"] = {
 },
 ["bag"] = {
 },
 },
+["faction"] = "Horde",
 ["professions"] = {
+},
+["equip"] = {
 },
 ["gender"] = 2,
 ["mailbox"] = {
 },
 },
 ["Khaelahune"] = {
+["mailbox"] = {
+},
 ["bag"] = {
 {
 "5022",
-"5030",
-"5068",
-"6462",
+"5030;2",
 "5062;11",
 "5134",
 },
@@ -268,40 +260,26 @@ BagSyncDB = {
 "6948",
 },
 [0] = {
-},
-},
-["guid"] = "Player-6105-035CFD48",
-["class"] = "DRUID",
-["currency"] = {
-},
-["equipbags"] = {
-["bank"] = {
-},
-["bag"] = {
-"5081;1;bagslot=1",
-"828;1;bagslot=2",
-"4238;1;bagslot=3",
-"4238;1;bagslot=4",
-},
-},
-["bank"] = {
-[-1] = {
+"3301",
+"4570",
+"5088",
 },
 },
 ["realmKey"] = "Doomhowl",
+["guid"] = "Player-6105-035CFD48",
+["money"] = 730,
+["class"] = "DRUID",
 ["rwsKey"] = "Doomhowl",
-["gender"] = 2,
 ["auction"] = {
 ["lastscan"] = 1733605295,
 ["bag"] = {
 },
 ["count"] = 0,
 },
-["money"] = 671,
-["faction"] = "Horde",
 ["professions"] = {
 },
-["race"] = "Tauren",
+["currency"] = {
+},
 ["equip"] = {
 "2300",
 "4237",
@@ -312,7 +290,22 @@ BagSyncDB = {
 "7276",
 "5340",
 },
-["mailbox"] = {
+["faction"] = "Horde",
+["equipbags"] = {
+["bank"] = {
+},
+["bag"] = {
+"5081;1;bagslot=1",
+"828;1;bagslot=2",
+"4238;1;bagslot=3",
+"4238;1;bagslot=4",
+},
+},
+["race"] = "Tauren",
+["gender"] = 2,
+["bank"] = {
+[-1] = {
+},
 },
 },
 ["Jimmyporter"] = {
@@ -327,9 +320,11 @@ BagSyncDB = {
 ["guid"] = "Player-6105-0360FEA6",
 ["money"] = 28,
 ["class"] = "MAGE",
+["rwsKey"] = "Doomhowl",
 ["race"] = "Troll",
 ["currency"] = {
 },
+["faction"] = "Horde",
 ["equip"] = {
 "6096",
 "4916",
@@ -338,7 +333,6 @@ BagSyncDB = {
 "4915",
 "5778",
 },
-["faction"] = "Horde",
 ["equipbags"] = {
 ["bank"] = {
 },
@@ -347,7 +341,6 @@ BagSyncDB = {
 },
 ["professions"] = {
 },
-["rwsKey"] = "Doomhowl",
 ["gender"] = 2,
 },
 },
@@ -388,9 +381,9 @@ BagSyncDB = {
 ["bank"] = true,
 ["auction"] = true,
 ["reagents"] = false,
-["void"] = false,
 ["equip"] = true,
 ["professions"] = true,
+["void"] = false,
 ["currency"] = true,
 ["mailbox"] = true,
 },

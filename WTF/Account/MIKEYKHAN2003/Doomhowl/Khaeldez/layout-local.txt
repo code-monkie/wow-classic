@@ -1,4 +1,11 @@
 Version: 1
+Frame: VoiceOverFrame
+FrameLevel: 1
+Anchor: TOP
+X: -612
+Y: -58
+W: 420
+H: 120
 Frame: PlayerFrame
 FrameLevel: 1
 Anchor: BOTTOM
@@ -6,6 +13,13 @@ X: -118
 Y: 113
 W: 232
 H: 100
+Frame: WorldMapFrame
+FrameLevel: 1
+Anchor: TOP
+X: -4
+Y: 0
+W: 1024
+H: 712
 Frame: BetterBagsForm0BetterBags Settings
 FrameLevel: 500
 Anchor: TOP
@@ -20,17 +34,3 @@ X: 131
 Y: 113
 W: 232
 H: 100
-Frame: WorldMapFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 20
-W: 1024
-H: 712
-Frame: VoiceOverFrame
-FrameLevel: 1
-Anchor: TOP
-X: -612
-Y: -58
-W: 420
-H: 120

@@ -1,8 +1,11 @@
 
 BetterBagsDB = {
 ["profileKeys"] = {
-["Khaelshmi - Doomhowl"] = "Default",
 ["Stashe - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
+["Khaelboom - Doomhowl"] = "Default",
+["Khaelshot - Doomhowl"] = "Default",
+["Khaelshmi - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -27,6 +30,16 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Waist",
+["dynamic"] = true,
+},
+["Bag"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Bag",
 ["dynamic"] = true,
 },
 ["Held In Off-hand"] = {
@@ -109,6 +122,16 @@ true,
 ["name"] = "Shirt",
 ["dynamic"] = true,
 },
+["Hands"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Hands",
+["dynamic"] = true,
+},
 ["Recent Items"] = {
 ["enabled"] = {
 true,
@@ -129,6 +152,16 @@ true,
 ["name"] = "Junk",
 ["dynamic"] = true,
 },
+["Wrist"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Wrist",
+["dynamic"] = true,
+},
 ["Two-Hand"] = {
 ["enabled"] = {
 true,
@@ -137,6 +170,26 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Two-Hand",
+["dynamic"] = true,
+},
+["Ammo"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Ammo",
+["dynamic"] = true,
+},
+["Feet"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Feet",
 ["dynamic"] = true,
 },
 ["Miscellaneous"] = {
@@ -169,24 +222,14 @@ true,
 ["name"] = "Consumable",
 ["dynamic"] = true,
 },
-["Off Hand"] = {
+["Quest"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Off Hand",
-["dynamic"] = true,
-},
-["Ranged"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Ranged",
+["name"] = "Quest",
 ["dynamic"] = true,
 },
 ["Chest"] = {
@@ -199,48 +242,71 @@ true,
 ["name"] = "Chest",
 ["dynamic"] = true,
 },
-["Quest"] = {
+["Ranged"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Quest",
+["name"] = "Ranged",
 ["dynamic"] = true,
 },
-["Feet"] = {
+["Off Hand"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Feet",
+["name"] = "Off Hand",
+["dynamic"] = true,
+},
+["Thrown"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Thrown",
+["dynamic"] = true,
+},
+["Back"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Back",
 ["dynamic"] = true,
 },
 },
 ["itemLevel"] = {
 {
-["sort"] = false,
 ["descending"] = false,
+["sort"] = false,
 },
 [0] = {
-["sort"] = false,
 ["descending"] = false,
+["sort"] = false,
 },
 },
 ["firstTimeMenu"] = false,
 ["positions"] = {
 [0] = {
-["y"] = -106.9764174767843,
-["x"] = -256.0741312726896,
-["point"] = "TOPRIGHT",
+["y"] = 46.9411373560215,
+["x"] = -328.5233603104716,
+["point"] = "RIGHT",
 ["scale"] = 0.8999999761581421,
 },
 },
 ["categoryOptions"] = {
 ["Waist"] = {
+["shown"] = true,
+},
+["Bag"] = {
 ["shown"] = true,
 },
 ["Held In Off-hand"] = {
@@ -267,13 +333,25 @@ true,
 ["Shirt"] = {
 ["shown"] = true,
 },
+["Hands"] = {
+["shown"] = true,
+},
 ["Recent Items"] = {
 ["shown"] = true,
 },
 ["Quest"] = {
 ["shown"] = true,
 },
+["Wrist"] = {
+["shown"] = true,
+},
 ["Two-Hand"] = {
+["shown"] = true,
+},
+["Ammo"] = {
+["shown"] = true,
+},
+["Feet"] = {
 ["shown"] = true,
 },
 ["Miscellaneous"] = {
@@ -285,19 +363,22 @@ true,
 ["Consumable"] = {
 ["shown"] = true,
 },
-["Off Hand"] = {
-["shown"] = true,
-},
-["Chest"] = {
+["Junk"] = {
 ["shown"] = true,
 },
 ["Ranged"] = {
 ["shown"] = true,
 },
-["Junk"] = {
+["Chest"] = {
 ["shown"] = true,
 },
-["Feet"] = {
+["Off Hand"] = {
+["shown"] = true,
+},
+["Thrown"] = {
+["shown"] = true,
+},
+["Back"] = {
 ["shown"] = true,
 },
 },

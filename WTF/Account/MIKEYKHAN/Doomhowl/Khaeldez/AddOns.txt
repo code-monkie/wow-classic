@@ -3,3 +3,5 @@ Blizzard_CombatText: enabled
 AI_VoiceOver: enabled
 AI_VoiceOverData_Vanilla: enabled
 WhatsTraining: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

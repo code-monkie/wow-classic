@@ -57,11 +57,11 @@ VER 3 0000000000000025 "S LB" "134400"
 /startattack
 /use Lightning Bolt
 END
-VER 3 0000000000000029 "S SST" "134400"
+VER 3 0000000000000028 "S SCT" "134400"
 #showtooltip
-/use Stoneskin Totem
+/use Stoneclaw Totem
 END
-VER 3 0000000000000028 "S SST" "134400"
+VER 3 0000000000000029 "S SST" "134400"
 #showtooltip
 /use Stoneskin Totem
 END
