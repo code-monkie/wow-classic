@@ -28,18 +28,18 @@ GuidelimeDataChar = {
 ["editorFrameY"] = 0,
 ["showCompletedSteps"] = false,
 ["maxNumOfItemButtons"] = 8,
-["showMinimapButton"] = true,
-["showUseItemButtons"] = "LEFT",
+["level"] = 1,
+["mainFrameFontSize"] = 14,
 ["arrowX"] = 0,
-["completedSteps"] = {
-},
-["mainFrameShowing"] = true,
-["arrowSize"] = 64,
+["showArrow"] = true,
+["mainFrameShowScrollBar"] = true,
 ["guideSize"] = {
 },
 ["editorFrameRelative"] = "CENTER",
-["mainFrameShowScrollBar"] = true,
-["showArrow"] = true,
-["mainFrameFontSize"] = 14,
-["level"] = 1,
+["arrowSize"] = 64,
+["mainFrameShowing"] = true,
+["completedSteps"] = {
+},
+["showUseItemButtons"] = "LEFT",
+["showMinimapButton"] = true,
 }

@@ -5,12 +5,12 @@ EasyFramesDB = {
 ["Khaeldez - Doomhowl"] = "Default",
 ["Eldreth - Doomhowl"] = "Default",
 ["Robertshock - Doomhowl"] = "Default",
-["Stashexfer - Doomhowl"] = "Default",
 ["Akahune - Doomhowl"] = "Default",
+["Stashexfer - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-["player"] = {
+["party"] = {
 ["scaleFrame"] = 1.25,
 },
 ["general"] = {
@@ -45,7 +45,7 @@ EasyFramesDB = {
 ["target"] = {
 ["scaleFrame"] = 1.25,
 },
-["party"] = {
+["player"] = {
 ["scaleFrame"] = 1.25,
 },
 },

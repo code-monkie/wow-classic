@@ -4,17 +4,17 @@ WeakAurasSaved = {
 },
 ["displays"] = {
 },
-["login_squelch_time"] = 10,
+["lastUpgrade"] = 1733863558,
 ["lastArchiveClear"] = 1733863556,
 ["minimap"] = {
 ["hide"] = false,
 },
-["lastUpgrade"] = 1733863558,
+["historyCutoff"] = 730,
 ["dbVersion"] = 78,
 ["migrationCutoff"] = 730,
-["registered"] = {
-},
-["historyCutoff"] = 730,
 ["features"] = {
 },
+["registered"] = {
+},
+["login_squelch_time"] = 10,
 }

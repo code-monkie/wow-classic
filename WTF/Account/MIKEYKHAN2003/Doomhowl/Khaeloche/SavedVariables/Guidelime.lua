@@ -33,9 +33,9 @@ GuidelimeDataChar = {
 ["arrowX"] = 0,
 ["showArrow"] = true,
 ["mainFrameShowScrollBar"] = true,
-["editorFrameRelative"] = "CENTER",
 ["guideSize"] = {
 },
+["editorFrameRelative"] = "CENTER",
 ["arrowSize"] = 64,
 ["mainFrameShowing"] = true,
 ["completedSteps"] = {

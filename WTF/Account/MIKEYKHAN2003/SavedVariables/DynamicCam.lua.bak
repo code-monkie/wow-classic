@@ -3,8 +3,8 @@ DynamicCamDB = {
 ["profileKeys"] = {
 ["Khaeloche - Doomhowl"] = "Default",
 ["Khaeldez - Doomhowl"] = "Default",
-["Khaelnume - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
+["Khaelnume - Doomhowl"] = "Default",
 ["Jimmyporter - Doomhowl"] = "Default",
 },
 ["profiles"] = {

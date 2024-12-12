@@ -1,8 +1,8 @@
 
 BetterBagsDB = {
 ["profileKeys"] = {
-["Akahune - Doomhowl"] = "Default",
 ["Robertshock - Doomhowl"] = "Default",
+["Akahune - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -16,24 +16,34 @@ nil,
 },
 },
 ["ephemeralCategoryFilters"] = {
-["Miscellaneous"] = {
+["Legs"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Miscellaneous",
+["name"] = "Legs",
 ["dynamic"] = true,
 },
-["Quest"] = {
+["Free Space"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Quest",
+["name"] = "Free Space",
+["dynamic"] = true,
+},
+["Junk"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Junk",
 ["dynamic"] = true,
 },
 ["Two-Hand"] = {
@@ -66,14 +76,14 @@ true,
 ["name"] = "Trade Goods",
 ["dynamic"] = true,
 },
-["Back"] = {
+["Miscellaneous"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Back",
+["name"] = "Miscellaneous",
 ["dynamic"] = true,
 },
 ["Chest"] = {
@@ -136,42 +146,35 @@ true,
 ["name"] = "Recent Items",
 ["dynamic"] = true,
 },
-["Junk"] = {
+["Quest"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Junk",
+["name"] = "Quest",
 ["dynamic"] = true,
 },
-["Free Space"] = {
+["Back"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Free Space",
+["name"] = "Back",
 ["dynamic"] = true,
-},
-},
-["itemLevel"] = {
-{
-["descending"] = false,
-["sort"] = false,
-},
-[0] = {
-["descending"] = false,
-["sort"] = false,
 },
 },
 ["categoryOptions"] = {
-["Miscellaneous"] = {
+["Legs"] = {
 ["shown"] = true,
 },
-["Quest"] = {
+["Free Space"] = {
+["shown"] = true,
+},
+["Junk"] = {
 ["shown"] = true,
 },
 ["Two-Hand"] = {
@@ -183,7 +186,7 @@ true,
 ["Trade Goods"] = {
 ["shown"] = true,
 },
-["Back"] = {
+["Miscellaneous"] = {
 ["shown"] = true,
 },
 ["Chest"] = {
@@ -204,10 +207,10 @@ true,
 ["Recent Items"] = {
 ["shown"] = true,
 },
-["Junk"] = {
+["Quest"] = {
 ["shown"] = true,
 },
-["Free Space"] = {
+["Back"] = {
 ["shown"] = true,
 },
 },
@@ -220,6 +223,16 @@ true,
 },
 },
 ["firstTimeMenu"] = false,
+["itemLevel"] = {
+{
+["sort"] = false,
+["descending"] = false,
+},
+[0] = {
+["sort"] = false,
+["descending"] = false,
+},
+},
 },
 },
 }

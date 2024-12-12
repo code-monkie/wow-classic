@@ -143,11 +143,11 @@ GuidelimeData = {
 ["arrowX"] = 0,
 ["showArrow"] = true,
 ["mainFrameShowScrollBar"] = true,
-["editorFrameRelative"] = "CENTER",
 ["guideSize"] = {
 ["Tactics Hardcore Route 6-12 Durotar"] = 100,
 ["Tactics Hardcore Route 1-6 Valley of Trials"] = 60,
 },
+["editorFrameRelative"] = "CENTER",
 ["arrowSize"] = 64,
 ["mainFrameShowing"] = true,
 ["completedSteps"] = {
@@ -196,9 +196,9 @@ GuidelimeData = {
 },
 ["mainFrameShowing"] = true,
 ["arrowSize"] = 64,
+["editorFrameRelative"] = "CENTER",
 ["guideSize"] = {
 },
-["editorFrameRelative"] = "CENTER",
 ["mainFrameShowScrollBar"] = true,
 ["showArrow"] = true,
 ["mainFrameFontSize"] = 14,

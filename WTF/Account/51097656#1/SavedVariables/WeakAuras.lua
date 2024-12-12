@@ -5,7 +5,8 @@ WeakAurasSaved = {
 ["editor_tab_spaces"] = 4,
 ["displays"] = {
 },
-["login_squelch_time"] = 10,
+["registered"] = {
+},
 ["lastArchiveClear"] = 1733863680,
 ["minimap"] = {
 ["hide"] = false,
@@ -15,8 +16,7 @@ WeakAurasSaved = {
 ["migrationCutoff"] = 730,
 ["features"] = {
 },
-["registered"] = {
-},
-["lastUpgrade"] = 1733863682,
 ["editor_font_size"] = 12,
+["lastUpgrade"] = 1733863682,
+["login_squelch_time"] = 10,
 }

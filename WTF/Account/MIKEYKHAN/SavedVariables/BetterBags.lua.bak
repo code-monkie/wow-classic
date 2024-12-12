@@ -32,6 +32,16 @@ true,
 ["name"] = "Waist",
 ["dynamic"] = true,
 },
+["Bag"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Bag",
+["dynamic"] = true,
+},
 ["Held In Off-hand"] = {
 ["enabled"] = {
 true,
@@ -294,6 +304,9 @@ true,
 },
 ["categoryOptions"] = {
 ["Waist"] = {
+["shown"] = true,
+},
+["Bag"] = {
 ["shown"] = true,
 },
 ["Held In Off-hand"] = {

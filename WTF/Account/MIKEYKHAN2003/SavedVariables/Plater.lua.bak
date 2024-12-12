@@ -55,6 +55,12 @@ PlaterDB = {
 ["source"] = "Herald of Thrall",
 ["npcID"] = 10719,
 },
+[16610] = {
+["event"] = "SPELL_AURA_APPLIED",
+["type"] = "BUFF",
+["source"] = "Mangletooth",
+["npcID"] = 3430,
+},
 [7289] = {
 ["isChanneled"] = false,
 ["source"] = "Zalazane",
@@ -97,6 +103,12 @@ PlaterDB = {
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 3273,
 },
+[13730] = {
+["event"] = "SPELL_AURA_APPLIED",
+["type"] = "DEBUFF",
+["source"] = "Razormane Defender",
+["npcID"] = 3266,
+},
 [774] = {
 ["isChanneled"] = false,
 ["source"] = "Razormane Dustrunner",
@@ -121,11 +133,29 @@ PlaterDB = {
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 3206,
 },
+[9128] = {
+["isChanneled"] = false,
+["source"] = "Kolkar Pack Runner",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 3274,
+},
 [6742] = {
 ["isChanneled"] = false,
 ["source"] = "Kolkar Bloodcharger",
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 3397,
+},
+[9532] = {
+["isChanneled"] = false,
+["source"] = "Kolkar Stormer",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 3273,
+},
+[7272] = {
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["source"] = "Kolkar Drudge",
+["npcID"] = 3119,
 },
 [3427] = {
 ["event"] = "SPELL_AURA_APPLIED",
@@ -163,17 +193,17 @@ PlaterDB = {
 ["event"] = "SPELL_AURA_APPLIED",
 ["npcID"] = 3678,
 },
-[9128] = {
-["isChanneled"] = false,
-["source"] = "Kolkar Pack Runner",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 3274,
+[1604] = {
+["source"] = "Hecklefang Hyena",
+["type"] = "DEBUFF",
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 4127,
 },
-[9532] = {
+[6660] = {
 ["isChanneled"] = false,
-["source"] = "Kolkar Stormer",
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 3273,
+["source"] = "Kolkar Outrunner",
+["npcID"] = 3120,
 },
 [5280] = {
 ["isChanneled"] = false,
@@ -187,35 +217,17 @@ PlaterDB = {
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 3275,
 },
-[348] = {
-["isChanneled"] = false,
-["source"] = "Hexed Troll",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 3207,
-},
-[7272] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Kolkar Drudge",
-["npcID"] = 3119,
-},
-[1604] = {
-["source"] = "Hecklefang Hyena",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 4127,
-},
-[6660] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Kolkar Outrunner",
-["npcID"] = 3120,
-},
 [6950] = {
 ["isChanneled"] = false,
 ["source"] = "Razormane Thornweaver",
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 3268,
+},
+[348] = {
+["isChanneled"] = false,
+["source"] = "Hexed Troll",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 3207,
 },
 [6530] = {
 ["isChanneled"] = false,
@@ -223,12 +235,30 @@ PlaterDB = {
 ["event"] = "SPELL_CAST_SUCCESS",
 ["npcID"] = 3461,
 },
+[8267] = {
+["event"] = "SPELL_AURA_APPLIED",
+["type"] = "DEBUFF",
+["source"] = "Rotting Agam'ar",
+["npcID"] = 4512,
+},
+[6205] = {
+["event"] = "SPELL_AURA_APPLIED",
+["type"] = "DEBUFF",
+["source"] = "Rogue Flame Spirit",
+["npcID"] = 4036,
+},
+[10672] = {
+["event"] = "SPELL_AURA_APPLIED",
+["type"] = "BUFF",
+["source"] = "Bloodmage Drazial",
+["npcID"] = 7505,
+},
 },
 ["profileKeys"] = {
 ["Khaeloche - Doomhowl"] = "Default",
 ["Khaeldez - Doomhowl"] = "Default",
-["Khaelnume - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
+["Khaelnume - Doomhowl"] = "Default",
 ["Jimmyporter - Doomhowl"] = "Default",
 },
 ["profiles"] = {
@@ -4002,10 +4032,10 @@ PlaterDB = {
 ["Fixate On You"] = 12,
 ["Cast - Important Target [P]"] = 2,
 ["Aura - Buff Alert"] = 15,
-["Cast - Circular Swipe"] = 4,
+["Explosion Affix M+"] = 14,
 ["Cast - Effect After Cast [P]"] = 2,
 ["Cast - Very Important"] = 15,
-["Explosion Affix M+"] = 14,
+["Cast - Alert + Timer [P]"] = 4,
 ["Cast - Quick Flash"] = 2,
 ["Aura - Debuff Alert"] = 12,
 ["Aura While Casting [P]"] = 1,
@@ -4015,20 +4045,20 @@ PlaterDB = {
 ["Cast - Big Alert"] = 14,
 ["Fixate"] = 11,
 ["Cast - Small Alert"] = 12,
-["Add - Important [P]"] = 4,
-["Cast - Stop Casting"] = 4,
 ["Auto Set Skull"] = 11,
-["Countdown"] = 12,
+["Add - Tag Number [P]"] = 2,
+["Spiteful Affix"] = 3,
+["Cast - Stop Casting"] = 4,
 ["Add - Non Elite Trash [P]"] = 4,
 ["Aura - Blink Time Left"] = 13,
 ["Cast - On Going Cast [P]"] = 2,
-["Add - Tag Number [P]"] = 2,
+["Countdown"] = 12,
 ["Fixate by Unit Buff [P]"] = 2,
-["Spiteful Affix"] = 3,
+["Add - Important [P]"] = 4,
 ["Add - Explode on Die [P]"] = 1,
 ["Cast - Glowing [P]"] = 10,
 ["Cast - Shield Interrupt"] = 2,
-["Cast - Alert + Timer [P]"] = 4,
+["Cast - Circular Swipe"] = 4,
 ["Unit - Show Energy"] = 11,
 },
 ["hook_auto_imported"] = {
@@ -4036,20 +4066,20 @@ PlaterDB = {
 ["Dont Have Aura"] = 1,
 ["Players Targetting Amount"] = 4,
 ["Color Automation"] = 1,
-["Combo Points"] = 6,
+["Extra Border"] = 2,
 ["Cast Bar Icon Config"] = 2,
 ["Aura Reorder"] = 3,
-["Extra Border"] = 2,
+["Hide Neutral Units"] = 1,
 ["Attacking Specific Unit"] = 2,
 ["Target Color"] = 3,
 ["Execute Range"] = 1,
-["Hide Neutral Units"] = 1,
+["Combo Points"] = 6,
 },
 ["aura2_x_offset"] = 0,
 ["saved_cvars"] = {
 ["nameplateShowEnemies"] = "0",
 },
-["login_counter"] = 26,
+["login_counter"] = 28,
 ["plate_config"] = {
 ["global_health_height"] = 12,
 ["friendlyplayer"] = {
@@ -4849,11 +4879,7 @@ PlaterDB = {
 ["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 ["__TrashAt"] = 1733856964,
 ["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --play flash animations\n    envTable.FullBarFlash:Play()\n    \n    --envTable.currentHeight = unitFrame.castBar:GetHeight()\n    \n    --restoring the default size (not required since it already restore in the hide script)\n    if (envTable.OriginalHeight) then\n        self:SetHeight (envTable.OriginalHeight)\n    end\n    \n    --increase the cast bar size\n    local height = self:GetHeight()\n    envTable.OriginalHeight = height\n    \n    self:SetHeight (height + envTable.CastBarHeightAdd)\n    \n    Plater.SetCastBarBorderColor (self, 1, .2, .2, 0.4)\n    \n    unitFrame:PlayFrameShake (envTable.FrameShake)\n    \n    --set the color of the cast bar to dark orange (only if can be interrupted)\n    --Plater auto set this color to default when a new cast starts, no need to reset this value at OnHide.    \n    if (envTable._CanInterrupt) then\n        if (scriptTable.config.useCastbarColor) then\n            self:SetStatusBarColor (Plater:ParseColors (envTable.CastbarColor))\n        end\n    end\n    \n    envTable.BackgroundFlash:Play()\n    \n    unitFrame.castBar.Spark:SetHeight(unitFrame.castBar:GetHeight())\n    \nend\n\n\n\n\n\n\n\n\n\n\n",
-["SpellIds"] = {
-350421,
-355787,
-348513,
-},
+["Name"] = "Cast - Alert + Timer [P]",
 ["PlaterCore"] = 1,
 ["Options"] = {
 {
@@ -4991,7 +5017,11 @@ PlaterDB = {
 },
 },
 ["version"] = -1,
-["Name"] = "Cast - Alert + Timer [P]",
+["SpellIds"] = {
+350421,
+355787,
+348513,
+},
 ["NpcNames"] = {
 },
 },
@@ -5011,15 +5041,15 @@ PlaterDB = {
 [219746] = true,
 },
 ["captured_casts"] = {
-[6950] = {
-["source"] = "Razormane Thornweaver",
-["event"] = "SPELL_CAST_START",
-["npcID"] = 3268,
-},
 [6530] = {
 ["source"] = "Oasis Snapjaw",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 3461,
+},
+[6950] = {
+["source"] = "Razormane Thornweaver",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 3268,
 },
 [5280] = {
 ["source"] = "Razormane Quilboar",
@@ -5059,20 +5089,20 @@ PlaterDB = {
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 3205,
 },
-[11921] = {
+[7289] = {
+["source"] = "Zalazane",
 ["event"] = "SPELL_CAST_START",
-["source"] = "Vile Familiar",
-["npcID"] = 3101,
+["npcID"] = 3205,
 },
 [6660] = {
 ["event"] = "SPELL_CAST_START",
 ["source"] = "Kolkar Outrunner",
 ["npcID"] = 3120,
 },
-[7289] = {
-["source"] = "Zalazane",
+[11921] = {
 ["event"] = "SPELL_CAST_START",
-["npcID"] = 3205,
+["source"] = "Vile Familiar",
+["npcID"] = 3101,
 },
 },
 }
@@ -5082,6 +5112,8 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 ["_general_logs"] = {
+"2024-12-11 19:28:29 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeloche",
+"2024-12-11 17:26:39 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeloche",
 "2024-12-11 14:42:24 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaelnume",
 "2024-12-11 12:40:25 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeloche",
 "2024-12-11 12:34:32 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeloche",
@@ -5099,8 +5131,6 @@ PlaterLogs = {
 "2024-12-10 14:20:07 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeldez",
 "2024-12-10 14:18:17 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeloche",
 "2024-12-10 14:07:13 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeldez",
-"2024-12-10 13:37:05 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeldez",
-"2024-12-10 13:33:50 | INIT | Plater-v596-Vanilla | Framework v579 | 1.15.5 | enUS | Khaeldez",
 },
 ["_error_logs"] = {
 },

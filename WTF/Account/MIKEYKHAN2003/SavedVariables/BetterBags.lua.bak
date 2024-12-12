@@ -3,8 +3,8 @@ BetterBagsDB = {
 ["profileKeys"] = {
 ["Khaeloche - Doomhowl"] = "Default",
 ["Khaeldez - Doomhowl"] = "Default",
-["Khaelnume - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
+["Khaelnume - Doomhowl"] = "Default",
 ["Jimmyporter - Doomhowl"] = "Default",
 },
 ["profiles"] = {
@@ -151,24 +151,34 @@ true,
 ["name"] = "Armor",
 ["dynamic"] = true,
 },
-["Feet"] = {
+["Recipe"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Feet",
+["name"] = "Recipe",
 ["dynamic"] = true,
 },
-["Free Space"] = {
+["Miscellaneous"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Free Space",
+["name"] = "Miscellaneous",
+["dynamic"] = true,
+},
+["Chest"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Chest",
 ["dynamic"] = true,
 },
 ["Consumable"] = {
@@ -189,16 +199,6 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Quest - Quest",
-["dynamic"] = true,
-},
-["Recipe"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Recipe",
 ["dynamic"] = true,
 },
 ["Back"] = {
@@ -231,14 +231,24 @@ true,
 ["name"] = "Quest",
 ["dynamic"] = true,
 },
-["Miscellaneous"] = {
+["Free Space"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Miscellaneous",
+["name"] = "Free Space",
+["dynamic"] = true,
+},
+["Feet"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Feet",
 ["dynamic"] = true,
 },
 },
@@ -307,19 +317,19 @@ true,
 ["Armor"] = {
 ["shown"] = true,
 },
-["Feet"] = {
+["Recipe"] = {
 ["shown"] = true,
 },
-["Free Space"] = {
+["Miscellaneous"] = {
+["shown"] = true,
+},
+["Chest"] = {
 ["shown"] = true,
 },
 ["Consumable"] = {
 ["shown"] = true,
 },
 ["Quest - Quest"] = {
-["shown"] = true,
-},
-["Recipe"] = {
 ["shown"] = true,
 },
 ["Back"] = {
@@ -331,7 +341,10 @@ true,
 ["Junk"] = {
 ["shown"] = true,
 },
-["Miscellaneous"] = {
+["Free Space"] = {
+["shown"] = true,
+},
+["Feet"] = {
 ["shown"] = true,
 },
 },

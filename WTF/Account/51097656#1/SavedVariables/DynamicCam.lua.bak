@@ -1,8 +1,8 @@
 
 DynamicCamDB = {
 ["profileKeys"] = {
-["Akahune - Doomhowl"] = "Default",
 ["Robertshock - Doomhowl"] = "Default",
+["Akahune - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

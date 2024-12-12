@@ -79,7 +79,7 @@ AUCTIONATOR_CONFIG = {
 ["Owned?"] = true,
 ["Top?"] = true,
 },
-["auction_mean_tooltips"] = false,
+["crafting_info_show_cost"] = true,
 ["columns_cancelling"] = {
 ["Items Ahead"] = false,
 ["Stack Price"] = true,
@@ -103,15 +103,15 @@ AUCTIONATOR_CONFIG = {
 ["selling_auto_select_next"] = false,
 ["selling_bag_collapsed"] = false,
 ["auto_list_search"] = false,
-["auction_chat_log"] = true,
 ["crafting_info_show_profit"] = true,
+["auction_chat_log"] = true,
 ["mailbox_tooltips"] = true,
 ["default_list_2"] = "",
 ["selling_post_stack_remainder"] = false,
 ["auction_duration"] = 24,
 ["starting_price_percentage_2"] = 95,
 ["auction_sales_preference"] = "static",
-["crafting_info_show_cost"] = true,
+["auction_mean_tooltips"] = false,
 ["splash_screen_version"] = "10.1.6",
 ["crafting_info_show"] = true,
 ["gear_vendor_price_multiplier"] = 0,
@@ -4852,8 +4852,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15492:of the Monkey"] = "§aa°d1805alÄah°d1805‹am‹",
 ["gr:9834:of the Monkey"] = "§aa¢d1806d1805al°d18059amRah¢d1806Rd18059",
 ["gr:9891:of Defense"] = "§aa°d1805al°d1805Nah°d1805«amN",
+["9252"] = "§aa¢d1806d1805al°d1805àamÇah¢d1806Çd1805„",
 ["7089"] = "§aa¢d1806d1805\nal°d1805<amah¢d1806d1805\"∏",
-["3307"] = "§aa¢d1806d1805al°d1805RamXah¢d1806Xd1805ö",
 ["2307"] = "§aa°d1805alÄah°d1805ØamØ",
 ["gr:15375:of Intellect"] = "§aa°d1806alÄamI»ah°d1806I»",
 ["gr:15274:of Healing"] = "§aa°d1805alÄam\000pah°d1805\000p",
@@ -4949,9 +4949,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15368:of the Eagle"] = "§aa°d1805alÄah°d1805xamx",
 ["gr:15014:of the Whale"] = "§aa¢d1806d1805al°d1805	amah¢d1806d1805\n",
 ["7057"] = "§aa¢d1806d1805alÄam\nÈah¢d1806\nÈd1805\nÌ",
-["6057"] = "§aa¢d1806d1805al°d1805	ÌamOah¢d1806Od1805	Ó",
-["4556"] = "§aa¢d1806d1805al°d1805ÿam’ah¢d1806’d1805⁄",
 ["gr:9901:of the Wolf"] = "§aa°d1806alÄam&¨ah°d1806&¨",
+["4556"] = "§aa¢d1806d1805al°d1805ÿam’ah¢d1806’d1805⁄",
+["6057"] = "§aa¢d1806d1805al°d1805	ÌamOah¢d1806Od1805	Ó",
 ["3057"] = "§aa¢d1806d1805al°d1805lamóah¢d1806ód1805}",
 ["4057"] = "§aa¢d1806d1805al°d1805~amzah¢d1806zd1805Ç",
 ["9930"] = "§aa°d1806alÄam'ah°d1806'",
@@ -5046,7 +5046,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10085:of Stamina"] = "§aa°d1805alÄamklah°d1805kl",
 ["gr:15517:of the Boar"] = "§aa°d1805alÄah°d1805damd",
 ["11287"] = "§aa¢d1806d18053al°d1805UamWah¢d1806Wd1805d",
-["gr:15525:of the Monkey"] = "§aa°d1806alÄamDah°d1806D",
+["3466"] = "§aa¢d1806d1805alÄah¢d1806 ‰d1805Ìam ‰",
 ["14565"] = "§aa¢d1806d1805al°d1805	)am-ah¢d1806-d1805\r.",
 ["5466"] = "§aa¢d1806*d1805alÄamah¢d1806d1805",
 ["gr:10199:of Healing"] = "§aa°d1805alÄam\000Ü†ah°d1805\000Ü†",
@@ -5077,10 +5077,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9881:of the Eagle"] = "§aa¢d1806d1805alÄamM∫ah¢d1806M∫d1805Mª",
 ["gr:7414:of the Wolf"] = "§aa°d1805alÄam#(ah°d1805#(",
 ["gr:15508:of the Eagle"] = "§aa°d1806alÄamÜah°d1806Ü",
-["7493"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805†",
+["gr:14235:of Healing"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15356:of Nature's Wrath"] = "§aa°d1805alÄamLah°d1805L",
 ["gr:14262:of the Eagle"] = "§aa¢d1806d1805alÄam#(ah¢d1806#(d1805N ",
-["gr:9882:of the Whale"] = "§aa°d1806alÄam\"ƒah°d1806\"ƒ",
+["7493"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805†",
 ["gr:9859:of Stamina"] = "§aa°d1805alÄam<√ah°d1805<√",
 ["4766"] = "§aa¢d1806d1805al°d1805VamÛah¢d1806Ûd1805@",
 ["5766"] = "§aa¢d1806d1805alÄam4ah¢d18064d1805I",
@@ -5138,8 +5138,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15366:of the Monkey"] = "§aa°d1805alÄamtÀah°d1805tÀ",
 ["gr:9921:of the Owl"] = "§aa°d1805alÄah°d1805%am%",
 ["15337"] = "§aa¢d1806d1805alÄamxah¢d1806xd1805	ƒ",
-["13423"] = "§aa¢d1806úd1805al°d1805zam;ah¢d1806;d1805G",
 ["14857"] = "§aa°d1805alÄama¶ah°d1805a¶",
+["13423"] = "§aa¢d1806úd1805al°d1805zam;ah¢d1806;d1805G",
 ["gr:9854:of Nature's Wrath"] = "§aa°d1806alÄam&¨ah°d1806&¨",
 ["17007"] = "§aa¢d1806d1805al°d1805\000\r?am\000iah¢d1806\000id1805\000Ä",
 ["gr:10083:of the Falcon"] = "§aa°d1805alÄamu0ah°d1805u0",
@@ -5154,13 +5154,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15312:of the Falcon"] = "§aa¢d1806d1805al°d1805@am?ah¢d1806?d1805",
 ["gr:14097:of Spirit"] = "§aa¢d1806d1805al°d1805Öamwah¢d1806wd1805Ü",
 ["gr:15124:of Intellect"] = "§aa°d1806alÄam∏ah°d1806∏",
-["gr:6575:of the Boar"] = "§aa¢d1806d1805al°d1805amah¢d1806d18054",
+["gr:15976:of Healing"] = "§aa¢d1806d1805alÄam√Oah¢d1806√Od1805'",
 ["gr:10182:of Power"] = "§aa°d1805alÄam°Tah°d1805°T",
 ["gr:15395:of Defense"] = "§aa¢d1806d1805alÄah¢d1806N d1805tÃamN ",
 ["gr:9747:of the Owl"] = "§aa¢d1806d1805alÄamèah¢d1806èd1805Ù",
 ["gr:6337:of Strength"] = "§aa¢d1806d1805al°d1805\n˝amËah¢d1806Ëd1805T",
 ["gr:6581:of the Boar"] = "§aa°d1805alÄam	íah°d1805	í",
-["gr:15976:of Healing"] = "§aa¢d1806d1805alÄam√Oah¢d1806√Od1805'",
+["gr:6575:of the Boar"] = "§aa¢d1806d1805al°d1805amah¢d1806d18054",
 ["gr:10222:of the Owl"] = "§aa°d1806alÄamu0ah°d1806u0",
 ["gr:10076:of the Whale"] = "§aa°d1805alÄamMah°d1805M",
 ["gr:15495:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806∂d1805Tam∂",
@@ -5226,10 +5226,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10188:of the Bear"] = "§aa°d1806alÄam\000Ü;ah°d1806\000Ü;",
 ["14190"] = "§aa¢d1806d1805al°d1805‰amN ah¢d1806N d1805†",
 ["14369"] = "§aa¢d1806d1805alÄamJah¢d1806Jd1805ß",
-["gr:9767:of the Eagle"] = "§aa¢d1806d1805alÄam·ah¢d1806·d1805|",
+["gr:15364:of Arcane Wrath"] = "§aa°d1805alÄah°d1805îamî",
 ["15758"] = "§aa¢d1806d1805al°d1805\000–çam\000–ãah¢d1806\000–ãd1805\000–ê",
 ["2807"] = "§aa¢d1806d1805alÄah¢d1806”Td1805\000\"†am”T",
-["gr:15364:of Arcane Wrath"] = "§aa°d1805alÄah°d1805îamî",
+["gr:9767:of the Eagle"] = "§aa¢d1806d1805alÄam·ah¢d1806·d1805|",
 ["10122"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805Í`",
 ["gr:15260:of Spirit"] = "§aa°d1806alÄamu.ah°d1806u.",
 ["6362"] = "§aa¢d1806‚d1805@al°d1805?am7ah¢d18067d1805N",
@@ -5241,8 +5241,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:4570:of the Whale"] = "§aa¢d1806d1805al°d1805 am ah¢d1806 d1805Ã",
 ["4362"] = "§aa¢d1806d1805Bal°d1805%amªah¢d1806ªd1805à",
 ["gr:10128:of the Bear"] = "§aa°d1806alÄamˇ€ah°d1806ˇ€",
+["1727"] = "§aa¢d1806d1805al°d1805ÂØamóãah¢d1806óãd1805Ë",
 ["1793"] = "§aa¢d1806d1805alÄamÑah¢d1806Ñd1805",
-["gr:15972:of the Wolf"] = "§aa¢d1806d1805al°d1805–am⁄ah¢d1806⁄d1805l",
 ["gr:14281:of the Eagle"] = "§aa°d1806alÄamuîah°d1806uî",
 ["8140"] = "§aa°d1806alÄam%„ah°d1806%„",
 ["gr:9804:of the Tiger"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
@@ -5250,7 +5250,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["17683"] = "§aa¢d1806d1805al°d1805Í<amt ah¢d1806t d1805\000Ü}",
 ["gr:14257:of Fiery Wrath"] = "§aa°d1806alÄamN ah°d1806N ",
 ["8178"] = "§aa¢d1806`d1805|alÄamÚah¢d1806Úd1805Ú",
-["gr:15232:of the Eagle"] = "§aa¢d1806d1805alÄam&Ôah¢d1806&Ôd1805&Ô",
+["gr:6551:of Defense"] = "§aa°d1806alÄam‹ah°d1806‹",
 ["gr:9886:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806Öd1805ÖamÖ",
 ["gr:4566:of Frozen Wrath"] = "§aa°d1805alÄah°d1805†am†",
 ["gr:15977:of Arcane Wrath"] = "§aa°d1806alÄam#'ah°d1806#'",
@@ -5258,7 +5258,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["9793"] = "§aa¢d1806d1805alÄam‚ah¢d1806‚d1805‰",
 ["gr:7470:of Intellect"] = "§aa°d1805al°d18052«ah°d1805:óam2«",
 ["3311"] = "§aa¢d1806d1805al°d1805amÌah¢d1806Ìd1805Ú",
-["gr:6565:of the Eagle"] = "§aa°d1806alÄamàah°d1806à",
+["14758"] = "§aa¢d1806d1805al°d1805Lam9ah¢d18069d1805&¨",
 ["gr:6560:of Agility"] = "§aa°d1806alÄamKah°d1806K",
 ["gr:5215:of the Owl"] = "§aa¢d1806d1805alÄamÖSah¢d1806ÖSd1805àø",
 ["gr:9895:of Power"] = "§aa°d1806alÄam'ah°d1806'",
@@ -5267,9 +5267,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14282:of the Owl"] = "§aa°d1806alÄam\"∏ah°d1806\"∏",
 ["gr:15552:of Stamina"] = "§aa¢d1806d1805al°d1805'am'ah¢d1806'd1805'",
 ["9907"] = "§aa¢d1806d1805alÄam&´ah¢d1806&´d1805\"`",
-["gr:10242:of Strength"] = "§aa°d1805alÄah°d1805N amN ",
-["955"] = "§aa¢d1806gd1805èal°d1805àam®ah¢d1806®d1805—",
 ["14415"] = "§aa¢d1806d1805alÄam0ah¢d18060d1805ì",
+["955"] = "§aa¢d1806gd1805èal°d1805àam®ah¢d1806®d1805—",
+["gr:10242:of Strength"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:15017:of the Whale"] = "§aa¢d1806d1805alÄamÊah¢d1806Êd1805H",
 ["gr:14244:of the Eagle"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["3656"] = "§aa¢d1806d1805al°d1805fam<ah¢d1806<d1805h",
@@ -5290,8 +5290,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7411:of Agility"] = "§aa°d1805alÄam6Lah°d18056L",
 ["6662"] = "§aa¢d1806|d1805ïalÄamøah¢d1806ød1805	",
 ["gr:14167:of the Eagle"] = "§aa°d1806alÄam\rHah°d1806\rH",
-["gr:6605:of the Falcon"] = "§aa¢d1806d1805al°d1805oamnah¢d1806nd1805p",
 ["gr:9828:of the Gorilla"] = "§aa°d1806alÄamœah°d1806œ",
+["gr:6605:of the Falcon"] = "§aa¢d1806d1805al°d1805oamnah¢d1806nd1805p",
 ["gr:7479:of the Boar"] = "§aa°d1806alÄam3Òah°d18063Ò",
 ["4824"] = "§aa¢d1806d1805al°d1805NyamHCah¢d1806HCd1805Nz",
 ["gr:8196:of Power"] = "§aa°d1806alÄamÍ_ah°d1806Í_",
@@ -5305,16 +5305,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15971:of Shadow Wrath"] = "§aa°d1806alÄam∑ah°d1806∑",
 ["gr:14293:of Arcane Wrath"] = "§aa°d1806alÄam\000Ü†ah°d1806\000Ü†",
 ["gr:14909:of the Monkey"] = "§aa¢d1806d1805alÄamI–ah¢d1806I–d1805I–",
-["gr:15389:of the Bear"] = "§aa°d1805alÄamõ‹ah°d1805õ‹",
+["gr:7529:of the Tiger"] = "§aa¢d1806d1805alÄam\000&Ïah¢d1806\000&Ïd1805\000u",
 ["865"] = "§aa¢d1806d1805alÄamvah¢d1806vd1805v",
-["765"] = "§aa¢d1806d1805´alÄamah¢d1806d1805",
+["gr:6562:of the Owl"] = "§aa¢d1806d1805al°d1805\r¨am\nÔah¢d1806\nÔd1805ÿ",
 ["15666"] = "§aa¢d1806d1805alÄah¢d1806ÄËd1805\000IamÄË",
 ["gr:15129:of the Owl"] = "§aa¢d1806d1805alÄamBIah¢d1806BId1805N ",
 ["gr:9868:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806dd1805'amd",
 ["gr:9777:of the Eagle"] = "§aa°d1806alÄam/?ah°d1806/?",
 ["gr:12043:of the Falcon"] = "§aa°d1805alÄah°d1805\0008Äam\0008Ä",
 ["gr:9835:of Intellect"] = "§aa°d1806alÄam≠ah°d1806≠",
-["gr:7529:of the Tiger"] = "§aa¢d1806d1805alÄam\000&Ïah¢d1806\000&Ïd1805\000u",
+["gr:15389:of the Bear"] = "§aa°d1805alÄamõ‹ah°d1805õ‹",
 ["14403"] = "§aa¢d1806d1805al°d1805Ñamˆah¢d1806ˆd1805Ü",
 ["gr:15542:of the Monkey"] = "§aa°d1805alÄamàah°d1805à",
 ["gr:15136:of the Boar"] = "§aa¢d1806d1805alÄam\nah¢d1806\nd1805k",
@@ -5367,8 +5367,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6596:of Healing"] = "§aa¢d1806d1805alÄah¢d18068@d18058@am8@",
 ["gr:14193:of the Owl"] = "§aa°d1806alÄam†ah°d1806†",
 ["gr:15969:of Intellect"] = "§aa°d1806alÄamáah°d1806á",
-["gr:15222:of Nature's Wrath"] = "§aa¢d1806d1805al°d1805àamàah¢d1806àd1805ä",
 ["gr:790:of the Boar"] = "§aa¢d1806d1805alÄam\nIah¢d1806\nId1805˚",
+["gr:15222:of Nature's Wrath"] = "§aa¢d1806d1805al°d1805àamàah¢d1806àd1805ä",
 ["gr:15213:of Stamina"] = "§aa¢d1806d1805alÄam(!ah¢d1806(!d1805%",
 ["gr:10289:of Arcane Wrath"] = "§aa°d1806alÄam'ah°d1806'",
 ["14971"] = "§aa°d1806alÄamu0ah°d1806u0",
@@ -5401,13 +5401,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14123:of Healing"] = "§aa¢d1806d1805al°d1805JamIah¢d1806Id1805K",
 ["15912"] = "§aa¢d1806\rd1805alÄamah¢d1806d1805;",
 ["3577"] = "§aa¢d1806¶d1805Íal°d1805∞amyah¢d1806yd1805‚",
-["21071"] = "§aa¢d1806ód1805„al°d18050amIah¢d1806Id1805I",
+["1369"] = "§aa¢d1806d1805alÄah¢d1806*d1805am*",
 ["9293"] = "§aa¢d1806d1805al°d1805améIah¢d1806éId1805",
-["14155"] = "§aa¢d1806d1805alÄah¢d1806\000W0d1805\000–éam\000W0",
+["21071"] = "§aa¢d1806ód1805„al°d18050amIah¢d1806Id1805I",
 ["4257"] = "§aa¢d1806d1805al°d1805¶amkah¢d1806kd1805û",
 ["5257"] = "§aa¢d1806d1805alÄam\000ì‡ah¢d1806\000ì‡d1805\000ì‡",
 ["gr:14162:of Healing"] = "§aa¢d1806d1805alÄah¢d1806∞d1805nam∞",
-["1369"] = "§aa¢d1806d1805alÄah¢d1806*d1805am*",
+["14155"] = "§aa¢d1806d1805alÄah¢d1806\000W0d1805\000–éam\000W0",
 ["8257"] = "§aa¢d1806d1805alÄam'sah¢d1806'sd1805'",
 ["gr:6572:of Strength"] = "§aa¢d1806d1805alÄah¢d1806	Fd1805†am	F",
 ["4369"] = "§aa¢d1806Kd1805:alÄamÍah¢d1806Íd1805V",
@@ -5445,11 +5445,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["7469"] = "§aa¢d1806d1805alÄam:ìah¢d1806:ìd1805:ì",
 ["13422"] = "§aa¢d1806Gd1805˜al°d1805\nÊam\nåah¢d1806\nåd1805÷",
 ["1685"] = "§aa¢d1806d1805al°d1805õ‹amu0ah¢d1806u0d1805ú;",
-["15613"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805√ï",
 ["gr:14165:of the Monkey"] = "§aa¢d1806d1805al°d1805$amîah¢d1806îd1805@",
-["gr:8178:of the Tiger"] = "§aa¢d1806\nd1805al°d18057am2ah¢d18062d1805Ë",
+["15613"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805√ï",
+["gr:15228:of Shadow Wrath"] = "§aa°d1806alÄam\000¿ah°d1806\000¿",
 ["14271"] = "§aa°d1805alÄam'ah°d1805'",
-["gr:8211:of the Owl"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805u0",
+["gr:9763:of the Bear"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
 ["gr:14253:of the Eagle"] = "§aa°d1805alÄam.|ah°d1805.|",
 ["gr:15140:of Intellect"] = "§aa°d1805al°d1805!4ah°d1805'am!4",
 ["gr:7482:of the Bear"] = "§aa°d1805alÄah°d1805N amN ",
@@ -5467,10 +5467,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15262:of the Gorilla"] = "§aa°d1805alÄamà∏ah°d1805à∏",
 ["gr:9867:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806Âd1805\"◊amÂ",
 ["gr:6587:of Healing"] = "§aa¢d1806d1805alÄamuah¢d1806ud1805u",
-["13071"] = "§aa¢d1806d1805al°d1805\000\"am\000\"ﬂah¢d1806\000\"ﬂd1805\000\"{",
+["gr:6599:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806Wd1805‹amW",
 ["gr:7539:of the Falcon"] = "§aa°d1805alÄah°d1805u0amu0",
 ["gr:6542:of the Whale"] = "§aa°d1806alÄamah°d1806",
-["gr:6599:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806Wd1805‹amW",
+["13071"] = "§aa¢d1806d1805al°d1805\000\"am\000\"ﬂah¢d1806\000\"ﬂd1805\000\"{",
 ["4394"] = "§aa°d1805]alÄah°d1805òamò",
 ["gr:3210:of the Whale"] = "§aa¢d1806d1805alÄam&Fah¢d1806&Fd1805™",
 ["gr:9815:of the Gorilla"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
@@ -5508,30 +5508,30 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["6269"] = "§aa¢d1806d1805al°d1805+amºah¢d1806ºd1805ª",
 ["5269"] = "§aa°d1806alÄamah°d1806",
 ["gr:10109:of Defense"] = "§aa°d1805alÄah°d1805√Pam√P",
-["gr:14246:of Shadow Wrath"] = "§aa°d1806alÄam≈Dah°d1806≈D",
-["gr:7555:of the Owl"] = "§aa°d1806alÄam:òah°d1806:ò",
-["8173"] = "§aa¢d1806d1805Zal°d1805úamåah¢d1806åd1805®",
-["7287"] = "§aa°d1806alÄam˘ah°d1806˘",
 ["gr:14200:of Healing"] = "§aa°d1805alÄah°d1805#(am#(",
+["gr:7555:of the Owl"] = "§aa°d1806alÄam:òah°d1806:ò",
 ["11128"] = "§aa¢d1806d1805+al°d1805{am ah¢d1806 d1805",
-["gr:11996:of Regeneration"] = "§aa¢d1806d1805alÄampah¢d1806pd1805œ",
+["gr:10237:of the Boar"] = "§aa°d1806alÄamu0ah°d1806u0",
+["7287"] = "§aa°d1806alÄam˘ah°d1806˘",
+["gr:14246:of Shadow Wrath"] = "§aa°d1806alÄam≈Dah°d1806≈D",
+["gr:15137:of the Falcon"] = "§aa°d1806alÄam+ah°d1806+",
 ["9327"] = "§aa¢d1806d1805al°d1805?am∞ah¢d1806∞d1805	,",
 ["2838"] = "§aa¢d1806Ëd1805al°d1805Namèah¢d1806èd1805è",
 ["14136"] = "§aa¢d1806d1805alÄam\000\rªòah¢d1806\000\rªòd1805\000\rªô",
 ["gr:6611:of the Monkey"] = "§aa°d1805al°d1805	√ah°d1805|am	√",
-["gr:10237:of the Boar"] = "§aa°d1806alÄamu0ah°d1806u0",
+["8173"] = "§aa¢d1806d1805Zal°d1805úamåah¢d1806åd1805®",
 ["5173"] = "§aa¢d1806	d18059al°d1805aam\\ah¢d1806\\d1805d",
 ["gr:9870:of the Eagle"] = "§aa°d1805alÄah°d1805&¨am&¨",
 ["3173"] = "§aa¢d1806;d18056al°d1805Aam8ah¢d18068d1805c",
-["9838"] = "§aa¢d1806d1805al°d1805?amoah¢d1806od1805–",
+["gr:14228:of the Whale"] = "§aa°d1805alÄam\"ºah°d1805\"º",
 ["4708"] = "§aa¢d1806d1805al°d1805	ˆam	ƒah¢d1806	ƒd1805\nÎ",
 ["gr:15124:of the Wolf"] = "§aa¢d1806d1805alÄah¢d1806°d1805Òam°",
-["14133"] = "§aa¢d1806d1805alÄamah¢d1806d1805™",
-["4364"] = "§aa¢d1806§d1805µalÄam(ah¢d1806(d1805∏",
-["gr:9877:of Intellect"] = "§aa¢d1806d1805alÄam∑ah¢d1806∑d1805∫",
 ["gr:9884:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806'd1805&˘am'",
-["9287"] = "§aa¢d1806d1805al°d1805\"Vamah¢d1806d1805\"W",
+["15274"] = "§aa¢d1806d1805alÄam\000ah¢d1806\000d1805Í`",
+["gr:9877:of Intellect"] = "§aa¢d1806d1805alÄam∑ah¢d1806∑d1805∫",
 ["1708"] = "§aa¢d1806*d18054al°d1805\\am¨ah¢d1806¨d1805n",
+["9287"] = "§aa¢d1806d1805al°d1805\"Vamah¢d1806d1805\"W",
+["14133"] = "§aa¢d1806d1805alÄamah¢d1806d1805™",
 ["14920"] = "§aa¢d1806d1805al°d1805MWamN ah¢d1806N d1805a¢",
 ["gr:15244:of Strength"] = "§aa°d1805alÄamLèah°d1805Lè",
 ["4607"] = "§aa¢d1806d1805al°d1805’amµah¢d1806µd1805÷",
@@ -5564,7 +5564,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:4564:of the Gorilla"] = "§aa¢d1806d1805	al°d1805ºamºah¢d1806ºd1805‚",
 ["1355"] = "§aa°d1805alÄamˆah°d1805ˆ",
 ["gr:12019:of Stamina"] = "§aa°d1805alÄah°d1805ÅøamÅø",
-["2773"] = "§aa¢d1806d1805al°d1805Wam^ah¢d1806^d1805é",
+["gr:14268:of the Owl"] = "§aa°d1805alÄamN ah°d1805N ",
 ["13133"] = "§aa°d1806alÄam\000W/ah°d1806\000W/",
 ["gr:10186:of the Tiger"] = "§aa°d1805alÄamú?ah°d1805ú?",
 ["6346"] = "§aa¢d1806d1805\nal°d1805qamÉah¢d1806Éd1805r",
@@ -5572,7 +5572,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15231:of the Monkey"] = "§aa¢d1806d1805al°d1805≥amúah¢d1806úd1805ù",
 ["7408"] = "§aa¢d1806\nd1805al°d1805†am/ah¢d1806/d1805/",
 ["14662"] = "§aa°d1805alÄah°d1805Í_amÍ_",
-["gr:14268:of the Owl"] = "§aa°d1805alÄamN ah°d1805N ",
+["2773"] = "§aa¢d1806d1805al°d1805Wam^ah¢d1806^d1805é",
 ["8124"] = "§aa¢d1806d1805alÄam/ah¢d1806/d1805/",
 ["gr:7521:of the Falcon"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:14131:of the Wolf"] = "§aa°d1805al°d1805‹ah°d1805\n am‹",
@@ -5614,15 +5614,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6336:of Strength"] = "§aa°d1805al°d1805ah°d1805£am",
 ["2962"] = "§aa°d1805al°d1805∑ah°d1805∫am∑",
 ["gr:10252:of Healing"] = "§aa°d1806alÄam\000\r∂‰ah°d1806\000\r∂‰",
-["gr:9805:of the Whale"] = "§aa¢d1806d1805alÄamah¢d1806d1805	",
-["gr:14133:of Intellect"] = "§aa°d1805al°d1805üah°d1805¡amü",
-["gr:3199:of Stamina"] = "§aa¢d1806d1805alÄam≠ah¢d1806≠d1805Æ",
 ["gr:11983:of the Whale"] = "§aa¢d1806d1805al°d1805*˜am#Éah¢d1806#Éd1805+π",
+["gr:6590:of the Eagle"] = "§aa°d1805al°d1805˙ah°d1805„am˙",
+["gr:3199:of Stamina"] = "§aa¢d1806d1805alÄam≠ah¢d1806≠d1805Æ",
+["gr:9960:of the Gorilla"] = "§aa°d1806alÄamW‰ah°d1806W‰",
 ["7364"] = "§aa¢d1806d1805al°d1805∆am«ah¢d1806«d1805…",
 ["8364"] = "§aa°d1805?al°d1805çah°d1805êamç",
 ["2264"] = "§aa°d1805alÄah°d1805\000ìﬂam\000ìﬂ",
 ["gr:9849:of Shadow Wrath"] = "§aa°d1805al°d18052«ah°d1805u0am2«",
-["gr:9960:of the Gorilla"] = "§aa°d1806alÄamW‰ah°d1806W‰",
+["gr:9805:of the Whale"] = "§aa¢d1806d1805alÄamah¢d1806d1805	",
 ["gr:15165:of the Whale"] = "§aa°d1805alÄam'ah°d1805'",
 ["2982"] = "§aa¢d1806d1805\nal°d1805Ïam∞ah¢d1806∞d1805É",
 ["1982"] = "§aa¢d1806d1805al°d1805\000´òam\000IÌah¢d1806\000IÌd1805\000Ê.",
@@ -5630,14 +5630,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14249:of Frozen Wrath"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805:ò",
 ["14180"] = "§aa¢d1806d1805alÄam}ah¢d1806}d1805†",
 ["gr:15261:of the Eagle"] = "§aa¢d1806d1805al°d1805PamNah¢d1806Nd1805aß",
-["14110"] = "§aa°d1805alÄah°d1805am",
 ["gr:9868:of the Monkey"] = "§aa°d1806alÄam»ah°d1806»",
+["gr:15969:of Frozen Wrath"] = "§aa¢d1806d1805alÄamÁah¢d1806Ád1805Ë",
 ["9155"] = "§aa¢d1806¢d1805’al°d1805Öam|ah¢d1806|d1805",
 ["10112"] = "§aa¢d1806d1805alÄam\0008Äah¢d1806\0008Äd1805\000_è",
 ["gr:14971:of the Bear"] = "§aa°d1806alÄamu0ah°d1806u0",
 ["gr:7410:of Power"] = "§aa°d1805alÄam+ah°d1805+",
 ["gr:12030:of the Boar"] = "§aa¢d1806d1805al°d1805+ºam:âah¢d1806:âd1805:à",
-["gr:15979:of the Eagle"] = "§aa°d1805alÄamN ah°d1805N ",
+["gr:15250:of the Tiger"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805's",
 ["gr:10089:of the Eagle"] = "§aa°d1805alÄamˇah°d1805ˇ",
 ["14296"] = "§aa¢d1806d1805alÄah¢d1806\000ﬁd1805N am\000ﬁ",
 ["gr:15126:of the Eagle"] = "§aa°d1805alÄah°d1805\"Wam\"W",
@@ -5649,13 +5649,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15133:of the Whale"] = "§aa¢d1806d1805alÄah¢d18069d1805#(am9",
 ["gr:10069:of the Bear"] = "§aa°d1806alÄam&¨ah°d1806&¨",
 ["gr:7356:of Spirit"] = "§aa¢d1806d1805alÄamïah¢d1806ïd1805\nÔ",
-["gr:9852:of Arcane Wrath"] = "§aa°d1805alÄah°d1805:òam:ò",
+["3055"] = "§aa¢d1806d1805alÄam˜ah¢d1806˜d1805\n",
 ["gr:866:of Intellect"] = "§aa¢d1806d1805alÄamUah¢d1806Ud1805UÔ",
 ["14204"] = "§aa¢d1806d1805\nalÄamîah¢d1806îd1805ì",
 ["6055"] = "§aa¢d1806d1805al°d1805Ωam¨ah¢d1806¨d1805x",
 ["15529"] = "§aa¢d1806d1805alÄam$ah¢d1806$d1805$",
-["gr:14212:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
-["3055"] = "§aa¢d1806d1805alÄam˜ah¢d1806˜d1805\n",
+["gr:9848:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806„d1805†am„",
+["gr:9852:of Arcane Wrath"] = "§aa°d1805alÄah°d1805:òam:ò",
 ["gr:15170:of the Bear"] = "§aa¢d1806d1805alÄamƒah¢d1806ƒd1805Í_",
 ["gr:2632:of Fiery Wrath"] = "§aa¢d1806d1805alÄamŒah¢d1806Œd1805–",
 ["4687"] = "§aa°d1805alÄah°d1805+am+",
@@ -5708,20 +5708,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7470:of Healing"] = "§aa°d1805alÄamNah°d1805N",
 ["gr:9830:of Healing"] = "§aa°d1805alÄamKah°d1805K",
 ["gr:15011:of the Owl"] = "§aa¢d1806d1805alÄam4ah¢d18064d1805P",
-["gr:15009:of the Eagle"] = "§aa°d1806alÄamËah°d1806Ë",
-["gr:15933:of Holy Wrath"] = "§aa°d1806alÄam‹ah°d1806‹",
+["7373"] = "§aa¢d1806d1805al°d18059am@ah¢d1806@d1805>",
 ["gr:9790:of the Boar"] = "§aa°d1805alÄam	√ah°d1805	√",
-["gr:9923:of Agility"] = "§aa°d1806alÄamN ah°d1806N ",
 ["gr:15113:of the Boar"] = "§aa¢d1806d1805alÄam7ah¢d18067d18057",
+["gr:9923:of Agility"] = "§aa°d1806alÄamN ah°d1806N ",
+["gr:15933:of Holy Wrath"] = "§aa°d1806alÄam‹ah°d1806‹",
 ["3474"] = "§aa¢d1806d1805alÄamÑah¢d1806Ñd1805€",
 ["5373"] = "§aa¢d1806\rd1805al°d1805Éamah¢d1806d1805Q",
 ["6373"] = "§aa¢d1806πd1805™al°d1805SamÍah¢d1806Íd1805s",
-["5774"] = "§aa¢d1806d1805al°d1805ﬂam≤ah¢d1806≤d1805‡",
+["9908"] = "§aa¢d1806d1805alÄamJah¢d1806Jd1805\"Æ",
 ["3482"] = "§aa¢d1806d1805\nal°d1805\r©am\n(ah¢d1806\n(d1805\r™",
 ["8385"] = "§aa¢d1806d1805alÄam„ah¢d1806„d1805Í",
 ["1482"] = "§aa¢d1806d1805alÄah¢d1806\000dpd1805\000Eºam\000dp",
 ["9774"] = "§aa¢d1806d1805alÄamlah¢d1806ld1805l",
-["gr:12008:of the Falcon"] = "§aa¢d1806d1805alÄamú<ah¢d1806ú<d1805&G",
+["gr:15539:of the Bear"] = "§aa¢d1806d1805al°d1805∂am>ah¢d1806>d1805∑",
 ["gr:6573:of Defense"] = "§aa¢d1806d1805alÄah¢d1806∏d1805∏am∏",
 ["gr:7415:of the Wolf"] = "§aa°d1805alÄamáah°d1805á",
 ["gr:10073:of the Eagle"] = "§aa°d1805alÄam\000Üüah°d1805\000Üü",
@@ -5732,16 +5732,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6559:of the Tiger"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d1805",
 ["gr:14219:of the Whale"] = "§aa°d1805alÄam\rah°d1805\r",
 ["4655"] = "§aa¢d1806Xd1805Dal°d1805˜amÊah¢d1806Êd1805",
-["gr:9769:of Healing"] = "§aa°d1806alÄam‰ah°d1806‰",
+["14952"] = "§aa¢d1806d1805al°d1805@\\am†ah¢d1806†d1805UÔ",
 ["9941"] = "§aa¢d1806d1805al°d1805&¨am&¨ah¢d1806&¨d1805+g",
 ["15978"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N ",
 ["5471"] = "§aa¢d1806àd1805XalÄamåah¢d1806åd1805 ",
 ["gr:10242:of the Whale"] = "§aa°d1805alÄamN ah°d1805N ",
 ["14605"] = "§aa¢d1806d1805al°d1805!1am'ah¢d1806'd1805!2",
-["gr:15117:of Agility"] = "§aa¢d1806d1805alÄam0ah¢d18060d1805à",
+["gr:6560:of Stamina"] = "§aa¢d1806d1805alÄam:ah¢d1806:d1805∑",
 ["gr:9914:of Frozen Wrath"] = "§aa°d1805al°d1805\0008ah°d1805\000_èam\0008",
 ["gr:7441:of the Tiger"] = "§aa¢d1806d1805alÄamÍ_ah¢d1806Í_d1805Í_",
-["gr:6560:of Stamina"] = "§aa¢d1806d1805alÄam:ah¢d1806:d1805∑",
+["gr:15117:of Agility"] = "§aa¢d1806d1805alÄam0ah¢d18060d1805à",
 ["gr:15234:of the Eagle"] = "§aa¢d1806d1805alÄamS˚ah¢d1806S˚d1805S¸",
 ["15152"] = "§aa°d1805alÄam'ah°d1805'",
 ["1774"] = "§aa¢d1806d1805alÄam∆ah¢d1806∆d1805∆",
@@ -5751,13 +5751,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4674"] = "§aa¢d1806d1805al°d1805&am'ah¢d1806'd1805'",
 ["gr:15554:of the Eagle"] = "§aa¢d1806d1805alÄamﬂah¢d1806ﬂd1805X",
 ["6555"] = "§aa¢d1806d1805alÄam*ah¢d1806*d1805+",
-["gr:7357:of Fiery Wrath"] = "§aa°d1806alÄamW„ah°d1806W„",
+["7555"] = "§aa¢d1806d1805alÄah¢d1806:òd1805≥ am:ò",
 ["9770"] = "§aa¢d1806d1805(alÄam}ah¢d1806}d1805~",
 ["6582"] = "§aa¢d1806\nd1805alÄam\nåah¢d1806\nåd1805\r?",
 ["gr:15117:of the Wolf"] = "§aa°d1805alÄah°d1805âamâ",
 ["4582"] = "§aa¢d1806Rd1805Val°d1805óam>ah¢d1806>d1805‚",
 ["10110"] = "§aa¢d1806d1805al°d1805Ü`amõ‹ah¢d1806õ‹d1805√P",
-["gr:6546:of Power"] = "§aa°d1806alÄamúah°d1806ú",
+["gr:15495:of the Bear"] = "§aa¢d1806d1805	alÄam©ah¢d1806©d1805´",
 ["7477"] = "§aa¢d1806d1805alÄamDæah¢d1806Dæd18050‘",
 ["805"] = "§aa¢d1806d1805al°d1805˙am6ah¢d18066d1805;",
 ["4555"] = "§aa¢d1806d1805al°d1805Ûamèah¢d1806èd1805(",
@@ -5769,7 +5769,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14951:of the Bear"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:15518:of Power"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:7457:of the Tiger"] = "§aa°d1805alÄah°d1805'am'",
-["4078"] = "§aa¢d1806d1805al°d1805#âamwah¢d1806wd1805'",
+["gr:7420:of the Gorilla"] = "§aa°d1806alÄamN ah°d1806N ",
 ["gr:14129:of Frozen Wrath"] = "§aa¢d1806d1805alÄam*ah¢d1806*d1805#(",
 ["2973"] = "§aa¢d1806d1805alÄamÄah¢d1806Äd1805É",
 ["15360"] = "§aa¢d1806d1805alÄam†ah¢d1806†d1805†",
@@ -5780,7 +5780,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:4088:of Agility"] = "§aa°d1805al°d1805÷÷ah°d1805÷◊am÷÷",
 ["gr:15562:of Stamina"] = "§aa¢d1806d1805alÄamh∞ah¢d1806h∞d1805≈",
 ["7069"] = "§aa¢d1806Gd1805hal°d1805ÕamÄah¢d1806Äd1805.",
-["gr:7420:of the Gorilla"] = "§aa°d1806alÄamN ah°d1806N ",
+["4078"] = "§aa¢d1806d1805al°d1805#âamwah¢d1806wd1805'",
 ["6574"] = "§aa¢d1806	d1805al°d1805(am(ah¢d1806(d1805‘",
 ["13007"] = "§aa¢d1806d1805alÄamÍZah¢d1806ÍZd1805\000M",
 ["gr:9854:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806œd1805œamœ",
@@ -5798,22 +5798,22 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["2455"] = "§aa¢d1806–d1805˝alÄamah¢d1806d1805",
 ["gr:4570:of Spirit"] = "§aa¢d1806d1805al°d1805˙amËah¢d1806Ëd1805¸",
 ["gr:9826:of the Owl"] = "§aa¢d1806d1805al°d1805Äamáah¢d1806ád1805á",
-["8138"] = "§aa¢d1806d1805al°d1805:ïamVÕah¢d1806VÕd1805:ñ",
+["gr:14958:of the Bear"] = "§aa¢d1806d1805alÄamú?ah¢d1806ú?d1805ú@",
 ["11242"] = "§aa¢d1806d1805alÄah¢d1806ã\nd1805ã	amã\n",
 ["gr:15608:of Agility"] = "§aa°d1806alÄamú@ah°d1806ú@",
 ["3873"] = "§aa¢d1806d1805al°d1805IamFah¢d1806Fd1805L",
 ["gr:790:of Power"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805¥",
 ["gr:15230:of the Eagle"] = "§aa¢d1806d1805al°d1805<amµah¢d1806µd1805†",
-["gr:14958:of the Bear"] = "§aa¢d1806d1805alÄamú?ah¢d1806ú?d1805ú@",
+["8138"] = "§aa¢d1806d1805al°d1805:ïamVÕah¢d1806VÕd1805:ñ",
 ["gr:15232:of the Wolf"] = "§aa°d1805al°d1805^ah°d1805`am^",
 ["gr:15938:of Healing"] = "§aa¢d1806d1805alÄam\000\n4Äah¢d1806\000\n4Äd1805\000\n4Ä",
-["7474"] = "§aa¢d1806d1805al°d1805Kam|ah¢d1806|d1805L",
+["12007"] = "§aa¢d1806d1805alÄam9ah¢d18069d1805'",
 ["gr:9837:of Strength"] = "§aa°d1805alÄah°d1805{am{",
 ["gr:10238:of the Bear"] = "§aa¢d1806d1805alÄambah¢d1806bd1805~œ",
 ["2138"] = "§aa¢d1806d1805al°d1805Tamàah¢d1806àd1805Ò",
 ["8169"] = "§aa¢d1806!d1805JalÄam\rah¢d1806\rd1805",
 ["10079"] = "§aa¢d1806d1805alÄam/®ah¢d1806/®d18058§",
-["12007"] = "§aa¢d1806d1805alÄam9ah¢d18069d1805'",
+["7474"] = "§aa¢d1806d1805al°d1805Kam|ah¢d1806|d1805L",
 ["6508"] = "§aa¢d1806d1805alÄah¢d1806id1805kami",
 ["3069"] = "§aa¢d1806d1805al°d1805	ƒam3ah¢d18063d1805\nH",
 ["gr:9893:of the Owl"] = "§aa¢d1806d1805al°d1805u0am2«ah¢d18062«d1805êi",
@@ -5838,10 +5838,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["6533"] = "§aa¢d18061d1805al°d1805Damah¢d1806d1805V",
 ["gr:14167:of the Whale"] = "§aa¢d1806d1805al°d1805VamUah¢d1806Ud1805X",
 ["gr:9892:of the Monkey"] = "§aa¢d1806d1805al°d1805&≥amu0ah¢d1806u0d1805&¥",
-["12204"] = "§aa¢d1806d1805al°d1805ÜamÖah¢d1806Öd1805à",
+["gr:15494:of the Boar"] = "§aa¢d1806d1805alÄah¢d18062d1805Áam2",
 ["gr:15349:of Intellect"] = "§aa¢d1806d1805alÄam]ah¢d1806]d1805_",
 ["14159"] = "§aa¢d1806d1805\ralÄamwah¢d1806wd1805",
-["gr:15494:of the Boar"] = "§aa¢d1806d1805alÄah¢d18062d1805Áam2",
+["12204"] = "§aa¢d1806d1805al°d1805ÜamÖah¢d1806Öd1805à",
 ["gr:15641:of the Falcon"] = "§aa°d1806alÄamDåah°d1806Då",
 ["15540"] = "§aa¢d1806d1805alÄam$›ah¢d1806$›d1805X",
 ["gr:4575:of Intellect"] = "§aa°d1806alÄam:4ah°d1806:4",
@@ -5856,24 +5856,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["8395"] = "§aa¢d1806d1805al°d1805EamBah¢d1806Bd1805F",
 ["11139"] = "§aa¢d1806#d1805%alÄam>Ãah¢d1806>Ãd1805Gö",
 ["7087"] = "§aa¢d1806d1805alÄah¢d1806Õd1805¨amÕ",
-["gr:14091:of Stamina"] = "§aa°d1805alÄah°d1805©am©",
-["5187"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
+["gr:6595:of the Gorilla"] = "§aa°d1805alÄam\r†ah°d1805\r†",
+["gr:15590:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806'd1805Lam'",
 ["gr:10386:of the Bear"] = "§aa°d1805alÄah°d1805\000_éam\000_é",
 ["9873"] = "§aa¢d1806d1805al°d1805WamUah¢d1806Ud1805x",
 ["gr:6564:of Shadow Wrath"] = "§aa°d1806alÄamÿah°d1806ÿ",
 ["gr:14953:of the Eagle"] = "§aa¢d1806d1805alÄamu/ah¢d1806u/d1805u0",
 ["gr:15569:of the Bear"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805*¯",
 ["gr:15575:of the Whale"] = "§aa°d1806alÄamçah°d1806ç",
-["gr:10087:of the Eagle"] = "§aa°d1805alÄam@ah°d1805@",
-["gr:6595:of the Gorilla"] = "§aa°d1805alÄam\r†ah°d1805\r†",
-["gr:10185:of the Owl"] = "§aa°d1806alÄamu/ah°d1806u/",
-["gr:15590:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806'd1805Lam'",
-["6338"] = "§aa¢d1806'd1805al°d18059amMah¢d1806Md1805Ç",
+["gr:15540:of the Bear"] = "§aa°d1805alÄam'ah°d1805'",
+["gr:15164:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806Ç5d1805MºamÇ5",
 ["gr:15355:of the Falcon"] = "§aa°d1805alÄah°d1805LamL",
+["gr:14091:of Stamina"] = "§aa°d1805alÄah°d1805©am©",
+["6338"] = "§aa¢d1806'd1805al°d18059amMah¢d1806Md1805Ç",
+["gr:15510:of the Boar"] = "§aa°d1805al°d1805Áah°d1805kamÁ",
 ["gr:9776:of Nature's Wrath"] = "§aa¢d1806d1805alÄam?ah¢d1806?d1805	ƒ",
-["2491"] = "§aa¢d1806d1805alÄah¢d1806	Ùd1805£am	Ù",
+["gr:15485:of the Whale"] = "§aa¢d1806d1805	al°d1805ÊamEah¢d1806Ed1805I",
 ["gr:9904:of Stamina"] = "§aa°d1805alÄah°d1805=Ìam=Ì",
-["gr:9897:of the Monkey"] = "§aa°d1806alÄamN ah°d1806N ",
+["1438"] = "§aa¢d1806d1805alÄah¢d1806qd1805qamq",
 ["4338"] = "§aa¢d1806ıd18057al°d1805°amôah¢d1806ôd1805§",
 ["10312"] = "§aa¢d1806d1805alÄamÎah¢d1806Îd1805¬",
 ["gr:9774:of Frozen Wrath"] = "§aa°d1806alÄam∏ah°d1806∏",
@@ -5888,14 +5888,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15506:of the Bear"] = "§aa¢d1806d1805\ral°d1805≥amwah¢d1806wd1805n",
 ["gr:15596:of Agility"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
 ["gr:15309:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806Ñd1805ÑamÑ",
-["3308"] = "§aa¢d1806	d1805al°d1805Sam¬ah¢d1806¬d1805Y",
-["gr:15485:of the Whale"] = "§aa¢d1806d1805	al°d1805ÊamEah¢d1806Ed1805I",
+["gr:14187:of Healing"] = "§aa°d1805alÄam\nah°d1805\n",
+["gr:10185:of the Owl"] = "§aa°d1806alÄamu/ah°d1806u/",
 ["gr:15334:of the Eagle"] = "§aa¢d1806d1805alÄamTah¢d1806Td1805T",
-["gr:9886:of Power"] = "§aa°d1806alÄam6∞ah°d18066∞",
-["4072"] = "§aa¢d1806d1805al°d1805√am¬ah¢d1806¬d1805»",
+["gr:14270:of the Owl"] = "§aa°d1805al°d1805|ah°d1805aßam|",
+["gr:2073:of Power"] = "§aa¢d1806d1805al°d1805Âam∞ah¢d1806∞d1805Á",
 ["5573"] = "§aa¢d1806d1805al°d18052am ah¢d1806 d1805æ",
 ["gr:9825:of Fiery Wrath"] = "§aa°d1805al°d1805Iah°d1805JamI",
-["gr:7542:of the Whale"] = "§aa°d1805alÄamMºah°d1805Mº",
+["10546"] = "§aa¢d1806d1805%alÄamMßah¢d1806Mßd1805'j",
 ["gr:15116:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806@d1805Tam@",
 ["gr:15537:of the Bear"] = "§aa¢d1806d1805alÄam6Jah¢d18066Jd1805õ",
 ["gr:15354:of the Eagle"] = "§aa°d1806alÄam@ah°d1806@",
@@ -5904,41 +5904,41 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6552:of Power"] = "§aa°d1805alÄah°d1805pamp",
 ["7438"] = "§aa¢d1806d1805al°d1805\n€am	ƒah¢d1806	ƒd1805\n‹",
 ["gr:11995:of Strength"] = "§aa°d1806alÄam*˜ah°d1806*˜",
-["1438"] = "§aa¢d1806d1805alÄah¢d1806qd1805qamq",
-["gr:2073:of Power"] = "§aa¢d1806d1805al°d1805Âam∞ah¢d1806∞d1805Á",
+["4072"] = "§aa¢d1806d1805al°d1805√am¬ah¢d1806¬d1805»",
+["gr:15348:of Spirit"] = "§aa¢d1806d1805al°d1805ÕamÕah¢d1806Õd1805Œ",
 ["2072"] = "§aa¢d1806!d18055alÄamàah¢d1806àd1805≤",
 ["gr:15276:of Healing"] = "§aa¢d1806d1805alÄah¢d1806\000–êd1805\0004Pam\000–ê",
-["gr:14187:of Healing"] = "§aa°d1805alÄam\nah°d1805\n",
+["gr:15140:of the Falcon"] = "§aa°d1805alÄam&Òah°d1805&Ò",
 ["gr:15552:of the Bear"] = "§aa°d1805al°d1805Lah°d1805'amL",
-["10546"] = "§aa¢d1806d1805%alÄamMßah¢d1806Mßd1805'j",
+["3308"] = "§aa¢d1806	d1805al°d1805Sam¬ah¢d1806¬d1805Y",
 ["2308"] = "§aa¢d1806d1805;alÄamáah¢d1806ád1805≠",
 ["gr:6539:of the Wolf"] = "§aa°d1805alÄam=ah°d1805=",
 ["5974"] = "§aa¢d1806d1805alÄamah¢d1806d1805#",
-["gr:15140:of the Falcon"] = "§aa°d1805alÄam&Òah°d1805&Ò",
-["2966"] = "§aa¢d1806d1805alÄam¬ah¢d1806¬d1805",
+["9966"] = "§aa¢d1806d1805al°d1805*¯amixah¢d1806ixd1805N ",
+["6308"] = "§aa¢d1806d1805dal°d1805amƒah¢d1806ƒd18050",
 ["9308"] = "§aa¢d1806d1805@alÄamBah¢d1806Bd1805&",
 ["3855"] = "§aa°d1805alÄah°d1805u.amu.",
 ["gr:7108:of the Monkey"] = "§aa°d1805al°d1805~ah°d1805am~",
-["gr:9783:of the Whale"] = "§aa°d1805alÄam€ah°d1805€",
+["gr:9778:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806\n%d1805∑am\n%",
 ["7966"] = "§aa°d1805alÄah°d1805jamj",
 ["gr:1207:of Power"] = "§aa¢d1806d1805alÄam.hah¢d1806.hd18056\"",
-["9966"] = "§aa¢d1806d1805al°d1805*¯amixah¢d1806ixd1805N ",
+["gr:7542:of the Whale"] = "§aa°d1805alÄamMºah°d1805Mº",
 ["gr:9809:of Agility"] = "§aa°d1805al°d1805Lèah°d1805N amLè",
 ["5473"] = "§aa¢d1806\nd1805ìal°d1805CamAah¢d1806Ad1805D",
-["gr:9778:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806\n%d1805∑am\n%",
+["11306"] = "§aa°d1805alÄah°d18050jam0j",
 ["gr:15353:of the Owl"] = "§aa¢d1806d1805alÄamEÎah¢d1806EÎd1805ê",
 ["14899"] = "§aa¢d1806d1805alÄam2_ah¢d18062_d18052`",
 ["gr:10113:of the Eagle"] = "§aa°d1805alÄamÊ“ah°d1805Ê“",
-["11306"] = "§aa°d1805alÄah°d18050jam0j",
 ["9172"] = "§aa°d1805alÄah°d1805'am'",
-["gr:8194:of the Monkey"] = "§aa°d1805alÄamNah°d1805N",
-["2974"] = "§aa¢d1806d1805al°d1805	√am,ah¢d1806,d1805S",
+["7473"] = "§aa¢d1806d1805\nalÄamah¢d1806d1805",
 ["1974"] = "§aa¢d1806d1805al°d1805\000\"ﬁam\000IÔah¢d1806\000IÔd1805\000IÔ",
+["2974"] = "§aa¢d1806d1805al°d1805	√am,ah¢d1806,d1805S",
+["4538"] = "§aa¢d1806éd1805Mal°d1805amoah¢d1806od1805Q",
 ["gr:15115:of the Whale"] = "§aa°d1805alÄam¯ah°d1805¯",
 ["gr:14172:of the Eagle"] = "§aa°d1806alÄam0ah°d18060",
 ["3172"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
 ["gr:15562:of the Gorilla"] = "§aa°d1805alÄamàah°d1805à",
-["13886"] = "§aa°d1806alÄam.‡ah°d1806.‡",
+["7538"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:10172:of Frozen Wrath"] = "§aa¢d1806d1805al°d1805\000Ü‰am\000±ah¢d1806\000±d1805\000ÜÂ",
 ["9874"] = "§aa¢d1806d1805	alÄam'ah¢d1806'd1805'",
 ["3866"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805°",
@@ -5959,15 +5959,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15133:of the Eagle"] = "§aa°d1805al°d1805Üah°d1805áamÜ",
 ["gr:2073:of Agility"] = "§aa¢d1806\nd1805alÄah¢d1806fd1805–amf",
 ["gr:14210:of the Eagle"] = "§aa°d1805alÄam#xah°d1805#x",
-["gr:15575:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806ê$d1805ê$amê$",
+["7084"] = "§aa¢d1806d1805al°d1805	¡am	∫ah¢d1806	∫d1805	√",
 ["gr:7432:of the Eagle"] = "§aa°d1805al°d1805Fah°d1805u0amF",
 ["gr:14268:of Arcane Wrath"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:9874:of Spirit"] = "§aa°d1805alÄah°d1805'am'",
 ["10159"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
 ["6272"] = "§aa¢d1806d1805al°d1805”amŒah¢d1806Œd1805Y",
-["15976"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805|",
-["gr:15528:of Strength"] = "§aa¢d1806d1805al°d1805	ƒam\n÷ah¢d1806\n÷d1805!",
 ["gr:9831:of Intellect"] = "§aa°d1805al°d1805zah°d1805{amz",
+["gr:14109:of the Whale"] = "§aa¢d1806d1805alÄamÏah¢d1806Ïd1805Ï",
+["15976"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805|",
 ["gr:10235:of the Wolf"] = "§aa°d1805alÄah°d1805\0008Äam\0008Ä",
 ["gr:15514:of Strength"] = "§aa¢d1806d1805alÄam¿ah¢d1806¿d1805¿",
 ["15427"] = "§aa¢d1806d1805alÄamu/ah¢d1806u/d1805u/",
@@ -5975,11 +5975,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6336:of Stamina"] = "§aa°d1806alÄam‹ah°d1806‹",
 ["2493"] = "§aa¢d1806d1805alÄah¢d1806\r¨d1805\r¨am\r¨",
 ["gr:14192:of Arcane Wrath"] = "§aa°d1805alÄam&¨ah°d1805&¨",
-["gr:15331:of Stamina"] = "§aa°d1806alÄam\n&ah°d1806\n&",
+["gr:10187:of the Tiger"] = "§aa°d1805alÄah°d1805\000_lam\000_l",
 ["7108"] = "§aa¢d1806d1805alÄamåah¢d1806åd1805Ù",
 ["gr:14209:of Fiery Wrath"] = "§aa°d1805alÄah°d1805XamX",
 ["gr:15242:of Frozen Wrath"] = "§aa¢d1806d1805alÄamVah¢d1806Vd1805V",
-["gr:10187:of the Tiger"] = "§aa°d1805alÄah°d1805\000_lam\000_l",
+["gr:15331:of Stamina"] = "§aa°d1806alÄam\n&ah°d1806\n&",
 ["10193"] = "§aa°d1805alÄah°d1805\000Ü†am\000Ü†",
 ["7111"] = "§aa¢d1806d1805al°d1805ÜamgÊah¢d1806gÊd1805Á",
 ["gr:9870:of Defense"] = "§aa°d1806alÄamáah°d1806á",
@@ -5992,15 +5992,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15593:of Defense"] = "§aa°d1805alÄam3Ùah°d18053Ù",
 ["2211"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
 ["8948"] = "§aa¢d1806d1805alÄah¢d1806èd1805Ûamè",
-["gr:14313:of the Whale"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["gr:15540:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806$›d1805Xam$›",
-["4738"] = "§aa°d1805al°d1805Ôah°d1805ÒamÔ",
 ["gr:6536:of Spirit"] = "§aa°d1805al°d1805¸ah°d1805	`am¸",
-["gr:9866:of the Bear"] = "§aa°d1805al°d1805 \000ah°d1805 am \000",
-["6372"] = "§aa¢d18060d1805fal°d1805éamah¢d1806d18051",
-["gr:15535:of Power"] = "§aa°d1805alÄah°d1805ÑamÑ",
 ["gr:15374:of Agility"] = "§aa°d1805alÄama⁄ah°d1805a⁄",
 ["gr:15211:of Stamina"] = "§aa¢d1806d1805al°d1805Ëam[ah¢d1806[d1805U",
+["gr:9866:of the Bear"] = "§aa°d1805al°d1805 \000ah°d1805 am \000",
+["2738"] = "§aa¢d1806&d18058alÄam?ah¢d1806?d1805e",
+["gr:15535:of Power"] = "§aa°d1805alÄah°d1805ÑamÑ",
+["4738"] = "§aa°d1805al°d1805Ôah°d1805ÒamÔ",
+["gr:15295:of the Falcon"] = "§aa¢d1806d1805alÄah¢d1806\000Ü†d1805\0008am\000Ü†",
 ["11989"] = "§aa¢d1806d1805alÄamMÂah¢d1806MÂd1805ú?",
 ["3372"] = "§aa¢d1806Wd1805al°d1805KamDah¢d1806Dd1805q",
 ["4372"] = "§aa¢d1806d1805	alÄamAah¢d1806Ad18053ê",
@@ -6010,7 +6010,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["6608"] = "§aa¢d1806d1805al°d1805™am# ah¢d1806# d1805#$",
 ["15546"] = "§aa¢d1806d1805alÄam\"_ah¢d1806\"_d1805ÿ",
 ["gr:9966:of the Tiger"] = "§aa¢d1806d1805alÄamixah¢d1806ixd1805u0",
-["1738"] = "§aa¢d1806d1805al°d1805àamáah¢d1806ád1805â",
+["gr:9894:of Stamina"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15485:of Power"] = "§aa¢d1806d1805al°d1805¢amah¢d1806d1805",
 ["gr:2077:of the Monkey"] = "§aa¢d1806d1805alÄam#&ah¢d1806#&d1805#'",
 ["1510"] = "§aa¢d1806d1805al°d1805%am\"ah¢d1806\"d1805&",
@@ -6021,11 +6021,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9863:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806}\000d1805am}\000",
 ["gr:6573:of the Monkey"] = "§aa°d1805alÄam‰ah°d1805‰",
 ["gr:9869:of the Boar"] = "§aa°d1806alÄamah°d1806",
-["gr:10184:of Intellect"] = "§aa°d1806alÄam:òah°d1806:ò",
-["6410"] = "§aa¢d1806d1805al°d1805kam$ah¢d1806$d1805m",
 ["gr:9808:of the Monkey"] = "§aa¢d1806d1805alÄamu/ah¢d1806u/d18055◊",
+["6410"] = "§aa¢d1806d1805al°d1805kam$ah¢d1806$d1805m",
+["gr:10184:of Intellect"] = "§aa°d1806alÄam:òah°d1806:ò",
 ["gr:6601:of the Owl"] = "§aa°d1805alÄam∏ah°d1805∏",
-["15498"] = "§aa¢d1806d1805al°d1805ÁamËah¢d1806Ëd1805Ë",
+["gr:14937:of the Gorilla"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
 ["gr:2632:of Arcane Wrath"] = "§aa¢d1806d1805alÄah¢d1806Ld1805üamL",
 ["gr:6575:of the Eagle"] = "§aa°d1805al°d1805\nah°d1805Tam\n",
 ["gr:9866:of the Gorilla"] = "§aa°d1805alÄam>ah°d1805>",
@@ -6035,8 +6035,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7533:of Stamina"] = "§aa°d1806alÄamNah°d1806N",
 ["gr:14124:of Fiery Wrath"] = "§aa¢d1806d1805alÄam∑ah¢d1806∑d1805Œ",
 ["3682"] = "§aa¢d1806d1805\nal°d1805Öam~ah¢d1806~d1805%\r",
-["gr:9932:of the Falcon"] = "§aa°d1806alÄamMºah°d1806Mº",
 ["13758"] = "§aa¢d1806d1805|alÄamUah¢d1806Ud1805X",
+["gr:9932:of the Falcon"] = "§aa°d1806alÄamMºah°d1806Mº",
 ["gr:14275:of Frozen Wrath"] = "§aa°d1805alÄam\0008Äah°d1805\0008Ä",
 ["14854"] = "§aa°d1805alÄamÿÃah°d1805ÿÃ",
 ["6328"] = "§aa¢d1806d18058al°d1805ÿamùah¢d1806ùd1805ò",
@@ -6050,26 +6050,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9788:of Strength"] = "§aa¢d1806d1805alÄamËah¢d1806Ëd1805–",
 ["gr:9810:of the Eagle"] = "§aa°d1805alÄamCah°d1805C",
 ["3654"] = "§aa¢d1806d1805	al°d1805êamÛah¢d1806Ûd1805†",
-["gr:15336:of the Monkey"] = "§aa°d1805alÄah°d1805u0amu0",
 ["6787"] = "§aa¢d1806	d1805alÄah¢d1806ìd1805◊amì",
+["gr:15336:of the Monkey"] = "§aa°d1805alÄah°d1805u0amu0",
 ["gr:15479:of Strength"] = "§aa°d1805alÄam–ah°d1805–",
 ["5439"] = "§aa°d1805alÄamÊah°d1805Ê",
 ["gr:3199:of the Wolf"] = "§aa¢d1806d1805al°d1805(¥am'ah¢d1806'd18050‘",
 ["15006"] = "§aa°d1806alÄamRah°d1806R",
 ["9784"] = "§aa¢d1806d1805alÄam˝ah¢d1806˝d1805Ë",
 ["10055"] = "§aa°d1806alÄamN ah°d1806N ",
-["9428"] = "§aa¢d1806d1805alÄam\000° ah¢d1806\000° d1805\000° ",
-["3389"] = "§aa¢d1806Pd1805@al°d1805ıamßah¢d1806ßd1805«",
 ["15760"] = "§aa¢d1806d1805alÄah¢d1806√Md1805√Nam√M",
+["3389"] = "§aa¢d1806Pd1805@al°d1805ıamßah¢d1806ßd1805«",
 ["195"] = "§aa¢d1806d1805alÄah¢d1806	ƒd1805	ƒam	ƒ",
+["gr:9922:of Power"] = "§aa°d1805alÄamD\\ah°d1805D\\",
 ["gr:15427:of Stamina"] = "§aa¢d1806d1805alÄamu/ah¢d1806u/d1805u/",
 ["12835"] = "§aa¢d1806d1805alÄam\0006gah¢d1806\0006gd1805\000 I",
 ["gr:15523:of Stamina"] = "§aa¢d1806d1805alÄam eah¢d1806 ed1805 e",
 ["6428"] = "§aa¢d1806d1805al°d1805ƒamïah¢d1806ïd1805Ñ",
 ["gr:15343:of the Owl"] = "§aa¢d1806d1805alÄam\nah¢d1806\nd1805£",
-["gr:9922:of Power"] = "§aa°d1805alÄamD\\ah°d1805D\\",
+["7439"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d1805¢",
 ["gr:9765:of the Eagle"] = "§aa¢d1806d1805alÄam^ah¢d1806^d1805¬",
-["gr:12022:of the Owl"] = "§aa¢d1806d1805al°d1805Hõam@◊ah¢d1806@◊d1805Hú",
+["14264"] = "§aa¢d1806d1805al°d1805:óam:òah¢d1806:òd1805:ò",
 ["gr:15432:of the Bear"] = "§aa°d1805alÄam\000æªah°d1805\000æª",
 ["gr:7108:of the Tiger"] = "§aa°d1805alÄamN ah°d1805N ",
 ["4428"] = "§aa¢d1806d1805alÄah¢d1806Ñd1805ËamÑ",
@@ -6082,8 +6082,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9854:of the Owl"] = "§aa°d1805alÄah°d1805$èam$è",
 ["gr:7493:of Stamina"] = "§aa°d1805alÄah°d1805†am†",
 ["gr:9803:of Intellect"] = "§aa°d1805alÄam&ah°d1805&",
-["14905"] = "§aa¢d1806\nd1805alÄam3êah¢d18063êd1805Lè",
 ["gr:15225:of Strength"] = "§aa¢d1806d1805alÄah¢d1806bd1805Vamb",
+["14905"] = "§aa¢d1806\nd1805alÄam3êah¢d18063êd1805Lè",
 ["gr:9800:of the Falcon"] = "§aa¢d1806d1805alÄah¢d1806	ƒd1805	ƒam	ƒ",
 ["gr:10058:of the Owl"] = "§aa°d1805alÄamY◊ah°d1805Y◊",
 ["6454"] = "§aa¢d1806d1805al°d1805xam\000Üûah¢d1806\000Üûd1805&—",
@@ -6092,33 +6092,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14911"] = "§aa¢d1806d1805alÄamGJah¢d1806GJd1805:ò",
 ["gr:15528:of the Eagle"] = "§aa¢d1806d1805alÄam+òah¢d1806+òd1805‹",
 ["14161"] = "§aa¢d1806!d1805-alÄamúah¢d1806úd1805W",
-["gr:15372:of the Wolf"] = "§aa°d1806alÄam0”ah°d18060”",
+["gr:9790:of Agility"] = "§aa¢d1806d1805alÄam∞ah¢d1806∞d1805Ë",
 ["gr:14124:of Spirit"] = "§aa°d1806alÄamah°d1806",
 ["gr:15550:of the Boar"] = "§aa°d1806alÄam√ah°d1806√",
-["gr:9790:of Agility"] = "§aa¢d1806d1805alÄam∞ah¢d1806∞d1805Ë",
+["gr:15372:of the Wolf"] = "§aa°d1806alÄam0”ah°d18060”",
 ["gr:15520:of the Gorilla"] = "§aa°d1805al°d1805∏ah°d1805\r´am∏",
 ["8139"] = "§aa¢d1806d1805al°d18058˚am.yah¢d1806.yd18058¸",
 ["gr:6576:of the Eagle"] = "§aa°d1805alÄah°d1805–am–",
-["gr:9781:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806œd1805§amœ",
-["15264"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805Í`",
 ["gr:1613:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806√Od1805ãam√O",
-["10175"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
-["gr:14184:of Arcane Wrath"] = "§aa°d1805al°d1805	√ah°d1805àam	√",
+["15264"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805Í`",
 ["14272"] = "§aa¢d1806d1805al°d1805'am#(ah¢d1806#(d1805N ",
+["10175"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
+["8128"] = "§aa°d1805alÄam4Kah°d18054K",
+["gr:9781:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806œd1805§amœ",
 ["gr:9780:of the Owl"] = "§aa°d1805alÄah°d1805laml",
-["gr:15134:of the Whale"] = "§aa°d1805alÄamHDah°d1805HD",
-["2454"] = "§aa¢d1806∑d1805Wal°d1805«am?ah¢d1806?d1805–",
+["gr:15350:of the Whale"] = "§aa¢d1806d1805alÄamÜah¢d1806Üd1805Ü",
+["gr:10165:of the Monkey"] = "§aa°d1806alÄamu.ah°d1806u.",
 ["gr:15486:of the Monkey"] = "§aa¢d1806d1805al°d1805xamXah¢d1806Xd1805y",
 ["gr:7457:of the Whale"] = "§aa°d1805alÄah°d1805ÇamÇ",
 ["gr:7436:of the Eagle"] = "§aa°d1805alÄam#&ah°d1805#&",
-["2244"] = "§aa°d1805alÄah°d1805\000c.†am\000c.†",
-["gr:15350:of the Whale"] = "§aa¢d1806d1805alÄamÜah¢d1806Üd1805Ü",
+["6239"] = "§aa°d1805alÄah°d1805∏am∏",
+["14973"] = "§aa°d1805alÄam\0008Äah°d1805\0008Ä",
 ["1454"] = "§aa¢d1806d1805alÄam\000A|ah¢d1806\000A|d1805\000‡T",
-["gr:10165:of the Monkey"] = "§aa°d1806alÄamu.ah°d1806u.",
+["2454"] = "§aa¢d1806∑d1805Wal°d1805«am?ah¢d1806?d1805–",
 ["gr:15365:of Defense"] = "§aa°d1805alÄah°d1805%:am%:",
 ["gr:15343:of Spirit"] = "§aa°d1805alÄah°d1805∑am∑",
 ["3239"] = "§aa¢d1806d1805Ial°d1805MamKah¢d1806Kd1805`",
-["6239"] = "§aa°d1805alÄah°d1805∏am∏",
+["gr:7108:of Stamina"] = "§aa°d1806alÄam1ah°d18061",
 ["gr:1994:of the Boar"] = "§aa°d1805alÄamN ah°d1805N ",
 ["14498"] = "§aa¢d1806d1805alÄah¢d1806√Od1805√Oam√O",
 ["gr:10127:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806cˇd1805cˇamcˇ",
@@ -6139,10 +6139,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4289"] = "§aa¢d1806}d1805?al°d1805»amdah¢d1806dd1805",
 ["gr:15117:of the Monkey"] = "§aa¢d1806d1805al°d1805ØamWah¢d1806Wd1805Fm",
 ["gr:6266:of the Whale"] = "§aa¢d1806d1805al°d1805XamÛah¢d1806Ûd1805Å",
-["12987"] = "§aa¢d1806d1805al°d1805Íƒam√Pah¢d1806√Pd1805\0008Ä",
-["gr:9794:of Shadow Wrath"] = "§aa°d1805alÄam‚ah°d1805‚",
-["gr:14173:of Healing"] = "§aa¢d1806d1805al°d1805∑am	ƒah¢d1806	ƒd18050”",
+["gr:15308:of the Falcon"] = "§aa°d1805alÄam8ah°d18058",
 ["gr:9824:of Intellect"] = "§aa°d1805alÄah°d1805†am†",
+["gr:14173:of Healing"] = "§aa¢d1806d1805al°d1805∑am	ƒah¢d1806	ƒd18050”",
+["gr:9794:of Shadow Wrath"] = "§aa°d1805alÄam‚ah°d1805‚",
 ["gr:14120:of the Whale"] = "§aa¢d1806d1805al°d1805‹am‹ah¢d1806‹d1805Œ",
 ["gr:3193:of the Bear"] = "§aa¢d1806d1805al°d1805†amüah¢d1806üd1805ì",
 ["gr:9942:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806\000d1805\000am\000",
@@ -6205,8 +6205,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["12997"] = "§aa¢d1806d1805\ral°d18059{am'sah¢d1806'sd18059Ä",
 ["gr:9807:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806Xd1805∏amX",
 ["21153"] = "§aa¢d1806‹d1805pal°d1805ÎamÎah¢d1806Îd1805Ì",
-["gr:7493:of Agility"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:9772:of Spirit"] = "§aa¢d1806d1805al°d1805amòah¢d1806òd1805œ",
+["gr:7493:of Agility"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15010:of Agility"] = "§aa°d1805al°d1805xah°d1805\000_êamx",
 ["6044"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805%‡",
 ["gr:15133:of the Owl"] = "§aa¢d1806d1805al°d1805%‰ampah¢d1806pd1805&´",
@@ -6233,13 +6233,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10060:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806ú@d1805<√amú@",
 ["gr:14262:of the Whale"] = "§aa°d1805alÄah°d1805'«am'«",
 ["8172"] = "§aa¢d18069d18051alÄah¢d1806˙d1805xam˙",
-["gr:15531:of the Gorilla"] = "§aa¢d1806d1805alÄam#'ah¢d1806#'d1805#'",
+["gr:14206:of Intellect"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:9803:of Agility"] = "§aa¢d1806d1805al°d1805àamÖah¢d1806Öd1805}",
 ["gr:7418:of the Bear"] = "§aa¢d1806	d1805al°d1805!3am#Åah¢d1806#Åd1805#Ö",
 ["9144"] = "§aa¢d1806/d1805+al°d1805ôam˘ah¢d1806˘d1805ö",
 ["gr:4566:of Healing"] = "§aa°d1805alÄah°d1805ÊamÊ",
 ["gr:5215:of Stamina"] = "§aa°d1805alÄamN ah°d1805N ",
-["gr:14206:of Intellect"] = "§aa°d1806alÄam'ah°d1806'",
+["gr:15531:of the Gorilla"] = "§aa¢d1806d1805alÄam#'ah¢d1806#'d1805#'",
 ["gr:6563:of Arcane Wrath"] = "§aa°d1805alÄamlah°d1805l",
 ["gr:10233:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805u0am√P",
 ["gr:7417:of the Bear"] = "§aa¢d1806d1805	al°d1805¿am&¨ah¢d1806&¨d1805?",
@@ -6264,16 +6264,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["10560"] = "§aa¢d18061d1805JalÄam\ntah¢d1806\ntd1805\nv",
 ["2645"] = "§aa¢d1806d1805alÄamÒah¢d1806Òd1805R",
 ["13759"] = "§aa¢d1806#d1805åalÄamåah¢d1806åd1805ì",
-["15541"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805π",
 ["gr:15330:of the Owl"] = "§aa°d1805al°d1805ah°d1805àam",
-["gr:14184:of the Owl"] = "§aa°d1805al°d1805'ah°d1805+gam'",
+["15541"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805π",
+["13461"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:14189:of the Eagle"] = "§aa¢d1806d1805al°d1805\000Zﬁam÷ÿah¢d1806÷ÿd1805\000Z‡",
 ["gr:15515:of the Eagle"] = "§aa¢d1806d1805al°d1805‹amœah¢d1806œd1805–",
-["gr:14311:of Intellect"] = "§aa°d1805al°d1805Nah°d1805˚TamN",
-["3489"] = "§aa¢d1806d1805\nal°d1805Lamah¢d1806d1805Ü",
-["15532"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
-["gr:10072:of Spirit"] = "§aa°d1805alÄamú=ah°d1805ú=",
 ["gr:14242:of the Owl"] = "§aa°d1806alÄam'ah°d1806'",
+["3489"] = "§aa¢d1806d1805\nal°d1805Lamah¢d1806d1805Ü",
+["gr:14311:of Intellect"] = "§aa°d1805al°d1805Nah°d1805˚TamN",
+["gr:10072:of Spirit"] = "§aa°d1805alÄamú=ah°d1805ú=",
+["15532"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
 ["gr:15628:of the Wolf"] = "§aa°d1806alÄamcúah°d1806cú",
 ["gr:9818:of the Boar"] = "§aa°d1805alÄamLah°d1805L",
 ["gr:9872:of the Monkey"] = "§aa°d1806alÄam&¨ah°d1806&¨",
@@ -6291,7 +6291,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["5574"] = "§aa¢d1806d1805al°d1805DamËah¢d1806Ëd1805œ",
 ["gr:6563:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806ld1805laml",
 ["gr:15552:of the Gorilla"] = "§aa°d1805alÄah°d1805LamL",
-["864"] = "§aa¢d1806d1805al°d1805/úam-\rah¢d1806-\rd18053",
+["gr:14174:of Spirit"] = "§aa¢d1806d1805al°d1805'amËah¢d1806Ëd1805\000I",
 ["10513"] = "§aa°d1806[alÄam*ah°d1806*",
 ["154"] = "§aa¢d1806d1805alÄamÇah¢d1806Çd1805Ç",
 ["2947"] = "§aa¢d1806Ëd1805ËalÄamah¢d1806d1805",
@@ -6342,7 +6342,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["10278"] = "§aa°d1805alÄam_¥ah°d1805_¥",
 ["2034"] = "§aa¢d1806d1805alÄam	√ah¢d1806	√d1805∂",
 ["gr:15112:of Power"] = "§aa°d1806alÄam∑ah°d1806∑",
-["15611"] = "§aa¢d1806d1805alÄam&´ah¢d1806&´d1805*¯",
+["gr:10194:of the Whale"] = "§aa°d1805alÄamN ah°d1805N ",
 ["15371"] = "§aa¢d1806d1805alÄah¢d1806'd1805Mam'",
 ["gr:14945:of Strength"] = "§aa¢d1806d1805alÄah¢d1806Nd1805NamN",
 ["gr:6597:of the Gorilla"] = "§aa¢d1806d1805al°d1805damüah¢d1806üd1805ª",
@@ -6365,7 +6365,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15974:of the Eagle"] = "§aa¢d1806d1805al°d1805\r¯am\r´ah¢d1806\r´d1805\r˙",
 ["gr:15488:of the Boar"] = "§aa°d1805alÄah°d1805\n&am\n&",
 ["14216"] = "§aa°d1805alÄah°d1805u.amu.",
-["gr:1625:of the Monkey"] = "§aa°d1805alÄamÖah°d1805Ö",
+["gr:9827:of the Falcon"] = "§aa°d1805alÄam∏ah°d1805∏",
 ["9928"] = "§aa°d1805al°d1805'ah°d1805Nam'",
 ["gr:14983:of Stamina"] = "§aa°d1805alÄah°d1805\000yXam\000yX",
 ["3928"] = "§aa¢d1806‰d1805Dal°d1805Lamah¢d1806d1805∏",
@@ -6389,8 +6389,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["6947"] = "§aa¢d1806õd1805al°d1805PamKah¢d1806Kd1805b",
 ["754"] = "§aa°d1805alÄah°d1805£™am£™",
 ["4541"] = "§aa°d1806alÄam-ah°d1806-",
-["gr:7447:of Agility"] = "§aa°d1805alÄah°d1805am",
 ["gr:14167:of Stamina"] = "§aa°d1806alÄam–ah°d1806–",
+["gr:7447:of Agility"] = "§aa°d1805alÄah°d1805am",
 ["2924"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
 ["gr:14255:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806u0d1805±≤amu0",
 ["gr:15348:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806†d1805\rDam†",
@@ -6407,7 +6407,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7355:of the Owl"] = "§aa°d1805alÄah°d1805≥am≥",
 ["13081"] = "§aa¢d1806d1805	al°d18057ºam:òah¢d1806:òd1805RÕ",
 ["gr:15549:of Strength"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
-["13055"] = "§aa¢d1806d1805al°d1805\000kam\000Û˛ah¢d1806\000Û˛d1805\000l",
+["gr:15018:of Agility"] = "§aa¢d1806d1805al°d1805<am\r¨ah¢d1806\r¨d1805Ö",
 ["gr:12024:of the Eagle"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["7081"] = "§aa¢d1806Ad1805Ial°d1805\namah¢d1806d1805\nA",
 ["gr:9879:of Fiery Wrath"] = "§aa¢d1806d1805alÄam“ah¢d1806“d1805)_",
@@ -6445,9 +6445,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4777"] = "§aa¢d1806d1805alÄah¢d1806%‚d1805%‚am%‚",
 ["2105"] = "§aa¢d1806d1805alÄam_¥ah¢d1806_¥d1805tg",
 ["4694"] = "§aa¢d1806d1805alÄam‘ah¢d1806‘d1805j",
-["8839"] = "§aa¢d1806∆d18057al°d1805Uam\nah¢d1806\nd1805°",
-["9839"] = "§aa¢d1806\nd1805alÄamüah¢d1806üd1805–",
 ["gr:7534:of the Owl"] = "§aa°d1805alÄam<åah°d1805<å",
+["9839"] = "§aa¢d1806\nd1805alÄamüah¢d1806üd1805–",
+["8839"] = "§aa¢d1806∆d18057al°d1805Uam\nah¢d1806\nd1805°",
 ["gr:14202:of the Eagle"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:9773:of the Owl"] = "§aa¢d1806d1805alÄam\r¨ah¢d1806\r¨d1805€",
 ["gr:15592:of the Owl"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805ú@",
@@ -6463,7 +6463,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["15596"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
 ["gr:15363:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
 ["gr:15349:of the Eagle"] = "§aa°d1805alÄah°d1805˚am˚",
-["15727"] = "§aa¢d1806d1805al°d1805&4amùah¢d1806ùd1805&5",
+["gr:11975:of Fire Resistance"] = "§aa°d1805alÄam\000° ah°d1805\000° ",
 ["gr:7430:of the Eagle"] = "§aa°d1805alÄah°d1805t¡amt¡",
 ["6539"] = "§aa¢d1806d1805al°d1805Ëam\nah¢d1806\nd1805≥",
 ["gr:10194:of Arcane Wrath"] = "§aa°d1805alÄam'ah°d1805'",
@@ -6472,7 +6472,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7474:of the Owl"] = "§aa°d1805al°d1805Kah°d1805LamK",
 ["2075"] = "§aa¢d1806'd18054alÄam¬ah¢d1806¬d1805A",
 ["11081"] = "§aa¢d1806d1805al°d1805Çam%ah¢d1806%d1805á",
-["gr:11975:of Fire Resistance"] = "§aa°d1805alÄam\000° ah°d1805\000° ",
+["15727"] = "§aa¢d1806d1805al°d1805&4amùah¢d1806ùd1805&5",
 ["11611"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["15156"] = "§aa¢d1806\nd1805alÄam:4ah¢d1806:4d1805>~",
 ["7539"] = "§aa°d1805al°d1805Mºah°d1805u0amMº",
@@ -6497,10 +6497,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15523:of the Bear"] = "§aa¢d1806d1805alÄam ah¢d1806 d1805 ",
 ["gr:9779:of Healing"] = "§aa¢d1806d1805alÄah¢d1806Èd1805€amÈ",
 ["15503"] = "§aa¢d1806\nd1805alÄamúah¢d1806úd1805ú",
-["gr:6565:of the Whale"] = "§aa¢d1806d1805al°d1805∑amcah¢d1806cd1805\r¨",
+["16737"] = "§aa°d1806alÄam\000ºPah°d1806\000ºP",
 ["gr:864:of the Monkey"] = "§aa¢d1806d1805al°d1805/úam-\rah¢d1806-\rd18053",
-["1639"] = "§aa¢d1806d1805al°d1805ú>amú@ah¢d1806ú@d1805ú?",
 ["12055"] = "§aa¢d1806d1805alÄameéah¢d1806eéd1805≠¸",
+["1639"] = "§aa¢d1806d1805al°d1805ú>amú@ah¢d1806ú@d1805ú?",
 ["gr:15579:of the Tiger"] = "§aa°d1806alÄamÙah°d1806Ù",
 ["gr:15329:of Arcane Wrath"] = "§aa°d1806alÄam0ah°d18060",
 ["4639"] = "§aa¢d1806d1805al°d1805íamPah¢d1806Pd1805î",
@@ -6517,15 +6517,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15578:of Agility"] = "§aa°d1806alÄam:ïah°d1806:ï",
 ["gr:15132:of the Whale"] = "§aa°d1805alÄam	ƒah°d1805	ƒ",
 ["gr:14268:of Healing"] = "§aa¢d1806d1805alÄah¢d1806ì§d1805ì¶amì§",
-["14320"] = "§aa°d1805alÄamMºah°d1805Mº",
+["gr:7474:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805NamNah¢d1806Nd1805N",
 ["gr:12046:of Eluding"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805\000[8",
 ["15601"] = "§aa°d1805alÄamú@ah°d1805ú@",
 ["gr:15603:of the Falcon"] = "§aa°d1805alÄam:óah°d1805:ó",
-["gr:7474:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805NamNah¢d1806Nd1805N",
 ["gr:15211:of the Bear"] = "§aa¢d1806d1805al°d1805†am<ah¢d1806<d1805",
-["gr:14276:of Intellect"] = "§aa°d1805alÄam'ah°d1805'",
+["14320"] = "§aa°d1805alÄamMºah°d1805Mº",
+["3575"] = "§aa¢d1806èd1805al°d1805éamwah¢d1806wd1805®",
 ["gr:14161:of Stamina"] = "§aa¢d1806d1805al°d1805amúah¢d1806úd1805d",
-["gr:15391:of the Owl"] = "§aa°d1806alÄamú@ah°d1806ú@",
+["gr:14276:of Intellect"] = "§aa°d1805alÄam'ah°d1805'",
 ["2575"] = "§aa¢d1806d1805alÄam?ah¢d1806?d1805w",
 ["12820"] = "§aa¢d18065d1805/al°d1805åamzah¢d1806zd1805\rÚ",
 ["15846"] = "§aa¢d1806\nd1805al°d1805‡õamú?ah¢d1806ú?d1805\000oµ",
@@ -6538,7 +6538,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15014:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806ºd1805damº",
 ["7992"] = "§aa°d1805al°d1805	©ah°d1805	Øam	©",
 ["gr:14260:of Healing"] = "§aa°d1805alÄah°d1805@çam@ç",
-["17056"] = "§aa¢d1806ºd1805Éal°d1805\ramah¢d1806d1805",
+["gr:10225:of the Monkey"] = "§aa¢d1806d1805al°d1805√Oam\000_,ah¢d1806\000_,d1805√P",
 ["1822"] = "§aa¢d1806d1805alÄah¢d1806´d1805≠am´",
 ["gr:15016:of the Eagle"] = "§aa°d1805alÄah°d1805€am€",
 ["10210"] = "§aa¢d1806d1805alÄam\000Iah¢d1806\000Id1805u0",
@@ -6554,31 +6554,31 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15611:of Intellect"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:9862:of Spirit"] = "§aa¢d1806d1805alÄamÎah¢d1806Îd1805'",
 ["15603"] = "§aa¢d1806d1805alÄamú=ah¢d1806ú=d1805N ",
-["gr:9812:of Defense"] = "§aa¢d1806d1805al°d1805¢amah¢d1806d1805£",
-["6575"] = "§aa¢d1806d1805al°d1805KamJah¢d1806Jd1805L",
+["15351"] = "§aa¢d1806d1805al°d1805 am>ah¢d1806>d1805	ƒ",
+["gr:9828:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806{d1805'am{",
 ["12704"] = "§aa¢d1806d1805al°d1805uamuah¢d1806ud1805u",
 ["14574"] = "§aa¢d1806d1805	al°d1805amah¢d1806d1805Ü",
 ["gr:15136:of Intellect"] = "§aa°d1806alÄam\nah°d1806\n",
 ["gr:15185:of the Owl"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:14266:of the Whale"] = "§aa°d1805alÄah°d1805:òam:ò",
-["gr:9828:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806{d1805'am{",
-["2892"] = "§aa°d1805alÄam‹ah°d1805‹",
+["6575"] = "§aa¢d1806d1805al°d1805KamJah¢d1806Jd1805L",
+["gr:6587:of the Bear"] = "§aa°d1805alÄah°d1805&0am&0",
 ["gr:15543:of the Monkey"] = "§aa°d1805alÄah°d1805-Oam-O",
 ["11205"] = "§aa¢d1806d1805	al°d1805.amWah¢d1806Wd1805.",
 ["gr:15559:of the Bear"] = "§aa°d1805al°d1805Üah°d1805ÑamÜ",
 ["gr:4567:of Strength"] = "§aa¢d1806d1805al°d1805‹am?ah¢d1806?d1805",
 ["9485"] = "§aa°d1805alÄamÍ_ah°d1805Í_",
 ["gr:9921:of Intellect"] = "§aa°d1805alÄamDZah°d1805DZ",
-["gr:15249:of the Tiger"] = "§aa¢d1806d1805al°d1805˜am9ah¢d18069d1805",
-["gr:12034:of Spirit"] = "§aa°d1805alÄah°d1805c¸amc¸",
 ["gr:15506:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806d18053am",
+["gr:12034:of Spirit"] = "§aa°d1805alÄah°d1805c¸amc¸",
+["gr:15249:of the Tiger"] = "§aa¢d1806d1805al°d1805˜am9ah¢d18069d1805",
 ["7922"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15513:of the Tiger"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:9899:of the Tiger"] = "§aa°d1805al°d1805.‡ah°d1805:ñam.‡",
 ["gr:6542:of Spirit"] = "§aa°d1806alÄamîah°d1806î",
-["5237"] = "§aa¢d1806d1805alÄamƒah¢d1806ƒd1805ƒ",
 ["15612"] = "§aa¢d1806d1805alÄam@ah¢d1806@d1805&¨",
-["4237"] = "§aa¢d1806	d1805al°d1805*am)ah¢d1806)d1805Ú",
+["5237"] = "§aa¢d1806d1805alÄamƒah¢d1806ƒd1805ƒ",
+["gr:14195:of the Owl"] = "§aa°d1805alÄah°d1805#am#",
 ["gr:14910:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806<ãd1805<ãam<ã",
 ["gr:11972:of Nature Resistance"] = "§aa¢d1806d1805al°d1805:¯amNah¢d1806Nd1805:˘",
 ["gr:14205:of the Whale"] = "§aa°d1805alÄam0ah°d18050",
@@ -6586,16 +6586,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:5215:of the Eagle"] = "§aa°d1805al°d1805\000pah°d1805\000IÔam\000p",
 ["15144"] = "§aa¢d1806d1805alÄam>ah¢d1806>d1805Ã",
 ["gr:9917:of Spirit"] = "§aa°d1806alÄamFOah°d1806FO",
-["gr:9776:of the Eagle"] = "§aa¢d1806d1805alÄam	]ah¢d1806	]d1805ø",
 ["14491"] = "§aa¢d1806d1805alÄam√Lah¢d1806√Ld1805u+",
-["15574"] = "§aa°d1805alÄam&¨ah°d1805&¨",
+["gr:9776:of the Eagle"] = "§aa¢d1806d1805alÄam	]ah¢d1806	]d1805ø",
+["2163"] = "§aa¢d1806d1805alÄam\000\\ah¢d1806\000\\d1805\000\\",
 ["gr:14166:of Healing"] = "§aa°d1805alÄamˆah°d1805ˆ",
 ["13495"] = "§aa¢d1806d1805alÄah¢d1806\000Ü†d1805ÍXam\000Ü†",
 ["gr:15526:of the Gorilla"] = "§aa¢d1806d1805alÄam\n\"ah¢d1806\n\"d1805\n#",
 ["gr:14264:of the Whale"] = "§aa°d1806alÄam<Ôah°d1806<Ô",
-["gr:9903:of the Bear"] = "§aa°d1805alÄamM±ah°d1805M±",
-["1992"] = "§aa¢d1806d1805alÄam\000'`ah¢d1806\000'`d1805\0008Ä",
 ["2992"] = "§aa¢d1806d1805	alÄamah¢d1806d1805",
+["1992"] = "§aa¢d1806d1805alÄam\000'`ah¢d1806\000'`d1805\0008Ä",
+["gr:9903:of the Bear"] = "§aa°d1805alÄamM±ah°d1805M±",
 ["gr:6540:of the Whale"] = "§aa¢d1806d1805alÄamah¢d1806d1805?",
 ["gr:10404:of Healing"] = "§aa°d1805al°d1805ah°d1805am",
 ["gr:9794:of Intellect"] = "§aa°d1805alÄah°d1805\r&am\r&",
@@ -6604,15 +6604,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["15473"] = "§aa¢d1806d1805al°d1805Ûam\r¨ah¢d1806\r¨d1805Ù",
 ["gr:15187:of Defense"] = "§aa°d1805alÄamNah°d1805N",
 ["4063"] = "§aa°d1805	al°d1805Ñah°d1805™amÑ",
-["gr:6599:of the Bear"] = "§aa°d1806alÄam<ãah°d1806<ã",
+["gr:6553:of the Falcon"] = "§aa°d1806alÄamah°d1806",
 ["gr:9774:of the Owl"] = "§aa¢d1806d1805alÄamlah¢d1806ld1805ñ",
 ["gr:15427:of the Monkey"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["gr:9748:of Shadow Wrath"] = "§aa°d1806alÄam|ah°d1806|",
 ["gr:7462:of the Monkey"] = "§aa°d1805alÄam»ah°d1805»",
-["gr:6553:of the Falcon"] = "§aa°d1806alÄamah°d1806",
+["gr:6599:of the Bear"] = "§aa°d1806alÄam<ãah°d1806<ã",
 ["gr:9900:of the Whale"] = "§aa°d1805alÄamxah°d1805x",
 ["gr:7457:of Strength"] = "§aa¢d1806d1805alÄamÎah¢d1806Îd1805<",
-["gr:15312:of Spirit"] = "§aa¢d1806d1805al°d1805Aam@ah¢d1806@d1805B",
+["gr:7422:of the Bear"] = "§aa¢d1806d1805al°d1805\ramÙah¢d1806Ùd1805Ü",
 ["gr:9911:of Healing"] = "§aa°d1805alÄamBhah°d1805Bh",
 ["gr:15243:of Frozen Wrath"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
 ["gr:9962:of the Owl"] = "§aa¢d1806d1805al°d18054ºam4ºah¢d18064ºd1805bò",
@@ -6627,13 +6627,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:11970:of Shadow Resistance"] = "§aa¢d1806d1805alÄamØah¢d1806Ød18050",
 ["15303"] = "§aa¢d1806'd18053alÄamÚah¢d1806Úd1805Ú",
 ["gr:6564:of the Owl"] = "§aa¢d1806d1805al°d1805Áamôah¢d1806ôd1805™",
-["3363"] = "§aa°d1805alÄah°d1805damd",
+["6037"] = "§aa¢d1806@d1805•al°d1805^am\n}ah¢d1806\n}d1805u",
 ["3037"] = "§aa¢d1806\nd1805alÄamÕah¢d1806Õd1805◊",
 ["7363"] = "§aa¢d1806d1805al°d1805ıamóah¢d1806ód1805	¿",
 ["gr:9775:of the Boar"] = "§aa°d1805alÄamLah°d1805L",
-["gr:14180:of Stamina"] = "§aa°d1805alÄamıah°d1805ı",
+["15263"] = "§aa¢d1806d1805al°d1805†óamç÷ah¢d1806ç÷d1805\000p",
 ["4363"] = "§aa¢d1806pd1805‰al°d1805&amah¢d1806d1805T",
-["6037"] = "§aa¢d1806@d1805•al°d1805^am\n}ah¢d1806\n}d1805u",
+["3363"] = "§aa°d1805alÄah°d1805damd",
 ["gr:14247:of Frozen Wrath"] = "§aa°d1805alÄam]øah°d1805]ø",
 ["9892"] = "§aa¢d1806d1805alÄamàah¢d1806àd1805ò",
 ["gr:6604:of Intellect"] = "§aa°d1805alÄamöah°d1805ö",
@@ -6692,7 +6692,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["414"] = "§aa¢d1806d1805\ral°d1805amah¢d1806d1805",
 ["7492"] = "§aa¢d1806d1805alÄambah¢d1806bd1805$",
 ["gr:10166:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806u0d1805u0amu0",
-["gr:6611:of Healing"] = "§aa¢d1806d1805alÄam†ah¢d1806†d1805F",
+["gr:7330:of the Bear"] = "§aa°d1806alÄamcah°d1806c",
 ["gr:15935:of the Owl"] = "§aa¢d1806d1805alÄam”ah¢d1806”d18057",
 ["14489"] = "§aa¢d1806d1805alÄam8gah¢d18068gd18058k",
 ["gr:15230:of Strength"] = "§aa°d1806alÄamáah°d1806á",
@@ -6710,9 +6710,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9852:of Stamina"] = "§aa°d1806alÄamLah°d1806L",
 ["gr:9798:of Intellect"] = "§aa°d1806alÄam'ah°d1806'",
 ["6295"] = "§aa¢d1806d1805al°d1805™am©ah¢d1806©d18058",
-["gr:9792:of the Owl"] = "§aa¢d1806d1805al°d1805ûam\nåah¢d1806\nåd1805p",
-["gr:14247:of the Owl"] = "§aa¢d1806d1805alÄamcah¢d1806cd1805\"¿",
 ["gr:12527:of the Boar"] = "§aa°d1806alÄam\000dpah°d1806\000dp",
+["gr:14247:of the Owl"] = "§aa¢d1806d1805alÄamcah¢d1806cd1805\"¿",
+["gr:9794:of the Eagle"] = "§aa°d1805alÄah°d1805&Gam&G",
 ["14304"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N",
 ["gr:7458:of the Whale"] = "§aa¢d1806d1805alÄamæah¢d1806æd1805¿",
 ["9897"] = "§aa¢d1806d1805alÄamD[ah¢d1806D[d1805D\\",
@@ -6724,14 +6724,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["15182"] = "§aa°d1805alÄam√Pah°d1805√P",
 ["6592"] = "§aa¢d1806\rd1805alÄam∏ah¢d1806∏d1805∏",
 ["gr:7407:of the Monkey"] = "§aa°d1805alÄah°d1805ãamã",
-["14562"] = "§aa¢d1806\nd1805\ral°d1805#Éamµah¢d1806µd1805'",
+["gr:15111:of Stamina"] = "§aa°d1805alÄamÇah°d1805Ç",
 ["13489"] = "§aa¢d1806d1805al°d1805\000\\Üam\000ÁUah¢d1806\000ÁUd1805\000\\á",
 ["14723"] = "§aa¢d1806$d1805\"al°d1805%amWah¢d1806Wd1805µ",
 ["9792"] = "§aa¢d1806	d1805al°d1805€am⁄ah¢d1806⁄d1805‹",
-["gr:15111:of Stamina"] = "§aa°d1805alÄamÇah°d1805Ç",
 ["gr:9773:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806&™d1805pam&™",
-["2622"] = "§aa¢d1806d1805alÄah¢d1806'd1805!/am'",
 ["gr:15545:of the Bear"] = "§aa¢d1806d1805al°d1805¸amoah¢d1806od1805~",
+["2622"] = "§aa¢d1806d1805alÄah¢d1806'd1805!/am'",
+["14562"] = "§aa¢d1806\nd1805\ral°d1805#Éamµah¢d1806µd1805'",
 ["gr:15187:of Agility"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:15514:of the Bear"] = "§aa¢d1806	d1805alÄam#ah¢d1806#d1805o",
 ["gr:14117:of Spirit"] = "§aa¢d1806d1805al°d1805—amœah¢d1806œd1805“",
@@ -6742,12 +6742,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["6337"] = "§aa¢d1806d1805alÄam¬ah¢d1806¬d1805o",
 ["gr:9971:of the Bear"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805N ",
 ["gr:6603:of the Falcon"] = "§aa°d1805alÄam¿ah°d1805¿",
-["gr:15498:of the Gorilla"] = "§aa¢d1806d1805al°d1805ØamËah¢d1806Ëd1805∞",
 ["15631"] = "§aa°d1806alÄamu0ah°d1806u0",
+["gr:15498:of the Gorilla"] = "§aa¢d1806d1805al°d1805ØamËah¢d1806Ëd1805∞",
 ["gr:14173:of Fiery Wrath"] = "§aa°d1805alÄam†ah°d1805†",
-["gr:15268:of the Eagle"] = "§aa¢d1806d1805\nal°d1805\ram…ah¢d1806…d1805",
+["6475"] = "§aa¢d1806d1805al°d1805améah¢d1806éd1805",
 ["9835"] = "§aa¢d1806d1805alÄamˇah¢d1806ˇd1805o",
-["14755"] = "§aa¢d1806d1805alÄam∂ah¢d1806∂d1805ë",
+["gr:15268:of the Eagle"] = "§aa¢d1806d1805\nal°d1805\ram…ah¢d1806…d1805",
 ["gr:9764:of the Gorilla"] = "§aa°d1805alÄah°d1805ËamË",
 ["2692"] = "§aa¢d18061d1805Ual°d1805am’ah¢d1806’d1805",
 ["gr:5215:of the Gorilla"] = "§aa¢d1806d1805alÄamBIah¢d1806BId1805BH",
@@ -6757,7 +6757,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["3369"] = "§aa¢d1806;d1805◊al°d1805çam»ah¢d1806»d1805˝",
 ["4692"] = "§aa¢d1806d1805alÄambah¢d1806bd1805Ï",
 ["7482"] = "§aa¢d1806d1805	al°d1805#'am∆ah¢d1806∆d1805#(",
-["gr:15593:of the Tiger"] = "§aa°d1806alÄamNah°d1806N",
+["814"] = "§aa¢d1806:d1805Äal°d1805.amah¢d1806d1805K",
 ["gr:7519:of Spirit"] = "§aa¢d1806d1805al°d1805pÄamIpah¢d1806Ipd1805u0",
 ["14265"] = "§aa°d1805alÄamú@ah°d1805ú@",
 ["gr:9828:of the Owl"] = "§aa¢d1806d1805al°d1805EamCah¢d1806Cd1805G",
@@ -6787,11 +6787,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15616:of the Eagle"] = "§aa°d1805alÄam√Oah°d1805√O",
 ["15533"] = "§aa¢d1806d1805alÄam\000Ü†ah¢d1806\000Ü†d1805\"Æ",
 ["4792"] = "§aa¢d1806d1805al°d1805˜am¯ah¢d1806¯d1805¯",
-["gr:9756:of Agility"] = "§aa°d1805alÄamkah°d1805k",
+["10195"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["4022"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:6565:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806\nÔd1805$am\nÔ",
 ["7282"] = "§aa¢d1806d1805,al°d1805°amáah¢d1806ád1805Æ",
-["10195"] = "§aa°d1806alÄam√Pah°d1806√P",
+["gr:9756:of Agility"] = "§aa°d1805alÄamkah°d1805k",
 ["gr:6266:of the Owl"] = "§aa¢d1806d1805al°d1805êamLah¢d1806Ld1805+",
 ["gr:15269:of the Tiger"] = "§aa¢d1806d1805al°d1805ﬂaméOah¢d1806éOd1805éP",
 ["3282"] = "§aa¢d1806d1805alÄamöah¢d1806öd1805S",
@@ -6810,8 +6810,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["1722"] = "§aa¢d1806d1805al°d1805Í`am‡Áah¢d1806‡Ád1805\000p",
 ["gr:9875:of the Whale"] = "§aa¢d1806d1805alÄam—ah¢d1806—d1805p",
 ["15594"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805$",
-["gr:2140:of Strength"] = "§aa¢d1806d1805al°d1805Ram∞ah¢d1806∞d1805Å",
 ["14169"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805U",
+["gr:2140:of Strength"] = "§aa¢d1806d1805al°d1805Ram∞ah¢d1806∞d1805Å",
 ["gr:15395:of the Monkey"] = "§aa°d1805alÄamú@ah°d1805ú@",
 ["gr:15512:of the Bear"] = "§aa°d1805alÄamõah°d1805õ",
 ["gr:7495:of the Bear"] = "§aa¢d1806d1805alÄamgËah¢d1806gËd1805gË",
@@ -6822,12 +6822,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["2852"] = "§aa°d1805al°d1805Mah°d1805bamM",
 ["6382"] = "§aa¢d1806d1805al°d1805 amƒah¢d1806ƒd1805Œ",
 ["gr:15228:of Arcane Wrath"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805√Pam√P",
-["gr:9846:of Stamina"] = "§aa°d1805alÄah°d1805†am†",
+["18600"] = "§aa¢d1806d1805al°d1805\000Iåam\000˚–ah¢d1806\000˚–d1805\0004M",
 ["gr:6547:of Power"] = "§aa¢d1806d1805alÄah¢d1806\n$d1805Üam\n$",
 ["gr:15111:of the Whale"] = "§aa°d1805alÄam⁄ah°d1805⁄",
 ["8122"] = "§aa¢d1806d1805alÄam*üah¢d1806*üd1805'\r",
 ["4382"] = "§aa¢d1806d1805Nal°d1805ßamíah¢d1806íd1805º",
-["18600"] = "§aa¢d1806d1805al°d1805\000Iåam\000˚–ah¢d1806\000˚–d1805\0004M",
+["gr:9846:of Stamina"] = "§aa°d1805alÄah°d1805†am†",
 ["gr:15661:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805u0am√P",
 ["12202"] = "§aa¢d1806jd18057al°d1805˘amàah¢d1806àd1805Í",
 ["gr:6585:of Spirit"] = "§aa°d1805al°d1805ªah°d1805Øamª",
@@ -6853,7 +6853,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6604:of Agility"] = "§aa°d1805al°d1805ìah°d1805îamì",
 ["gr:15976:of the Owl"] = "§aa¢d1806d1805al°d1805'\ram'ah¢d1806'd1805'",
 ["7082"] = "§aa¢d1806/d1805#al°d1805\000Ê\"am\000‘ºah¢d1806\000‘ºd1805\000Ê,",
-["gr:14258:of the Owl"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805|",
+["gr:14291:of the Whale"] = "§aa°d1806alÄam2»ah°d18062»",
 ["5082"] = "§aa¢d18068d1805?al°d1805ôam0ah¢d18060d1805*",
 ["gr:15345:of Agility"] = "§aa°d1805alÄah°d1805NamN",
 ["gr:11998:of the Bear"] = "§aa¢d1806d1805al°d1805:ñam4Wah¢d18064Wd1805:ó",
@@ -6883,18 +6883,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7454:of the Eagle"] = "§aa°d1805alÄam%ah°d1805%",
 ["9382"] = "§aa°d1805alÄah°d1805E√amE√",
 ["gr:14942:of the Tiger"] = "§aa¢d1806d1805alÄam2«ah¢d18062«d18052«",
-["gr:14950:of Power"] = "§aa°d1805alÄah°d1805EÏamEÏ",
 ["8182"] = "§aa¢d1806d1805alÄah¢d1806Kd1805WamK",
+["gr:14950:of Power"] = "§aa°d1805alÄah°d1805EÏamEÏ",
 ["gr:9898:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806\r¨d1805:òam\r¨",
-["12240"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
 ["gr:10165:of the Bear"] = "§aa¢d1806d1805al°d1805u.am≠oah¢d1806≠od1805\0008Ä",
-["gr:15009:of Power"] = "§aa¢d1806d1805alÄah¢d1806≈d1805≈am≈",
+["12240"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
+["15259"] = "§aa¢d1806d1805.alÄam_ah¢d1806_d1805\\",
 ["gr:12020:of Strength"] = "§aa¢d1806d1805alÄamú-ah¢d1806ú-d1805zß",
 ["gr:10063:of Stamina"] = "§aa°d1805alÄah°d1805√Oam√O",
 ["3322"] = "§aa¢d1806d1805al°d1805Äamnah¢d1806nd1805Ç",
 ["gr:14131:of Healing"] = "§aa¢d1806d1805al°d1805	`am	_ah¢d1806	_d1805\n",
 ["14941"] = "§aa°d1805alÄah°d1805pamp",
-["gr:14962:of Power"] = "§aa°d1805alÄah°d1805N amN ",
+["gr:7489:of the Wolf"] = "§aa°d1806alÄamàah°d1806à",
 ["gr:14221:of Intellect"] = "§aa°d1806alÄam|ah°d1806|",
 ["15534"] = "§aa¢d1806d1805\nal°d18055am†ah¢d1806†d18056",
 ["gr:15375:of the Eagle"] = "§aa¢d1806d1805al°d1805VŒamVÕah¢d1806VÕd1805…|",
@@ -6916,7 +6916,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7356:of Arcane Wrath"] = "§aa°d1805alÄam:óah°d1805:ó",
 ["6950"] = "§aa¢d1806d1805$alÄam2ah¢d18062d1805«",
 ["16705"] = "§aa°d1805alÄam\000W/ah°d1805\000W/",
-["gr:10210:of Frozen Wrath"] = "§aa°d1806alÄam\000W0ah°d1806\000W0",
+["14477"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:9782:of Agility"] = "§aa°d1805alÄampah°d1805p",
 ["gr:10134:of Stamina"] = "§aa°d1805alÄah°d1805NamN",
 ["gr:7416:of the Whale"] = "§aa°d1805alÄam&¨ah°d1805&¨",
@@ -6961,25 +6961,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10218:of Frozen Wrath"] = "§aa°d1805alÄah°d1805\000	am\000	",
 ["gr:15148:of the Tiger"] = "§aa°d1805alÄam:òah°d1805:ò",
 ["14600"] = "§aa°d1805alÄah°d1805àamà",
-["13876"] = "§aa¢d1806d1805al°d1805&¥am&≥ah¢d1806&≥d1805&µ",
-["gr:3199:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806_d1805&ﬁam_",
+["gr:3197:of Strength"] = "§aa¢d1806d1805al°d1805H¶am7ah¢d18067d1805Hß",
+["12008"] = "§aa¢d1806d1805al°d1805#(am)fah¢d1806)fd1805#à",
 ["6563"] = "§aa¢d1806d1805al°d1805ÁamÊah¢d1806Êd1805Ø",
 ["9850"] = "§aa¢d1806d1805alÄamìah¢d1806ìd1805\rH",
 ["gr:10074:of the Monkey"] = "§aa°d1805alÄah°d1805u/amu/",
-["gr:3197:of Strength"] = "§aa¢d1806d1805al°d1805H¶am7ah¢d18067d1805Hß",
+["13876"] = "§aa¢d1806d1805al°d1805&¥am&≥ah¢d1806&≥d1805&µ",
 ["gr:8178:of Strength"] = "§aa¢d1806d1805al°d1805âamUah¢d1806Ud1805ñ",
-["12008"] = "§aa¢d1806d1805al°d1805#(am)fah¢d1806)fd1805#à",
+["gr:3199:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806_d1805&ﬁam_",
 ["gr:15356:of the Wolf"] = "§aa°d1806alÄam@ah°d1806@",
 ["gr:14258:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
 ["gr:7558:of the Owl"] = "§aa°d1805al°d1805ÿah°d1805üamÿ",
 ["gr:10288:of the Owl"] = "§aa¢d1806d1805al°d1805T^amMXah¢d1806MXd1805b\n",
 ["18949"] = "§aa¢d1806d1805al°d1805BIamBDah¢d1806BDd1805eÅ",
 ["2965"] = "§aa¢d1806d1805al°d1805KamËah¢d1806Ëd1805L",
-["gr:15973:of the Eagle"] = "§aa°d1805alÄah°d1805ñamñ",
+["2750"] = "§aa¢d1806d1805%alÄamËah¢d1806Ëd1805",
 ["10259"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:15298:of the Whale"] = "§aa¢d1806d1805al°d1805êamSah¢d1806Sd1805W",
 ["gr:9814:of the Eagle"] = "§aa¢d1806d1805al°d1805ñamîah¢d1806îd1805ó",
-["2750"] = "§aa¢d1806d1805%alÄamËah¢d1806Ëd1805",
+["gr:15973:of the Eagle"] = "§aa°d1805alÄah°d1805ñamñ",
 ["gr:15361:of the Owl"] = "§aa°d1805alÄah°d1805mamm",
 ["gr:3740:of Strength"] = "§aa¢d1806d1805alÄah¢d1806Ìd18050amÌ",
 ["9854"] = "§aa¢d1806d1805al°d1805œamœah¢d1806œd1805L",
@@ -7004,26 +7004,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15303:of the Eagle"] = "§aa¢d1806d1805al°d1805TamPah¢d1806Pd1805",
 ["gr:14177:of the Eagle"] = "§aa¢d1806d1805al°d1805)damc¸ah¢d1806c¸d1805:ñ",
 ["gr:9889:of the Whale"] = "§aa¢d1806d1805alÄam –ah¢d1806 –d1805%",
-["15477"] = "§aa¢d1806d1805al°d1805am?ah¢d1806?d1805+",
+["gr:7477:of the Owl"] = "§aa¢d1806d1805alÄamDæah¢d1806Dæd18050‘",
 ["gr:10391:of the Bear"] = "§aa¢d1806d1805alÄamÿÃah¢d1806ÿÃd1805pÄ",
-["gr:10177:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805√Pam√P",
+["gr:9768:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806Éd1805ÑamÉ",
 ["gr:7412:of Healing"] = "§aa°d1805alÄah°d1805\r¨am\r¨",
 ["gr:7431:of Healing"] = "§aa¢d1806d1805alÄah¢d1806Nd1805NamN",
 ["gr:15513:of the Bear"] = "§aa¢d1806d1805alÄam0“ah¢d18060“d1805:ñ",
 ["gr:14161:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d1806Ld1805\n%amL",
-["13491"] = "§aa¢d1806d1805al°d1805'jam\"∑ah¢d1806\"∑d18050π",
+["gr:12001:of Strength"] = "§aa°d1805alÄamNah°d1805N",
 ["7754"] = "§aa¢d1806d1805al°d1805\\!am\\ ah¢d1806\\ d1805u0",
-["gr:7477:of the Owl"] = "§aa¢d1806d1805alÄamDæah¢d1806Dæd18050‘",
-["gr:9768:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806Éd1805ÑamÉ",
+["15477"] = "§aa¢d1806d1805al°d1805am?ah¢d1806?d1805+",
+["gr:10177:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805√Pam√P",
 ["14844"] = "§aa°d1806alÄam5ah°d18065",
 ["4736"] = "§aa¢d1806d1805al°d18050“am*Ùah¢d1806*Ùd1805:ó",
 ["gr:9798:of the Whale"] = "§aa¢d1806d1805alÄamîah¢d1806îd1805)b",
 ["9754"] = "§aa°d1806alÄam{ah°d1806{",
 ["gr:8178:of Power"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
-["gr:7526:of Intellect"] = "§aa°d1805alÄam+øah°d1805+ø",
+["8300"] = "§aa°d1805alÄah°d1805ühamüh",
 ["2763"] = "§aa¢d1806d1805al°d1805?am:ah¢d1806:d1805@",
 ["5763"] = "§aa¢d1806d1805al°d1805˜amÀah¢d1806Àd1805	`",
-["8300"] = "§aa°d1805alÄah°d1805ühamüh",
+["gr:7526:of Intellect"] = "§aa°d1805alÄam+øah°d1805+ø",
 ["gr:10091:of the Monkey"] = "§aa¢d1806d1805alÄamYtah¢d1806Ytd1805Yt",
 ["gr:14160:of Healing"] = "§aa¢d1806d1805\nal°d1805ˆam9ah¢d18069d1805‹",
 ["9763"] = "§aa¢d1806d1805alÄam#ah¢d1806#d1805%",
@@ -7051,25 +7051,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14248:of Intellect"] = "§aa°d1805alÄamàah°d1805à",
 ["gr:9855:of the Owl"] = "§aa¢d1806d1805al°d1805¥am¥ah¢d1806¥d1805·",
 ["11967"] = "§aa¢d1806d1805\nal°d1805äamáah¢d1806ád1805ã",
-["gr:4089:of the Whale"] = "§aa°d1805alÄah°d1805√Iam√I",
-["6349"] = "§aa¢d1806\rd1805al°d1805wamnah¢d1806nd1805ª",
 ["gr:9792:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805€am⁄ah¢d1806⁄d1805‹",
-["4349"] = "§aa¢d1806d1805al°d1805øam≤ah¢d1806≤d1805Á",
+["6349"] = "§aa¢d1806\rd1805al°d1805wamnah¢d1806nd1805ª",
 ["gr:7474:of Healing"] = "§aa°d1805alÄah°d1805u/amu/",
+["4349"] = "§aa¢d1806d1805al°d1805øam≤ah¢d1806≤d1805Á",
 ["14776"] = "§aa¢d1806d1805alÄam%ah¢d1806%d1805%",
+["gr:9951:of the Monkey"] = "§aa¢d1806d1805al°d1805@◊am√Pah¢d1806√Pd1805@ÿ",
 ["gr:11985:of Intellect"] = "§aa¢d1806d1805alÄama¶ah¢d1806a¶d1805cú",
 ["gr:1640:of Agility"] = "§aa¢d1806d1805alÄah¢d1806√Od1805√Pam√O",
 ["gr:15230:of the Tiger"] = "§aa¢d1806d1805	alÄah¢d1806d1805Ûam",
 ["3382"] = "§aa¢d1806åd1805€alÄamäah¢d1806äd1805^",
-["gr:15337:of the Eagle"] = "§aa¢d1806d1805al°d1805\"Iam\"Iah¢d1806\"Id1805\"J",
+["10386"] = "§aa°d1805alÄah°d1805\000_éam\000_é",
 ["gr:15671:of Stamina"] = "§aa¢d1806d1805alÄamW‰ah¢d1806W‰d1805u0",
 ["7446"] = "§aa¢d1806d1805al°d1805¨amæah¢d1806æd1805u",
 ["2901"] = "§aa¢d1806d1805al°d1805ZamSah¢d1806Sd1805\\",
-["10386"] = "§aa°d1805alÄah°d1805\000_éam\000_é",
+["gr:15337:of the Eagle"] = "§aa¢d1806d1805al°d1805\"Iam\"Iah¢d1806\"Id1805\"J",
 ["gr:15975:of the Falcon"] = "§aa¢d1806d1805alÄam\r¨ah¢d1806\r¨d1805î",
 ["gr:7443:of the Owl"] = "§aa¢d1806d1805al°d1805gamfah¢d1806fd18053",
 ["gr:4567:of the Wolf"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805?",
-["15364"] = "§aa¢d1806d1805alÄampah¢d1806pd1805î",
+["gr:6540:of the Owl"] = "§aa°d1805alÄamÓah°d1805Ó",
 ["7444"] = "§aa¢d1806d1805\ral°d1805|amLah¢d1806Ld1805“",
 ["gr:9292:of the Bear"] = "§aa¢d1806d1805alÄamMºah¢d1806Mºd1805:î",
 ["gr:14114:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d1806Üd1805àamÜ",
@@ -7085,18 +7085,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:11994:of Strength"] = "§aa¢d1806d1805al°d1805'am.‡ah¢d1806.‡d1805'",
 ["gr:15368:of Intellect"] = "§aa¢d1806d1805al°d1805wamW„ah¢d1806W„d1805W„",
 ["gr:14168:of the Monkey"] = "§aa°d1805alÄah°d1805–am–",
-["14398"] = "§aa¢d1806d1805al°d1805am\rEah¢d1806\rEd1805",
+["2449"] = "§aa¢d1806ÿd1805Æal°d1805¡amπah¢d1806πd1805“",
 ["12024"] = "§aa¢d1806d1805	al°d1805/mam'ah¢d1806'd1805N",
 ["4449"] = "§aa°d1806alÄamFBah°d1806FB",
-["2744"] = "§aa¢d1806	d1805alÄamÖah¢d1806Öd1805ã",
-["2449"] = "§aa¢d1806ÿd1805Æal°d1805¡amπah¢d1806πd1805“",
 ["gr:10175:of the Eagle"] = "§aa¢d1806d1805al°d1805Í_am√Oah¢d1806√Od1805Í`",
-["gr:15493:of Strength"] = "§aa¢d1806d1805al°d1805˛am”ah¢d1806”d1805",
+["14398"] = "§aa¢d1806d1805al°d1805am\rEah¢d1806\rEd1805",
+["13309"] = "§aa¢d1806\nd1805al°d1805Damlah¢d1806ld1805k",
+["gr:9767:of the Whale"] = "§aa¢d1806d1805alÄamaah¢d1806ad1805a",
 ["13754"] = "§aa¢d1806ñd1805©al°d1805lamcah¢d1806cd1805p",
 ["14925"] = "§aa°d1805alÄam\000/Ñah°d1805\000/Ñ",
-["gr:9819:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
-["13309"] = "§aa¢d1806\nd1805al°d1805Damlah¢d1806ld1805k",
 ["9758"] = "§aa¢d1806d1805alÄam ah¢d1806 d1805 ",
+["gr:9819:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
+["gr:14952:of the Monkey"] = "§aa°d1805alÄam@\\ah°d1805@\\",
 ["3376"] = "§aa°d1805alÄah°d1805RamR",
 ["7449"] = "§aa¢d1806d1805al°d1805˝am£ah¢d1806£d1805",
 ["1744"] = "§aa°d1805al°d1805xah°d1805Ëamx",
@@ -7106,8 +7106,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9871:of Power"] = "§aa°d1805alÄah°d1805HDamHD",
 ["gr:9772:of the Eagle"] = "§aa¢d1806d1805alÄam-Oah¢d1806-Od1805'",
 ["gr:10178:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806ú@d1805ú@amú@",
-["9744"] = "§aa°d1806alÄamŸah°d1806Ÿ",
 ["gr:7472:of the Whale"] = "§aa°d1805alÄam°ah°d1805°",
+["9744"] = "§aa°d1806alÄamŸah°d1806Ÿ",
 ["gr:14914:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
 ["4700"] = "§aa°d1805alÄamòah°d1805ò",
 ["13480"] = "§aa¢d1806d1805alÄah¢d1806Z≤d1805√OamZ≤",
@@ -7115,9 +7115,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["8174"] = "§aa°d1805alÄah°d1805famf",
 ["gr:9890:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806\"5d1805\"5am\"5",
 ["gr:15502:of Strength"] = "§aa¢d1806d1805alÄam/ah¢d1806/d1805/",
-["gr:10138:of Frozen Wrath"] = "§aa¢d1806d1805alÄam\000Iah¢d1806\000Id1805\000I",
-["6149"] = "§aa¢d1806ad1805	alÄamSah¢d1806Sd1805",
 ["3174"] = "§aa¢d1806kd1805»alÄamah¢d1806d1805",
+["6149"] = "§aa¢d1806ad1805	alÄamSah¢d1806Sd1805",
+["gr:10138:of Frozen Wrath"] = "§aa¢d1806d1805alÄam\000Iah¢d1806\000Id1805\000I",
 ["9801"] = "§aa¢d1806	d1805alÄamÒah¢d1806Òd1805Á",
 ["gr:9954:of the Eagle"] = "§aa°d1805alÄah°d1805u0amu0",
 ["gr:9858:of the Bear"] = "§aa¢d1806d1805al°d1805Kam|ah¢d1806|d1805L",
@@ -7150,12 +7150,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:790:of the Wolf"] = "§aa¢d1806d1805al°d1805\nàam\n#ah¢d1806\n#d1805\nâ",
 ["1081"] = "§aa¢d1806◊d1805al°d1805/am2ah¢d18062d18052",
 ["gr:15487:of the Gorilla"] = "§aa¢d1806d1805alÄam∫ah¢d1806∫d1805Ë",
-["gr:10112:of the Eagle"] = "§aa°d1805alÄam\000_êah°d1805\000_ê",
+["gr:14956:of the Tiger"] = "§aa°d1806alÄamú>ah°d1806ú>",
 ["9901"] = "§aa¢d1806d1805	alÄam$Éah¢d1806$Éd1805h",
 ["gr:14292:of the Whale"] = "§aa°d1805alÄah°d1805u0amu0",
-["gr:14956:of the Tiger"] = "§aa°d1806alÄamú>ah°d1806ú>",
+["gr:10112:of the Eagle"] = "§aa°d1805alÄam\000_êah°d1805\000_ê",
 ["gr:15226:of the Bear"] = "§aa¢d1806d1805al°d1805&>am&6ah¢d1806&6d1805&@",
-["gr:789:of Nature's Wrath"] = "§aa°d1805alÄam	√ah°d1805	√",
+["6422"] = "§aa¢d1806d1805al°d1805amÜah¢d1806Üd1805∆",
 ["gr:9799:of the Monkey"] = "§aa°d1805alÄah°d1805üamü",
 ["gr:7441:of the Eagle"] = "§aa°d1805alÄah°d1805'\ram'\r",
 ["1801"] = "§aa¢d1806d1805alÄamjah¢d1806jd1805s",
@@ -7175,9 +7175,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["7422"] = "§aa¢d1806d1805alÄamûah¢d1806ûd1805	¬",
 ["gr:10224:of the Eagle"] = "§aa°d1805alÄamú@ah°d1805ú@",
 ["5422"] = "§aa¢d1806d1805alÄamah¢d1806d1805∑",
-["6422"] = "§aa¢d1806d1805al°d1805amÜah¢d1806Üd1805∆",
+["gr:789:of Nature's Wrath"] = "§aa°d1805alÄam	√ah°d1805	√",
 ["gr:7528:of the Eagle"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
-["4422"] = "§aa¢d1806d1805\ral°d1805pam~ah¢d1806~d1805y",
+["gr:10180:of Healing"] = "§aa¢d1806d1805alÄamMªah¢d1806Mªd1805ˇ≈",
 ["1422"] = "§aa°d1806alÄam1ah°d18061",
 ["7374"] = "§aa¢d1806\rd1805al°d1805&@am&9ah¢d1806&9d1805&C",
 ["3596"] = "§aa¢d1806d1805alÄamÔah¢d1806Ôd1805Ô",
@@ -7218,16 +7218,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15145:of Healing"] = "§aa¢d1806d1805alÄah¢d1806«d1805&¨am«",
 ["gr:2080:of Power"] = "§aa°d1805alÄah°d1805'\ram'\r",
 ["15517"] = "§aa¢d1806d1805alÄam~ah¢d1806~d1805–",
-["gr:15312:of the Bear"] = "§aa°d1805alÄah°d1805@am@",
 ["gr:9860:of the Owl"] = "§aa¢d1806d1805al°d1805!am\"ah¢d1806\"d1805%",
-["14284"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:9776:of Agility"] = "§aa°d1806alÄam%Fah°d1806%F",
+["14284"] = "§aa°d1805alÄah°d1805N amN ",
+["gr:15312:of the Bear"] = "§aa°d1805alÄah°d1805@am@",
 ["gr:15552:of Defense"] = "§aa°d1805alÄam&Gah°d1805&G",
 ["gr:14294:of Healing"] = "§aa¢d1806d1805alÄah¢d1806N d1805N amN ",
 ["gr:14200:of Intellect"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
 ["4601"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
 ["15323"] = "§aa¢d1806d1805al°d1805N<amú?ah¢d1806ú?d1805u0",
-["gr:12007:of the Wolf"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805N ",
+["gr:7446:of Stamina"] = "§aa°d1805alÄam∆ah°d1805∆",
 ["gr:15184:of the Monkey"] = "§aa°d1805alÄamN ah°d1805N ",
 ["12364"] = "§aa¢d1806\rd1805	al°d1805/±am/¶ah¢d1806/¶d1805/≥",
 ["6049"] = "§aa¢d1806@d1805oal°d1805≠amùah¢d1806ùd1805Õ",
@@ -7250,7 +7250,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:12039:of Agility"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:9867:of the Bear"] = "§aa¢d1806d1805alÄamKah¢d1806Kd1805’",
 ["gr:15477:of Power"] = "§aa°d1805alÄam+ah°d1805+",
-["gr:6540:of the Eagle"] = "§aa°d1805al°d1805<ah°d18054am<",
+["gr:14158:of Spirit"] = "§aa°d1806alÄam≤ah°d1806≤",
 ["gr:7444:of the Falcon"] = "§aa¢d1806d1805alÄah¢d1806N d1805öamN ",
 ["gr:14324:of Healing"] = "§aa¢d1806d1805alÄam\000–êah¢d1806\000–êd1805\000\r@",
 ["gr:4561:of Agility"] = "§aa¢d1806d1805al°d1805Xamhah¢d1806hd1805",
@@ -7259,28 +7259,28 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15385:of the Owl"] = "§aa°d1805alÄamXah°d1805X",
 ["gr:4566:of the Whale"] = "§aa¢d1806d1805alÄam\n5ah¢d1806\n5d1805\n7",
 ["5140"] = "§aa¢d1806^d18051al°d1805—ambah¢d1806bd1805Ÿ",
-["gr:15009:of the Owl"] = "§aa°d1806alÄam‰ah°d1806‰",
+["gr:7495:of Blocking"] = "§aa°d1805alÄamN ah°d1805N ",
 ["7276"] = "§aa¢d1806d1805alÄam`ah¢d1806`d1805b",
 ["8276"] = "§aa¢d1806d1805al°d18058¢am)fah¢d1806)fd18058£",
-["gr:7495:of Blocking"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:10247:of the Eagle"] = "§aa°d1805alÄam\000Ó¿ah°d1805\000Ó¿",
+["gr:15009:of the Owl"] = "§aa°d1806alÄam‰ah°d1806‰",
 ["gr:7484:of the Whale"] = "§aa°d1806alÄam#‚ah°d1806#‚",
-["gr:9864:of Defense"] = "§aa¢d1806d1805alÄampah¢d1806pd1805è",
+["gr:15229:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806\000\r!d1805\000\r!am\000\r!",
 ["gr:15350:of Agility"] = "§aa°d1805alÄam2»ah°d18052»",
-["gr:15260:of the Bear"] = "§aa¢d1806d1805al°d1805<ãam<ãah¢d1806<ãd1805>~",
+["2276"] = "§aa¢d1806d1805alÄah¢d1806\000Td1805\000]xam\000T",
 ["gr:15233:of Stamina"] = "§aa¢d1806d1805alÄamBah¢d1806Bd1805D\\",
 ["gr:7432:of the Wolf"] = "§aa°d1805alÄam&´ah°d1805&´",
 ["gr:14166:of the Eagle"] = "§aa¢d1806d1805alÄam\000ah¢d1806\000d1805!",
 ["14790"] = "§aa°d1806alÄamØ≈ah°d1806Ø≈",
 ["gr:9966:of Power"] = "§aa°d1805alÄam*¯ah°d1805*¯",
 ["gr:14181:of the Falcon"] = "§aa°d1805alÄam?ah°d1805?",
-["gr:865:of Power"] = "§aa¢d1806d1805al°d1805@am>ah¢d1806>d1805!î",
 ["gr:15559:of Healing"] = "§aa°d1805alÄam'ah°d1805'",
+["gr:865:of Power"] = "§aa¢d1806d1805al°d1805@am>ah¢d1806>d1805!î",
 ["1274"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
 ["gr:7459:of the Whale"] = "§aa°d1805alÄam5ah°d18055",
 ["gr:14192:of Stamina"] = "§aa°d1805alÄam\r¨ah°d1805\r¨",
 ["gr:15167:of the Whale"] = "§aa°d1805alÄah°d1805>Äam>Ä",
-["gr:9832:of the Tiger"] = "§aa°d1806alÄam/®ah°d1806/®",
+["gr:9858:of Agility"] = "§aa°d1805alÄah°d1805!3am!3",
 ["5426"] = "§aa°d1805alÄamÍ_ah°d1805Í_",
 ["gr:15357:of the Monkey"] = "§aa°d1805alÄam&¨ah°d1805&¨",
 ["gr:15233:of the Tiger"] = "§aa¢d1806d1805al°d1805/Cam/Aah¢d1806/Ad1805DX",
@@ -7298,29 +7298,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15342:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d1806†d1805†am†",
 ["15641"] = "§aa¢d1806d1805alÄah¢d1806Dåd1805}»amDå",
 ["gr:14255:of the Whale"] = "§aa¢d1806d1805al°d1805àamB@ah¢d1806B@d1805BA",
-["gr:14240:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806&¨d1805&¨am&¨",
-["gr:15180:of Intellect"] = "§aa°d1805alÄamNah°d1805N",
 ["gr:15017:of Power"] = "§aa¢d1806d1805al°d1805Òamah¢d1806d1805£",
-["gr:15237:of Agility"] = "§aa¢d1806d1805alÄam\000sah¢d1806\000sd1805\000s",
+["gr:15180:of Intellect"] = "§aa°d1805alÄamNah°d1805N",
 ["gr:15566:of the Whale"] = "§aa°d1806alÄam/üah°d1806/ü",
+["gr:15237:of Agility"] = "§aa¢d1806d1805alÄam\000sah¢d1806\000sd1805\000s",
+["gr:14240:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806&¨d1805&¨am&¨",
 ["gr:14193:of the Whale"] = "§aa°d1805al°d1805{ah°d1805|am{",
 ["gr:15612:of the Monkey"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["gr:15510:of the Whale"] = "§aa¢d1806d1805al°d1805Êam‚ah¢d1806‚d1805Á",
 ["gr:14214:of Stamina"] = "§aa°d1805alÄah°d1805àamà",
 ["4552"] = "§aa¢d1806d1805alÄam ah¢d1806 d1805 ",
 ["gr:15551:of Power"] = "§aa°d1805alÄamN ah°d1805N ",
-["gr:7470:of Shadow Wrath"] = "§aa°d1805alÄah°d1805u/amu/",
-["9301"] = "§aa¢d1806d1805\nal°d18055am5ah¢d18065d18055",
 ["gr:15268:of the Bear"] = "§aa¢d1806d1805	al°d1805Samòah¢d1806òd1805∏",
+["9301"] = "§aa¢d1806d1805\nal°d18055am5ah¢d18065d18055",
 ["gr:15555:of the Whale"] = "§aa°d1805alÄamoah°d1805o",
-["15284"] = "§aa¢d1806d1805al°d1805Úamòah¢d1806òd1805ˆ",
+["gr:1207:of Shadow Wrath"] = "§aa°d1805alÄah°d18050pam0p",
 ["14567"] = "§aa¢d1806d1805alÄam\nÍah¢d1806\nÍd1805∏",
+["gr:10136:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806√Nd1805√Nam√N",
 ["gr:6542:of Shadow Wrath"] = "§aa°d1805alÄamÑah°d1805Ñ",
 ["gr:3196:of the Whale"] = "§aa¢d1806d1805\ral°d1805damLah¢d1806Ld1805f",
 ["gr:15115:of Defense"] = "§aa¢d1806d1805al°d1805›amˆah¢d1806ˆd1805ˆ",
 ["14958"] = "§aa¢d1806d1805alÄamú?ah¢d1806ú?d1805ú@",
 ["gr:3185:of the Whale"] = "§aa¢d1806d1805alÄam'\rah¢d1806'\rd1805#{",
-["gr:10136:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806√Nd1805√Nam√N",
+["15284"] = "§aa¢d1806d1805al°d1805Úamòah¢d1806òd1805ˆ",
 ["6576"] = "§aa¢d1806d1805alÄamÇah¢d1806Çd1805É",
 ["gr:15222:of Healing"] = "§aa¢d1806d1805\nal°d1805ˆam·ah¢d1806·d1805<",
 ["14248"] = "§aa¢d1806d1805al°d1805àam!cah¢d1806!cd1805±",
@@ -7398,10 +7398,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9901:of the Owl"] = "§aa¢d1806d1805al°d1805!wam$Éah¢d1806$Éd1805$Ñ",
 ["14805"] = "§aa¢d1806d1805alÄam\000Üüah¢d1806\000Üüd1805\000Üü",
 ["9383"] = "§aa°d1805alÄam\000Ó¿ah°d1805\000Ó¿",
-["gr:6571:of Agility"] = "§aa°d1805alÄam†ah°d1805†",
 ["15545"] = "§aa¢d1806	d1805alÄamlah¢d1806ld1805l",
-["7552"] = "§aa¢d1806d1805al°d1805FHam1ˇah¢d18061ˇd1805FL",
 ["gr:15521:of the Monkey"] = "§aa°d1805al°d1805Ãah°d1805áamÃ",
+["7552"] = "§aa¢d1806d1805al°d1805FHam1ˇah¢d18061ˇd1805FL",
+["gr:6571:of Agility"] = "§aa°d1805alÄam†ah°d1805†",
 ["3837"] = "§aa¢d1806d1805alÄah¢d1806u0d1805u0amu0",
 ["10199"] = "§aa°d1805alÄam\000Ü†ah°d1805\000Ü†",
 ["gr:14195:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805&¨am&´ah¢d1806&´d1805EÚ",
@@ -7414,10 +7414,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14198:of Stamina"] = "§aa°d1805al°d1805\nåah°d18050am\nå",
 ["gr:15120:of the Monkey"] = "§aa¢d1806d1805\ral°d1805SamÛah¢d1806Ûd1805@",
 ["14968"] = "§aa°d1806alÄamN ah°d1806N ",
-["10002"] = "§aa¢d1806d1805al°d1805uamuah¢d1806ud1805u",
+["14143"] = "§aa°d1806alÄam\000dpah°d1806\000dp",
 ["gr:9908:of the Eagle"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:9924:of the Bear"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N",
-["14143"] = "§aa°d1806alÄam\000dpah°d1806\000dp",
+["16055"] = "§aa°d1806alÄam\000]pah°d1806\000]p",
 ["2300"] = "§aa¢d1806d1805(al°d1805(am€ah¢d1806€d1805,",
 ["15929"] = "§aa¢d1806d1805al°d1805Fam|ah¢d1806|d1805G",
 ["gr:15554:of the Bear"] = "§aa¢d1806d1805alÄamÿah¢d1806ÿd1805ì",
@@ -7431,23 +7431,23 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["11974"] = "§aa¢d1806d1805al°d1805Í]amN ah¢d1806N d1805Í^",
 ["gr:14222:of the Owl"] = "§aa¢d1806d1805al°d1805Øam§ah¢d1806§d1805∞",
 ["gr:7538:of Stamina"] = "§aa°d1805alÄah°d1805N amN ",
-["gr:15561:of Power"] = "§aa°d1806alÄam.\rah°d1806.\r",
-["gr:14160:of the Owl"] = "§aa¢d1806d1805alÄamÿah¢d1806ÿd1805⁄",
+["gr:7543:of Stamina"] = "§aa°d1806alÄamJ8ah°d1806J8",
+["6591"] = "§aa¢d1806d1805al°d1805øampah¢d1806pd1805¿",
 ["gr:14246:of the Owl"] = "§aa¢d1806d1805alÄam/>ah¢d1806/>d1805/@",
-["gr:12031:of the Gorilla"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805#(",
+["gr:14177:of the Whale"] = "§aa°d1805alÄamûah°d1805û",
 ["gr:15014:of Shadow Wrath"] = "§aa°d1805al°d1805”ah°d1805kam”",
 ["gr:15261:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806Nd1805N amN",
-["gr:7543:of Stamina"] = "§aa°d1806alÄamJ8ah°d1806J8",
+["gr:15561:of Power"] = "§aa°d1806alÄam.\rah°d1806.\r",
 ["1749"] = "§aa¢d1806d1805alÄamRah¢d1806Rd1805Q",
 ["15228"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805u0",
-["gr:6336:of the Eagle"] = "§aa°d1805alÄah°d1805‹am‹",
+["16717"] = "§aa¢d1806d1805al°d1805\000Qßam\000oah¢d1806\000od1805\000Q®",
 ["gr:9808:of the Falcon"] = "§aa°d1805alÄamah°d1805",
 ["11603"] = "§aa¢d1806d1805alÄam\0008~ah¢d1806\0008~d1805\0008",
-["gr:2080:of the Bear"] = "§aa¢d1806d1805alÄam&Hah¢d1806&Hd1805\"o",
+["gr:6336:of the Eagle"] = "§aa°d1805alÄah°d1805‹am‹",
 ["gr:9891:of the Wolf"] = "§aa¢d1806d1805alÄah¢d1806Od1805OamO",
 ["gr:15640:of the Monkey"] = "§aa°d1805alÄah°d1805\000_êam\000_ê",
 ["9749"] = "§aa¢d1806d1805alÄamXah¢d1806Xd1805Ë",
-["16717"] = "§aa¢d1806d1805al°d1805\000Qßam\000oah¢d1806\000od1805\000Q®",
+["gr:2080:of the Bear"] = "§aa¢d1806d1805alÄam&Hah¢d1806&Hd1805\"o",
 ["gr:10064:of Healing"] = "§aa¢d1806d1805alÄah¢d1806\000IÏd1805\000Ü†am\000IÏ",
 ["15480"] = "§aa¢d1806d1805alÄah¢d1806»d1805Uam»",
 ["gr:15014:of the Eagle"] = "§aa¢d1806d1805al°d18053amÉah¢d1806Éd1805Ø",
@@ -7461,20 +7461,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7354:of the Eagle"] = "§aa¢d1806d1805al°d1805(îamÆah¢d1806Æd1805(ó",
 ["8258"] = "§aa¢d1806d1805alÄamå†ah¢d1806å†d1805ú@",
 ["10398"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805#'",
-["gr:6560:of the Tiger"] = "§aa°d1806alÄam–ah°d1806–",
 ["gr:14187:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
 ["gr:7433:of the Eagle"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805K",
-["gr:15654:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806I2d1805I2amI2",
+["4337"] = "§aa¢d1806id18058al°d1805amãah¢d1806ãd1805",
+["14850"] = "§aa°d1805alÄah°d1805^üam^ü",
 ["gr:4566:of Fiery Wrath"] = "§aa°d1805alÄam\nah°d1805\n",
 ["10333"] = "§aa¢d1806d1805\nal°d1805amah¢d1806d1805",
-["4337"] = "§aa¢d1806id18058al°d1805amãah¢d1806ãd1805",
 ["gr:15556:of Stamina"] = "§aa¢d1806d1805al°d1805´amáah¢d1806ád1805¨",
+["gr:9906:of the Owl"] = "§aa¢d1806d1805alÄam\"¡ah¢d1806\"¡d1805'j",
 ["gr:9892:of the Whale"] = "§aa°d1805alÄamoah°d1805o",
 ["14228"] = "§aa¢d1806d1805alÄam6Lah¢d18066Ld1805'",
 ["gr:4571:of Agility"] = "§aa¢d1806d1805alÄah¢d1806d1805§am",
-["gr:15125:of the Eagle"] = "§aa¢d1806d1805alÄamoah¢d1806od1805p",
-["14603"] = "§aa°d1805al°d1805íah°d1805ìamí",
 ["gr:9763:of the Whale"] = "§aa¢d1806d1805alÄam#ah¢d1806#d1805%",
+["14603"] = "§aa°d1805al°d1805íah°d1805ìamí",
+["gr:15125:of the Eagle"] = "§aa¢d1806d1805alÄamoah¢d1806od1805p",
 ["gr:10245:of the Bear"] = "§aa°d1805al°d1805u/ah°d1805u0amu/",
 ["14496"] = "§aa¢d1806d1805alÄamDºah¢d1806Dºd1805T]",
 ["gr:14933:of the Bear"] = "§aa°d1805alÄah°d1805\000‘¿am\000‘¿",
@@ -7498,15 +7498,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9904:of the Owl"] = "§aa¢d1806d1805alÄamFNah¢d1806FNd1805FN",
 ["gr:2077:of Stamina"] = "§aa°d1806alÄam!4ah°d1806!4",
 ["gr:15524:of the Gorilla"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
-["gr:9871:of the Bear"] = "§aa¢d1806d1805alÄam4Nah¢d18064Nd18054Q",
-["gr:7433:of the Falcon"] = "§aa¢d1806d1805alÄamcah¢d1806cd1805c",
 ["gr:15174:of the Whale"] = "§aa°d1805alÄah°d1805'am'",
-["gr:15303:of the Bear"] = "§aa¢d1806d1805al°d1805‹amËah¢d1806Ëd1805\r¨",
+["gr:7433:of the Falcon"] = "§aa¢d1806d1805alÄamcah¢d1806cd1805c",
 ["gr:14182:of the Owl"] = "§aa¢d1806d1805alÄam\nœah¢d1806\nœd1805\r¨",
+["gr:15303:of the Bear"] = "§aa¢d1806d1805al°d1805‹amËah¢d1806Ëd1805\r¨",
+["gr:9771:of Fiery Wrath"] = "§aa¢d1806d1805alÄam#&ah¢d1806#&d1805!á",
 ["2549"] = "§aa¢d1806d1805alÄam\000p¸ah¢d1806\000p¸d1805\000“ß",
 ["gr:15595:of the Whale"] = "§aa°d1805alÄah°d1805àamà",
-["gr:9771:of Fiery Wrath"] = "§aa¢d1806d1805alÄam#&ah¢d1806#&d1805!á",
-["gr:15351:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805	ƒ",
+["gr:9871:of the Bear"] = "§aa¢d1806d1805alÄam4Nah¢d18064Nd18054Q",
+["gr:6569:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806'Rd1805u0am'R",
 ["6549"] = "§aa¢d1806d1805al°d1805‘am“ah¢d1806“d1805’",
 ["15925"] = "§aa¢d1806d1805al°d1805ÌamÍah¢d1806Íd1805Ò",
 ["gr:6571:of the Bear"] = "§aa¢d1806d1805al°d1805Äamüah¢d1806üd1805",
@@ -7515,7 +7515,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14413"] = "§aa¢d1806d1805al°d1805#%am#%ah¢d1806#%d1805#&",
 ["8201"] = "§aa¢d1806d1805al°d1805RamJ7ah¢d1806J7d1805R",
 ["5773"] = "§aa°d1805alÄah°d1805ú@amú@",
-["gr:10067:of the Whale"] = "§aa¢d1806d1805alÄamJËah¢d1806JËd1805JË",
+["gr:12002:of Stamina"] = "§aa°d1806alÄamNah°d1806N",
 ["gr:15232:of the Bear"] = "§aa¢d1806d1805alÄamxah¢d1806xd1805",
 ["10572"] = "§aa°d1805alÄam\000,`ah°d1805\000,`",
 ["gr:14175:of Frozen Wrath"] = "§aa¢d1806d1805alÄam!¸ah¢d1806!¸d1805‰",
@@ -7523,8 +7523,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9948:of the Monkey"] = "§aa¢d1806d1805alÄamtÃah¢d1806tÃd1805ú@",
 ["16046"] = "§aa¢d1806d1805al°d1805}\000amUÌah¢d1806UÌd1805á\"",
 ["16056"] = "§aa°d1805alÄam\000_+ah°d1805\000_+",
-["gr:15577:of Power"] = "§aa°d1805alÄam'ah°d1805'",
-["gr:12002:of Stamina"] = "§aa°d1806alÄamNah°d1806N",
+["6458"] = "§aa¢d1806d1805al°d1805damºah¢d1806ºd1805",
+["gr:4564:of Strength"] = "§aa¢d1806d1805\nal°d18057am ah¢d1806 d1805ó",
 ["gr:6591:of Strength"] = "§aa¢d1806d1805alÄah¢d1806àd1805áamà",
 ["gr:9853:of Fiery Wrath"] = "§aa°d1805alÄam∏ah°d1805∏",
 ["gr:9920:of the Wolf"] = "§aa°d1805alÄamNah°d1805N",
@@ -7546,16 +7546,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7493:of Power"] = "§aa¢d1806d1805alÄam^#ah¢d1806^#d1805u/",
 ["15626"] = "§aa¢d1806d1805alÄah¢d1806\000od18056Øam\000o",
 ["4788"] = "§aa¢d1806d1805al°d1805iam≈ah¢d1806≈d1805ó",
-["6558"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805L",
-["7558"] = "§aa¢d1806d1805al°d1805∑am\nåah¢d1806\nåd1805\r´",
+["2194"] = "§aa¢d1806	d1805al°d1805aßamDΩah¢d1806DΩd1805\000äë",
+["3194"] = "§aa¢d1806d1805alÄam\000‘¿ah¢d1806\000‘¿d1805\000˚œ",
 ["gr:9959:of Stamina"] = "§aa°d1805alÄah°d1805u0amu0",
 ["gr:11969:of Nature Resistance"] = "§aa¢d1806d1805alÄam	¿ah¢d1806	¿d1805	¡",
 ["15230"] = "§aa¢d1806d1805,alÄamµah¢d1806µd1805<",
 ["gr:14129:of Stamina"] = "§aa¢d1806d1805al°d1805˚amah¢d1806d1805",
 ["15046"] = "§aa¢d1806d1805alÄah¢d1806\000IÔd1805\000\r@am\000IÔ",
 ["13056"] = "§aa°d1805alÄah°d1805\000‹am\000‹",
-["2194"] = "§aa¢d1806	d1805al°d1805aßamDΩah¢d1806DΩd1805\000äë",
-["3194"] = "§aa¢d1806d1805alÄam\000‘¿ah¢d1806\000‘¿d1805\000˚œ",
+["6558"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805L",
+["7558"] = "§aa¢d1806d1805al°d1805∑am\nåah¢d1806\nåd1805\r´",
 ["gr:15018:of the Whale"] = "§aa¢d1806d1805alÄam™ah¢d1806™d1805e",
 ["gr:15487:of Power"] = "§aa¢d1806d1805alÄah¢d1806\nåd1805/am\nå",
 ["gr:9921:of the Wolf"] = "§aa¢d1806d1805alÄam:ñah¢d1806:ñd1805:ó",
@@ -7588,9 +7588,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7355:of the Whale"] = "§aa¢d1806d1805al°d1805samsah¢d1806sd1805u",
 ["4253"] = "§aa¢d1806d1805al°d1805%am%ah¢d1806%d1805%",
 ["9920"] = "§aa¢d1806d1805	al°d1805amNah¢d1806Nd1805&",
-["15301"] = "§aa°d1805al°d1805’ah°d1805÷am’",
-["gr:9285:of Stamina"] = "§aa°d1805alÄah°d1805@am@",
 ["9767"] = "§aa¢d1806d1805alÄamÆah¢d1806Æd1805a",
+["gr:9285:of Stamina"] = "§aa°d1805alÄah°d1805@am@",
+["15301"] = "§aa°d1805al°d1805’ah°d1805÷am’",
 ["5637"] = "§aa¢d1806Fd1805ùal°d1805`am,ah¢d1806,d1805q",
 ["6431"] = "§aa°d1805alÄah°d1805%vam%v",
 ["gr:9911:of Spirit"] = "§aa°d1805alÄam'ah°d1805'",
@@ -7603,9 +7603,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["2912"] = "§aa¢d1806d1805al°d1805Õam«Ûah¢d1806«Ûd1805Õ4",
 ["gr:15375:of Agility"] = "§aa¢d1806d1805alÄamW‰ah¢d1806W‰d1805N ",
 ["14666"] = "§aa¢d1806d1805alÄah¢d1806Nd1805N amN",
-["14183"] = "§aa¢d1806	d1805al°d1805∑am\nah¢d1806\nd1805‰",
-["2553"] = "§aa¢d1806d1805al°d1805¸am.ah¢d1806.d1805",
 ["gr:15118:of the Wolf"] = "§aa¢d1806d1805alÄah¢d1806N d1805@amN ",
+["2553"] = "§aa¢d1806d1805al°d1805¸am.ah¢d1806.d1805",
+["14183"] = "§aa¢d1806	d1805al°d1805∑am\nah¢d1806\nd1805‰",
 ["4553"] = "§aa¢d1806d1805alÄamah¢d1806d1805Ä",
 ["6612"] = "§aa¢d1806d1805alÄamah¢d1806d1805\r	",
 ["6553"] = "§aa¢d1806d1805alÄamIah¢d1806Id1805Ñ",
@@ -7619,12 +7619,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10097:of Intellect"] = "§aa°d1805alÄah°d1805ä„amä„",
 ["gr:15018:of the Eagle"] = "§aa¢d1806d1805al°d1805mam“ah¢d1806“d1805è",
 ["gr:15231:of the Bear"] = "§aa¢d1806d1805alÄam~ah¢d1806~d1805\000",
-["gr:8196:of the Tiger"] = "§aa¢d1806d1805al°d1805NamNah¢d1806Nd1805N",
-["14751"] = "§aa¢d1806d1805	al°d1805Vamoah¢d1806od18052ƒ",
-["6467"] = "§aa¢d1806d1805\ral°d1805˘amÒah¢d1806Òd1805˝",
-["5467"] = "§aa¢d1806d1805/alÄamah¢d1806d1805",
 ["gr:9901:of Intellect"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:10288:of Fiery Wrath"] = "§aa°d1805alÄah°d1805W‰amW‰",
+["6467"] = "§aa¢d1806d1805\ral°d1805˘amÒah¢d1806Òd1805˝",
+["5467"] = "§aa¢d1806d1805/alÄamah¢d1806d1805",
+["gr:8196:of the Tiger"] = "§aa¢d1806d1805al°d1805NamNah¢d1806Nd1805N",
+["14751"] = "§aa¢d1806d1805	al°d1805Vamoah¢d1806od18052ƒ",
 ["gr:7488:of the Monkey"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
 ["gr:15248:of the Wolf"] = "§aa¢d1806d1805al°d1805Ωamπah¢d1806πd1805æ",
 ["14512"] = "§aa°d1806alÄam\000-∆\\ah°d1806\000-∆\\",
@@ -7659,7 +7659,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6612:of the Whale"] = "§aa°d1805alÄah°d1805îamî",
 ["gr:10108:of Stamina"] = "§aa°d1805alÄam~Ùah°d1805~Ù",
 ["3820"] = "§aa¢d1806Jd1805JalÄamêah¢d1806êd1805ñ",
-["12029"] = "§aa¢d1806d1805al°d1805,ÏamNah¢d1806Nd1805:ï",
+["gr:11969:of Shadow Resistance"] = "§aa¢d1806d1805al°d1805*amŒah¢d1806Œd1805+",
 ["2452"] = "§aa¢d1806ˇd1805‚al°d1805Dam˜ah¢d1806˜d1805H",
 ["gr:9878:of the Owl"] = "§aa¢d1806d1805al°d1805'am'ah¢d1806'd1805:Ù",
 ["3858"] = "§aa¢d1806úd1805Òal°d1805AamGah¢d1806Gd1805i",
@@ -7667,19 +7667,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15932:of the Owl"] = "§aa°d1805alÄamWah°d1805W",
 ["gr:9880:of the Eagle"] = "§aa°d1805alÄah°d1805:òam:ò",
 ["gr:15142:of the Owl"] = "§aa°d1805alÄamÍah°d1805Í",
-["2681"] = "§aa¢d1806d1805val°d1805amah¢d1806d1805	",
-["gr:15311:of Intellect"] = "§aa°d1805alÄam/ah°d1805/",
-["9812"] = "§aa¢d1806d1805alÄamah¢d1806d1805û",
 ["2098"] = "§aa¢d1806d1805al°d1805É0amu.ah¢d1806u.d1805É3",
-["gr:14183:of the Eagle"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
-["15171"] = "§aa¢d1806d1805alÄah¢d1806N d1805√PamN ",
-["15513"] = "§aa¢d1806\nd1805alÄam/ah¢d1806/d1805/",
+["gr:15311:of Intellect"] = "§aa°d1805alÄam/ah°d1805/",
+["gr:9857:of Intellect"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
 ["gr:10069:of the Whale"] = "§aa¢d1806d1805alÄamL,ah¢d1806L,d1805L,",
-["3314"] = "§aa¢d1806d1805al°d1805Qam	_ah¢d1806	_d1805Œ",
+["gr:14183:of the Eagle"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
+["4314"] = "§aa¢d1806d18051al°d1805éamÖah¢d1806Öd1805Ú",
+["15513"] = "§aa¢d1806\nd1805alÄam/ah¢d1806/d1805/",
+["9812"] = "§aa¢d1806d1805alÄamah¢d1806d1805û",
+["gr:9925:of the Owl"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805X",
 ["gr:15150:of Agility"] = "§aa¢d1806d1805al°d1805Nam/>ah¢d1806/>d1805N",
 ["gr:15580:of the Falcon"] = "§aa°d1805alÄam&‹ah°d1805&‹",
 ["7353"] = "§aa¢d1806\nd1805al°d1805{amΩah¢d1806Ωd1805|",
-["gr:9857:of Intellect"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
+["gr:15117:of the Gorilla"] = "§aa°d1805alÄah°d1805\r‘am\r‘",
 ["2567"] = "§aa°d1805alÄameéah°d1805eé",
 ["16050"] = "§aa¢d1806d1805alÄam:Üah¢d1806:Üd1805'`",
 ["4353"] = "§aa¢d1806d1805al°d1805Eam%ah¢d1806%d1805G",
@@ -7698,9 +7698,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9787:of the Boar"] = "§aa°d1805alÄamah°d1805",
 ["gr:7459:of the Boar"] = "§aa¢d1806d1805alÄam ah¢d1806 d1805 ",
 ["15143"] = "§aa¢d1806d1805al°d1805üam\rŸah¢d1806\rŸd1805h",
-["gr:7369:of Frozen Wrath"] = "§aa¢d1806d1805alÄamJah¢d1806Jd1805J",
-["gr:1994:of Stamina"] = "§aa°d1805alÄamPah°d1805P",
 ["gr:9792:of the Whale"] = "§aa°d1805al°d1805üah°d1805/amü",
+["gr:1994:of Stamina"] = "§aa°d1805alÄamPah°d1805P",
+["gr:7369:of Frozen Wrath"] = "§aa¢d1806d1805alÄamJah¢d1806Jd1805J",
 ["gr:11985:of the Eagle"] = "§aa°d1805al°d1805>ah°d1805@ÿam>",
 ["14581"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805±",
 ["711"] = "§aa¢d1806d1805alÄam\000ah¢d1806\000d1805\000",
@@ -7708,7 +7708,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["8391"] = "§aa¢d1806Rd1805òal°d1805Üamzah¢d1806zd1805å",
 ["gr:14090:of Spirit"] = "§aa°d1805alÄah°d1805ãamã",
 ["gr:9817:of the Bear"] = "§aa¢d1806d1805al°d1805%Äam'ah¢d1806'd1805kÀ",
-["gr:10231:of the Wolf"] = "§aa°d1805alÄamhüah°d1805hü",
+["gr:14217:of the Owl"] = "§aa°d1806alÄamah°d1806",
 ["gr:9847:of Intellect"] = "§aa¢d1806d1805alÄamÉah¢d1806Éd1805Ö",
 ["6614"] = "§aa¢d1806d1805al°d1805kamhah¢d1806hd1805î",
 ["gr:866:of Power"] = "§aa°d1805alÄah°d1805©‹am©‹",
@@ -7720,7 +7720,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9854:of Intellect"] = "§aa°d1805alÄah°d180555am55",
 ["14770"] = "§aa¢d1806d1805al°d1805>^am:÷ah¢d1806:÷d1805>_",
 ["gr:7448:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806pd1805\r´amp",
-["gr:6605:of the Monkey"] = "§aa¢d1806d1805alÄamàah¢d1806àd1805à",
+["15386"] = "§aa¢d1806d1805al°d1805hLam.oah¢d1806.od1805u0",
 ["gr:15508:of Strength"] = "§aa°d1805alÄamvah°d1805v",
 ["15512"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d1805\n",
 ["gr:10066:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806N d1805N amN ",
@@ -7728,18 +7728,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["828"] = "§aa¢d1806\"d1805al°d1805am+ah¢d1806+d1805$",
 ["gr:9917:of Stamina"] = "§aa°d1805alÄam:òah°d1805:ò",
 ["1930"] = "§aa¢d1806d1805al°d18059am∞ah¢d1806∞d1805:",
-["gr:12026:of the Eagle"] = "§aa°d1806alÄam\000Ü|ah°d1806\000Ü|",
-["15286"] = "§aa¢d1806	d1805al°d1805∏amBah¢d1806Bd1805Æ",
 ["gr:9861:of the Falcon"] = "§aa¢d1806d1805al°d1805!am>ah¢d1806>d1805@",
-["6514"] = "§aa°d1805alÄam≈ah°d1805≈",
-["gr:6610:of the Whale"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805L",
+["15286"] = "§aa¢d1806	d1805al°d1805∏amBah¢d1806Bd1805Æ",
+["gr:7366:of the Eagle"] = "§aa°d1805alÄah°d1805'\ram'\r",
+["9292"] = "§aa¢d1806d1805alÄamMºah¢d1806Mºd1805>",
+["gr:14906:of the Tiger"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:9940:of Shadow Wrath"] = "§aa°d1806alÄamV∏ah°d1806V∏",
 ["gr:6586:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806\rd1805\n&am\r",
-["gr:10240:of the Bear"] = "§aa¢d1806d1805al°d1805Ç5amÍ^ah¢d1806Í^d1805ä¨",
+["6514"] = "§aa°d1805alÄam≈ah°d1805≈",
 ["gr:15016:of Defense"] = "§aa¢d1806d1805alÄamïah¢d1806ïd1805⁄",
 ["gr:9810:of the Tiger"] = "§aa°d1806alÄamîah°d1806î",
-["gr:14906:of the Tiger"] = "§aa°d1805alÄah°d1805√Pam√P",
-["9292"] = "§aa¢d1806d1805alÄamMºah¢d1806Mºd1805>",
+["12833"] = "§aa¢d1806d1805alÄam\000_êah¢d1806\000_êd1805\000Ü†",
+["gr:6610:of the Whale"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805L",
 ["8292"] = "§aa°d1806alÄamtÃah°d1806tÃ",
 ["8153"] = "§aa¢d1806Yd1805Hal°d1805›amfah¢d1806fd1805€",
 ["6292"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
@@ -7747,44 +7747,44 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4292"] = "§aa¢d1806d1805	alÄamﬁah¢d1806ﬁd1805‚",
 ["3292"] = "§aa¢d1806d1805al°d1805OamÂah¢d1806Âd1805œ",
 ["gr:9917:of the Bear"] = "§aa¢d1806d1805alÄamPuah¢d1806Pud1805u.",
-["gr:7366:of the Eagle"] = "§aa°d1805alÄah°d1805'\ram'\r",
+["gr:14284:of the Owl"] = "§aa°d1805alÄah°d1805N amN ",
 ["14474"] = "§aa¢d1806d1805al°d1805YamTah¢d1806Td1805[",
 ["9867"] = "§aa¢d1806\nd1805alÄamáah¢d1806ád1805	ƒ",
 ["gr:15139:of Agility"] = "§aa°d1805alÄam@tah°d1805@t",
 ["10450"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
-["gr:14284:of the Owl"] = "§aa°d1805alÄah°d1805N amN ",
+["gr:10240:of the Bear"] = "§aa¢d1806d1805al°d1805Ç5amÍ^ah¢d1806Í^d1805ä¨",
 ["gr:15161:of Intellect"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["10301"] = "§aa°d1805alÄah°d1805\n\"am\n\"",
 ["3867"] = "§aa¢d1806d1805\nal°d1805öamwah¢d1806wd1805ü",
 ["15621"] = "§aa¢d1806d1805alÄamóêah¢d1806óêd1805æ†",
-["gr:10232:of the Bear"] = "§aa°d1805alÄamu.ah°d1805u.",
 ["gr:9777:of Agility"] = "§aa¢d1806d1805alÄah¢d1806©d1805J8am©",
-["gr:7489:of the Monkey"] = "§aa°d1806alÄam>ah°d1806>",
-["18294"] = "§aa¢d1806¥d1805al°d1805™am$ah¢d1806$d1805",
 ["gr:15017:of the Gorilla"] = "§aa°d1805alÄamKah°d1805K",
+["15531"] = "§aa¢d1806d1805alÄamÆah¢d1806Æd1805o",
+["18294"] = "§aa¢d1806¥d1805al°d1805™am$ah¢d1806$d1805",
+["gr:11968:of Shadow Resistance"] = "§aa°d1805al°d1805;ah°d1805#am;",
 ["3612"] = "§aa¢d1806d1805al°d1805	◊am	–ah¢d1806	–d1805\n%",
 ["gr:10097:of Frozen Wrath"] = "§aa°d1805alÄam§tah°d1805§t",
 ["gr:14319:of the Owl"] = "§aa°d1805alÄah°d1805Ç5amÇ5",
-["15531"] = "§aa¢d1806d1805alÄamÆah¢d1806Æd1805o",
+["1814"] = "§aa¢d1806d1805alÄah¢d1806πd1805Xamπ",
 ["6712"] = "§aa¢d1806 d1805@al°d1805mam2ah¢d18062d1805v",
-["gr:6616:of Healing"] = "§aa¢d1806d1805alÄah¢d1806u.d1805u/amu.",
+["gr:6572:of the Monkey"] = "§aa¢d1806d1805alÄam˝ah¢d1806˝d1805˝",
 ["gr:2072:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806&¨d1805!2am&¨",
 ["gr:14932:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806u/d1805u/amu/",
 ["14262"] = "§aa¢d1806d1805alÄam#(ah¢d1806#(d1805'",
-["gr:15014:of Frozen Wrath"] = "§aa¢d1806d1805alÄamHah¢d1806Hd1805O",
-["gr:11968:of Shadow Resistance"] = "§aa°d1805al°d1805;ah°d1805#am;",
-["1814"] = "§aa¢d1806d1805alÄah¢d1806πd1805Xamπ",
 ["4814"] = "§aa°d1806alÄam∞ah°d1806∞",
-["3814"] = "§aa°d1805alÄah°d1805\nUam\nU",
+["gr:15373:of the Bear"] = "§aa¢d1806d1805alÄamb£ah¢d1806b£d1805:è",
 ["gr:7454:of Strength"] = "§aa°d1805al°d1805'ah°d1805\000Dam'",
+["gr:10232:of the Bear"] = "§aa°d1805alÄamu.ah°d1805u.",
+["3814"] = "§aa°d1805alÄah°d1805\nUam\nU",
 ["gr:15291:of the Eagle"] = "§aa¢d1806d1805alÄam¬àah¢d1806¬àd1805Èò",
+["gr:7489:of the Monkey"] = "§aa°d1806alÄam>ah°d1806>",
 ["14654"] = "§aa¢d1806d1805alÄah¢d1806-*d1805Loam-*",
 ["gr:15156:of the Monkey"] = "§aa¢d1806d1805alÄamG¶ah¢d1806G¶d1805G¶",
 ["9967"] = "§aa¢d1806d1805alÄam%ah¢d1806%d1805'",
 ["15474"] = "§aa¢d1806d1805alÄam»ah¢d1806»d1805ﬁ",
 ["7967"] = "§aa¢d1806d1805	al°d1805°àamS`ah¢d1806S`d1805°ê",
-["5967"] = "§aa°d1805alÄam<ah°d1805<",
 ["gr:11985:of the Owl"] = "§aa¢d1806d1805al°d1805Øamdah¢d1806dd1805∞",
+["5967"] = "§aa°d1805alÄam<ah°d1805<",
 ["gr:15491:of Power"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d18053",
 ["15542"] = "§aa¢d1806d1805\ral°d1805ùamîah¢d1806îd1805û",
 ["gr:15341:of Power"] = "§aa°d1805alÄam“ah°d1805“",
@@ -7798,8 +7798,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["3712"] = "§aa¢d1806d1805∞al°d1805+am«ah¢d1806«d1805O",
 ["gr:9835:of the Whale"] = "§aa¢d1806d1805alÄamˇah¢d1806ˇd1805o",
 ["gr:9767:of Frozen Wrath"] = "§aa°d1805al°d1805ah°d1805'am",
-["184937"] = "§aa¢d1806d1805alÄah¢d1806\000\"◊d1805\000‘∂am\000\"◊",
 ["15346"] = "§aa¢d1806d1805alÄamøah¢d1806ød1805O",
+["184937"] = "§aa¢d1806d1805alÄah¢d1806\000\"◊d1805\000‘∂am\000\"◊",
 ["14833"] = "§aa¢d1806d1805al°d1805ôamòah¢d1806òd1805ú",
 ["2967"] = "§aa°d1806alÄaméah°d1806é",
 ["gr:1613:of the Bear"] = "§aa¢d1806d1805al°d1805Ø∆am√Oah¢d1806√Od1805√N",
@@ -7832,56 +7832,56 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["2070"] = "§aa¢d1806d1805-al°d1805amah¢d1806d1805",
 ["14364"] = "§aa¢d1806d1805al°d1805ÈamNah¢d1806Nd1805#",
 ["gr:15250:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806\rd1805 am\r",
-["5112"] = "§aa°d1805alÄam!4ah°d1805!4",
+["15355"] = "§aa¢d1806d1805	alÄamÊah¢d1806Êd1805à",
 ["gr:2819:of the Bear"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805 â",
 ["gr:15120:of Defense"] = "§aa°d1805al°d1805\nÌah°d1805\nÔam\nÌ",
 ["gr:10072:of the Eagle"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
-["15355"] = "§aa¢d1806d1805	alÄamÊah¢d1806Êd1805à",
 ["15560"] = "§aa¢d1806d1805alÄam\n>ah¢d1806\n>d1805∏",
-["gr:7474:of Shadow Wrath"] = "§aa°d1806alÄam:òah°d1806:ò",
+["5112"] = "§aa°d1805alÄam!4ah°d1805!4",
+["7192"] = "§aa°d1806alÄam\000Iah°d1806\000I",
 ["8192"] = "§aa¢d1806d1805alÄamd\"ah¢d1806d\"d1805A",
 ["8112"] = "§aa¢d1806d1805al°d1805-am-ah¢d1806-d1805-",
 ["gr:15355:of Healing"] = "§aa°d1806alÄamxah°d1806x",
 ["3192"] = "§aa¢d1806Cd1805`alÄamÙah¢d1806Ùd1805Ù",
-["7112"] = "§aa¢d1806d1805alÄah¢d1806&˚d1805&˙am&˚",
+["gr:14250:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806#'d1805#'am#'",
 ["gr:6600:of the Boar"] = "§aa°d1805alÄah°d1805∏am∏",
 ["14279"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:9921:of Defense"] = "§aa¢d1806d1805alÄam#ah¢d1806#d1805#",
-["gr:10209:of the Bear"] = "§aa¢d1806d1805alÄam=∑ah¢d1806=∑d1805.ﬁ",
+["gr:15187:of Nature's Wrath"] = "§aa°d1805alÄamÜƒah°d1805Üƒ",
 ["gr:15270:of Strength"] = "§aa°d1805alÄamÑ–ah°d1805Ñ–",
 ["14551"] = "§aa¢d1806d1805al°d1805\000p√0am\000pu\rah¢d1806\000pu\rd1805\000pÍ@",
 ["15340"] = "§aa¢d1806d1805alÄam@ah¢d1806@d1805",
 ["16654"] = "§aa¢d1806d1805Tal°d1805Uamèah¢d1806èd1805<",
 ["gr:15012:of Nature's Wrath"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805<",
 ["gr:15509:of Healing"] = "§aa°d1805alÄah°d1805@am@",
-["gr:9807:of the Monkey"] = "§aa°d1805alÄam:Äah°d1805:Ä",
+["gr:11997:of Regeneration"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:7481:of the Monkey"] = "§aa°d1805alÄah°d18052»am2»",
 ["gr:9797:of Fiery Wrath"] = "§aa°d1806alÄam\"^ah°d1806\"^",
-["gr:11997:of Regeneration"] = "§aa°d1806alÄam'ah°d1806'",
+["gr:9807:of the Monkey"] = "§aa°d1805alÄam:Äah°d1805:Ä",
 ["gr:14269:of the Owl"] = "§aa¢d1806d1805alÄam@^ah¢d1806@^d1805M}",
 ["140"] = "§aa¢d1806d1805alÄam·ah¢d1806·d1805‚",
 ["gr:9851:of Spirit"] = "§aa°d1806alÄamÜah°d1806Ü",
 ["gr:6594:of the Eagle"] = "§aa°d1805alÄah°d1805§am§",
 ["gr:9856:of the Falcon"] = "§aa°d1805alÄah°d1805?am?",
 ["gr:15636:of Healing"] = "§aa°d1805alÄam^àah°d1805^à",
-["12531"] = "§aa°d1805alÄam\000	#◊ah°d1805\000	#◊",
-["gr:9831:of Stamina"] = "§aa°d1805al°d1805∑ah°d1805∏am∑",
 ["gr:15298:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806œd1805Wamœ",
+["gr:9831:of Stamina"] = "§aa°d1805al°d1805∑ah°d1805∏am∑",
+["gr:6578:of Power"] = "§aa°d1805al°d1805	¬ah°d1805πam	¬",
 ["gr:9890:of Agility"] = "§aa¢d1806d1805alÄam'\rah¢d1806'\rd1805'r",
 ["gr:9288:of the Bear"] = "§aa¢d1806d1805alÄam?îah¢d1806?îd1805ê",
 ["gr:15369:of the Owl"] = "§aa°d1805al°d1805'ah°d1805:òam'",
-["gr:6578:of Power"] = "§aa°d1805al°d1805	¬ah°d1805πam	¬",
+["12531"] = "§aa°d1805alÄam\000	#◊ah°d1805\000	#◊",
 ["3914"] = "§aa¢d1806d1805	al°d1805ìîamu|ah¢d1806u|d1805ôy",
 ["gr:15017:of Agility"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805ÿ",
 ["gr:9889:of Stamina"] = "§aa°d1805alÄah°d1805&©am&©",
-["gr:15975:of Healing"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15970:of Arcane Wrath"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805y",
-["gr:14920:of the Bear"] = "§aa¢d1806d1805al°d1805MWama¢ah¢d1806a¢d1805a¢",
 ["14097"] = "§aa¢d18063d18058al°d1805Öamgah¢d1806gd1805Ü",
+["gr:14920:of the Bear"] = "§aa¢d1806d1805al°d1805MWama¢ah¢d1806a¢d1805a¢",
+["gr:7353:of the Owl"] = "§aa°d1806alÄamΩah°d1806Ω",
 ["15279"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805\0008Ä",
 ["gr:15536:of Power"] = "§aa¢d1806d1805alÄamÚah¢d1806Úd1805Ú",
 ["12046"] = "§aa¢d1806d1805al°d1805u0amú@ah¢d1806ú@d1805\000[8",
-["gr:7353:of the Owl"] = "§aa°d1806alÄamΩah°d1806Ω",
+["gr:7409:of Agility"] = "§aa¢d1806d1805alÄah¢d1806'd1805†am'",
 ["gr:3185:of Frozen Wrath"] = "§aa°d1805alÄam/%ah°d1805/%",
 ["10391"] = "§aa¢d1806d1805alÄamÿÃah¢d1806ÿÃd1805pÄ",
 ["12976"] = "§aa¢d1806d1805al°d1805\000$˜amÍ_ah¢d1806Í_d1805\000<ù",
@@ -7894,18 +7894,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6550:of the Boar"] = "§aa¢d1806d1805alÄam\r©ah¢d1806\r©d1805\r™",
 ["gr:10409:of the Bear"] = "§aa¢d1806d1805alÄambah¢d1806bd1805á",
 ["14897"] = "§aa¢d1806d1805alÄam!{ah¢d1806!{d1805ª",
-["9392"] = "§aa°d1805alÄah°d1805\000\000 am\000\000 ",
+["gr:10289:of Frozen Wrath"] = "§aa°d1805alÄah°d1805DΩamDΩ",
 ["16042"] = "§aa¢d1806d1805al°d1805/	am/ah¢d1806/d1805/",
 ["2853"] = "§aa°d1805\ralÄah°d1805am",
-["8392"] = "§aa¢d1806rd1805[al°d1805Ïam◊ah¢d1806◊d1805&",
-["gr:10289:of Frozen Wrath"] = "§aa°d1805alÄah°d1805DΩamDΩ",
+["gr:10120:of the Falcon"] = "§aa°d1805alÄamMXah°d1805MX",
+["9392"] = "§aa°d1805alÄah°d1805\000\000 am\000\000 ",
 ["3853"] = "§aa¢d1806d1805alÄam†ãah¢d1806†ãd1805õ€",
 ["7392"] = "§aa°d1805:al°d1805&ah°d1805,am&",
-["gr:10120:of the Falcon"] = "§aa°d1805alÄamMXah°d1805MX",
+["8392"] = "§aa¢d1806rd1805[al°d1805Ïam◊ah¢d1806◊d1805&",
 ["14091"] = "§aa¢d1806\rd1805al°d1805éamåah¢d1806åd1805è",
 ["8312"] = "§aa¢d1806d1805alÄah¢d1806u0d1805Namu0",
 ["2407"] = "§aa¢d1806d1805al°d1805*amƒah¢d1806ƒd1805[",
-["2312"] = "§aa¢d1806d1805	alÄamäah¢d1806äd1805",
+["4392"] = "§aa¢d1806!d1805õalÄamºah¢d1806ºd1805ø",
 ["3312"] = "§aa¢d1806d1805al°d1805*amAah¢d1806Ad1805A",
 ["4312"] = "§aa¢d1806d18050al°d1805Ûamah¢d1806d1805",
 ["15389"] = "§aa°d1805alÄamN ah°d1805N ",
@@ -7922,17 +7922,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["2749"] = "§aa¢d1806d1805)alÄamah¢d1806d1805(",
 ["gr:15528:of the Monkey"] = "§aa¢d1806d1805alÄam\nåah¢d1806\nåd1805´",
 ["gr:10288:of Intellect"] = "§aa¢d1806d1805alÄamõ‰ah¢d1806õ‰d1805õË",
-["gr:15356:of the Whale"] = "§aa°d1805alÄam\"ƒah°d1805\"ƒ",
+["gr:9902:of the Owl"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15230:of the Whale"] = "§aa¢d1806d1805alÄamRah¢d1806Rd1805S",
 ["gr:15135:of the Wolf"] = "§aa°d1805alÄah°d1805TamT",
 ["gr:6539:of Fiery Wrath"] = "§aa°d1805alÄah°d1805∏am∏",
-["gr:10195:of the Tiger"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["10316"] = "§aa¢d1806d1805al°d1805ﬁamﬁah¢d1806ﬁd1805ﬂ",
 ["gr:7524:of the Owl"] = "§aa¢d1806d1805alÄam-0ah¢d1806-0d18052ƒ",
-["gr:15497:of Strength"] = "§aa°d1805al°d1805ah°d1805qam",
 ["gr:9899:of Strength"] = "§aa°d1805alÄah°d1805LêamLê",
-["gr:15538:of the Eagle"] = "§aa¢d1806d1805alÄamUah¢d1806Ud1805U",
+["gr:15497:of Strength"] = "§aa°d1805al°d1805ah°d1805qam",
 ["14560"] = "§aa¢d1806d1805alÄamah¢d1806d1805l",
+["gr:15538:of the Eagle"] = "§aa¢d1806d1805alÄamUah¢d1806Ud1805U",
+["gr:10195:of the Tiger"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["gr:15113:of the Gorilla"] = "§aa¢d1806d1805alÄah¢d1806≈d1805Êam≈",
 ["3012"] = "§aa¢d1806>d1805Øal°d1805—amèah¢d1806èd1805@",
 ["7092"] = "§aa¢d1806d1805al°d1805\rHamñah¢d1806ñd1805'",
@@ -7953,17 +7953,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:4568:of Stamina"] = "§aa¢d1806d1805\nalÄamëah¢d1806ëd18051",
 ["gr:7463:of Stamina"] = "§aa°d1805alÄam#üah°d1805#ü",
 ["gr:14205:of the Owl"] = "§aa¢d1806d1805alÄam\n$ah¢d1806\n$d1805\n&",
-["gr:12047:of the Boar"] = "§aa°d1805alÄah°d1805~Ùam~Ù",
-["15944"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805U",
 ["gr:14124:of the Falcon"] = "§aa°d1805alÄam‹ah°d1805‹",
+["15944"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805U",
+["gr:9891:of the Whale"] = "§aa°d1805al°d1805Pah°d1805!ñamP",
 ["15625"] = "§aa¢d1806d1805al°d1805&¨am&¨ah¢d1806&¨d18057",
 ["15183"] = "§aa°d1805alÄam;Uah°d1805;U",
 ["3653"] = "§aa¢d1806d1805alÄamŒah¢d1806Œd1805”",
 ["gr:15972:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805û",
-["gr:10279:of the Bear"] = "§aa°d1806alÄam\000ê@ah°d1806\000ê@",
-["gr:10136:of the Eagle"] = "§aa°d1805alÄamú>ah°d1805ú>",
-["gr:14222:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806N d18050”amN ",
+["gr:6575:of Strength"] = "§aa°d1806alÄam	ƒah°d1806	ƒ",
 ["gr:9844:of the Whale"] = "§aa°d1805alÄah°d1805›am›",
+["gr:14222:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806N d18050”amN ",
+["gr:10136:of the Eagle"] = "§aa°d1805alÄamú>ah°d1805ú>",
 ["15577"] = "§aa¢d1806d1805al°d1805¿amtah¢d1806td1805|",
 ["gr:9770:of the Owl"] = "§aa¢d1806d1805al°d1805åam>ah¢d1806>d1805?",
 ["gr:10259:of the Monkey"] = "§aa°d1805alÄah°d1805√Pam√P",
@@ -7978,74 +7978,74 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15617:of the Wolf"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:14194:of the Whale"] = "§aa°d1805al°d1805\n!ah°d1805\n\"am\n!",
 ["1986"] = "§aa¢d1806d1805alÄamcôah¢d1806côd1805cú",
-["gr:15565:of the Bear"] = "§aa°d1805alÄam*¯ah°d1805*¯",
 ["4593"] = "§aa¢d1806-d1805Ual°d1805am3ah¢d18063d1805",
-["gr:9766:of Fiery Wrath"] = "§aa°d1805alÄah°d1805ŒamŒ",
 ["2314"] = "§aa¢d1806d1805alÄamah¢d1806d1805Z",
 ["gr:2077:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806\000ßïd1805am\000ßï",
-["gr:15113:of the Bear"] = "§aa¢d1806d1805al°d1805‹am†ah¢d1806†d1805à",
 ["9953"] = "§aa¢d1806d1805alÄamY◊ah¢d1806Y◊d1805I»",
 ["12025"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805v\\",
-["gr:15114:of the Falcon"] = "§aa°d1806alÄam4ah°d18064",
-["gr:14924:of the Bear"] = "§aa¢d1806d1805alÄam\000pah¢d1806\000pd1805\000%[",
+["gr:15113:of the Bear"] = "§aa¢d1806d1805al°d1805‹am†ah¢d1806†d1805à",
+["gr:15565:of the Bear"] = "§aa°d1805alÄam*¯ah°d1805*¯",
 ["gr:14301:of Shadow Wrath"] = "§aa¢d1806d1805alÄam\000£§ah¢d1806\000£§d1805\000yê",
+["gr:14208:of Frozen Wrath"] = "§aa¢d1806d1805alÄamb{ah¢d1806b{d1805b{",
+["gr:15213:of the Tiger"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805'",
 ["10213"] = "§aa¢d1806d1805alÄamà∏ah¢d1806à∏d1805\000p",
-["gr:9820:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805¯am¯ah¢d1806¯d1805D",
 ["8953"] = "§aa¢d1806d1805alÄah¢d1806wd1805wamw",
+["gr:9820:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805¯am¯ah¢d1806¯d1805D",
+["gr:14310:of Frozen Wrath"] = "§aa¢d1806d1805alÄam\000Ûpah¢d1806\000Ûpd1805\000Ûp",
 ["gr:15353:of the Bear"] = "§aa°d1806alÄam+\\ah°d1806+\\",
 ["gr:7433:of the Whale"] = "§aa¢d1806d1805alÄamzah¢d1806zd1805{",
-["gr:6612:of the Owl"] = "§aa°d1805alÄah°d1805pamp",
-["gr:9840:of the Tiger"] = "§aa°d1805alÄah°d1805'am'",
-["gr:9922:of the Bear"] = "§aa¢d1806d1805alÄah¢d18062«d18052»am2«",
-["15553"] = "§aa¢d1806d1805al°d1805àamN ah¢d1806N d1805Yÿ",
-["gr:15262:of the Tiger"] = "§aa¢d1806d1805alÄam÷ÿah¢d1806÷ÿd1805÷ÿ",
+["2587"] = "§aa¢d1806d1805alÄah¢d1806Üd1805–amÜ",
 ["4249"] = "§aa¢d1806d1805'al°d1805am†ah¢d1806†d18050",
+["10050"] = "§aa¢d1806fd1805Aal°d1805+ am*ah¢d1806*d1805,",
 ["gr:15330:of Agility"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805/D",
-["14160"] = "§aa¢d1806!d1805#al°d1805 am9ah¢d18069d1805Ë",
+["gr:15262:of the Tiger"] = "§aa¢d1806d1805alÄam÷ÿah¢d1806÷ÿd1805÷ÿ",
 ["gr:15501:of Defense"] = "§aa¢d1806d1805al°d1805Tam(ah¢d1806(d1805Á",
+["gr:9763:of the Eagle"] = "§aa¢d1806d1805alÄam ah¢d1806 d1805 ",
+["14160"] = "§aa¢d1806!d1805#al°d1805 am9ah¢d18069d1805Ë",
+["gr:9840:of the Tiger"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:7476:of the Whale"] = "§aa°d1805alÄah°d1805£am£",
 ["gr:7482:of the Monkey"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805FP",
-["gr:9763:of the Eagle"] = "§aa¢d1806d1805alÄam ah¢d1806 d1805 ",
+["15553"] = "§aa¢d1806d1805al°d1805àamN ah¢d1806N d1805Yÿ",
 ["gr:10244:of Power"] = "§aa°d1805alÄah°d1805\000N2am\000N2",
-["gr:1639:of Power"] = "§aa°d1805alÄah°d1805√Oam√O",
 ["gr:1608:of Stamina"] = "§aa°d1805alÄamu0ah°d1805u0",
-["gr:7485:of the Monkey"] = "§aa°d1806alÄamV∏ah°d1806V∏",
-["gr:7410:of Intellect"] = "§aa°d1806alÄam\r´ah°d1806\r´",
 ["gr:15507:of Power"] = "§aa¢d1806d1805al°d1805˙amlah¢d1806ld1805˚",
 ["8067"] = "§aa¢d1806=∏d1805*0alÄamah¢d1806d1805",
+["gr:7410:of Intellect"] = "§aa°d1806alÄam\r´ah°d1806\r´",
 ["gr:14216:of the Whale"] = "§aa°d1805al°d1805u.ah°d1805u/amu.",
+["gr:1639:of Power"] = "§aa°d1805alÄah°d1805√Oam√O",
+["gr:7485:of the Monkey"] = "§aa°d1806alÄamV∏ah°d1806V∏",
 ["18512"] = "§aa¢d1806(d1805%alÄam7“ah¢d18067“d1805A8",
-["gr:11987:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806N d1805u0amN ",
 ["gr:15124:of the Owl"] = "§aa¢d1806d1805al°d1805\nÎam\nÎah¢d1806\nÎd1805\nÓ",
+["4067"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805)J",
 ["3067"] = "§aa¢d1806d1805al°d1805àamlah¢d1806ld1805â",
-["gr:15147:of the Monkey"] = "§aa°d1805alÄam?ah°d1805?",
 ["4496"] = "§aa¢d1806\"d1805)al°d1805ﬁamÖah¢d1806Öd1805Ï",
-["2644"] = "§aa¢d1806d1805alÄah¢d1806Id1805HamI",
-["2453"] = "§aa¢d1806πd1805Eal°d1805Éamfah¢d1806fd1805Ø",
-["gr:10213:of Frozen Wrath"] = "§aa¢d1806d1805alÄam\000\r$ah¢d1806\000\r$d1805\000p",
 ["gr:14234:of the Owl"] = "§aa¢d1806d1805al°d1805!3am@ah¢d1806@d1805!4",
+["gr:15147:of the Monkey"] = "§aa°d1805alÄam?ah°d1805?",
+["gr:9842:of the Tiger"] = "§aa¢d1806d1805alÄamVÿah¢d1806Vÿd1805Vÿ",
+["gr:10213:of Frozen Wrath"] = "§aa¢d1806d1805alÄam\000\r$ah¢d1806\000\r$d1805\000p",
+["2644"] = "§aa¢d1806d1805alÄah¢d1806Id1805HamI",
 ["3644"] = "§aa°d1805alÄamﬁah°d1805ﬁ",
 ["6453"] = "§aa°d1805alÄam“ah°d1805“",
 ["gr:15282:of Healing"] = "§aa°d1805alÄam\000ah°d1805\000",
 ["13445"] = "§aa¢d1806Öd1805àal°d180524am.◊ah¢d1806.◊d18052∆",
 ["gr:15112:of Spirit"] = "§aa¢d1806d1805alÄamûah¢d1806ûd1805§",
 ["14093"] = "§aa¢d1806d1805al°d1805FamEah¢d1806Ed1805I",
-["10069"] = "§aa¢d1806d1805alÄam&¨ah¢d1806&¨d1805J7",
-["11968"] = "§aa¢d1806	d1805al°d1805>am⁄ah¢d1806⁄d1805Œ",
 ["gr:15117:of the Eagle"] = "§aa¢d1806d1805al°d1805∑am{ah¢d1806{d1805{",
+["11968"] = "§aa¢d1806	d1805al°d1805>am⁄ah¢d1806⁄d1805Œ",
+["gr:9857:of the Owl"] = "§aa¢d1806d1805al°d1805\n\"amN ah¢d1806N d1805\n#",
 ["13457"] = "§aa¢d1806id1805∫al°d1805MSam8£ah¢d18068£d1805TK",
 ["818"] = "§aa¢d1806Âd1805ıalÄamñah¢d1806ñd1805",
 ["14299"] = "§aa°d1805alÄah°d1805:òam:ò",
 ["gr:15918:of Healing"] = "§aa°d1806alÄamV∏ah°d1806V∏",
 ["gr:9837:of Stamina"] = "§aa°d1805alÄah°d1805\nam\n",
-["gr:9857:of the Owl"] = "§aa¢d1806d1805al°d1805\n\"amN ah¢d1806N d1805\n#",
 ["gr:15614:of the Bear"] = "§aa°d1805alÄah°d1805bamb",
 ["gr:15358:of the Falcon"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
-["8167"] = "§aa¢d1806Pd1805«al°d1805%améah¢d1806éd1805&",
-["gr:15233:of the Wolf"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:15972:of Spirit"] = "§aa¢d1806d1805alÄamÙah¢d1806Ùd1805ı",
-["gr:9867:of Strength"] = "§aa¢d1806d1805alÄah¢d1806Nd1805NamN",
 ["gr:6587:of the Monkey"] = "§aa¢d1806d1805al°d1805µam'ah¢d1806'd1805:ı",
+["gr:15233:of the Wolf"] = "§aa°d1805alÄamN ah°d1805N ",
+["10069"] = "§aa¢d1806d1805alÄam&¨ah¢d1806&¨d1805J7",
+["gr:9867:of Strength"] = "§aa¢d1806d1805alÄah¢d1806Nd1805NamN",
+["8167"] = "§aa¢d1806Pd1805«al°d1805%améah¢d1806éd1805&",
 ["gr:7414:of the Whale"] = "§aa¢d1806d1805al°d1805Çam8ah¢d18068d1805É",
 ["gr:15350:of the Monkey"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:12020:of Stamina"] = "§aa¢d1806d1805alÄam4ºah¢d18064ºd1805tÀ",
@@ -8070,49 +8070,49 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15571:of Strength"] = "§aa°d1806alÄamoah°d1806o",
 ["gr:9932:of Stamina"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:15606:of the Tiger"] = "§aa°d1805al°d1805:3ah°d1805:4am:3",
-["14559"] = "§aa¢d1806d1805al°d1805ÁamÙah¢d1806Ùd1805",
-["gr:6599:of Stamina"] = "§aa°d1805alÄam?ah°d1805?",
+["gr:15191:of the Monkey"] = "§aa°d1805alÄah°d1805÷ÿam÷ÿ",
+["gr:15127:of Defense"] = "§aa¢d1806d1805alÄamXah¢d1806Xd1805X",
 ["gr:9842:of the Whale"] = "§aa¢d1806d1805alÄampah¢d1806pd1805@",
 ["gr:1990:of the Monkey"] = "§aa¢d1806d1805al°d18050“amBTah¢d1806BTd1805BV",
-["gr:15127:of Defense"] = "§aa¢d1806d1805alÄamXah¢d1806Xd1805X",
-["gr:7436:of Frozen Wrath"] = "§aa°d1805alÄam-Kah°d1805-K",
 ["15742"] = "§aa¢d1806d1805alÄam\000pah¢d1806\000pd1805\000_ê",
-["14593"] = "§aa¢d1806d1805al°d1805##amxah¢d1806xd1805#&",
+["gr:7436:of Frozen Wrath"] = "§aa°d1805alÄam-Kah°d1805-K",
 ["gr:14122:of Healing"] = "§aa¢d1806d1805al°d1805€amËah¢d1806Ëd1805‹",
-["gr:15932:of the Whale"] = "§aa°d1805al°d1805‰ah°d1805Êam‰",
-["gr:6584:of the Monkey"] = "§aa°d1806alÄamI∆ah°d1806I∆",
 ["gr:7476:of Intellect"] = "§aa°d1805alÄamàah°d1805à",
+["gr:6599:of Stamina"] = "§aa°d1805alÄam?ah°d1805?",
+["14593"] = "§aa¢d1806d1805al°d1805##amxah¢d1806xd1805#&",
+["1315"] = "§aa°d1805al°d1805\000–èah°d1805\000W.am\000–è",
+["gr:15932:of the Whale"] = "§aa°d1805al°d1805‰ah°d1805Êam‰",
 ["gr:6609:of the Owl"] = "§aa°d1806alÄam\r¨ah°d1806\r¨",
 ["2315"] = "§aa¢d1806d1805alÄamùah¢d1806ùd1805h",
 ["4415"] = "§aa°d1805alÄamÍ_ah°d1805Í_",
 ["gr:15494:of the Monkey"] = "§aa¢d1806d1805	al°d1805ÃamÃah¢d1806Ãd1805K",
 ["6415"] = "§aa¢d1806d1805al°d1805vamtah¢d1806td1805x",
-["9999"] = "§aa¢d1806d1805al°d1805UamVah¢d1806Vd1805V",
+["7415"] = "§aa¢d1806d1805alÄam\n'ah¢d1806\n'd1805∑",
 ["gr:6611:of the Wolf"] = "§aa°d1805alÄamoah°d1805o",
 ["gr:7353:of the Whale"] = "§aa°d1805alÄamxah°d1805x",
 ["gr:7609:of the Whale"] = "§aa¢d1806d1805alÄamœah¢d1806œd1805œ",
 ["gr:14119:of the Monkey"] = "§aa¢d1806d1805al°d1805=amœah¢d1806œd1805œ",
 ["gr:15388:of Fire Resistance"] = "§aa¢d1806d1805alÄam\000‘¿ah¢d1806\000‘¿d1805\000‘¿",
-["15276"] = "§aa¢d1806d1805alÄam\000–êah¢d1806\000–êd1805\0003",
-["gr:9757:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806	˚d1805‹am	˚",
-["gr:14911:of Stamina"] = "§aa°d1805alÄah°d1805:òam:ò",
-["14281"] = "§aa¢d1806d1805alÄama⁄ah¢d1806a⁄d1805u0",
 ["gr:10066:of Fiery Wrath"] = "§aa°d1805alÄah°d1805'am'",
-["4999"] = "§aa¢d1806d1805al°d1805€am∂ah¢d1806∂d1805%",
+["gr:9757:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806	˚d1805‹am	˚",
+["gr:10504:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806\0008~d1805\000^Ûam\0008~",
+["14281"] = "§aa¢d1806d1805alÄama⁄ah¢d1806a⁄d1805u0",
 ["gr:14968:of the Bear"] = "§aa°d1806alÄamN ah°d1806N ",
-["gr:15488:of Stamina"] = "§aa¢d1806d1805al°d1805/am◊ah¢d1806◊d18051",
+["4999"] = "§aa¢d1806d1805al°d1805€am∂ah¢d1806∂d1805%",
+["gr:14911:of Stamina"] = "§aa°d1805alÄah°d1805:òam:ò",
 ["15285"] = "§aa¢d1806\rd1805al°d1805áam®ah¢d1806®d1805Û",
+["gr:15488:of Stamina"] = "§aa¢d1806d1805al°d1805/am◊ah¢d1806◊d18051",
 ["gr:14120:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805`am_ah¢d1806_d1805¸",
 ["15559"] = "§aa¢d1806d1805al°d1805Üam|ah¢d1806|d1805<",
 ["15739"] = "§aa¢d1806d1805al°d1805óamòah¢d1806òd1805ò",
-["14261"] = "§aa¢d1806d1805alÄam.ah¢d1806.d1805#&",
+["gr:9860:of Healing"] = "§aa°d1805alÄah°d1805/0am/0",
 ["5756"] = "§aa¢d1806d1805al°d1805\000≠Øam\000˚–ah¢d1806\000˚–d1805\000˚–",
 ["gr:15009:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806‰d1805Ñam‰",
 ["gr:9776:of the Monkey"] = "§aa°d1805alÄam\n\000ah°d1805\n\000",
-["gr:9959:of the Wolf"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:14192:of the Whale"] = "§aa°d1805alÄah°d1805>am>",
 ["gr:15500:of the Boar"] = "§aa¢d1806d1805alÄamÎah¢d1806Îd1805\r÷",
-["gr:10404:of Intellect"] = "§aa°d1805al°d1805€ah°d1805‹am€",
+["gr:9904:of the Wolf"] = "§aa¢d1806d1805alÄam3Hah¢d18063Hd1805N ",
+["gr:14109:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805Xamah¢d1806d1805",
 ["1415"] = "§aa°d1805alÄah°d1805[am[",
 ["6605"] = "§aa¢d1806d1805	alÄam‹ah¢d1806‹d1805‰",
 ["3415"] = "§aa¢d1806d1805al°d1805ú@am#ah¢d1806#d1805¢",
@@ -8120,12 +8120,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["10165"] = "§aa¢d1806d1805al°d1805u.amu.ah¢d1806u.d1805\0008Ä",
 ["gr:10202:of the Bear"] = "§aa¢d1806d1805al°d18059ˇam.›ah¢d1806.›d1805b",
 ["gr:4571:of Fiery Wrath"] = "§aa¢d1806d1805alÄam¸ah¢d1806¸d1805§",
-["gr:14109:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805Xamah¢d1806d1805",
+["gr:10404:of Intellect"] = "§aa°d1805al°d1805€ah°d1805‹am€",
 ["gr:9846:of Intellect"] = "§aa¢d1806d1805al°d1805\nam‡ah¢d1806‡d1805",
 ["gr:10217:of Fiery Wrath"] = "§aa°d1805alÄah°d1805\000Ê0am\000Ê0",
 ["3831"] = "§aa¢d1806d1805al°d1805@tamBah¢d1806Bd1805@”",
-["gr:14090:of the Monkey"] = "§aa¢d1806d1805alÄamah¢d1806d1805U",
 ["gr:15573:of the Whale"] = "§aa°d1805alÄah°d1805,àam,à",
+["gr:6542:of Intellect"] = "§aa°d1805alÄamÑah°d1805Ñ",
 ["8483"] = "§aa¢d1806≤d1805Ìal°d1805Ûamah¢d1806d1805$",
 ["gr:6553:of Agility"] = "§aa¢d1806d1805alÄam\nÈah¢d1806\nÈd1805\nÎ",
 ["13033"] = "§aa¢d1806d1805alÄah¢d1806\000_èd1805Û∫am\000_è",
@@ -8143,14 +8143,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14109"] = "§aa¢d1806#d1805)al°d1805Xaméah¢d1806éd1805h",
 ["gr:15230:of the Bear"] = "§aa¢d1806d1805al°d1805›amgah¢d1806gd1805ﬁ",
 ["gr:9290:of the Boar"] = "§aa°d1805al°d1805!ah°d1805=am!",
-["15552"] = "§aa¢d1806d1805\nalÄam'ah¢d1806'd1805L",
+["gr:15536:of the Tiger"] = "§aa°d1805al°d1805<Ôah°d1805<am<Ô",
 ["gr:15312:of the Wolf"] = "§aa¢d1806d1805alÄam\"ah¢d1806\"d1805Ï",
 ["6554"] = "§aa¢d1806d1805al°d1805Æam–ah¢d1806–d1805	√",
 ["gr:7558:of Shadow Wrath"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:9871:of the Boar"] = "§aa°d1805alÄah°d1805XamX",
-["5215"] = "§aa¢d1806	d1805alÄam:∏ah¢d1806:∏d1805:ò",
-["9799"] = "§aa¢d1806d1805alÄamah¢d1806d1805€",
 ["gr:7434:of Spirit"] = "§aa°d1805alÄah°d1805-am-",
+["9799"] = "§aa¢d1806d1805alÄamah¢d1806d1805€",
+["5215"] = "§aa¢d1806	d1805alÄam:∏ah¢d1806:∏d1805:ò",
 ["gr:7492:of the Eagle"] = "§aa°d1805alÄam&¨ah°d1805&¨",
 ["15172"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805N ",
 ["8215"] = "§aa°d1806alÄam√Pah°d1806√P",
@@ -8159,39 +8159,39 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["804"] = "§aa¢d1806d1805\nal°d1805¢amöah¢d1806öd1805 ^",
 ["1799"] = "§aa¢d1806d1805al°d1805»am«ah¢d1806«d1805…",
 ["gr:15360:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
-["2799"] = "§aa¢d1806kd1805\\al°d1805lamWah¢d1806Wd1805ï",
-["gr:7488:of the Bear"] = "§aa°d1806alÄamu/ah°d1806u/",
 ["gr:7520:of the Whale"] = "§aa°d1805alÄamê#ah°d1805ê#",
+["gr:7488:of the Bear"] = "§aa°d1806alÄamu/ah°d1806u/",
 ["13479"] = "§aa¢d1806d1805alÄam\000§4ah¢d1806\000§4d1805\000Ú∫",
+["2799"] = "§aa¢d1806kd1805\\al°d1805lamWah¢d1806Wd1805ï",
 ["3469"] = "§aa°d1805alÄah°d1805öamö",
-["gr:9804:of the Boar"] = "§aa°d1805alÄam∏ah°d1805∏",
-["gr:9873:of the Boar"] = "§aa°d1805alÄamWah°d1805W",
 ["gr:15230:of Stamina"] = "§aa°d1805alÄam|ah°d1805|",
+["gr:9873:of the Boar"] = "§aa°d1805alÄamWah°d1805W",
 ["gr:8210:of the Boar"] = "§aa°d1805alÄah°d1805WamW",
+["gr:9804:of the Boar"] = "§aa°d1805alÄam∏ah°d1805∏",
 ["14373"] = "§aa¢d1806d1805\nal°d1805ªam\n¢ah¢d1806\n¢d1805",
 ["7279"] = "§aa¢d1806d1805\"alÄam%ah¢d1806%d1805G",
 ["gr:9818:of the Bear"] = "§aa¢d1806d1805	al°d1805˜am&∑ah¢d1806&∑d1805L",
-["gr:7357:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806,Ïd1805,Ïam,Ï",
 ["3010"] = "§aa°d1805	alÄam–ah°d1805–",
-["gr:4575:of Healing"] = "§aa¢d1806d1805alÄah¢d1806Nd1805N amN",
 ["gr:15560:of the Bear"] = "§aa¢d1806d1805alÄam\n>ah¢d1806\n>d1805p",
+["gr:4575:of Healing"] = "§aa¢d1806d1805alÄah¢d1806Nd1805N amN",
+["gr:7357:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806,Ïd1805,Ïam,Ï",
 ["gr:9792:of Spirit"] = "§aa¢d1806d1805al°d1805Tam√ah¢d1806√d1805¬",
 ["2215"] = "§aa¢d1806d1805al°d1805lam÷ah¢d1806÷d1805m",
 ["1514"] = "§aa°d1805al°d1805,ah°d1805`am,",
 ["gr:9801:of Defense"] = "§aa°d1805alÄah°d1805ÁamÁ",
-["15527"] = "§aa¢d1806d1805alÄam?ah¢d1806?d1805œ",
-["9899"] = "§aa¢d1806d1805al°d1805.‡am4ah¢d18064d18054",
 ["14220"] = "§aa°d1805alÄah°d18050‘am0‘",
-["15593"] = "§aa¢d1806d1805alÄam3Òah¢d18063Òd18053Û",
+["9899"] = "§aa¢d1806d1805al°d1805.‡am4ah¢d18064d18054",
 ["13488"] = "§aa¢d1806d1805alÄam\000»/ah¢d1806\000»/d1805\000A‹",
-["gr:15280:of the Gorilla"] = "§aa°d1805alÄam√Pah°d1805√P",
+["15593"] = "§aa¢d1806d1805alÄam3Òah¢d18063Òd18053Û",
 ["8315"] = "§aa°d1806alÄamÂ∞ah°d1806Â∞",
+["gr:15280:of the Gorilla"] = "§aa°d1805alÄam√Pah°d1805√P",
+["15527"] = "§aa¢d1806d1805alÄam?ah¢d1806?d1805œ",
 ["gr:15262:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806…_d1805…_am…_",
-["gr:10198:of Intellect"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
-["gr:7469:of the Owl"] = "§aa¢d1806d1805alÄam:ìah¢d1806:ìd1805:ì",
 ["gr:15530:of Strength"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805:ò",
-["gr:9784:of the Monkey"] = "§aa°d1805alÄamxah°d1805x",
+["gr:7469:of the Owl"] = "§aa¢d1806d1805alÄam:ìah¢d1806:ìd1805:ì",
 ["gr:7476:of Healing"] = "§aa¢d1806d1805al°d1805àam7Ωah¢d18067Ωd1805p",
+["gr:4566:of the Boar"] = "§aa¢d1806d1805al°d1805Ëam	jah¢d1806	jd1805	E",
+["gr:10198:of Intellect"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
 ["gr:15370:of the Monkey"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N ",
 ["15281"] = "§aa¢d1806d1805alÄam\000Ååah¢d1806\000Ååd1805\000Ü†",
 ["gr:10224:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806àµd1805àµamàµ",
@@ -8200,132 +8200,132 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14234:of the Eagle"] = "§aa°d1805alÄah°d1805W˝amW˝",
 ["gr:9846:of the Eagle"] = "§aa¢d1806d1805al°d1805'am(*ah¢d1806(*d1805:y",
 ["gr:6571:of Defense"] = "§aa¢d1806d1805al°d1805\r®am\r©ah¢d1806\r©d1805\r©",
-["gr:15249:of the Whale"] = "§aa¢d1806d1805al°d1805„am‡ah¢d1806‡d1805Â",
+["10276"] = "§aa¢d1806d1805alÄam\000$˜ah¢d1806\000$˜d1805\000$ˆ",
 ["10559"] = "§aa¢d1806\\d1805Mal°d1805∑am,ah¢d1806,d1805“",
 ["15261"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805E#",
 ["15741"] = "§aa¢d1806d1805alÄamú>ah¢d1806ú>d1805\000Üü",
-["gr:4566:of the Boar"] = "§aa¢d1806d1805al°d1805Ëam	jah¢d1806	jd1805	E",
+["gr:9913:of Shadow Wrath"] = "§aa°d1805alÄah°d1805ä¨amä¨",
 ["10182"] = "§aa°d1805alÄah°d1805°Tam°T",
 ["gr:12022:of Concentration"] = "§aa°d1805alÄam:ah°d1805:",
 ["gr:9823:of the Whale"] = "§aa¢d1806d1805alÄamtah¢d1806td1805t",
 ["gr:15270:of the Eagle"] = "§aa¢d1806d1805alÄamTah¢d1806Td1805â",
-["gr:15134:of the Wolf"] = "§aa°d1805alÄam~Ùah°d1805~Ù",
+["gr:15568:of the Whale"] = "§aa°d1805alÄah°d1805∑am∑",
 ["gr:15543:of Stamina"] = "§aa°d1805alÄamLah°d1805L",
 ["gr:15573:of the Bear"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805&F",
-["15479"] = "§aa¢d1806\nd1805	alÄamÉah¢d1806Éd1805˙",
+["gr:9784:of the Monkey"] = "§aa°d1805alÄamxah°d1805x",
 ["gr:15382:of the Owl"] = "§aa¢d1806d1805al°d1805'\ram'ah¢d1806'd1805'",
 ["gr:12020:of the Owl"] = "§aa°d1805alÄah°d1805BamB",
-["gr:9913:of Shadow Wrath"] = "§aa°d1805alÄah°d1805ä¨amä¨",
-["gr:15568:of the Whale"] = "§aa°d1805alÄah°d1805∑am∑",
 ["gr:15111:of the Gorilla"] = "§aa¢d1806d1805alÄah¢d1806–d1805–am–",
+["gr:9799:of Fiery Wrath"] = "§aa°d1805alÄah°d1805laml",
+["gr:3192:of the Wolf"] = "§aa¢d1806d1805al°d1805ÙamUah¢d1806Ud1805á",
 ["9512"] = "§aa°d1806alÄam\000i…ah°d1806\000i…",
 ["118"] = "§aa¢d1806÷d1805™al°d1805amah¢d1806d1805",
 ["gr:9940:of Fiery Wrath"] = "§aa°d1805alÄah°d1805\0008~am\0008~",
 ["gr:7448:of the Monkey"] = "§aa¢d1806d1805al°d1805–am—ah¢d1806—d1805—",
-["14552"] = "§aa°d1805al°d1805\000\rê8ah°d1805\000•Ûam\000\rê8",
+["gr:15134:of the Wolf"] = "§aa°d1805alÄam~Ùah°d1805~Ù",
 ["6512"] = "§aa¢d1806d1805alÄamÛah¢d1806Ûd1805&",
-["gr:9799:of Fiery Wrath"] = "§aa°d1805alÄah°d1805laml",
+["15479"] = "§aa¢d1806\nd1805	alÄamÉah¢d1806Éd1805˙",
 ["gr:7462:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806>„d1805>‰am>„",
 ["1512"] = "§aa¢d1806d1805\nal°d1805 amah¢d1806d1805&",
 ["2512"] = "§aa¢d1806*d1805µalÄah¢d1806	d1805\nam	",
-["gr:789:of the Bear"] = "§aa¢d1806d1805\nalÄam	åah¢d1806	åd1805–",
-["gr:3192:of the Wolf"] = "§aa¢d1806d1805al°d1805ÙamUah¢d1806Ud1805á",
-["gr:15554:of the Whale"] = "§aa°d1806alÄamàah°d1806à",
 ["gr:9906:of the Whale"] = "§aa¢d1806d1805alÄam\"ƒah¢d1806\"ƒd1805:ò",
+["14245"] = "§aa¢d1806d1805alÄamÇah¢d1806Çd1805É",
+["gr:15554:of the Whale"] = "§aa°d1806alÄamàah°d1806à",
+["gr:15517:of the Monkey"] = "§aa¢d1806d1805alÄamÊah¢d1806Êd1805Ê",
 ["gr:15171:of Agility"] = "§aa°d1806alÄamN ah°d1806N ",
 ["gr:15935:of the Whale"] = "§aa¢d1806d1805alÄamäah¢d1806äd1805!~",
 ["gr:3199:of the Bear"] = "§aa°d1805al°d1805dah°d1805Ùamd",
-["4705"] = "§aa¢d1806d1805al°d1805?am%\rah¢d1806%\rd1805%",
-["gr:9795:of the Falcon"] = "§aa°d1806alÄamxah°d1806x",
-["gr:15517:of the Monkey"] = "§aa¢d1806d1805alÄamÊah¢d1806Êd1805Ê",
 ["gr:4575:of Frozen Wrath"] = "§aa¢d1806d1805alÄamÙah¢d1806Ùd1805%",
+["gr:9795:of the Falcon"] = "§aa°d1806alÄamxah°d1806x",
+["gr:14177:of Fiery Wrath"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805œ",
+["14552"] = "§aa°d1805al°d1805\000\rê8ah°d1805\000•Ûam\000\rê8",
 ["gr:9910:of the Whale"] = "§aa°d1805alÄamàah°d1805à",
-["gr:15017:of the Bear"] = "§aa¢d1806d1805alÄam)ah¢d1806)d1805)",
+["gr:15541:of the Bear"] = "§aa¢d1806d1805alÄam∞ah¢d1806∞d1805'\n",
 ["7420"] = "§aa¢d1806\nd1805alÄam'jah¢d1806'jd1805‰",
 ["gr:15971:of Spirit"] = "§aa¢d1806d1805al°d1805œam?ah¢d1806?d1805–",
 ["gr:15354:of the Owl"] = "§aa°d1805alÄam$ah°d1805$",
 ["1705"] = "§aa¢d1806\"d1805Wal°d1805xam{ah¢d1806{d1805å",
-["gr:3192:of the Whale"] = "§aa¢d1806d1805al°d1805(amÙah¢d1806Ùd1805I",
-["5212"] = "§aa¢d1806d1805\"al°d1805⁄amuah¢d1806ud1805\n!",
+["4705"] = "§aa¢d1806d1805al°d1805?am%\rah¢d1806%\rd1805%",
+["gr:3192:of the Tiger"] = "§aa¢d1806d1805\nal°d1805Uam$ah¢d1806$d1805w",
 ["gr:14952:of the Bear"] = "§aa¢d1806d1805alÄam†ah¢d1806†d1805UÔ",
 ["gr:15329:of the Owl"] = "§aa¢d1806d1805al°d1805‹am‹ah¢d1806‹d1805ø",
-["8212"] = "§aa°d1806alÄamà∏ah°d1806à∏",
-["gr:15135:of the Falcon"] = "§aa¢d1806d1805alÄam–ah¢d1806–d1805†",
-["gr:3192:of the Tiger"] = "§aa¢d1806d1805\nal°d1805Uam$ah¢d1806$d1805w",
 ["gr:9823:of Spirit"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805",
+["gr:15135:of the Falcon"] = "§aa¢d1806d1805alÄam–ah¢d1806–d1805†",
+["5212"] = "§aa¢d1806d1805\"al°d1805⁄amuah¢d1806ud1805\n!",
+["8212"] = "§aa°d1806alÄamà∏ah°d1806à∏",
 ["gr:15307:of the Monkey"] = "§aa¢d1806d1805al°d1805;am€ah¢d1806€d1805=",
 ["18784"] = "§aa°d1805alÄah°d1805\000\r?am\000\r?",
 ["gr:14217:of the Whale"] = "§aa°d1805alÄamcah°d1805c",
 ["2212"] = "§aa¢d1806d1805alÄah¢d1806dd1805_amd",
-["gr:15489:of the Gorilla"] = "§aa°d1805al°d1805ah°d1805≤am",
-["gr:10186:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806õ‹d1805N amõ‹",
+["gr:15533:of the Bear"] = "§aa°d1805alÄam2»ah°d18052»",
 ["3212"] = "§aa¢d1806d1805alÄamüah¢d1806üd1805	√",
-["gr:9907:of the Whale"] = "§aa¢d1806d1805alÄam&´ah¢d1806&´d1805\"`",
+["gr:14221:of the Owl"] = "§aa¢d1806d1805al°d1805ƒam√ah¢d1806√d1805∆",
+["gr:10186:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806õ‹d1805N amõ‹",
 ["gr:9945:of the Whale"] = "§aa°d1805alÄah°d1805NamN",
 ["gr:14210:of the Whale"] = "§aa¢d1806d1805alÄam}ah¢d1806}d1805}",
 ["gr:7489:of the Whale"] = "§aa¢d1806d1805alÄam&‹ah¢d1806&‹d1805&›",
-["gr:15533:of the Bear"] = "§aa°d1805alÄam2»ah°d18052»",
-["gr:9842:of the Bear"] = "§aa¢d1806d1805al°d1805amjah¢d1806jd1805k",
 ["3287"] = "§aa¢d1806d1805al°d1805&amºah¢d1806ºd1805M",
+["gr:9842:of the Bear"] = "§aa¢d1806d1805al°d1805amjah¢d1806jd1805k",
+["8501"] = "§aa°d1805alÄah°d1805ÿÃamÿÃ",
 ["gr:15268:of the Wolf"] = "§aa¢d1806d1805al°d1805xam>ah¢d1806>d1805?",
 ["gr:14277:of the Eagle"] = "§aa¢d1806d1805al°d1805Í^amÍ_ah¢d1806Í_d1805Í_",
-["gr:15362:of Agility"] = "§aa°d1805alÄah°d1805N amN ",
-["14447"] = "§aa¢d1806d1805al°d1805NamJôah¢d1806Jôd1805NÄ",
+["4605"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805",
+["gr:15489:of the Gorilla"] = "§aa°d1805al°d1805ah°d1805≤am",
 ["gr:9811:of Strength"] = "§aa°d1805al°d1805ah°d1805çam",
 ["gr:10180:of the Eagle"] = "§aa°d1806alÄamm`ah°d1806m`",
 ["gr:14160:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806‰d1805–am‰",
 ["gr:9753:of Agility"] = "§aa¢d1806d1805alÄamÒah¢d1806Òd1805Ù",
 ["21552"] = "§aa°d1805alÄamZah°d1805Z",
-["4605"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805",
+["14447"] = "§aa¢d1806d1805al°d1805NamJôah¢d1806Jôd1805NÄ",
 ["gr:14281:of Shadow Wrath"] = "§aa¢d1806d1805alÄam√Nah¢d1806√Nd1805√O",
 ["2605"] = "§aa¢d1806d1805al°d1805˙am	¬ah¢d1806	¬d1805	¬",
-["gr:10223:of Power"] = "§aa°d1805alÄam≠pah°d1805≠p",
+["14842"] = "§aa°d1805alÄah°d1805u.amu.",
 ["gr:9808:of the Owl"] = "§aa¢d1806d1805al°d1805∑am˚ah¢d1806˚d1805p",
 ["gr:14228:of the Wolf"] = "§aa°d1805alÄamD\\ah°d1805D\\",
 ["10244"] = "§aa°d1805alÄah°d1805\000N2am\000N2",
 ["gr:10179:of Shadow Wrath"] = "§aa°d1805alÄah°d1805√Oam√O",
-["14842"] = "§aa°d1805alÄah°d1805u.amu.",
-["gr:9953:of the Bear"] = "§aa¢d1806d1805alÄamÄËah¢d1806ÄËd1805Y◊",
 ["gr:9797:of the Falcon"] = "§aa¢d1806d1805alÄamàah¢d1806àd1805à",
+["gr:9953:of the Bear"] = "§aa¢d1806d1805alÄamÄËah¢d1806ÄËd1805Y◊",
+["gr:10223:of Power"] = "§aa°d1805alÄam≠pah°d1805≠p",
 ["gr:9944:of the Whale"] = "§aa°d1805alÄah°d1805Â∞amÂ∞",
 ["4061"] = "§aa¢d1806d1805al°d1805.‡am!3ah¢d1806!3d1805=∏",
 ["gr:15219:of the Monkey"] = "§aa°d1805alÄah°d1805\000…‡am\000…‡",
-["7412"] = "§aa¢d1806d1805\nal°d1805òam\nÔah¢d1806\nÔd1805„",
+["gr:9850:of Frozen Wrath"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
 ["gr:14214:of the Whale"] = "§aa°d1805al°d1805îah°d1805≈amî",
 ["12261"] = "§aa¢d1806d1805al°d1805WamWah¢d1806Wd1805X",
-["gr:9850:of Frozen Wrath"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
-["gr:7444:of Agility"] = "§aa°d1805alÄam8<ah°d18058<",
-["18711"] = "§aa°d1805alÄam\000[ˆah°d1805\000[ˆ",
 ["13117"] = "§aa¢d1806d1805alÄah¢d1806\000Ê-d1805\000\r?am\000Ê-",
-["gr:14125:of the Eagle"] = "§aa°d1805alÄamìah°d1805ì",
-["gr:7418:of Stamina"] = "§aa¢d1806d1805al°d1805 –ampah¢d1806pd1805!4",
-["7479"] = "§aa¢d1806d1805\nal°d1805'am'ah¢d1806'd1805*¯",
+["gr:7444:of Agility"] = "§aa°d1805alÄam8<ah°d18058<",
+["gr:15486:of the Boar"] = "§aa¢d1806d1805al°d1805πamÙah¢d1806Ùd1805∫",
 ["gr:10242:of the Tiger"] = "§aa¢d1806d1805alÄamú>ah¢d1806ú>d1805ú>",
-["gr:6590:of Stamina"] = "§aa°d1805alÄam#(ah°d1805#(",
+["15746"] = "§aa°d1805alÄamé¥ah°d1805é¥",
+["gr:7418:of Stamina"] = "§aa¢d1806d1805al°d1805 –ampah¢d1806pd1805!4",
+["gr:14125:of the Eagle"] = "§aa°d1805alÄamìah°d1805ì",
+["gr:9793:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806Wd1805&´amW",
+["9805"] = "§aa¢d1806d1805$al°d1805Mamah¢d1806d1805	",
 ["4320"] = "§aa¢d1806d1805al°d18054\"amF€ah¢d1806F€d1805Rc",
 ["gr:2632:of Nature's Wrath"] = "§aa¢d1806d1805al°d1805Yamah¢d1806d1805Z",
 ["gr:9790:of the Bear"] = "§aa°d1805alÄam€ah°d1805€",
-["15746"] = "§aa°d1805alÄamé¥ah°d1805é¥",
-["gr:15342:of the Owl"] = "§aa°d1805al°d1805ah°d1805gam",
-["gr:15570:of Strength"] = "§aa¢d1806d1805al°d1805&Eam&Gah¢d1806&Gd1805&G",
+["gr:6539:of the Owl"] = "§aa¢d1806d1805	al°d1805≤amúah¢d1806úd1805≥",
+["gr:9863:of the Eagle"] = "§aa°d1805alÄah°d1805'am'",
+["7479"] = "§aa¢d1806d1805\nal°d1805'am'ah¢d1806'd1805*¯",
 ["gr:10132:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806ú=d1805ú=amú=",
-["gr:9794:of Arcane Wrath"] = "§aa¢d1806d1805al°d18055am:ah¢d1806:d18057",
+["gr:9876:of Shadow Wrath"] = "§aa°d1805alÄam1ˇah°d18051ˇ",
 ["1505"] = "§aa¢d1806d1805al°d1805»am∆ah¢d1806∆d1805\"",
 ["9030"] = "§aa¢d18061d1805al°d1805EamUah¢d1806Ud1805I",
-["gr:9860:of Arcane Wrath"] = "§aa°d1806alÄamXah°d1806X",
+["942"] = "§aa¢d1806d1805al°d1805\000*π{am\000*π|ah¢d1806\000*π|d1805\000*π~",
 ["gr:15249:of the Monkey"] = "§aa¢d1806d1805al°d1805=amºah¢d1806ºd1805à",
 ["gr:6545:of Power"] = "§aa¢d1806d1805al°d1805am‹ah¢d1806‹d1805‹",
-["gr:15241:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806±d1805˜am±",
-["gr:9793:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806Wd1805&´amW",
-["gr:9863:of the Eagle"] = "§aa°d1805alÄah°d1805'am'",
-["942"] = "§aa¢d1806d1805al°d1805\000*π{am\000*π|ah¢d1806\000*π|d1805\000*π~",
-["gr:14901:of Stamina"] = "§aa°d1806alÄam'ah°d1806'",
-["4412"] = "§aa¢d1806d1805al°d1805vamëah¢d1806ëd1805y",
-["14829"] = "§aa¢d1806d1805al°d18052∆am*ˆah¢d1806*ˆd1805:˘",
-["gr:9809:of Spirit"] = "§aa°d1806alÄamîah°d1806î",
-["1412"] = "§aa°d1805alÄam«ah°d1805«",
 ["15256"] = "§aa¢d1806d1805alÄah¢d1806\000Ê0d1805\0008Äam\000Ê0",
 ["gr:10198:of the Whale"] = "§aa°d1805alÄamu0ah°d1805u0",
+["gr:15342:of the Owl"] = "§aa°d1805al°d1805ah°d1805gam",
+["gr:9794:of Arcane Wrath"] = "§aa¢d1806d1805al°d18055am:ah¢d1806:d18057",
+["gr:14901:of Stamina"] = "§aa°d1806alÄam'ah°d1806'",
+["gr:9836:of Power"] = "§aa¢d1806d1805alÄah¢d1806&«d1805+am&«",
+["14479"] = "§aa¢d1806d1805alÄam!íah¢d1806!íd1805-I",
+["gr:9809:of Spirit"] = "§aa°d1806alÄamîah°d1806î",
+["1412"] = "§aa°d1805alÄam«ah°d1805«",
+["gr:9860:of Arcane Wrath"] = "§aa°d1806alÄamXah°d1806X",
+["gr:15241:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806±d1805˜am±",
 ["14801"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["gr:7435:of the Whale"] = "§aa¢d1806d1805alÄam\rUah¢d1806\rUd1805\r¨",
 ["gr:15504:of Stamina"] = "§aa¢d1806d1805alÄam&ah¢d1806&d1805°",
@@ -8342,81 +8342,81 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15935:of Spirit"] = "§aa°d1805alÄamáah°d1805á",
 ["7026"] = "§aa¢d1806d1805$al°d1805amah¢d1806d1805!",
 ["gr:14236:of Shadow Wrath"] = "§aa°d1805alÄam!4ah°d1805!4",
-["gr:9786:of the Bear"] = "§aa°d1805alÄamXah°d1805X",
+["gr:7461:of the Monkey"] = "§aa°d1805alÄah°d1805xamx",
 ["3199"] = "§aa¢d1806d18053alÄam¨ah¢d1806¨d1805\nã",
 ["gr:10064:of the Whale"] = "§aa¢d1806d1805alÄamêiah¢d1806êid1805êi",
-["15165"] = "§aa¢d1806d1805al°d1805”am@ah¢d1806@d1805@",
-["1372"] = "§aa¢d1806d1805alÄamÁah¢d1806Ád1805Á",
-["gr:15234:of Power"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805NÄ",
 ["8199"] = "§aa¢d1806d1805al°d1805u0amâah¢d1806âd1805ú?",
+["14940"] = "§aa¢d1806d1805alÄamoah¢d1806od1805'\n",
+["gr:15234:of Power"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805NÄ",
+["gr:15381:of Stamina"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805√P",
 ["14423"] = "§aa¢d1806d1805alÄam%ah¢d1806%d1805%",
 ["gr:15236:of the Boar"] = "§aa°d1805alÄamøah°d1805ø",
-["gr:14243:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d1806u0d1805D\\amu0",
-["14940"] = "§aa¢d1806d1805alÄamoah¢d1806od1805'\n",
+["gr:15190:of the Owl"] = "§aa¢d1806d1805alÄamõ‹ah¢d1806õ‹d1805õ‹",
+["15165"] = "§aa¢d1806d1805al°d1805”am@ah¢d1806@d1805@",
 ["gr:6512:of Frozen Wrath"] = "§aa°d1805alÄamŸah°d1805Ÿ",
 ["gr:14114:of the Falcon"] = "§aa¢d1806d1805alÄamXah¢d1806Xd1805∏",
-["13034"] = "§aa¢d1806d1805al°d1805\000IÔam\000÷cah¢d1806\000÷cd1805\000g;",
+["gr:3185:of the Owl"] = "§aa°d1805al°d1805&¨ah°d1805'am&¨",
 ["gr:11987:of the Owl"] = "§aa¢d1806d1805alÄah¢d18068£d1805&¨am8£",
 ["6368"] = "§aa¢d1806d1805alÄam‰ah¢d1806‰d1805À",
 ["15518"] = "§aa¢d1806d1805\nal°d1805<am„ah¢d1806„d1805†",
 ["gr:9779:of Nature's Wrath"] = "§aa°d1805alÄah°d1805áamá",
 ["gr:14177:of Healing"] = "§aa°d1805alÄah°d1805ÎamÎ",
-["gr:4567:of Power"] = "§aa¢d1806d1805alÄah¢d1806@d1805ıam@",
 ["13049"] = "§aa¢d1806d1805	al°d1805G‡am:óah¢d1806:ód1805HD",
-["2299"] = "§aa¢d1806d1805al°d1805\000ÜûamÍ`ah¢d1806Í`d1805\000Ü†",
+["9964"] = "§aa¢d1806d1805alÄamJ7ah¢d1806J7d1805N ",
+["gr:9923:of the Whale"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:15310:of the Falcon"] = "§aa¢d1806d1805al°d1805òamêah¢d1806êd1805\ni",
 ["gr:9820:of the Owl"] = "§aa°d1805alÄamåah°d1805å",
 ["gr:15488:of the Gorilla"] = "§aa¢d1806d1805alÄamœah¢d1806œd1805–",
 ["gr:14235:of the Eagle"] = "§aa°d1805alÄah°d1805:óam:ó",
-["9964"] = "§aa¢d1806d1805alÄamJ7ah¢d1806J7d1805N ",
+["gr:7353:of Intellect"] = "§aa¢d1806d1805al°d1805{amàah¢d1806àd1805|",
 ["14467"] = "§aa¢d1806d1805al°d1805:,am8òah¢d18068òd1805:-",
-["10068"] = "§aa¢d1806d1805al°d1805P9amêhah¢d1806êhd1805Q&",
+["gr:6563:of the Whale"] = "§aa¢d1806d1805al°d18051amŒah¢d1806Œd1805∑",
 ["gr:6599:of Defense"] = "§aa°d1805alÄam#(ah°d1805#(",
-["gr:9923:of the Whale"] = "§aa°d1805alÄah°d1805'am'",
-["gr:15165:of the Owl"] = "§aa°d1805alÄam'ah°d1805'",
+["2299"] = "§aa¢d1806d1805al°d1805\000ÜûamÍ`ah¢d1806Í`d1805\000Ü†",
+["15395"] = "§aa¢d1806d1805al°d1805tÃamN ah¢d1806N d1805ú@",
 ["3299"] = "§aa°d1806alÄamcah°d1806c",
 ["gr:15511:of the Bear"] = "§aa¢d1806d1805al°d1805	ƒam˚ah¢d1806˚d1805\nÔ",
+["gr:15489:of Stamina"] = "§aa°d1805al°d1805™ah°d1805œam™",
 ["4299"] = "§aa¢d1806d1805al°d1805amÅah¢d1806Åd1805Í",
-["gr:6563:of the Whale"] = "§aa¢d1806d1805al°d18051amŒah¢d1806Œd1805∑",
-["gr:7353:of Intellect"] = "§aa¢d1806d1805al°d1805{amàah¢d1806àd1805|",
-["gr:7480:of the Tiger"] = "§aa¢d1806d1805al°d1805,#amxah¢d1806xd1805,$",
+["10068"] = "§aa¢d1806d1805al°d1805P9amêhah¢d1806êhd1805Q&",
+["gr:7521:of the Owl"] = "§aa°d1805al°d18053˛ah°d1805:am3˛",
 ["gr:9753:of the Boar"] = "§aa¢d1806d1805al°d1805ÂamÁah¢d1806Ád1805Ê",
 ["gr:1613:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806aBd1805à∏amaB",
-["gr:15608:of the Whale"] = "§aa°d1805alÄam6Øah°d18056Ø",
-["gr:15393:of the Eagle"] = "§aa¢d1806d1805alÄamMºah¢d1806Mºd1805Mº",
-["gr:7521:of the Owl"] = "§aa°d1805al°d18053˛ah°d1805:am3˛",
-["gr:7409:of the Wolf"] = "§aa¢d1806d1805al°d1805àam”ah¢d1806”d1805¡",
-["12034"] = "§aa¢d1806d1805alÄama®ah¢d1806a®d1805c¸",
+["gr:4567:of Power"] = "§aa¢d1806d1805alÄah¢d1806@d1805ıam@",
+["gr:7480:of the Tiger"] = "§aa¢d1806d1805al°d1805,#amxah¢d1806xd1805,$",
 ["gr:10076:of the Wolf"] = "§aa°d1805alÄam∂ah°d1805∂",
+["gr:15608:of the Whale"] = "§aa°d1805alÄam6Øah°d18056Ø",
+["12034"] = "§aa¢d1806d1805alÄama®ah¢d1806a®d1805c¸",
+["gr:15393:of the Eagle"] = "§aa¢d1806d1805alÄamMºah¢d1806Mºd1805Mº",
 ["gr:3195:of Strength"] = "§aa¢d1806d1805al°d1805áamÑah¢d1806Ñd1805à",
 ["gr:15323:of the Tiger"] = "§aa°d1806alÄamú?ah°d1806ú?",
-["gr:9942:of the Whale"] = "§aa°d1805al°d1805u/ah°d1805u0amu/",
-["9905"] = "§aa¢d1806d1805al°d1805+ºam+ºah¢d1806+ºd1805+æ",
+["gr:10085:of Intellect"] = "§aa°d1805alÄah°d1805W‰amW‰",
+["gr:9806:of the Whale"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805∏",
 ["3379"] = "§aa°d1805al°d1805'qah°d1805'ram'q",
 ["gr:6581:of the Wolf"] = "§aa¢d1806d1805alÄam\nah¢d1806\nd1805",
 ["gr:6266:of Stamina"] = "§aa°d1805alÄam‹ah°d1805‹",
 ["gr:6586:of the Eagle"] = "§aa¢d1806d1805alÄamÖah¢d1806Öd1805Ö",
 ["gr:9847:of Frozen Wrath"] = "§aa°d1805alÄamN ah°d1805N ",
-["gr:9806:of the Whale"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805∏",
+["9905"] = "§aa¢d1806d1805al°d1805+ºam+ºah¢d1806+ºd1805+æ",
 ["gr:9883:of Spirit"] = "§aa°d1806alÄam%ah°d1806%",
 ["gr:12019:of the Eagle"] = "§aa¢d1806d1805alÄamõ⁄ah¢d1806õ⁄d1805æ†",
-["gr:9785:of the Tiger"] = "§aa°d1805alÄam›ah°d1805›",
+["15580"] = "§aa¢d1806d1805alÄamóah¢d1806ód1805»",
 ["gr:15340:of Spirit"] = "§aa°d1805al°d1805»ah°d1805…am»",
 ["14727"] = "§aa¢d1806\rd1805al°d1805am€ah¢d1806€d1805",
 ["14728"] = "§aa¢d1806d1805al°d1805Ëamºah¢d1806ºd1805u",
 ["gr:7544:of Defense"] = "§aa°d1805alÄamNah°d1805N",
 ["gr:15341:of the Monkey"] = "§aa¢d1806d1805alÄamàah¢d1806àd18050“",
 ["1265"] = "§aa¢d1806d1805al°d1805\000_çam\000_+ah¢d1806\000_+d1805\000_è",
-["gr:9288:of the Gorilla"] = "§aa°d1805alÄam'ah°d1805'",
+["gr:10194:of Intellect"] = "§aa°d1805alÄam@tah°d1805@t",
 ["4265"] = "§aa¢d1806âd1805Õal°d1805°am”ah¢d1806”d1805",
 ["3345"] = "§aa°d1805alÄam‡ah°d1805‡",
 ["gr:7485:of Intellect"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805:ò",
 ["gr:9783:of the Gorilla"] = "§aa¢d1806d1805alÄam€ah¢d1806€d1805„",
-["gr:15242:of the Monkey"] = "§aa¢d1806d1805alÄam?ah¢d1806?d1805>",
+["gr:7528:of Agility"] = "§aa°d1805alÄam:òah°d1805:ò",
 ["gr:14261:of Fiery Wrath"] = "§aa°d1805al°d1805.{ah°d1805.‡am.{",
 ["gr:14211:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806pd1805>amp",
 ["gr:15348:of Power"] = "§aa°d1805alÄam'◊ah°d1805'◊",
-["gr:12019:of Concentration"] = "§aa°d1805alÄah°d1805LèamLè",
+["gr:15242:of the Monkey"] = "§aa¢d1806d1805alÄam?ah¢d1806?d1805>",
 ["14635"] = "§aa°d1805alÄam'ãah°d1805'ã",
 ["gr:7471:of Fiery Wrath"] = "§aa°d1806alÄam!˘ah°d1806!˘",
 ["gr:6569:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806–d1805—am–",
@@ -8428,21 +8428,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9792:of Stamina"] = "§aa¢d1806d1805alÄam\r®ah¢d1806\r®d1805‡",
 ["gr:3195:of the Wolf"] = "§aa¢d1806d1805alÄamœah¢d1806œd1805	3",
 ["16252"] = "§aa¢d1806d1805alÄam\000iPah¢d1806\000iPd1805\000ÔÌ",
-["gr:10179:of the Falcon"] = "§aa°d1805al°d18056Øah°d1805Nam6Ø",
 ["gr:15118:of the Whale"] = "§aa°d1805alÄah°d1805\nam\n",
+["gr:4088:of the Monkey"] = "§aa°d1805alÄam]∫ah°d1805]∫",
 ["gr:14125:of Spirit"] = "§aa¢d1806d1805al°d1805am	¡ah¢d1806	¡d1805",
 ["gr:9879:of Shadow Wrath"] = "§aa°d1805alÄah°d18058§am8§",
-["gr:4088:of the Monkey"] = "§aa°d1805alÄam]∫ah°d1805]∫",
-["14580"] = "§aa¢d1806d1805al°d1805€am-ah¢d1806-d1805*",
 ["gr:14907:of the Bear"] = "§aa°d1805alÄah°d1805VŒamVŒ",
-["gr:10086:of the Boar"] = "§aa°d1805alÄama®ah°d1805a®",
-["2099"] = "§aa¢d1806d1805alÄam\000\" @ah¢d1806\000\" @d1805\000-∫È",
+["14580"] = "§aa¢d1806d1805al°d1805€am-ah¢d1806-d1805*",
 ["15528"] = "§aa¢d1806d1805alÄamah¢d1806d1805‹",
+["gr:10086:of the Boar"] = "§aa°d1805alÄama®ah°d1805a®",
+["gr:10179:of the Falcon"] = "§aa°d1805al°d18056Øah°d1805Nam6Ø",
+["2099"] = "§aa¢d1806d1805alÄam\000\" @ah¢d1806\000\" @d1805\000-∫È",
 ["gr:3206:of Stamina"] = "§aa¢d1806d1805al°d1805wam:ah¢d1806:d1805x",
 ["gr:7423:of the Boar"] = "§aa°d1806alÄam˜ah°d1806˜",
 ["5782"] = "§aa¢d1806d1805al°d1805DåamDàah¢d1806Dàd1805v)",
-["gr:14207:of Spirit"] = "§aa°d1805alÄamah°d1805",
 ["gr:4088:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Y◊d1805YÿamY◊",
+["gr:14207:of Spirit"] = "§aa°d1805alÄamah°d1805",
 ["10242"] = "§aa¢d1806d1805alÄamú>ah¢d1806ú>d1805N ",
 ["7528"] = "§aa¢d1806d1805alÄamV∫ah¢d1806V∫d1805Rw",
 ["9927"] = "§aa°d1806alÄamNah°d1806N",
@@ -8450,45 +8450,45 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7413:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Ø»d1805√OamØ»",
 ["gr:6551:of the Whale"] = "§aa°d1805alÄah°d1805	^am	^",
 ["13940"] = "§aa°d1805alÄamu.ah°d1805u.",
-["gr:10080:of the Falcon"] = "§aa°d1806alÄam[ah°d1806[",
-["gr:15492:of Power"] = "§aa¢d1806d1805al°d1805∏am∑ah¢d1806∑d1805î",
 ["gr:9828:of Agility"] = "§aa°d1805alÄam?ah°d1805?",
+["gr:15492:of Power"] = "§aa¢d1806d1805al°d1805∏am∑ah¢d1806∑d1805î",
+["gr:15339:of Nature's Wrath"] = "§aa°d1805alÄah°d1805u0amu0",
 ["gr:10074:of the Eagle"] = "§aa°d1806alÄama®ah°d1806a®",
 ["15535"] = "§aa¢d1806d1805	alÄam	ƒah¢d1806	ƒd1805\n\"",
 ["4235"] = "§aa¢d1806rd1805ral°d1805·amNah¢d1806Nd1805È",
-["10423"] = "§aa°d1806alÄamKah°d1806K",
+["gr:14163:of the Whale"] = "§aa°d1805alÄah°d1805SamS",
 ["gr:9904:of Agility"] = "§aa¢d1806d1805al°d1805NamNah¢d1806Nd1805N",
-["gr:15339:of Nature's Wrath"] = "§aa°d1805alÄah°d1805u0amu0",
-["3135"] = "§aa¢d1806∞d1805‘alÄamah¢d1806d1805",
+["10200"] = "§aa°d1805alÄam\000oah°d1805\000o",
+["gr:10080:of the Falcon"] = "§aa°d1806alÄam[ah°d1806[",
 ["gr:7496:of Defense"] = "§aa°d1805alÄah°d1805'am'",
-["gr:14206:of Fiery Wrath"] = "§aa°d1805alÄah°d1805zamz",
-["16218"] = "§aa¢d1806d1805	al°d1805&am&ah¢d1806&d1805'",
-["gr:14123:of Spirit"] = "§aa¢d1806d1805al°d1805amXah¢d1806Xd1805",
 ["9253"] = "§aa¢d1806d1805al°d1805éam•ah¢d1806•d1805û",
+["16218"] = "§aa¢d1806d1805	al°d1805&am&ah¢d1806&d1805'",
+["gr:9808:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806\rGd1805\rHam\rG",
 ["gr:9848:of the Owl"] = "§aa¢d1806d1805alÄam&´ah¢d1806&´d1805",
+["gr:14206:of Fiery Wrath"] = "§aa°d1805alÄah°d1805zamz",
 ["gr:9835:of the Owl"] = "§aa¢d1806d1805alÄam{ah¢d1806{d1805V",
 ["gr:14906:of Power"] = "§aa¢d1806d1805alÄam:óah¢d1806:ód1805cõ",
 ["gr:9768:of Intellect"] = "§aa¢d1806d1805al°d1805Øam	√ah¢d1806	√d1805‹",
-["gr:7415:of the Owl"] = "§aa¢d1806d1805al°d1805RamQah¢d1806Qd1805S",
+["11165"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805ã",
 ["gr:9285:of the Bear"] = "§aa¢d1806d1805al°d1805]am\\ah¢d1806\\d1805_",
 ["gr:7554:of the Eagle"] = "§aa°d1805alÄam	ƒah°d1805	ƒ",
 ["6568"] = "§aa¢d1806d1805!al°d1805‹am€ah¢d1806€d1805}",
 ["gr:6576:of Power"] = "§aa°d1805al°d1805ah°d1805dam",
 ["gr:14133:of Spirit"] = "§aa¢d1806d1805alÄam“ah¢d1806“d1805—",
-["gr:9773:of Spirit"] = "§aa°d1805alÄah°d1805˚am˚",
+["gr:15187:of the Monkey"] = "§aa°d1805alÄamtÀah°d1805tÀ",
 ["gr:15145:of Shadow Wrath"] = "§aa°d1805alÄah°d1805wamw",
 ["13125"] = "§aa°d1805alÄam\000òMah°d1805\000òM",
 ["gr:5216:of Fiery Wrath"] = "§aa¢d1806d1805alÄamb\nah¢d1806b\nd1805ú?",
 ["10281"] = "§aa°d1805alÄah°d1805u.amu.",
 ["gr:9857:of Spirit"] = "§aa¢d1806d1805al°d1805\nam\nah¢d1806\nd1805\n",
-["gr:863:of the Eagle"] = "§aa¢d1806d1805al°d1805FMam<Îah¢d1806<Îd1805FN",
+["gr:9773:of Spirit"] = "§aa°d1805alÄah°d1805˚am˚",
 ["gr:15510:of Power"] = "§aa¢d1806d1805al°d1805îamœah¢d1806œd18056Ø",
-["gr:15187:of the Monkey"] = "§aa°d1805alÄamtÀah°d1805tÀ",
+["gr:863:of the Eagle"] = "§aa¢d1806d1805al°d1805FMam<Îah¢d1806<Îd1805FN",
 ["15365"] = "§aa¢d1806d1805alÄamJah¢d1806Jd1805%:",
 ["6892"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
 ["5568"] = "§aa°d1805al°d1805`ah°d1805aam`",
 ["gr:6609:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d1806(<d1805	˚am(<",
-["gr:15353:of the Whale"] = "§aa¢d1806d1805alÄam+\\ah¢d1806+\\d1805!ó",
+["gr:8178:of the Boar"] = "§aa¢d1806d1805al°d1805Uam$ah¢d1806$d1805",
 ["gr:15261:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806OGd1805OGamOG",
 ["gr:865:of the Monkey"] = "§aa¢d1806d1805al°d1805%am!-ah¢d1806!-d1805%",
 ["gr:15228:of Stamina"] = "§aa¢d1806d1805alÄam¯Õah¢d1806¯Õd1805u0",
@@ -8510,63 +8510,63 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14940:of the Boar"] = "§aa°d1805alÄah°d180516am16",
 ["gr:10066:of the Whale"] = "§aa°d1805alÄah°d1805ú?amú?",
 ["10172"] = "§aa¢d1806d1805alÄamHAah¢d1806HAd1805HA",
-["12808"] = "§aa¢d1806\rd1805\ral°d1805ëñamìah¢d1806ìd1805îé",
+["gr:15151:of the Eagle"] = "§aa¢d1806d1805alÄamoah¢d1806od1805p",
 ["2164"] = "§aa¢d1806d1805alÄam\0006¸ah¢d1806\0006¸d1805\000° ",
 ["15354"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805à",
 ["gr:15617:of the Falcon"] = "§aa¢d1806d1805alÄama®ah¢d1806a®d18050‘",
 ["gr:7457:of the Eagle"] = "§aa¢d1806d1805alÄam/@ah¢d1806/@d1805/A",
-["gr:9767:of Spirit"] = "§aa¢d1806d1805al°d1805Êamah¢d1806d1805Á",
 ["gr:14181:of the Monkey"] = "§aa¢d1806d1805alÄam\\ah¢d1806\\d1805[",
 ["gr:9802:of the Owl"] = "§aa¢d1806d1805alÄamÜah¢d1806Üd1805\r™",
+["15519"] = "§aa¢d1806\nd1805al°d1805xam€ah¢d1806€d1805€",
 ["gr:15554:of Power"] = "§aa¢d1806d1805alÄamùah¢d1806ùd1805ù",
 ["gr:14188:of Intellect"] = "§aa°d1806alÄamàah°d1806à",
 ["gr:15248:of Stamina"] = "§aa¢d1806d1805alÄamïah¢d1806ïd1805ó",
 ["gr:15549:of the Bear"] = "§aa¢d1806d1805al°d1805áam`ah¢d1806`d1805t",
 ["gr:11974:of Fire Resistance"] = "§aa°d1805al°d1805Í]ah°d1805Í^amÍ]",
-["15519"] = "§aa¢d1806\nd1805al°d1805xam€ah¢d1806€d1805€",
 ["gr:865:of the Bear"] = "§aa¢d1806d1805alÄamvah¢d1806vd1805v",
+["gr:9767:of Spirit"] = "§aa¢d1806d1805al°d1805Êamah¢d1806d1805Á",
 ["gr:7465:of the Monkey"] = "§aa°d1805alÄah°d1805LamL",
 ["12694"] = "§aa°d1805alÄah°d1805iYamiY",
 ["15749"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805\000Ü†am√P",
-["3182"] = "§aa¢d1806Od1805nal°d1805“am^ah¢d1806^d1805`",
+["10223"] = "§aa°d1805alÄam≠pah°d1805≠p",
 ["15979"] = "§aa°d1805alÄah°d1805,Ïam,Ï",
 ["gr:6590:of the Bear"] = "§aa¢d1806d1805al°d1805Üam7ah¢d18067d18059",
 ["gr:9883:of the Falcon"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:15344:of the Whale"] = "§aa°d1805al°d1805:óah°d1805:òam:ó",
-["4951"] = "§aa°d1805alÄam»ah°d1805»",
-["gr:15259:of the Whale"] = "§aa¢d1806d1805alÄam_ah¢d1806_d1805\\",
-["gr:12010:of the Monkey"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805õ‹",
 ["gr:15555:of the Eagle"] = "§aa¢d1806d1805alÄam†ah¢d1806†d1805†",
-["10939"] = "§aa¢d1806åd1805Wal°d1806‹am‹ah¢d1806d1805À",
+["gr:15259:of the Whale"] = "§aa¢d1806d1805alÄam_ah¢d1806_d1805\\",
 ["gr:14167:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805\r´am5ah¢d18065d1805\r¨",
+["gr:12010:of the Monkey"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805õ‹",
+["10939"] = "§aa¢d1806åd1805Wal°d1806‹am‹ah¢d1806d1805À",
 ["gr:7357:of Shadow Wrath"] = "§aa°d1805alÄah°d1805:òam:ò",
 ["gr:9847:of the Whale"] = "§aa¢d1806d1805alÄamØah¢d1806Ød1805≤",
 ["gr:14903:of the Bear"] = "§aa¢d1806d1805al°d1805|ambah¢d1806bd18057",
 ["gr:14239:of Stamina"] = "§aa°d1806alÄam+\\ah°d1806+\\",
+["gr:10404:of the Wolf"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:14283:of the Owl"] = "§aa°d1805alÄah°d1805\000pam\000p",
 ["gr:15518:of the Boar"] = "§aa°d1805alÄamáah°d1805á",
-["14667"] = "§aa¢d1806d1805alÄamVŒah¢d1806VŒd1805pä",
+["15358"] = "§aa¢d1806d1805al°d1805@am°ah¢d1806°d1805'",
 ["gr:15494:of Strength"] = "§aa¢d1806d1805al°d1805ÁamLah¢d1806Ld1805∞",
 ["gr:14939:of Power"] = "§aa°d1805alÄam<åah°d1805<å",
-["15358"] = "§aa¢d1806d1805al°d1805@am°ah¢d1806°d1805'",
 ["gr:9800:of Healing"] = "§aa°d1805al°d1805Èah°d1805¢amÈ",
 ["gr:4571:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d18064d18057am4",
-["gr:9843:of Agility"] = "§aa¢d1806d1805alÄam\\ah¢d1806\\d1805⁄",
-["gr:14172:of Intellect"] = "§aa°d1805alÄah°d1805%am%",
 ["gr:15370:of the Falcon"] = "§aa°d1805alÄah°d1805'am'",
-["gr:7465:of the Bear"] = "§aa¢d1806d1805al°d1805#(am%Qah¢d1806%Qd1805%S",
-["gr:12039:of the Wolf"] = "§aa°d1805alÄah°d1805Z«amZ«",
-["7435"] = "§aa¢d1806d1805alÄam\rUah¢d1806\rUd1805\r¨",
 ["gr:15332:of the Falcon"] = "§aa¢d1806d1805alÄam\rah¢d1806\rd1805s",
-["gr:12025:of Concentration"] = "§aa°d1805alÄah°d1805v\\amv\\",
+["9797"] = "§aa¢d1806d1805alÄam	¬ah¢d1806	¬d1805à",
 ["gr:14114:of the Eagle"] = "§aa¢d1806d1805alÄam˛ah¢d1806˛d1805",
 ["gr:10130:of the Tiger"] = "§aa°d1805alÄamRkah°d1805Rk",
-["gr:6547:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Œd1805–amŒ",
-["gr:4089:of the Falcon"] = "§aa¢d1806d1805al°d1805u(amu&ah¢d1806u&d1805u)",
-["gr:15504:of Blocking"] = "§aa¢d1806d1805al°d1805am\r¨ah¢d1806\r¨d1805",
-["gr:15493:of the Monkey"] = "§aa¢d1806d1805\nal°d1805amÁah¢d1806Ád1805€",
-["gr:12527:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806\0005\000d1805\000\rª†am\0005\000",
 ["gr:15969:of Healing"] = "§aa¢d1806d1805al°d1805	√am	¡ah¢d1806	¡d1805	ƒ",
+["7435"] = "§aa¢d1806d1805alÄam\rUah¢d1806\rUd1805\r¨",
+["gr:15504:of Blocking"] = "§aa¢d1806d1805al°d1805am\r¨ah¢d1806\r¨d1805",
+["13486"] = "§aa°d1805alÄam\000‰·¿ah°d1805\000‰·¿",
+["14116"] = "§aa°d1805al°d1805åah°d1805ùamå",
+["gr:9843:of Agility"] = "§aa¢d1806d1805alÄam\\ah¢d1806\\d1805⁄",
+["gr:6547:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Œd1805–amŒ",
+["gr:2077:of the Whale"] = "§aa¢d1806d1805alÄam´ah¢d1806´d1805 ",
+["gr:6583:of Stamina"] = "§aa°d1805alÄam–ah°d1805–",
+["gr:9940:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806õwd1805õwamõw",
+["gr:12527:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806\0005\000d1805\000\rª†am\0005\000",
+["gr:15493:of the Monkey"] = "§aa¢d1806d1805\nal°d1805amÁah¢d1806Ád1805€",
 ["gr:7455:of the Tiger"] = "§aa°d1806alÄamMºah°d1806Mº",
 ["gr:6607:of the Owl"] = "§aa¢d1806d1805alÄam™ah¢d1806™d1805",
 ["gr:9804:of Agility"] = "§aa°d1805alÄam‰ah°d1805‰",
@@ -8576,211 +8576,211 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9805:of Spirit"] = "§aa¢d1806d1805al°d1805MamAah¢d1806Ad1805?",
 ["gr:15509:of the Whale"] = "§aa¢d1806d1805alÄamxah¢d1806xd1805Œ",
 ["14752"] = "§aa¢d1806d1805al°d1805~am^ah¢d1806^d1805/",
-["gr:2077:of the Whale"] = "§aa¢d1806d1805alÄam´ah¢d1806´d1805 ",
-["3798"] = "§aa°d1805al°d1805kah°d1805lamk",
-["gr:6583:of Stamina"] = "§aa°d1805alÄam–ah°d1805–",
-["10626"] = "§aa°d1805alÄah°d1805\000° am\000° ",
-["gr:15125:of the Bear"] = "§aa¢d1806d1805al°d1805ÑamÑah¢d1806Ñd1805@",
-["gr:14113:of Healing"] = "§aa¢d1806d1805al°d1805JamIah¢d1806Id1805K",
+["gr:12039:of the Wolf"] = "§aa°d1805alÄah°d1805Z«amZ«",
+["15733"] = "§aa°d1805al°d1805u.ah°d1805u/amu.",
+["9851"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805‡",
+["15017"] = "§aa¢d1806$d1805-alÄamAah¢d1806Ad1805Œ",
+["15366"] = "§aa¢d1806d1805al°d1805$\\am%≈ah¢d1806%≈d1805^#",
+["8163"] = "§aa¢d1806d1805al°d1805!cam!^ah¢d1806!^d1805!e",
 ["gr:10126:of the Wolf"] = "§aa°d1805alÄamklah°d1805kl",
-["3417"] = "§aa¢d1806d1805al°d1805\000@am\000?ah¢d1806\000?d1805\0004O",
+["16683"] = "§aa°d1805al°d1805\000°ah°d1805\000	'[am\000°",
 ["6616"] = "§aa¢d1806	d1805alÄam∏ah¢d1806∏d1805k",
-["gr:15334:of the Monkey"] = "§aa¢d1806d1805al°d1805ÙamÙah¢d1806Ùd1805X",
-["gr:9940:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806õwd1805õwamõw",
+["gr:10231:of Intellect"] = "§aa¢d1806d1805alÄah¢d18060‘d1805D\\am0‘",
+["gr:15336:of the Owl"] = "§aa¢d1806d1805alÄamÃah¢d1806Ãd1805Œ",
 ["15116"] = "§aa¢d1806d1805al°d1805Tam\n#ah¢d1806\n#d1805",
 ["gr:15494:of the Tiger"] = "§aa¢d1806d1805al°d1805ÂamÄah¢d1806Äd1805Ê",
-["gr:6266:of Arcane Wrath"] = "§aa°d1805al°d1805êah°d1805Ûamê",
-["gr:11979:of Fire Resistance"] = "§aa°d1805alÄam\000ÙGah°d1805\000ÙG",
+["3417"] = "§aa¢d1806d1805al°d1805\000@am\000?ah¢d1806\000?d1805\0004O",
+["gr:15157:of Power"] = "§aa°d1805alÄam/®ah°d1805/®",
 ["gr:10145:of the Bear"] = "§aa°d1805alÄamaDah°d1805aD",
-["15733"] = "§aa°d1805al°d1805u.ah°d1805u/amu.",
-["14116"] = "§aa°d1805al°d1805åah°d1805ùamå",
+["1798"] = "§aa°d1805al°d1805ªah°d1805ºamª",
+["gr:15334:of the Monkey"] = "§aa¢d1806d1805al°d1805ÙamÙah¢d1806Ùd1805X",
 ["gr:15523:of the Gorilla"] = "§aa°d1805alÄah°d1805áamá",
 ["14321"] = "§aa°d1805alÄah°d1805_{am_{",
-["8163"] = "§aa¢d1806d1805al°d1805!cam!^ah¢d1806!^d1805!e",
+["gr:14188:of Healing"] = "§aa¢d1806d1805al°d1805§am	Qah¢d1806	Qd1805\r9",
 ["1417"] = "§aa¢d1806d1805al°d1805famah¢d1806d1805g",
-["9851"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805‡",
+["11225"] = "§aa¢d1806	d1805alÄah¢d1806#&d1805≠am#&",
 ["gr:2140:of Power"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805ò",
 ["3702"] = "§aa¢d1806d1805alÄah¢d1806ºd1805ºamº",
 ["9898"] = "§aa¢d1806d1805alÄam\r¨ah¢d1806\r¨d1805'",
-["gr:15618:of the Falcon"] = "§aa¢d1806d1805alÄamêiah¢d1806êid1805êi",
+["gr:6266:of Arcane Wrath"] = "§aa°d1805al°d1805êah°d1805Ûamê",
 ["gr:3198:of the Whale"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805P",
 ["gr:14260:of the Owl"] = "§aa¢d1806d1805al°d1805:òam:óah¢d1806:ód1805N ",
 ["gr:9918:of the Monkey"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
-["gr:11985:of Spirit"] = "§aa¢d1806d1805al°d1805îamîah¢d1806îd1805á",
+["gr:7465:of the Bear"] = "§aa¢d1806d1805al°d1805#(am%Qah¢d1806%Qd1805%S",
 ["7417"] = "§aa¢d1806\nd1805alÄamáah¢d1806ád1805\000",
 ["6417"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
-["gr:10231:of Intellect"] = "§aa¢d1806d1805alÄah¢d18060‘d1805D\\am0‘",
+["2851"] = "§aa°d1805alÄah°d1805`am`",
 ["4417"] = "§aa¢d1806d1805al°d1805&´am\"`ah¢d1806\"`d1805+¥",
 ["gr:7406:of Intellect"] = "§aa¢d1806d1805al°d1805^amîah¢d1806îd1805_",
-["1516"] = "§aa¢d1806d1805alÄam-ah¢d1806-d1805/",
-["gr:15157:of Power"] = "§aa°d1805alÄam/®ah°d1805/®",
-["gr:7530:of the Monkey"] = "§aa°d1805alÄams<ah°d1805s<",
+["gr:15298:of Intellect"] = "§aa¢d1806d1805al°d1805…am«ah¢d1806«d1805 ",
+["gr:14198:of Shadow Wrath"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805[î",
+["13494"] = "§aa¢d1806d1805alÄam\000]+ah¢d1806\000]+d1805\000XL",
 ["gr:6586:of Spirit"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
 ["5516"] = "§aa¢d1806d1805alÄah¢d1806~d1805Äam~",
-["gr:14188:of Healing"] = "§aa¢d1806d1805al°d1805§am	Qah¢d1806	Qd1805\r9",
-["15017"] = "§aa¢d1806$d1805-alÄamAah¢d1806Ad1805Œ",
+["gr:7530:of the Monkey"] = "§aa°d1805alÄams<ah°d1805s<",
+["gr:11979:of Fire Resistance"] = "§aa°d1805alÄam\000ÙGah°d1805\000ÙG",
 ["15270"] = "§aa¢d1806d1805alÄamTah¢d1806Td1805â",
-["gr:7473:of Intellect"] = "§aa°d1805alÄah°d1805 lam l",
-["15062"] = "§aa¢d1806d1805	alÄam\000Ùah¢d1806\000Ùd1805\000êV",
+["16652"] = "§aa¢d1806	d1805?alÄam1ah¢d18061d1805é",
+["gr:15308:of the Bear"] = "§aa°d1805al°d1805ˇah°d1805\000amˇ",
 ["14749"] = "§aa¢d1806d1805alÄam\n'ah¢d1806\n'd1805‰",
 ["gr:7431:of the Owl"] = "§aa¢d1806d1805alÄamëah¢d1806ëd1805í",
-["gr:12002:of Regeneration"] = "§aa°d1806alÄamMËah°d1806MË",
-["16683"] = "§aa°d1805al°d1805\000°ah°d1805\000	'[am\000°",
+["gr:15120:of Intellect"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805\r™",
+["4951"] = "§aa°d1805alÄam»ah°d1805»",
 ["gr:14220:of Stamina"] = "§aa°d1805alÄah°d1805N amN ",
 ["14797"] = "§aa°d1805al°d1805J8ah°d1805NamJ8",
 ["8951"] = "§aa¢d1806•d1805DalÄam∏ah¢d1806∏d1805\nö",
 ["9951"] = "§aa¢d1806d1805al°d18050‘am:òah¢d1806:òd1805:ó",
-["gr:15298:of Intellect"] = "§aa¢d1806d1805al°d1805…am«ah¢d1806«d1805 ",
-["gr:6268:of the Eagle"] = "§aa°d1805alÄamÑah°d1805Ñ",
-["gr:14231:of the Owl"] = "§aa¢d1806d1805alÄam0Tah¢d18060Td18050T",
+["gr:15618:of the Falcon"] = "§aa¢d1806d1805alÄamêiah¢d1806êid1805êi",
+["15062"] = "§aa¢d1806d1805	alÄam\000Ùah¢d1806\000Ùd1805\000êV",
+["gr:6266:of Frozen Wrath"] = "§aa¢d1806d1805al°d1805\n'am	&ah¢d1806	&d1805Ä",
 ["gr:14194:of the Owl"] = "§aa¢d1806d1805al°d1805jamàah¢d1806àd1805k",
 ["gr:15540:of the Boar"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
 ["gr:7454:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806Xd1805XamX",
-["gr:15308:of the Bear"] = "§aa°d1805al°d1805ˇah°d1805\000amˇ",
-["1951"] = "§aa¢d1806d1805	alÄam'ah¢d1806'd1805ü",
+["1516"] = "§aa¢d1806d1805alÄam-ah¢d1806-d1805/",
+["2516"] = "§aa¢d1806\rHd18050alÄamah¢d1806d1805",
 ["15063"] = "§aa¢d1806\nd1805alÄam\000!´ah¢d1806\000!´d1805\000d@",
-["gr:15370:of Agility"] = "§aa°d1805alÄah°d1805ú@amú@",
-["gr:15120:of Intellect"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805\r™",
+["14571"] = "§aa¢d1806d1805	al°d1805Wamah¢d1806d1805Á",
+["gr:4088:of Nature's Wrath"] = "§aa°d1805alÄamaßah°d1805aß",
 ["gr:6337:of the Bear"] = "§aa¢d1806d1805al°d1805êamÊah¢d1806Êd1805€",
 ["2951"] = "§aa¢d1806d1805al°d1805\000*am\000gah¢d1806\000gd1805\000lN",
 ["gr:15371:of Arcane Wrath"] = "§aa°d1806alÄam'ah°d1806'",
-["gr:15561:of the Bear"] = "§aa¢d1806d1805alÄam:óah¢d1806:ód1805N",
+["gr:7423:of Strength"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:15134:of Healing"] = "§aa°d1805alÄamc“ah°d1805c“",
 ["7525"] = "§aa¢d1806d1805alÄam›ah¢d1806›d18050”",
 ["9816"] = "§aa¢d1806d1805al°d1805	¡am†ah¢d1806†d1805",
 ["4816"] = "§aa¢d1806d1805alÄah¢d1806∏d1805∏am∏",
 ["14482"] = "§aa¢d1806d1805alÄam\000ìﬁah¢d1806\000ìﬁd1805\000ìﬁ",
-["gr:10184:of the Monkey"] = "§aa°d1805alÄah°d1805aCamaC",
+["gr:15970:of Shadow Wrath"] = "§aa°d1805alÄamËah°d1805Ë",
 ["12803"] = "§aa¢d1806.d1805;al°d18056Æam0”ah¢d18060”d18059Õ",
-["14571"] = "§aa¢d1806d1805	al°d1805Wamah¢d1806d1805Á",
-["gr:15499:of the Gorilla"] = "§aa°d1805alÄamÊah°d1805Ê",
-["gr:6266:of Frozen Wrath"] = "§aa¢d1806d1805al°d1805\n'am	&ah¢d1806	&d1805Ä",
-["gr:6543:of Arcane Wrath"] = "§aa°d1805alÄamu/ah°d1805u/",
-["gr:15111:of the Wolf"] = "§aa°d1805alÄamlah°d1805l",
-["gr:7423:of Strength"] = "§aa°d1805alÄah°d1805'am'",
+["gr:15279:of Stamina"] = "§aa°d1806alÄam\0008~ah°d1806\0008~",
 ["1998"] = "§aa¢d1806d1805al°d1805uamqah¢d1806qd1805v",
+["gr:10184:of the Monkey"] = "§aa°d1805alÄah°d1805aCamaC",
+["12223"] = "§aa¢d1806Vd1805Aal°d1805am]ah¢d1806]d1805	",
+["gr:15111:of the Wolf"] = "§aa°d1805alÄamlah°d1805l",
+["gr:15370:of Agility"] = "§aa°d1805alÄah°d1805ú@amú@",
+["gr:14289:of the Owl"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805√P",
 ["11224"] = "§aa¢d1806d1805alÄah¢d1806ˆ‡d1805\000E\000amˆ‡",
-["14088"] = "§aa¢d1806d1805alÄah¢d1806Xd1805YamX",
-["gr:9287:of the Whale"] = "§aa°d1805alÄamN ah°d1805N ",
+["gr:11991:of the Eagle"] = "§aa°d1805alÄah°d1805\000Iam\000I",
+["4262"] = "§aa¢d1806d1805al°d1805¬≈am¬øah¢d1806¬ød1805¬Ã",
 ["2217"] = "§aa¢d1806d1805al°d1805,am+ah¢d1806+d1805/",
 ["10400"] = "§aa°d1805alÄamàah°d1805à",
 ["gr:10065:of the Eagle"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805\000p",
 ["gr:15122:of Power"] = "§aa°d1805alÄah°d1805'\ram'\r",
-["12223"] = "§aa¢d1806Vd1805Aal°d1805am]ah¢d1806]d1805	",
-["gr:11991:of the Eagle"] = "§aa°d1805alÄah°d1805\000Iam\000I",
+["gr:15561:of the Bear"] = "§aa¢d1806d1805alÄam:óah¢d1806:ód1805N",
+["11175"] = "§aa¢d1806=d1805NalÄam6ah¢d18066d18058:",
 ["8217"] = "§aa¢d1806d1805\ralÄamNah¢d1806Nd1805N",
-["10502"] = "§aa¢d1806d1805al°d1805c4amUah¢d1806Ud1805c7",
+["6217"] = "§aa¢d1806d1805\nalÄah¢d1806d1805am",
 ["gr:15188:of Agility"] = "§aa°d1806alÄamu0ah°d1806u0",
 ["14197"] = "§aa¢d1806d1805al°d1805÷amáah¢d1806ád1805",
 ["9902"] = "§aa¢d1806d1805alÄah¢d1806'd18052≈am'",
-["4262"] = "§aa¢d1806d1805al°d1805¬≈am¬øah¢d1806¬ød1805¬Ã",
-["6217"] = "§aa¢d1806d1805\nalÄah¢d1806d1805am",
 ["gr:9775:of the Whale"] = "§aa°d1805alÄam‹ah°d1805‹",
-["gr:14096:of Spirit"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805@",
+["gr:15127:of the Owl"] = "§aa¢d1806d1805alÄam\nah¢d1806\nd1805",
 ["gr:15361:of the Boar"] = "§aa°d1805alÄah°d1805àamà",
+["15946"] = "§aa¢d1806d1805\nal°d1805famÆah¢d1806Æd1805k",
+["14088"] = "§aa¢d1806d1805alÄah¢d1806Xd1805YamX",
 ["gr:15338:of the Monkey"] = "§aa°d1805alÄamEvah°d1805Ev",
 ["15137"] = "§aa¢d1806d1805alÄamÖah¢d1806Öd1805–",
-["gr:14196:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806!4d1805ïam!4",
-["15946"] = "§aa¢d1806d1805\nal°d1805famÆah¢d1806Æd1805k",
+["gr:14096:of Spirit"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805@",
+["4716"] = "§aa¢d1806d1805al°d1805\n(am	ƒah¢d1806	ƒd1805",
 ["gr:9953:of the Eagle"] = "§aa°d1805alÄam:òah°d1805:ò",
 ["6716"] = "§aa¢d1806d1805\nal°d1805>amŸah¢d1806Ÿd1805O",
-["gr:9854:of Stamina"] = "§aa°d1805alÄah°d1805'am'",
+["gr:14196:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806!4d1805ïam!4",
 ["15571"] = "§aa¢d1806d1805alÄamoah¢d1806od1805ú",
 ["gr:12032:of Regeneration"] = "§aa°d1805al°d1805√Oah°d1805√Pam√O",
 ["14796"] = "§aa°d1806alÄamUÔah°d1806UÔ",
-["9798"] = "§aa¢d1806d1805al°d1805=amîah¢d1806îd1805T",
-["1716"] = "§aa¢d1806d1805alÄam\000p˛ah¢d1806\000p˛d1805\000Ù",
-["gr:15492:of Healing"] = "§aa¢d1806d1805alÄamØah¢d1806Ød1805",
-["8317"] = "§aa°d1806alÄamNah°d1806N",
-["gr:9918:of Defense"] = "§aa°d1805alÄah°d1805a®ama®",
-["4798"] = "§aa°d1805alÄam∂ah°d1805∂",
-["17413"] = "§aa¢d1806d1805al°d1805\000lam\000øah¢d1806\000ød1805\000[]",
 ["gr:9869:of the Tiger"] = "§aa°d1805al°d1805Nah°d1805N amN",
 ["14225"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
+["gr:15492:of Healing"] = "§aa¢d1806d1805alÄamØah¢d1806Ød1805",
 ["gr:10149:of the Tiger"] = "§aa°d1805alÄah°d1805u0amu0",
+["gr:9918:of Defense"] = "§aa°d1805alÄah°d1805a®ama®",
+["2317"] = "§aa°d1805alÄah°d1805ëamë",
+["17413"] = "§aa¢d1806d1805al°d1805\000lam\000øah¢d1806\000ød1805\000[]",
+["4602"] = "§aa¢d1806d1805alÄah¢d1806ıd1805‘amı",
+["9798"] = "§aa¢d1806d1805al°d1805=amîah¢d1806îd1805T",
+["8317"] = "§aa°d1806alÄamNah°d1806N",
 ["7351"] = "§aa°d1805al°d1805ﬂah°d1805‡amﬂ",
 ["1602"] = "§aa¢d1806d1805alÄam\000´òah¢d1806\000´òd1805\000\r@",
 ["6602"] = "§aa¢d1806d1805alÄamah¢d1806d1805œ",
 ["14573"] = "§aa¢d1806d1805alÄam@ah¢d1806@d1805'",
-["4602"] = "§aa¢d1806d1805alÄah¢d1806ıd1805‘amı",
+["1716"] = "§aa¢d1806d1805alÄam\000p˛ah¢d1806\000p˛d1805\000Ù",
 ["5602"] = "§aa°d1806alÄamœah°d1806œ",
 ["17062"] = "§aa°d1805alÄamıah°d1805ı",
-["gr:15144:of Nature's Wrath"] = "§aa°d1805alÄah°d1805Q§amQ§",
-["gr:15488:of the Whale"] = "§aa¢d1806d1805al°d1805ùam\r¨ah¢d1806\r¨d1805û",
+["gr:15976:of Intellect"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805|",
+["gr:14183:of the Whale"] = "§aa°d1805alÄam∑ah°d1805∑",
 ["4317"] = "§aa¢d1806d1805al°d1805Öam˝ah¢d1806˝d1805à",
 ["gr:3198:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806dd1805amd",
-["gr:15262:of Spirit"] = "§aa°d1805al°d1805õ‹ah°d1805ú@amõ‹",
+["gr:2079:of Shadow Wrath"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805",
 ["gr:12023:of Strength"] = "§aa¢d1806d1805al°d1805∑4am∑3ah¢d1806∑3d1805æ¯",
-["5216"] = "§aa¢d1806	d1805\nal°d1805Z;amMªah¢d1806Mªd1805aß",
+["15280"] = "§aa¢d1806d1805alÄamÍ`ah¢d1806Í`d1805úC",
 ["gr:15508:of the Monkey"] = "§aa¢d1806d1805al°d1805ˇam∏ah¢d1806∏d1805",
 ["14803"] = "§aa°d1805alÄamc˛ah°d1805c˛",
-["gr:2079:of Shadow Wrath"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805",
-["15280"] = "§aa¢d1806d1805alÄamÍ`ah¢d1806Í`d1805úC",
 ["10321"] = "§aa¢d1806d1805al°d1805NÑamJ2ah¢d1806J2d1805W\r",
+["gr:15262:of Spirit"] = "§aa°d1805al°d1805õ‹ah°d1805ú@amõ‹",
+["5216"] = "§aa¢d1806	d1805\nal°d1805Z;amMªah¢d1806Mªd1805aß",
 ["14774"] = "§aa¢d1806d1805al°d1805&‰am&·ah¢d1806&·d1805&Ê",
 ["9790"] = "§aa¢d1806d1805alÄam∞ah¢d1806∞d1805Ë",
 ["2216"] = "§aa¢d1806d1805al°d1805äamàah¢d1806àd1805ã",
-["gr:15255:of Power"] = "§aa°d1806alÄam\000pah°d1806\000p",
-["15575"] = "§aa¢d1806d1805	alÄam|ah¢d1806|d1805±",
-["16060"] = "§aa°d1805al°d1805„ah°d1805ÿam„",
 ["15133"] = "§aa¢d1806d1805al°d1805Üampah¢d1806pd1805á",
-["gr:15367:of Shadow Wrath"] = "§aa°d1806alÄam'ah°d1806'",
 ["15507"] = "§aa¢d1806d1805al°d1805JamKah¢d1806Kd1805K",
+["16060"] = "§aa°d1805al°d1805„ah°d1805ÿam„",
 ["12689"] = "§aa¢d1806d1805alÄamKah¢d1806Kd1805'",
-["15151"] = "§aa¢d1806d1805alÄamoah¢d1806od1805p",
+["gr:15367:of Shadow Wrath"] = "§aa°d1806alÄam'ah°d1806'",
+["9451"] = "§aa¢d1806d1805Eal°d1805\"amah¢d1806d1805'",
+["gr:15255:of Power"] = "§aa°d1806alÄam\000pah°d1806\000p",
+["gr:14276:of the Whale"] = "§aa°d1805al°d1805'\rah°d1805'am'\r",
 ["6451"] = "§aa¢d1806?d1805nal°d1805êam¬ah¢d1806¬d1805ë",
 ["15225"] = "§aa¢d1806d1805%alÄambah¢d1806bd1805∆",
-["gr:14949:of the Whale"] = "§aa°d1805alÄam3Iah°d18053I",
-["gr:14189:of Healing"] = "§aa¢d1806d1805alÄah¢d1806àd1805u0amà",
-["gr:14276:of the Whale"] = "§aa°d1805al°d1805'\rah°d1805'am'\r",
+["1817"] = "§aa°d1806alÄamÅah°d1806Å",
+["7451"] = "§aa¢d1806d1805alÄah¢d1806T˜d1805T˜amT˜",
 ["gr:3192:of the Bear"] = "§aa¢d1806d1805	al°d1805UamTah¢d1806Td1805À",
+["15482"] = "§aa°d1806alÄam?ah°d1806?",
 ["gr:15504:of the Bear"] = "§aa¢d1806d1805al°d1805£am¢ah¢d1806¢d1805¥",
-["5116"] = "§aa¢d1806d1805Öal°d1805[amqah¢d1806qd1805y",
-["gr:10111:of Arcane Resistance"] = "§aa°d1805alÄam\000Ü†ah°d1805\000Ü†",
+["14280"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
+["gr:14165:of the Eagle"] = "§aa°d1805alÄam4ºah°d18054º",
 ["gr:9919:of the Whale"] = "§aa°d1805alÄah°d1805-Jam-J",
 ["9817"] = "§aa¢d1806d1805al°d1805∏am3ah¢d18063d1805c",
 ["gr:15148:of the Whale"] = "§aa°d1805alÄah°d18054am4",
 ["2765"] = "§aa°d1805al°d18050ah°d18053am0",
-["10940"] = "§aa¢d1806îd1805Nal°d1805MamWah¢d1806Wd1805T",
+["5973"] = "§aa¢d1806d1805al°d1805⁄amah¢d1806d1805·",
 ["gr:7416:of Stamina"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
 ["gr:14208:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806Imd1805InamIm",
-["15482"] = "§aa°d1806alÄam?ah°d1806?",
+["15151"] = "§aa¢d1806d1805alÄamoah¢d1806od1805p",
 ["gr:9749:of Spirit"] = "§aa¢d1806d1805alÄamXah¢d1806Xd1805à",
-["14280"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
+["gr:15250:of Strength"] = "§aa°d1805al°d1805\"^ah°d1805#&am\"^",
 ["4765"] = "§aa¢d1806d1805al°d1805Uamdah¢d1806dd1805ó",
 ["13939"] = "§aa¢d1806d1805alÄamú1ah¢d1806ú1d1805ú3",
 ["gr:15388:of Defense"] = "§aa¢d1806d1805alÄah¢d1806[d1805[am[",
-["8117"] = "§aa¢d1806d1805alÄamL,ah¢d1806L,d1805N",
-["gr:14165:of the Eagle"] = "§aa°d1805alÄam4ºah°d18054º",
+["6412"] = "§aa°d1805alÄam'ah°d1805'",
+["15523"] = "§aa¢d1806\rd1805\ralÄam`ah¢d1806`d1805á",
 ["8116"] = "§aa¢d1806d1805alÄam.Œah¢d1806.Œd1805.‘",
 ["15486"] = "§aa¢d1806d1805)al°d1805èamÛah¢d1806Ûd1805¬",
 ["10224"] = "§aa¢d1806d1805alÄamàµah¢d1806àµd1805ú@",
 ["gr:15325:of the Tiger"] = "§aa¢d1806d1805al°d1805\000Ê.am\000∫∞ah¢d1806\000∫∞d1805\000Ê/",
-["14507"] = "§aa°d1805alÄah°d1805\000Äam\000Ä",
-["6412"] = "§aa°d1805alÄam'ah°d1805'",
-["15523"] = "§aa¢d1806\rd1805\ralÄam`ah¢d1806`d1805á",
+["gr:2077:of the Bear"] = "§aa¢d1806d1805al°d1805/+amXah¢d1806Xd18056ˇ",
 ["gr:14252:of Healing"] = "§aa°d1805alÄah°d1805cúamcú",
+["gr:10111:of Arcane Resistance"] = "§aa°d1805alÄam\000Ü†ah°d1805\000Ü†",
+["gr:11977:of Frost Resistance"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805\000Ü†",
 ["15481"] = "§aa¢d1806d1805al°d1805Wam5ah¢d18065d1805Y",
-["1802"] = "§aa°d1805al°d1805Vah°d1805ºamV",
+["gr:12031:of the Bear"] = "§aa¢d1806\nd1805alÄamIpah¢d1806Ipd1805MQ",
 ["2802"] = "§aa¢d1806d1805al°d1805\000‘∫am\000‘≥ah¢d1806\000‘≥d1805\000‘ª",
 ["6551"] = "§aa¢d1806d1805al°d1805uam∞ah¢d1806∞d1805k",
-["gr:11977:of Frost Resistance"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805\000Ü†",
 ["gr:15262:of Strength"] = "§aa¢d1806d1805al°d1805√Nam√Oah¢d1806√Od1805√O",
+["8117"] = "§aa¢d1806d1805alÄamL,ah¢d1806L,d1805N",
 ["gr:15307:of the Bear"] = "§aa¢d1806d1805al°d18050amah¢d1806d1805\n'",
-["15224"] = "§aa¢d1806d1805'al°d1805∏am\rtah¢d1806\rtd1805\r",
+["15502"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805I",
 ["gr:12034:of Intellect"] = "§aa°d1805al°d1805\0008ah°d1805\0008Äam\0008",
 ["9802"] = "§aa¢d1806	d1805alÄam	¬ah¢d1806	¬d1805\r™",
 ["5117"] = "§aa¢d1806<d1805öal°d1805mamIah¢d1806Id1805∆",
-["6416"] = "§aa¢d1806d1805al°d1805èamah¢d1806d1805î",
+["3416"] = "§aa¢d1806d1805al°d1805\000_êam\000Ü†ah¢d1806\000Ü†d1805\000]x",
 ["14831"] = "§aa¢d1806d1805alÄah¢d180615d1805N am15",
-["gr:10107:of the Owl"] = "§aa°d1805alÄam_¥ah°d1805_¥",
+["6416"] = "§aa¢d1806d1805al°d1805èamah¢d1806d1805î",
 ["gr:14926:of the Bear"] = "§aa°d1805alÄamu0ah°d1805u0",
-["15502"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805I",
+["gr:10107:of the Owl"] = "§aa°d1805alÄam_¥ah°d1805_¥",
 ["gr:11996:of the Boar"] = "§aa¢d1806d1805alÄam‡ah¢d1806‡d1805≈",
 ["13116"] = "§aa°d1806alÄam\000&Xah°d1806\000&X",
 ["gr:15287:of the Eagle"] = "§aa¢d1806d1805alÄamß¯ah¢d1806ß¯d1805u0",
 ["gr:1990:of the Whale"] = "§aa¢d1806d1805alÄam6Æah¢d18066Æd1805:ñ",
-["3416"] = "§aa¢d1806d1805al°d1805\000_êam\000Ü†ah¢d1806\000Ü†d1805\000]x",
+["15224"] = "§aa¢d1806d1805'al°d1805∏am\rtah¢d1806\rtd1805\r",
 ["gr:6582:of Power"] = "§aa°d1805alÄah°d1805&¨am&¨",
 ["gr:7429:of Arcane Wrath"] = "§aa°d1805alÄah°d1805UamU",
 ["4416"] = "§aa¢d1806d1805al°d1805Õamiah¢d1806id1805œ",
@@ -8804,126 +8804,126 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14236:of the Owl"] = "§aa¢d1806d1805alÄam⁄ah¢d1806⁄d1805\r©",
 ["gr:3187:of Power"] = "§aa¢d1806d1805alÄamX>ah¢d1806X>d1805ø¬",
 ["3731"] = "§aa¢d1806@d1805Ùal°d1805\\ammah¢d1806md1805ò",
-["4717"] = "§aa¢d1806d1805al°d1805«am	Öah¢d1806	Öd1805»",
+["gr:3201:of Power"] = "§aa°d1805alÄah°d1805ÆamÆ",
 ["14256"] = "§aa¢d1806Xd1805*al°d1805„am∏ah¢d1806∏d1805\r",
 ["15605"] = "§aa¢d1806d1805al°d18052«am2»ah¢d18062»d18052»",
 ["20769"] = "§aa°d1806alÄam\000\\ah°d1806\000\\",
-["14939"] = "§aa°d1805al°d1805<åah°d1805B.am<å",
-["gr:3201:of Power"] = "§aa°d1805alÄah°d1805ÆamÆ",
 ["gr:15598:of Power"] = "§aa°d1806alÄamN ah°d1806N ",
-["gr:15127:of the Falcon"] = "§aa¢d1806d1805alÄam3 ah¢d18063 d18053 ",
+["gr:14090:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806Xd1805ÎamX",
+["5465"] = "§aa¢d1806Ëd1805˛al°d1805amah¢d1806d1805",
+["gr:15224:of the Monkey"] = "§aa¢d1806d1805al°d1805ram…ah¢d1806…d1805:",
 ["2316"] = "§aa¢d1806d1805al°d1805WamVah¢d1806Vd1805e",
-["14126"] = "§aa¢d1806d1805al°d1805Wamah¢d1806d1805",
+["14939"] = "§aa°d1805al°d1805<åah°d1805B.am<å",
 ["4316"] = "§aa¢d1806d1805al°d1805$amah¢d1806d1805'",
 ["12224"] = "§aa°d18058al°d1805ah°d1805am",
 ["gr:10131:of the Bear"] = "§aa¢d1806d1805alÄamtÃah¢d1806tÃd1805I”",
-["7611"] = "§aa¢d1806d1805alÄam4∑ah¢d18064∑d18054∫",
+["gr:15127:of the Falcon"] = "§aa¢d1806d1805alÄam3 ah¢d18063 d18053 ",
 ["gr:9886:of the Monkey"] = "§aa¢d1806d1805al°d1805-Oam'Uah¢d1806'Ud1805N|",
-["gr:14090:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806Xd1805ÎamX",
+["18779"] = "§aa¢d1806d1805alÄah¢d1806√Ld1805√Oam√L",
 ["gr:7517:of Stamina"] = "§aa¢d1806d1805alÄam,Ñah¢d1806,Ñd1805,Ñ",
 ["gr:4570:of Strength"] = "§aa¢d1806d1805alÄamah¢d1806d1805w",
-["13458"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N",
-["gr:15528:of Power"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N ",
-["gr:15224:of the Monkey"] = "§aa¢d1806d1805al°d1805ram…ah¢d1806…d1805:",
-["gr:15485:of the Tiger"] = "§aa¢d1806d1805al°d1805HamHah¢d1806Hd1805J",
 ["gr:15593:of Intellect"] = "§aa¢d1806d1805alÄam3Òah¢d18063Òd1805[",
-["1717"] = "§aa¢d1806d1805alÄam\000Å&ah¢d1806\000Å&d1805\000˚Œ",
+["gr:15528:of Power"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N ",
 ["gr:6616:of Spirit"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805k",
+["gr:15485:of the Tiger"] = "§aa¢d1806d1805al°d1805HamHah¢d1806Hd1805J",
+["gr:15638:of the Falcon"] = "§aa°d1806alÄamtÃah°d1806tÃ",
+["1717"] = "§aa¢d1806d1805alÄam\000Å&ah¢d1806\000Å&d1805\000˚Œ",
+["15268"] = "§aa¢d1806Kd1805ial°d1805xam9ah¢d18069d1805<",
 ["gr:14226:of Healing"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'\r",
 ["gr:6598:of the Monkey"] = "§aa¢d1806d1805alÄam ah¢d1806 d1805Ä",
-["15268"] = "§aa¢d1806Kd1805ial°d1805xam9ah¢d18069d1805<",
+["13458"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N",
 ["7369"] = "§aa¢d1806d1805\nal°d1805îamJah¢d1806Jd1805\n",
 ["gr:7446:of Intellect"] = "§aa°d1805al°d1805Áah°d1805–amÁ",
-["gr:11995:of the Bear"] = "§aa¢d1806d1805alÄam'ah¢d1806'd18050”",
-["gr:14970:of the Bear"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805Í`",
-["gr:10148:of the Monkey"] = "§aa°d1805alÄam√Pah°d1805√P",
+["13030"] = "§aa¢d1806d1805al°d1805_±am\000áah¢d1806\000ád1805_≤",
+["9925"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805à",
+["14599"] = "§aa¢d1806d1805alÄamjah¢d1806jd1805l",
 ["gr:15596:of the Eagle"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
 ["gr:15535:of the Bear"] = "§aa¢d1806d1805al°d1805sam	ƒah¢d1806	ƒd18058",
 ["12218"] = "§aa¢d1806md1805al°d1805‰am‚ah¢d1806‚d1805Â",
 ["gr:9797:of the Owl"] = "§aa¢d1806d1805alÄam	¬ah¢d1806	¬d1805à",
-["13030"] = "§aa¢d1806d1805al°d1805_±am\000áah¢d1806\000ád1805_≤",
-["9925"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805à",
-["gr:9789:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806	ˆd1805am	ˆ",
-["14599"] = "§aa¢d1806d1805alÄamjah¢d1806jd1805l",
+["gr:14970:of the Bear"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805Í`",
 ["10216"] = "§aa¢d1806d1805al°d1805a®amu¯ah¢d1806u¯d1805\000_,",
+["gr:9789:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806	ˆd1805am	ˆ",
+["gr:11995:of the Bear"] = "§aa¢d1806d1805alÄam'ah¢d1806'd18050”",
+["6289"] = "§aa¢d18062d1805}al°d1805amah¢d1806d1805",
 ["gr:14121:of Stamina"] = "§aa¢d1806d1805al°d1805˛amºah¢d1806ºd1805ˇ",
 ["gr:15125:of the Owl"] = "§aa¢d1806d1805alÄam	√ah¢d1806	√d1805ü",
-["6289"] = "§aa¢d18062d1805}al°d1805amah¢d1806d1805",
+["gr:1613:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806[d1805m`am[",
 ["gr:15510:of the Monkey"] = "§aa¢d1806d1805alÄam@ah¢d1806@d1805œ",
-["gr:14253:of the Whale"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805Ë",
-["gr:10226:of the Tiger"] = "§aa°d1805alÄamu0ah°d1805u0",
-["gr:15110:of Defense"] = "§aa¢d1806d1805alÄah¢d1806Ud1805\"amU",
-["gr:1613:of Power"] = "§aa°d1805alÄamú@ah°d1805ú@",
 ["13122"] = "§aa¢d1806d1805al°d1805\0001'am\000œ∆ah¢d1806\000œ∆d1805\000H",
-["gr:15970:of the Eagle"] = "§aa¢d1806d1805al°d1805amgah¢d1806gd1805ﬂ",
-["5051"] = "§aa¢d1806\nd1805al°d1805[amah¢d1806d1805~",
+["gr:10226:of the Tiger"] = "§aa°d1805alÄamu0ah°d1805u0",
+["gr:14938:of the Bear"] = "§aa¢d1806d1805alÄam\000üÊah¢d1806\000üÊd1805\000üÊ",
+["gr:1613:of Power"] = "§aa°d1805alÄamú@ah°d1805ú@",
+["gr:15332:of Intellect"] = "§aa°d1805al°d1805\n\"ah°d1805\n#am\n\"",
+["7453"] = "§aa¢d1806d1805al°d1805\rHam	øah¢d1806	ød1805†",
+["13059"] = "§aa¢d1806d1805al°d1805\000\nÆ`am\000\nÆ`ah¢d1806\000\nÆ`d1805\000))",
 ["4051"] = "§aa¢d1806d1805al°d1805∂am\n%ah¢d1806\n%d1805∏",
 ["7051"] = "§aa¢d1806d1805al°d1805´am©ah¢d1806©d1805’",
-["gr:15332:of Intellect"] = "§aa°d1805al°d1805\n\"ah°d1805\n#am\n\"",
+["6051"] = "§aa¢d1806>d1805?al°d18051amYah¢d1806Yd1805á",
 ["gr:3199:of Power"] = "§aa°d1805alÄah°d1805pamp",
-["7453"] = "§aa¢d1806d1805al°d1805\rHam	øah¢d1806	ød1805†",
-["14846"] = "§aa°d1806alÄam@ah°d1806@",
 ["gr:14309:of the Eagle"] = "§aa°d1805alÄam\000E@ah°d1805\000E@",
-["gr:14185:of the Owl"] = "§aa¢d1806d1805al°d1805,am+ah¢d1806+d1805-",
-["gr:14219:of Healing"] = "§aa°d1806alÄamu/ah°d1806u/",
+["14846"] = "§aa°d1806alÄam@ah°d1806@",
+["14232"] = "§aa¢d1806d1805alÄamùah¢d1806ùd1805;",
+["gr:3740:of the Monkey"] = "§aa¢d1806\nd1805alÄam‰ah¢d1806‰d1805í",
+["gr:10121:of the Falcon"] = "§aa¢d1806d1805alÄamÍ_ah¢d1806Í_d1805Í_",
 ["21151"] = "§aa¢d1806nd1805’alÄamÉah¢d1806Éd1805L",
 ["11151"] = "§aa¢d1806d1805al°d1805\nàam	¬ah¢d1806	¬d1805_",
-["gr:9818:of the Eagle"] = "§aa°d1805alÄam~ah°d1805~",
-["6402"] = "§aa¢d1806d1805al°d1805tamkah¢d1806kd1805|",
-["gr:6574:of the Whale"] = "§aa¢d1806d1805alÄam˚ah¢d1806˚d1805˚",
-["15126"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805\r¨",
+["gr:14185:of the Owl"] = "§aa¢d1806d1805al°d1805,am+ah¢d1806+d1805-",
+["gr:6548:of the Whale"] = "§aa°d1805alÄamÂah°d1805Â",
+["gr:14219:of Healing"] = "§aa°d1806alÄamu/ah°d1806u/",
+["gr:9950:of the Monkey"] = "§aa°d1806alÄamÙ$ah°d1806Ù$",
 ["12030"] = "§aa¢d1806d1805al°d1805+ºam:âah¢d1806:âd18050i",
-["9825"] = "§aa¢d1806d1805alÄam†ah¢d1806†d1805Ã",
+["gr:15970:of the Eagle"] = "§aa¢d1806d1805al°d1805amgah¢d1806gd1805ﬂ",
 ["gr:14927:of Strength"] = "§aa°d1805alÄamu0ah°d1805u0",
-["15248"] = "§aa¢d1806'd1805:alÄamπah¢d1806πd1805Ω",
-["gr:15356:of Agility"] = "§aa°d1805alÄam2»ah°d18052»",
+["gr:6574:of the Whale"] = "§aa¢d1806d1805alÄam˚ah¢d1806˚d1805˚",
+["gr:15212:of Power"] = "§aa¢d1806d1805al°d1805|amñah¢d1806ñd1805_",
 ["14224"] = "§aa¢d1806d1805alÄam&≥ah¢d1806&≥d1805&µ",
-["422"] = "§aa¢d1806d1805al°d1805amGah¢d1806Gd1805 ",
+["gr:9290:of the Bear"] = "§aa¢d1806d1805alÄam#Ñah¢d1806#Ñd1805#Ñ",
 ["15599"] = "§aa¢d1806d1805al°d1805\"ƒam0‘ah¢d18060‘d18057€",
-["gr:10121:of the Falcon"] = "§aa¢d1806d1805alÄamÍ_ah¢d1806Í_d1805Í_",
+["gr:9818:of the Eagle"] = "§aa°d1805alÄam~ah°d1805~",
 ["gr:15249:of the Wolf"] = "§aa¢d1806d1805al°d1805Çam~ah¢d1806~d1805Ö",
-["14218"] = "§aa°d1805alÄah°d1805ÀamÀ",
+["2565"] = "§aa¢d1806d1805al°d1805¨amah¢d1806d1805&©",
 ["15945"] = "§aa¢d1806d1805al°d1805samoah¢d1806od1805t",
 ["gr:15270:of Agility"] = "§aa°d1806alÄam\000Ü†ah°d1806\000Ü†",
-["gr:6548:of the Whale"] = "§aa°d1805alÄamÂah°d1805Â",
+["6402"] = "§aa¢d1806d1805al°d1805tamkah¢d1806kd1805|",
 ["gr:15557:of the Bear"] = "§aa¢d1806d1805	al°d1805#àam\"Ωah¢d1806\"Ωd1805#å",
 ["8402"] = "§aa°d1805alÄah°d1805˘am˘",
 ["gr:14307:of the Eagle"] = "§aa°d1806alÄam\0008ah°d1806\0008",
-["gr:9950:of the Monkey"] = "§aa°d1806alÄamÙ$ah°d1806Ù$",
+["15126"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805\r¨",
 ["3402"] = "§aa°d1806alÄamËah°d1806Ë",
-["7332"] = "§aa¢d1806d1805al°d1805#(amNah¢d1806Nd1805u0",
-["gr:6562:of Spirit"] = "§aa¢d1806d1805al°d1805óam–ah¢d1806–d1805ò",
+["4402"] = "§aa¢d1806”d1805ïal°d18052amàah¢d1806àd1805Å",
+["15248"] = "§aa¢d1806'd1805:alÄamπah¢d1806πd1805Ω",
 ["gr:3201:of the Whale"] = "§aa¢d1806d1805alÄamcah¢d1806cd1805≥",
 ["8151"] = "§aa¢d1806d1805al°d1805am˙ah¢d1806˙d1805",
-["gr:15212:of Power"] = "§aa¢d1806d1805al°d1805|amñah¢d1806ñd1805_",
-["4712"] = "§aa¢d1806d1805\nal°d1805	µamah¢d1806d1805\n·",
+["gr:15356:of Agility"] = "§aa°d1805alÄam2»ah°d18052»",
 ["11996"] = "§aa¢d1806d1805alÄam‡ah¢d1806‡d1805≈",
-["gr:9909:of the Eagle"] = "§aa°d1805alÄamUah°d1805U",
 ["11167"] = "§aa¢d1806	d1805	al°d1805	Œam–ah¢d1806–d1805	—",
+["gr:9909:of the Eagle"] = "§aa°d1805alÄamUah°d1805U",
+["gr:15555:of Stamina"] = "§aa¢d1806d1805al°d1805vamuah¢d1806ud1805#'",
 ["gr:10173:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805\000•óam\000£§ah¢d1806\000£§d1805\000zX",
 ["gr:7410:of the Monkey"] = "§aa°d1805al°d1805D[ah°d1805D\\amD[",
-["gr:15212:of the Bear"] = "§aa¢d1806d1805al°d1805†amÃah¢d1806Ãd1805z",
 ["gr:1608:of the Tiger"] = "§aa¢d1806d1805al°d1805ú#amúah¢d1806úd1805ú$",
+["gr:9942:of Spirit"] = "§aa°d1805alÄah°d1805u.amu.",
 ["gr:7331:of the Tiger"] = "§aa°d1805alÄah°d1805àamà",
 ["gr:3196:of the Tiger"] = "§aa¢d1806d1805\ralÄam÷ah¢d1806÷d1805◊",
-["gr:15555:of Stamina"] = "§aa¢d1806d1805al°d1805vamuah¢d1806ud1805#'",
 ["gr:15555:of the Boar"] = "§aa°d1805al°d1805 ah°d1805 am ",
 ["gr:15534:of the Bear"] = "§aa¢d1806d1805al°d1805aamaah¢d1806ad1805b",
+["gr:15212:of the Bear"] = "§aa¢d1806d1805al°d1805†amÃah¢d1806Ãd1805z",
 ["6432"] = "§aa¢d1806d1805al°d1805&´am&©ah¢d1806&©d1805'",
 ["gr:8178:of the Monkey"] = "§aa¢d1806d1805al°d1805XamRah¢d1806Rd1805º",
 ["15166"] = "§aa¢d1806d1805alÄam:4ah¢d1806:4d1805'",
 ["15211"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805ü",
-["gr:15157:of the Gorilla"] = "§aa°d1805alÄah°d18050”am0”",
-["gr:7369:of Intellect"] = "§aa°d1805alÄah°d1805\nam\n",
 ["1423"] = "§aa¢d1806d1805alÄam&ah¢d1806&d1805(",
+["gr:7369:of Intellect"] = "§aa°d1805alÄah°d1805\nam\n",
+["gr:15165:of the Monkey"] = "§aa°d1806alÄam:òah°d1806:ò",
 ["gr:15260:of the Gorilla"] = "§aa¢d1806d1805al°d1805N amNah¢d1806Nd1805\000Åp",
 ["2251"] = "§aa¢d18068d1805Cal°d1805am\rah¢d1806\rd1805",
 ["1251"] = "§aa¢d1806…d1805·alÄam\nah¢d1806\nd1805\n",
-["14244"] = "§aa°d1806alÄam'ah°d1806'",
-["gr:15165:of the Monkey"] = "§aa°d1806alÄam:òah°d1806:ò",
-["gr:7458:of Defense"] = "§aa¢d1806d1805alÄamiah¢d1806id1805i",
-["7432"] = "§aa¢d1806d1805al°d1805!4amÁah¢d1806Ád1805'",
 ["4251"] = "§aa¢d1806d1805Jal°d1805mam™ah¢d1806™d1805",
+["932"] = "§aa¢d1806d1805al°d1805:áam'ah¢d1806'd1805:ä",
+["14244"] = "§aa°d1806alÄam'ah°d1806'",
+["7432"] = "§aa¢d1806d1805al°d1805!4amÁah¢d1806Ád1805'",
+["10060"] = "§aa¢d1806d1805al°d1805<√amú@ah¢d1806ú@d1805ló",
 ["gr:14221:of Spirit"] = "§aa°d1805alÄah°d1805	]am	]",
 ["8251"] = "§aa°d1805alÄamh)ah°d1805h)",
 ["9251"] = "§aa¢d1806d1805al°d1805àamÙah¢d1806Ùd1805",
@@ -8937,21 +8937,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9768:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805yamvah¢d1806vd1805{",
 ["gr:12046:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806\000IÔd1805u0am\000IÔ",
 ["10147"] = "§aa°d1805alÄam√Pah°d1805√P",
-["15570"] = "§aa¢d1806d1805\ral°d1805<amqah¢d1806qd1805ê",
 ["gr:15972:of Healing"] = "§aa¢d1806d1805alÄah¢d1806'sd18056‰am's",
+["3825"] = "§aa¢d1806*d1805-al°d1805am\rah¢d1806\rd18050",
 ["gr:10086:of the Bear"] = "§aa°d1805al°d1805avah°d1805aßamav",
-["gr:15513:of the Gorilla"] = "§aa°d1805alÄam\"√ah°d1805\"√",
-["gr:866:of Arcane Wrath"] = "§aa°d1805al°d1805tah°d1805u0amt",
 ["2728"] = "§aa¢d1806d1805!al°d1805¬amµah¢d1806µd1805√",
+["gr:866:of Arcane Wrath"] = "§aa°d1805al°d1805tah°d1805u0amt",
 ["gr:15018:of Stamina"] = "§aa¢d1806d1805alÄam3ah¢d18063d18054",
+["gr:15513:of the Gorilla"] = "§aa°d1805alÄam\"√ah°d1805\"√",
 ["gr:9957:of Agility"] = "§aa°d1805alÄamÚ0ah°d1805Ú0",
-["14909"] = "§aa¢d1806d1805al°d1805:òam:òah¢d1806:òd1805I–",
 ["4539"] = "§aa¢d18068d1805al°d1805amßah¢d1806ßd1805\n",
 ["11965"] = "§aa¢d1806\nd1805\nal°d1805∞am@ah¢d1806@d1805@",
-["gr:10404:of the Owl"] = "§aa¢d1806d1805al°d1805	Ñam§ah¢d1806§d1805	Ö",
-["gr:14176:of the Falcon"] = "§aa¢d1806d1805al°d1805\nam\nah¢d1806\nd1805Æ",
+["14186"] = "§aa¢d1806	d1805\ralÄamah¢d1806d1805˙",
 ["6238"] = "§aa¢d1806d1805\"al°d1805&amöah¢d1806öd1805*",
+["gr:14176:of the Falcon"] = "§aa¢d1806d1805al°d1805\nam\nah¢d1806\nd1805Æ",
 ["gr:15016:of the Owl"] = "§aa¢d1806d1805alÄamÉah¢d1806Éd1805ÿ",
+["gr:10404:of the Owl"] = "§aa¢d1806d1805al°d1805	Ñam§ah¢d1806§d1805	Ö",
 ["12990"] = "§aa°d1805al°d1805u0ah°d1805ú?amu0",
 ["7532"] = "§aa¢d1806d1805al°d1805*˜am&™ah¢d1806&™d1805*¯",
 ["15244"] = "§aa¢d1806d1805al°d1805>’am8ˆah¢d18068ˆd1805>ÿ",
@@ -8966,47 +8966,47 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15262:of the Monkey"] = "§aa°d1805alÄah°d1805ŸamŸ",
 ["gr:7455:of the Whale"] = "§aa¢d1806d1805al°d1805GamGah¢d1806Gd1805-Ô",
 ["gr:10076:of the Falcon"] = "§aa°d1805alÄamà∏ah°d1805à∏",
-["6599"] = "§aa¢d1806d1805\nalÄamπah¢d1806πd1805ì",
+["gr:15305:of the Owl"] = "§aa¢d1806d1805al°d1805Ñamdah¢d1806dd1805À",
 ["gr:14125:of the Owl"] = "§aa°d1805al°d1805@ah°d1805	√am@",
 ["gr:9832:of the Eagle"] = "§aa¢d1806d1805alÄah¢d18063)d1805Îam3)",
 ["15494"] = "§aa¢d1806$d1805%alÄam2ah¢d18062d1805Ã",
 ["gr:9859:of Healing"] = "§aa°d1805alÄah°d1805:òam:ò",
 ["gr:15981:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806!4d1805!4am!4",
-["gr:15305:of the Owl"] = "§aa¢d1806d1805al°d1805Ñamdah¢d1806dd1805À",
 ["10376"] = "§aa¢d1806d1805alÄamæ†ah¢d1806æ†d1805æ†",
-["gr:15516:of Defense"] = "§aa¢d1806d1805alÄam÷ah¢d1806÷d1805–",
 ["gr:9929:of the Wolf"] = "§aa°d1805al°d1805'ah°d1805'am'",
+["gr:15516:of Defense"] = "§aa¢d1806d1805alÄam÷ah¢d1806÷d1805–",
 ["gr:790:of the Tiger"] = "§aa¢d1806d1805al°d1805Íam\n(ah¢d1806\n(d1805\r",
-["812"] = "§aa¢d1806d1805alÄah¢d1806\000LK?d1805\000LK@am\000LK?",
-["12528"] = "§aa°d1805al°d1805\000zah°d1805\000zam\000z",
+["gr:9811:of the Tiger"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
+["gr:6577:of the Tiger"] = "§aa°d1805al°d1805ah°d1805am",
+["gr:15611:of Stamina"] = "§aa°d1805alÄah°d1805*¯am*¯",
 ["2632"] = "§aa¢d1806;d18052alÄam…ah¢d1806…d1805Ù",
 ["gr:15241:of the Bear"] = "§aa¢d1806d1805al°d1805øam[ah¢d1806[d1805 ",
 ["gr:3199:of Agility"] = "§aa¢d1806d1805alÄamoah¢d1806od1805!ñ",
 ["gr:15157:of Spirit"] = "§aa°d1805alÄam0ah°d18050",
-["gr:9875:of Fiery Wrath"] = "§aa°d1805alÄah°d1805u+amu+",
-["gr:9811:of the Tiger"] = "§aa°d1805alÄah°d1805	ƒam	ƒ",
-["gr:15611:of Stamina"] = "§aa°d1805alÄah°d1805*¯am*¯",
-["gr:6607:of Agility"] = "§aa°d1805al°d18056∞ah°d1805:ˆam6∞",
 ["gr:9924:of Intellect"] = "§aa°d1806alÄam4ªah°d18064ª",
-["gr:6577:of the Tiger"] = "§aa°d1805al°d1805ah°d1805am",
-["gr:15626:of the Eagle"] = "§aa°d1805alÄam√Oah°d1805√O",
-["1015"] = "§aa¢d1806[d1805yal°d1805*am[ah¢d1806[d18057",
-["4599"] = "§aa¢d1806rd1805πal°d1805amÁah¢d1806Ád1805&",
 ["gr:9856:of Agility"] = "§aa°d1805al°d1805Nah°d1805PamN",
+["10548"] = "§aa¢d1806d1805alÄamt…ah¢d1806t…d1805s°",
+["gr:6607:of Agility"] = "§aa°d1805al°d18056∞ah°d1805:ˆam6∞",
+["10620"] = "§aa¢d1806≈d1805‹al°d1805uam7ah¢d18067d1805∂",
+["12528"] = "§aa°d1805al°d1805\000zah°d1805\000zam\000z",
+["gr:15626:of the Eagle"] = "§aa°d1805alÄam√Oah°d1805√O",
 ["gr:15120:of the Bear"] = "§aa°d1805alÄah°d1805'am'",
-["2732"] = "§aa¢d1806Dd1805Wal°d1805ºam>ah¢d1806>d1805›",
-["gr:15523:of the Monkey"] = "§aa¢d1806d1805al°d1805êam!\\ah¢d1806!\\d1805\"8",
-["11985"] = "§aa¢d1806d1805al°d1805îamîah¢d1806îd1805á",
+["4599"] = "§aa¢d1806rd1805πal°d1805amÁah¢d1806Ád1805&",
+["3108"] = "§aa¢d1806\n(d1805alÄamah¢d1806d1805",
+["gr:15130:of the Eagle"] = "§aa°d1805alÄam'ah°d1805'",
+["gr:10142:of Frozen Wrath"] = "§aa°d1805alÄah°d1805\0008Äam\0008Ä",
+["1732"] = "§aa¢d1806d1805alÄah¢d1806»d1805»am»",
+["1015"] = "§aa¢d1806[d1805yal°d1805*am[ah¢d1806[d18057",
 ["gr:15111:of Nature's Wrath"] = "§aa°d1805alÄam∞ah°d1805∞",
 ["gr:15607:of the Wolf"] = "§aa°d1805alÄamW‰ah°d1805W‰",
-["5002"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N",
-["gr:6336:of Power"] = "§aa°d1805alÄam–ah°d1805–",
+["gr:15523:of the Monkey"] = "§aa¢d1806d1805al°d1805êam!\\ah¢d1806!\\d1805\"8",
+["gr:15153:of Stamina"] = "§aa°d1805alÄam$ah°d1805$",
 ["gr:7370:of the Wolf"] = "§aa°d1805alÄah°d1805†am†",
-["3108"] = "§aa¢d1806\n(d1805alÄamah¢d1806d1805",
+["gr:9790:of the Gorilla"] = "§aa¢d1806d1805alÄah¢d1806%8d1805%8am%8",
 ["9916"] = "§aa¢d1806d1805alÄamdah¢d1806dd1805d",
-["gr:9780:of the Gorilla"] = "§aa°d1805alÄamlah°d1805l",
+["11197"] = "§aa¢d1806d1805alÄah¢d1806u0d1805u0amu0",
 ["gr:15612:of the Owl"] = "§aa°d1806alÄam8@ah°d18068@",
-["1732"] = "§aa¢d1806d1805alÄah¢d1806»d1805»am»",
+["gr:14175:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805ü",
 ["2015"] = "§aa¢d1806d1805alÄam&¨ah¢d1806&¨d1805&¨",
 ["13137"] = "§aa¢d1806d1805al°d1805Õam˝Åah¢d1806˝Åd1805\000D",
 ["gr:15120:of the Eagle"] = "§aa¢d1806d1805alÄam®ah¢d1806®d1805®",
@@ -9015,37 +9015,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14190:of the Whale"] = "§aa°d1805alÄam‰ah°d1805‰",
 ["gr:15341:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806\r¨d1805àam\r¨",
 ["5115"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
-["gr:15153:of Stamina"] = "§aa°d1805alÄam$ah°d1805$",
-["gr:15171:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805√Pam√P",
+["5002"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N",
+["gr:6336:of Power"] = "§aa°d1805alÄam–ah°d1805–",
+["gr:9875:of Fiery Wrath"] = "§aa°d1805alÄah°d1805u+amu+",
 ["gr:15324:of Agility"] = "§aa°d1805alÄam√Pah°d1805√P",
-["gr:10142:of Frozen Wrath"] = "§aa°d1805alÄah°d1805\0008Äam\0008Ä",
 ["8115"] = "§aa¢d1806d1805al°d1805&Vam&Sah¢d1806&Sd1805&Z",
-["gr:7445:of Intellect"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805.‡",
-["11197"] = "§aa¢d1806d1805alÄah¢d1806u0d1805u0amu0",
-["gr:15365:of the Monkey"] = "§aa¢d1806d1805alÄam:˘ah¢d1806:˘d180513",
 ["gr:15486:of Strength"] = "§aa¢d1806d1805al°d1805òamíah¢d1806íd1805ô",
+["gr:9780:of the Gorilla"] = "§aa°d1805alÄamlah°d1805l",
+["gr:15365:of the Monkey"] = "§aa¢d1806d1805alÄam:˘ah¢d1806:˘d180513",
 ["gr:9779:of Defense"] = "§aa°d1805alÄah°d1805‹am‹",
 ["gr:15236:of Agility"] = "§aa¢d1806d1805alÄamÒgah¢d1806Ògd1805\000ç®",
 ["gr:9748:of Intellect"] = "§aa°d1806alÄam∏ah°d1806∏",
-["gr:7544:of the Falcon"] = "§aa°d1805alÄam'ah°d1805'",
+["gr:7445:of Intellect"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805.‡",
+["gr:15378:of the Boar"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:7356:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806d1805aam",
-["10571"] = "§aa¢d1806d1805alÄamœMah¢d1806œMd1805ú?",
+["gr:9907:of Frozen Wrath"] = "§aa°d1806alÄam\000\náPah°d1806\000\náP",
 ["gr:14926:of Power"] = "§aa°d1805alÄamCah°d1805C",
-["gr:7491:of the Wolf"] = "§aa°d1805alÄam<åah°d1805<å",
+["14945"] = "§aa¢d1806d1805al°d1805.‡amNah¢d1806Nd1805N",
 ["gr:14113:of the Whale"] = "§aa¢d1806d1805\ral°d1805<amvah¢d1806vd1805=",
-["12985"] = "§aa¢d1806d1805al°d1805&Æam#àah¢d1806#àd1805)	",
+["gr:9928:of the Eagle"] = "§aa°d1805alÄamNah°d1805N",
 ["gr:15516:of the Gorilla"] = "§aa°d1805alÄah°d1805am",
 ["gr:15324:of the Whale"] = "§aa¢d1806d1805alÄamÙáah¢d1806Ùád1805\000¨",
-["gr:9286:of Stamina"] = "§aa°d1805alÄam%Äah°d1805%Ä",
-["gr:15378:of the Boar"] = "§aa°d1805alÄah°d1805'am'",
-["gr:10193:of Agility"] = "§aa°d1805alÄam\0008ah°d1805\0008",
-["gr:9907:of Frozen Wrath"] = "§aa°d1806alÄam\000\náPah°d1806\000\náP",
-["14945"] = "§aa¢d1806d1805al°d1805.‡amNah¢d1806Nd1805N",
+["gr:7491:of the Wolf"] = "§aa°d1805alÄam<åah°d1805<å",
+["3832"] = "§aa°d1805al°d1805	\"ah°d1805	)am	\"",
+["gr:14117:of Fiery Wrath"] = "§aa°d1805alÄah°d1805vamv",
+["10571"] = "§aa¢d1806d1805alÄamœMah¢d1806œMd1805ú?",
+["gr:10077:of the Falcon"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["gr:9800:of Shadow Wrath"] = "§aa°d1805alÄam»ah°d1805»",
 ["4832"] = "§aa°d1805alÄam ah°d1805 ",
 ["10137"] = "§aa¢d1806d1805alÄam\000 Ïah¢d1806\000 Ïd1805ä¨",
-["gr:9928:of the Eagle"] = "§aa°d1805alÄamNah°d1805N",
-["gr:15287:of the Owl"] = "§aa¢d1806d1805alÄamPwah¢d1806Pwd1805a®",
+["gr:9286:of Stamina"] = "§aa°d1805alÄam%Äah°d1805%Ä",
+["gr:10193:of Agility"] = "§aa°d1805alÄam\0008ah°d1805\0008",
 ["9399"] = "§aa°d1805Xal°d1805ah°d1805am",
 ["9832"] = "§aa¢d1806d1805alÄamdah¢d1806dd1805í",
 ["gr:9770:of the Eagle"] = "§aa¢d1806d1805alÄamiah¢d1806id1805	`",
@@ -9059,55 +9059,55 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10134:of the Eagle"] = "§aa°d1805al°d1805Nah°d1805kgamN",
 ["gr:15172:of the Bear"] = "§aa°d1806alÄamu0ah°d1806u0",
 ["14400"] = "§aa¢d1806d1805alÄam\nah¢d1806\nd1805;",
-["gr:7413:of the Whale"] = "§aa°d1805alÄam.‡ah°d1805.‡",
 ["4357"] = "§aa¢d1806d1805Nal°d1805amah¢d1806d1805",
 ["10237"] = "§aa°d1806alÄamu0ah°d1806u0",
+["gr:7413:of the Whale"] = "§aa°d1805alÄam.‡ah°d1805.‡",
 ["gr:14175:of the Whale"] = "§aa¢d1806d1805alÄam\rGah¢d1806\rGd1805\rH",
 ["10099"] = "§aa¢d1806d1805alÄamú>ah¢d1806ú>d1805kŒ",
 ["gr:9289:of Defense"] = "§aa¢d1806d1805alÄam'ah¢d1806'd18050‘",
 ["14366"] = "§aa¢d1806d1805al°d1805 amªah¢d1806ªd1805w",
-["9751"] = "§aa¢d1806d1805al°d1805,amah¢d1806d1805ê",
+["gr:15984:of the Whale"] = "§aa°d1805alÄam†ah°d1805†",
 ["gr:15182:of the Bear"] = "§aa°d1805alÄam√Pah°d1805√P",
-["gr:15375:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806N d1805N amN ",
+["gr:7437:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805[gam3èah¢d18063èd1805Çx",
 ["13017"] = "§aa¢d1806d1805\nal°d1805¿*amΩah¢d1806Ωd1805¿+",
 ["gr:15526:of Strength"] = "§aa¢d1806d1805al°d1805»am«ah¢d1806«d1805Ã",
-["gr:9948:of the Eagle"] = "§aa°d1805alÄah°d1805:òam:ò",
-["15590"] = "§aa¢d1806d1805al°d1805xam'ah¢d1806'd1805{",
+["gr:7408:of Nature's Wrath"] = "§aa¢d1806d1805alÄam&>ah¢d1806&>d1805&>",
+["8499"] = "§aa¢d1806d1805alÄam\000B@ah¢d1806\000B@d1805\000°",
 ["13945"] = "§aa¢d1806d1805alÄamî^ah¢d1806î^d1805îb",
 ["11137"] = "§aa¢d1806d1805gal°d1805˝am‹ah¢d1806‹d1805	Z",
-["gr:7437:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805[gam3èah¢d18063èd1805Çx",
+["gr:10381:of Power"] = "§aa°d1805alÄam\0008Äah°d1805\0008Ä",
 ["9932"] = "§aa¢d1806d1805alÄam'ah¢d1806'd18050”",
 ["8932"] = "§aa¢d1806èd1805alÄam∫ah¢d1806∫d1805",
 ["gr:10085:of the Monkey"] = "§aa°d1805alÄam\0008ah°d1805\0008",
-["gr:7408:of Nature's Wrath"] = "§aa¢d1806d1805alÄam&>ah¢d1806&>d1805&>",
-["8499"] = "§aa¢d1806d1805alÄam\000B@ah¢d1806\000B@d1805\000°",
-["1499"] = "§aa¢d1806d1805al°d1805camaah¢d1806ad1805d",
-["gr:15559:of Strength"] = "§aa¢d1806d1805alÄah¢d1806|d1805<am|",
-["gr:9894:of the Owl"] = "§aa°d1805alÄah°d1805:òam:ò",
+["9751"] = "§aa¢d1806d1805al°d1805,amah¢d1806d1805ê",
+["gr:14946:of Defense"] = "§aa°d1805alÄam@ÿah°d1805@ÿ",
 ["gr:14297:of the Eagle"] = "§aa°d1805alÄah°d1805\000am\000",
-["18712"] = "§aa¢d1806d1805alÄah¢d1806Ù#d1805∑wamÙ#",
-["gr:9880:of the Owl"] = "§aa¢d1806d1805al°d1805VamUah¢d1806Ud1805#%",
+["11135"] = "§aa¢d1806\rd1805Kal°d1805Kam´ah¢d1806´d1805t",
 ["15620"] = "§aa¢d1806d1805alÄah¢d1806Mºd1805aDamMº",
-["2751"] = "§aa¢d1806d1805alÄamÃah¢d1806Ãd1805â",
 ["gr:9785:of Power"] = "§aa°d1805alÄam\r´ah°d1805\r´",
-["3678"] = "§aa°d1805alÄam–ah°d1805–",
+["18712"] = "§aa¢d1806d1805alÄah¢d1806Ù#d1805∑wamÙ#",
+["gr:14262:of the Owl"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
+["1499"] = "§aa¢d1806d1805al°d1805camaah¢d1806ad1805d",
+["2751"] = "§aa¢d1806d1805alÄamÃah¢d1806Ãd1805â",
+["gr:15366:of Agility"] = "§aa°d1806alÄam%≈ah°d1806%≈",
+["gr:7408:of the Wolf"] = "§aa°d1805alÄam'ah°d1805'",
 ["5751"] = "§aa¢d1806d1805al°d1805Æam«ah¢d1806«d18053",
 ["gr:7479:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806'd1805*¯am'",
 ["gr:15511:of the Boar"] = "§aa¢d1806d1805al°d1805\ram„ah¢d1806„d1805\r",
 ["gr:14199:of the Eagle"] = "§aa¢d1806d1805alÄam&ùah¢d1806&ùd1805†",
-["gr:14262:of the Owl"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
-["gr:15366:of Agility"] = "§aa°d1806alÄam%≈ah°d1806%≈",
-["gr:3740:of Stamina"] = "§aa°d1806alÄam`ah°d1806`",
-["gr:6602:of Power"] = "§aa°d1805alÄamXah°d1805X",
-["gr:14127:of Spirit"] = "§aa°d1805alÄah°d1805ØamØ",
+["gr:9929:of Intellect"] = "§aa¢d1806d1805alÄam.‹ah¢d1806.‹d1805.›",
+["gr:7413:of the Eagle"] = "§aa°d1805alÄah°d1805klamkl",
+["15361"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805à",
+["gr:6601:of Power"] = "§aa°d1806alÄama®ah°d1806a®",
+["gr:6617:of Intellect"] = "§aa¢d1806d1805al°d1805!am Øah¢d1806 Ød1805!",
 ["15964"] = "§aa¢d1806d1805al°d1805'am'ah¢d1806'd1805'",
 ["gr:6610:of Shadow Wrath"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805Ê",
 ["gr:7544:of the Eagle"] = "§aa°d1805alÄah°d1805D\\amD\\",
 ["gr:9769:of Frozen Wrath"] = "§aa°d1805alÄah°d1805.|am.|",
-["gr:7413:of the Eagle"] = "§aa°d1805alÄah°d1805klamkl",
-["15361"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805à",
-["gr:7408:of the Wolf"] = "§aa°d1805alÄam'ah°d1805'",
-["gr:6617:of Intellect"] = "§aa¢d1806d1805al°d1805!am Øah¢d1806 Ød1805!",
+["14839"] = "§aa¢d1806d1805al°d1805LamDÉah¢d1806DÉd1805N",
+["3678"] = "§aa°d1805alÄam–ah°d1805–",
+["10720"] = "§aa°d1805alÄamu0ah°d1805u0",
+["1678"] = "§aa¢d1806d1805alÄam\000≠yah¢d1806\000≠yd1805\000≠{",
 ["4238"] = "§aa¢d1806ßd1805&al°d1805»amah¢d1806d1805ÿ",
 ["gr:14231:of Spirit"] = "§aa¢d1806d1805alÄamPah¢d1806Pd1805P",
 ["gr:15360:of the Owl"] = "§aa°d1805alÄam·ah°d1805·",
@@ -9119,10 +9119,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["13072"] = "§aa¢d1806d1805al°d1805\000am\000Ónah¢d1806\000Ónd1805\000Ón",
 ["gr:9967:of the Monkey"] = "§aa°d1806alÄam%ah°d1806%",
 ["gr:7471:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806u0d1805îamu0",
-["gr:7407:of Agility"] = "§aa¢d1806d1805al°d1805'qam:óah¢d1806:ód1805:ó",
-["gr:15261:of the Monkey"] = "§aa¢d1806d1805al°d1805a¶amNÇah¢d1806NÇd1805a®",
-["gr:15150:of the Eagle"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:7438:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806dd1805hamd",
+["gr:15261:of the Monkey"] = "§aa¢d1806d1805al°d1805a¶amNÇah¢d1806NÇd1805a®",
+["gr:14109:of the Owl"] = "§aa¢d1806	d1805al°d1805Çaméah¢d1806éd1805¢",
+["gr:10408:of Defense"] = "§aa°d1806alÄam(Èah°d1806(È",
 ["10218"] = "§aa°d1805alÄah°d1805\000	am\000	",
 ["1821"] = "§aa°d1805alÄamrah°d1805r",
 ["14424"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d1805#\"",
@@ -9130,7 +9130,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14321:of the Owl"] = "§aa°d1805alÄah°d1805_{am_{",
 ["14944"] = "§aa¢d1806d1805alÄam#'ah¢d1806#'d1805#'",
 ["4821"] = "§aa°d1806alÄam'ah°d1806'",
-["gr:15541:of Strength"] = "§aa¢d1806d1805al°d1805'amªah¢d1806ªd18054W",
+["9778"] = "§aa¢d1806d1805alÄamœah¢d1806œd1805∑",
 ["11038"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805Õ",
 ["2030"] = "§aa°d1805alÄah°d1805oamo",
 ["gr:14131:of Fiery Wrath"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d1805˛",
@@ -9139,7 +9139,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:3210:of Stamina"] = "§aa¢d1806d1805alÄamAÓah¢d1806AÓd1805'",
 ["4778"] = "§aa¢d1806d1805alÄam(+ah¢d1806(+d1805(?",
 ["1778"] = "§aa°d1805alÄah°d1805KamK",
-["2778"] = "§aa¢d1806d1805al°d1805Èamﬁah¢d1806ﬁd1805)",
+["13026"] = "§aa¢d1806d1805al°d1805\000am\000ah¢d1806\000d1805\000p",
 ["10518"] = "§aa¢d1806d1805al°d1805_≤am_Æah¢d1806_Æd1805_≥",
 ["gr:7517:of the Eagle"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["gr:15537:of the Tiger"] = "§aa¢d1806d1805alÄam<åah¢d1806<åd1805'",
@@ -9148,106 +9148,106 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15116:of Stamina"] = "§aa°d1805al°d1805Tah°d1805pamT",
 ["gr:7414:of Healing"] = "§aa¢d1806d1805alÄah¢d1806#ãd1805#ãam#ã",
 ["gr:15984:of Shadow Wrath"] = "§aa°d1805alÄah°d1805\000÷–am\000÷–",
-["9821"] = "§aa¢d1806d1805\ralÄamıah¢d1806ıd1805\r",
+["gr:14120:of Frozen Wrath"] = "§aa¢d1806d1805al°d1805Tam&ah¢d1806&d1805U",
 ["8838"] = "§aa¢d1806vd1805|al°d1805Ram◊ah¢d1806◊d1805·",
 ["14440"] = "§aa¢d1806d1805al°d1805'amtah¢d1806td1805,Á",
 ["gr:14091:of Spirit"] = "§aa¢d1806d1805al°d1805éamåah¢d1806åd1805è",
-["gr:15259:of the Boar"] = "§aa°d1805alÄah°d1805ÅamÅ",
 ["gr:15912:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806\rtd1805œam\rt",
+["gr:15344:of the Falcon"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15485:of the Gorilla"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
 ["gr:14248:of the Eagle"] = "§aa°d1806alÄamL’ah°d1806L’",
 ["gr:6573:of the Whale"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805\"ƒ",
 ["gr:9908:of the Whale"] = "§aa¢d1806d1805alÄamKah¢d1806Kd1805EÏ",
-["gr:15344:of the Falcon"] = "§aa°d1806alÄam'ah°d1806'",
-["13499"] = "§aa¢d1806d1805alÄam\000\r1ah¢d1806\000\r1d1805\000p",
-["gr:14201:of the Wolf"] = "§aa¢d1806d1805alÄah¢d18068d1805@am8",
+["gr:15259:of the Boar"] = "§aa°d1805alÄah°d1805ÅamÅ",
 ["9878"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'\r",
-["gr:9763:of Power"] = "§aa¢d1806d1805alÄah¢d1806∏d1805∏am∏",
 ["gr:6543:of Frozen Wrath"] = "§aa°d1805alÄah°d1805u/amu/",
-["gr:9889:of the Owl"] = "§aa¢d1806d1805al°d1805ÛamÚah¢d1806Úd1805Ù",
+["gr:14201:of the Wolf"] = "§aa¢d1806d1805alÄah¢d18068d1805@am8",
+["gr:9763:of Power"] = "§aa¢d1806d1805alÄah¢d1806∏d1805∏am∏",
+["gr:7108:of the Bear"] = "§aa°d1805alÄamxah°d1805x",
+["gr:10061:of Healing"] = "§aa¢d1806d1805alÄam[÷ah¢d1806[÷d1805[◊",
 ["14659"] = "§aa¢d1806d1805al°d18059am8ˇah¢d18068ˇd1805Bd",
 ["gr:10404:of Fiery Wrath"] = "§aa¢d1806d1805al°d1805–am>ah¢d1806>d1805",
-["gr:7108:of the Bear"] = "§aa°d1805alÄamxah°d1805x",
+["9963"] = "§aa¢d1806d1805alÄamú\nah¢d1806ú\nd1805ú\n",
 ["2878"] = "§aa¢d1806d1805	al°d1805\000qamú?ah¢d1806ú?d1805\0008x",
 ["gr:7533:of Agility"] = "§aa¢d1806d1805alÄam@◊ah¢d1806@◊d1805iw",
 ["12026"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805\0008Ä",
 ["gr:3206:of the Tiger"] = "§aa¢d1806d1805al°d1805LamKah¢d1806Kd1805!2",
-["gr:10061:of Healing"] = "§aa¢d1806d1805alÄam[÷ah¢d1806[÷d1805[◊",
+["15576"] = "§aa°d1805alÄah°d1805@am@",
 ["15214"] = "§aa¢d1806d1805al°d1805Blam:˙ah¢d1806:˙d1805FP",
 ["gr:11968:of Frost Resistance"] = "§aa¢d1806d1805alÄam≠ah¢d1806≠d1805≠",
-["9963"] = "§aa¢d1806d1805alÄamú\nah¢d1806ú\nd1805ú\n",
-["9921"] = "§aa¢d1806d1805alÄam#ah¢d1806#d1805#",
-["15576"] = "§aa°d1805alÄah°d1805@am@",
-["gr:9970:of Strength"] = "§aa¢d1806d1805al°d1805;Aam\000pah¢d1806\000pd1805;√",
 ["gr:14956:of the Bear"] = "§aa°d1805alÄam:òah°d1805:ò",
+["gr:9829:of the Owl"] = "§aa°d1805alÄah°d1805∏am∏",
+["gr:9889:of the Owl"] = "§aa¢d1806d1805al°d1805ÛamÚah¢d1806Úd1805Ù",
+["gr:9970:of Strength"] = "§aa¢d1806d1805al°d1805;Aam\000pah¢d1806\000pd1805;√",
+["9921"] = "§aa¢d1806d1805alÄam#ah¢d1806#d1805#",
 ["gr:9922:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806%d1805%am%",
 ["15345"] = "§aa¢d1806d1805\ral°d1805\r©am\rßah¢d1806\rßd1805\r™",
-["14311"] = "§aa¢d1806d1805al°d1805:òamN ah¢d1806N d1805N ",
-["gr:9829:of the Owl"] = "§aa°d1805alÄah°d1805∏am∏",
+["gr:3199:of the Whale"] = "§aa¢d1806d1805alÄam¨ah¢d1806¨d1805ã",
+["gr:7454:of the Monkey"] = "§aa°d1805alÄam!ñah°d1805!ñ",
 ["gr:9809:of the Monkey"] = "§aa¢d1806d1805alÄah¢d18060‘d1805'am0‘",
-["gr:3193:of Stamina"] = "§aa¢d1806d1805al°d1805}am'ah¢d1806'd1805Ü",
-["1978"] = "§aa°d1805alÄam\000sah°d1805\000s",
+["13499"] = "§aa¢d1806d1805alÄam\000\r1ah¢d1806\000\r1d1805\000p",
+["gr:6560:of Strength"] = "§aa°d1805alÄah°d1805laml",
 ["gr:14204:of the Whale"] = "§aa¢d1806d1805alÄam%ah¢d1806%d1805%",
 ["gr:15583:of the Falcon"] = "§aa°d1805alÄam'ah°d1805'",
-["gr:14163:of the Owl"] = "§aa¢d1806d1805	al°d1805\n!am∏ah¢d1806∏d1805∏",
-["gr:15497:of the Tiger"] = "§aa¢d1806d1805al°d1805ıamXah¢d1806Xd1805)",
-["gr:3199:of the Whale"] = "§aa¢d1806d1805alÄam¨ah¢d1806¨d1805ã",
-["gr:6560:of Strength"] = "§aa°d1805alÄah°d1805laml",
 ["gr:9867:of the Gorilla"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805T",
-["gr:15495:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806Ád1805ËamÁ",
-["gr:1207:of the Bear"] = "§aa¢d1806d1805al°d1805/æam,¥ah¢d1806,¥d18054",
-["gr:15557:of Stamina"] = "§aa°d1805alÄamüah°d1805ü",
+["gr:15497:of the Tiger"] = "§aa¢d1806d1805al°d1805ıamXah¢d1806Xd1805)",
 ["gr:7447:of the Wolf"] = "§aa¢d1806d1805alÄam…ah¢d1806…d1805\n",
+["14311"] = "§aa¢d1806d1805al°d1805:òamN ah¢d1806N d1805N ",
 ["4244"] = "§aa¢d1806\rd1805al°d1805-am§ah¢d1806§d1805!‚",
-["gr:15224:of Power"] = "§aa¢d1806d1805al°d1805˙amÙah¢d1806Ùd1805˝",
+["gr:15495:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806Ád1805ËamÁ",
 ["15372"] = "§aa¢d1806d1805alÄam0”ah¢d18060”d1805#",
+["gr:15275:of Frozen Wrath"] = "§aa°d1806alÄam\000–êah°d1806\000–ê",
+["gr:14228:of the Eagle"] = "§aa°d1805alÄah°d1805u0amu0",
 ["2978"] = "§aa¢d1806d1805alÄamÄah¢d1806Äd1805",
+["gr:15224:of Power"] = "§aa¢d1806d1805al°d1805˙amÙah¢d1806Ùd1805˝",
+["1978"] = "§aa°d1805alÄam\000sah°d1805\000s",
+["11134"] = "§aa¢d1806d1805Ual°d1805õam¨ah¢d1806¨d1805≠",
 ["gr:15932:of Fiery Wrath"] = "§aa¢d1806d1805alÄamîah¢d1806îd1805‰",
 ["gr:7447:of Nature's Wrath"] = "§aa°d1806alÄam'ah°d1806'",
 ["14214"] = "§aa¢d1806d1805al°d1805íamKah¢d1806Kd1805à",
 ["gr:3195:of the Tiger"] = "§aa¢d1806d1805alÄam\r•ah¢d1806\r•d1805|",
 ["gr:14229:of the Whale"] = "§aa°d1805alÄamÿah°d1805ÿ",
-["gr:15121:of Spirit"] = "§aa¢d1806d1805alÄam8ah¢d18068d18058",
+["14441"] = "§aa¢d1806d1805alÄah¢d1806<Ìd1805DZam<Ì",
 ["gr:9873:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806Ud1805WamU",
 ["gr:14248:of the Whale"] = "§aa°d1806alÄam!cah°d1806!c",
-["gr:15162:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806oÌd1805ñ˝amoÌ",
-["gr:10129:of the Bear"] = "§aa¢d1806d1805al°d1805MÌamUah¢d1806Ud1805a®",
-["gr:7472:of Spirit"] = "§aa¢d1806d1805alÄam>ah¢d1806>d1805>",
-["gr:10238:of the Monkey"] = "§aa°d1806alÄamN ah°d1806N ",
-["14370"] = "§aa¢d1806d1805al°d1805-am ah¢d1806 d18050",
-["16072"] = "§aa¢d1806d1805'al°d18054öam,‰ah¢d1806,‰d18054°",
+["14604"] = "§aa¢d1806d1805alÄah¢d1806'»d1805:2am'»",
 ["14729"] = "§aa¢d1806d1805al°d1805„amrah¢d1806rd1805u",
-["14441"] = "§aa¢d1806d1805alÄah¢d1806<Ìd1805DZam<Ì",
-["gr:15242:of the Bear"] = "§aa¢d1806d1805al°d1805–am\"`ah¢d1806\"`d1805&™",
+["gr:7472:of Spirit"] = "§aa¢d1806d1805alÄam>ah¢d1806>d1805>",
+["15344"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805\r¨",
 ["gr:7482:of the Wolf"] = "§aa°d1805alÄam'ah°d1805'",
+["16072"] = "§aa¢d1806d1805'al°d18054öam,‰ah¢d1806,‰d18054°",
 ["4239"] = "§aa¢d1806d1805alÄamJah¢d1806Jd1805K",
-["9302"] = "§aa°d1805alÄam(≤ah°d1805(≤",
+["9815"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805	ƒ",
+["gr:15242:of the Bear"] = "§aa¢d1806d1805al°d1805–am\"`ah¢d1806\"`d1805&™",
+["gr:10129:of the Bear"] = "§aa¢d1806d1805al°d1805MÌamUah¢d1806Ud1805a®",
+["gr:15532:of the Whale"] = "§aa°d1805alÄamœah°d1805œ",
+["gr:14273:of Shadow Wrath"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:14291:of Fiery Wrath"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805à∑",
 ["1721"] = "§aa¢d1806d1805al°d1805\000IËam\000˚…ah¢d1806\000˚…d1805\000‚|",
-["2721"] = "§aa¢d1806d1805al°d1805ÍAamØ»ah¢d1806Ø»d1805\000Ü;",
-["gr:9802:of Nature's Wrath"] = "§aa°d1806alÄam	√ah°d1806	√",
+["14579"] = "§aa¢d1806d1805\nal°d1805yamEah¢d1806Ed1805A",
+["gr:9971:of the Tiger"] = "§aa°d1806alÄamNah°d1806N",
 ["4721"] = "§aa¢d1806d1805\nal°d1805\rÛam\r ah¢d1806\r d1805\r˜",
 ["15135"] = "§aa¢d1806	d1805\ralÄam–ah¢d1806–d1805T",
 ["gr:15332:of the Whale"] = "§aa¢d1806d1805al°d1805¿amUah¢d1806Ud1805U",
 ["15347"] = "§aa¢d1806\nd1805\nal°d1805–am;ah¢d1806;d1805\n",
 ["gr:10171:of Power"] = "§aa°d1805alÄah°d1805u/amu/",
-["gr:15532:of the Whale"] = "§aa°d1805alÄamœah°d1805œ",
+["gr:4568:of Strength"] = "§aa¢d1806d1805\nal°d1805óamSah¢d1806Sd1805ˆ",
 ["10134"] = "§aa¢d1806d1805al°d1805Namkfah¢d1806kfd1805N",
 ["14852"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:7533:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806'd1805*¯am'",
-["gr:14273:of Shadow Wrath"] = "§aa°d1805alÄah°d1805√Pam√P",
-["gr:4568:of Strength"] = "§aa¢d1806d1805\nal°d1805óamSah¢d1806Sd1805ˆ",
-["gr:790:of the Eagle"] = "§aa¢d1806d1805alÄam\rìah¢d1806\rìd1805	_",
-["3302"] = "§aa¢d1806\rd1805alÄam	ah¢d1806	d1805Ë",
+["gr:15211:of Power"] = "§aa¢d1806d1805alÄamﬁah¢d1806ﬁd1805ì",
+["14370"] = "§aa¢d1806d1805al°d1805-am ah¢d1806 d18050",
+["gr:10098:of the Owl"] = "§aa°d1806alÄama¶ah°d1806a¶",
+["6054"] = "§aa¢d1806d1805al°d1805Tamah¢d1806d1805M",
 ["gr:6572:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806†d1805am†",
 ["gr:15156:of the Boar"] = "§aa°d1805alÄah°d1805>~am>~",
-["6054"] = "§aa¢d1806d1805al°d1805Tamah¢d1806d1805M",
+["3302"] = "§aa¢d1806\rd1805alÄam	ah¢d1806	d1805Ë",
 ["2302"] = "§aa°d1805alÄamcah°d1805c",
 ["gr:9807:of Intellect"] = "§aa¢d1806d1805al°d1805ÊamÂah¢d1806Âd1805Á",
-["gr:15146:of the Monkey"] = "§aa°d1805alÄah°d1805ø¬amø¬",
+["1815"] = "§aa¢d1806d1805alÄamªah¢d1806ªd1805Ω",
 ["2815"] = "§aa¢d1806d1805alÄam\0003œah¢d1806\0003œd1805÷‘",
 ["10127"] = "§aa¢d1806d1805al°d18053éam8’ah¢d18068’d18058’",
-["gr:15918:of the Eagle"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805.ﬂ",
+["4054"] = "§aa¢d1806d1805al°d1805ˆam≤ah¢d1806≤d1805˜",
 ["3874"] = "§aa¢d1806d1805\nal°d1805\nâamjah¢d1806jd1805\nå",
 ["gr:10061:of the Wolf"] = "§aa°d1805alÄah°d1805?Gam?G",
 ["gr:15112:of Nature's Wrath"] = "§aa°d1805alÄah°d1805ŒamŒ",
@@ -9273,13 +9273,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15114:of Agility"] = "§aa¢d1806d1805alÄah¢d1806ìd1805\rGamì",
 ["gr:12012:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806\000od1805√Nam\000o",
 ["gr:2080:of the Wolf"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
-["8154"] = "§aa¢d1806<d1805Bal°d1805Ãam‘ah¢d1806‘d1805Õ",
 ["gr:14934:of the Boar"] = "§aa°d1806alÄamu0ah°d1806u0",
+["8154"] = "§aa¢d1806<d1805Bal°d1805Ãam‘ah¢d1806‘d1805Õ",
 ["gr:14918:of the Bear"] = "§aa°d1805alÄah°d1805N amN ",
-["gr:15243:of the Tiger"] = "§aa¢d1806d1805al°d1805)\\am)Xah¢d1806)Xd1805)^",
+["gr:7414:of Power"] = "§aa°d1806alÄam'ah°d1806'",
 ["1715"] = "§aa¢d1806d1805alÄam\000\"‹ah¢d1806\000\"‹d1805\000q\000",
 ["4715"] = "§aa¢d1806d1805alÄam\n>ah¢d1806\n>d1805l",
-["gr:7414:of Power"] = "§aa°d1806alÄam'ah°d1806'",
+["gr:15243:of the Tiger"] = "§aa¢d1806d1805al°d1805)\\am)Xah¢d1806)Xd1805)^",
 ["3487"] = "§aa¢d1806d1805alÄam2ah¢d18062d1805	Ü",
 ["gr:15112:of Intellect"] = "§aa¢d1806d1805al°d1805	åam	åah¢d1806	åd1805	ê",
 ["gr:9891:of the Tiger"] = "§aa°d1805alÄah°d1805N amN ",
@@ -9304,15 +9304,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["9254"] = "§aa¢d1806d1805al°d1805Bsam17ah¢d180617d1805Bt",
 ["gr:15577:of the Monkey"] = "§aa°d1805alÄam#'ah°d1805#'",
 ["gr:1990:of the Gorilla"] = "§aa¢d1806d1805al°d1805VPamVOah¢d1806VOd1805`",
-["gr:9852:of Spirit"] = "§aa¢d1806d1805alÄam,ah¢d1806,d1805,",
 ["gr:9879:of Healing"] = "§aa°d1805alÄah°d1805úamú",
+["8254"] = "§aa¢d1806d1805al°d1805JìamJíah¢d1806Jíd1805Jî",
 ["5254"] = "§aa¢d1806	d1805alÄam‹ah¢d1806‹d1805Ü",
 ["6615"] = "§aa¢d1806d1805al°d1805ıam⁄ah¢d1806⁄d1805¶",
 ["gr:9878:of Shadow Wrath"] = "§aa¢d1806d1805alÄamä´ah¢d1806ä´d1805qH",
 ["4254"] = "§aa¢d1806\rd1805alÄah¢d1806öd1805	¿amö",
 ["gr:9838:of Defense"] = "§aa°d1805alÄam?ah°d1805?",
-["gr:9781:of the Eagle"] = "§aa¢d1806d1805alÄam¥ah¢d1806¥d1805¥",
 ["gr:10069:of Agility"] = "§aa°d1805alÄah°d1805L,amL,",
+["gr:9781:of the Eagle"] = "§aa¢d1806d1805alÄam¥ah¢d1806¥d1805¥",
 ["10027"] = "§aa¢d1806d1805alÄam6Øah¢d18066Ød18056Ø",
 ["gr:15383:of the Eagle"] = "§aa°d1805alÄah°d1805b‘amb‘",
 ["10311"] = "§aa¢d1806d1805alÄam\nah¢d1806\nd1805ˇ",
@@ -9333,13 +9333,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15223:of Shadow Wrath"] = "§aa¢d1806d1805alÄam<ah¢d1806<d1805=",
 ["4351"] = "§aa¢d1806d1805alÄah¢d1806Y˚d1805u0amY˚",
 ["gr:7438:of the Eagle"] = "§aa¢d1806d1805al°d1805#ãam<∏ah¢d1806<∏d1805'",
-["gr:15128:of the Monkey"] = "§aa°d1805al°d1805Mºah°d1805a®amMº",
-["gr:14190:of Spirit"] = "§aa¢d1806d1805al°d1805üamN ah¢d1806N d1805†",
 ["10214"] = "§aa¢d1806d1805alÄam\000Äah¢d1806\000Äd1805√P",
+["gr:14190:of Spirit"] = "§aa¢d1806d1805al°d1805üamN ah¢d1806N d1805†",
+["gr:15128:of the Monkey"] = "§aa°d1805al°d1805Mºah°d1805a®amMº",
 ["3202"] = "§aa¢d1806d1805al°d1805Ëam<ah¢d1806<d1805Í",
 ["7354"] = "§aa¢d1806d1805alÄamíah¢d1806íd1805	ƒ",
 ["6515"] = "§aa¢d1806d1805alÄam,ah¢d1806,d1805d",
-["gr:15511:of the Gorilla"] = "§aa°d1805al°d1805ah°d1805	¡am",
+["gr:9960:of the Wolf"] = "§aa°d1806alÄam1kah°d18061k",
 ["4354"] = "§aa¢d1806d1805alÄam\000\r>ah¢d1806\000\r>d1805\000ø",
 ["gr:7540:of the Eagle"] = "§aa°d1805alÄamN ah°d1805N ",
 ["2515"] = "§aa¢d1806Xd1805àalÄamah¢d1806d1805",
@@ -9366,7 +9366,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9795:of the Whale"] = "§aa¢d1806d1805alÄamÆah¢d1806Æd1805∑",
 ["gr:15499:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806qd1805¥amq",
 ["gr:15556:of the Bear"] = "§aa¢d1806d1805al°d1805æamΩah¢d1806Ωd1805'\r",
-["gr:15009:of the Monkey"] = "§aa°d1805alÄamïah°d1805ï",
+["gr:15560:of the Boar"] = "§aa°d1806alÄamWah°d1806W",
 ["gr:9886:of the Owl"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:10125:of Nature's Wrath"] = "§aa°d1806alÄamõ‹ah°d1806õ‹",
 ["10048"] = "§aa¢d1806d1805al°d1805•am£ah¢d1806£d1805¶",
@@ -9384,33 +9384,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14572"] = "§aa¢d1806d1805al°d18051am\nah¢d1806\nd1805\n	",
 ["gr:14197:of the Owl"] = "§aa°d1805alÄah°d1805ìamì",
 ["gr:15356:of the Falcon"] = "§aa°d1805alÄah°d1805&¨am&¨",
-["gr:14124:of the Eagle"] = "§aa¢d1806d1805al°d1805àam\"ah¢d1806\"d1805E",
-["20576"] = "§aa¢d1806d1805alÄah¢d1806$d1805îam$",
 ["gr:7468:of the Whale"] = "§aa°d1805alÄam'ah°d1805'",
+["20576"] = "§aa¢d1806d1805alÄah¢d1806$d1805îam$",
+["gr:14124:of the Eagle"] = "§aa¢d1806d1805al°d1805àam\"ah¢d1806\"d1805E",
 ["14769"] = "§aa¢d1806d1805al°d18052¿am2ªah¢d18062ªd18059 ",
 ["11370"] = "§aa¢d1806Æd1805ÑalÄam\nuah¢d1806\nud1805",
 ["15350"] = "§aa¢d1806d1805alÄamÜah¢d1806Üd1805Ü",
 ["gr:10073:of Stamina"] = "§aa°d1805alÄamu0ah°d1805u0",
-["gr:15260:of the Tiger"] = "§aa¢d1806d1805al°d1805yZamuqah¢d1806uqd1805à¸",
+["gr:9766:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806\r¨d1805\n#am\r¨",
 ["gr:6564:of the Whale"] = "§aa°d1805al°d1805ÿah°d1805€amÿ",
-["gr:7419:of the Eagle"] = "§aa°d1805alÄam@ah°d1805@",
 ["4689"] = "§aa°d1805al°d1805ah°d1805\ram",
-["10191"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805æ¯",
+["gr:11986:of Intellect"] = "§aa¢d1806d1805al°d1805#âam#7ah¢d1806#7d1805'",
+["7517"] = "§aa¢d1806d1805alÄam,Ñah¢d1806,Ñd1805,Ñ",
 ["gr:11968:of Arcane Resistance"] = "§aa¢d1806d1805alÄah¢d1806=d1805>am=",
 ["gr:15251:of Power"] = "§aa¢d1806d1805alÄah¢d1806cúd1805u0amcú",
 ["gr:15378:of the Whale"] = "§aa¢d1806d1805al°d18058>am8?ah¢d18068?d18058?",
 ["gr:15156:of the Eagle"] = "§aa¢d1806d1805alÄamˆÿah¢d1806ˆÿd1805G",
-["gr:15212:of Strength"] = "§aa¢d1806d1805alÄamoah¢d1806od1805t",
+["gr:7419:of the Eagle"] = "§aa°d1805alÄam@ah°d1805@",
 ["gr:7417:of the Tiger"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805à",
 ["gr:15342:of Intellect"] = "§aa°d1805al°d1805 –ah°d1805!4am –",
 ["gr:14178:of Intellect"] = "§aa°d1805alÄam0\"ah°d18050\"",
 ["15628"] = "§aa¢d1806d1805alÄah¢d1806VSd1805NamVS",
 ["gr:10080:of the Wolf"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
 ["6517"] = "§aa°d1805al°d1805ah°d1805am",
-["7517"] = "§aa¢d1806d1805alÄam,Ñah¢d1806,Ñd1805,Ñ",
-["gr:7486:of the Eagle"] = "§aa¢d1806d1805alÄah¢d18065Ñd1805u0am5Ñ",
-["gr:9907:of Arcane Wrath"] = "§aa¢d1806d1805alÄah¢d1806Nd1805NamN",
+["10191"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805æ¯",
 ["13930"] = "§aa¢d1806õd1805Öal°d1805WamXah¢d1806Xd1805X",
+["gr:9907:of Arcane Wrath"] = "§aa¢d1806d1805alÄah¢d1806Nd1805NamN",
+["gr:7486:of the Eagle"] = "§aa¢d1806d1805alÄah¢d18065Ñd1805u0am5Ñ",
 ["10245"] = "§aa¢d1806d1805al°d1805u/am√Pah¢d1806√Pd1805u0",
 ["gr:15245:of the Tiger"] = "§aa°d1805alÄah°d1805ÅLamÅL",
 ["gr:10137:of Spirit"] = "§aa°d1805alÄam\000‰;ah°d1805\000‰;",
@@ -9419,7 +9419,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7415:of Agility"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805N ",
 ["gr:7477:of the Monkey"] = "§aa°d1805alÄam7ah°d18057",
 ["gr:15364:of the Monkey"] = "§aa°d1806alÄam7ah°d18067",
-["10063"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
+["gr:9921:of the Eagle"] = "§aa°d1805alÄah°d1805N amN ",
 ["4308"] = "§aa¢d1806d1805al°d1805camcah¢d1806cd1805ê",
 ["gr:15268:of the Monkey"] = "§aa¢d1806d1805\ralÄamkah¢d1806kd1805∏",
 ["12695"] = "§aa¢d1806d1805al°d1805:˜am:˜ah¢d1806:˜d1805:¯",
@@ -9458,72 +9458,72 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14178:of the Owl"] = "§aa¢d1806d1805al°d1805u*amú;ah¢d1806ú;d1805ú;",
 ["14964"] = "§aa°d1805alÄah°d1805\000_êam\000_ê",
 ["gr:7357:of the Owl"] = "§aa¢d1806d1805alÄam!˘ah¢d1806!˘d1805!˙",
-["9915"] = "§aa¢d1806d1805	alÄam0ah¢d18060d18050",
-["gr:15653:of the Wolf"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805U",
 ["gr:7369:of Arcane Wrath"] = "§aa°d1806alÄamLah°d1806L",
-["gr:7412:of the Eagle"] = "§aa¢d1806d1805al°d1805òam\nÔah¢d1806\nÔd1805„",
 ["gr:1640:of Strength"] = "§aa°d1805alÄamNÄah°d1805NÄ",
+["9915"] = "§aa¢d1806d1805	alÄam0ah¢d18060d18050",
+["gr:7412:of the Eagle"] = "§aa¢d1806d1805al°d1805òam\nÔah¢d1806\nÔd1805„",
+["gr:15653:of the Wolf"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805U",
 ["gr:10105:of Intellect"] = "§aa°d1805alÄah°d1805À¡amÀ¡",
-["gr:15374:of the Bear"] = "§aa°d1806alÄamu0ah°d1806u0",
-["gr:9791:of the Eagle"] = "§aa¢d1806d1805alÄamT,ah¢d1806T,d1805-",
 ["gr:14236:of the Eagle"] = "§aa¢d1806d1805alÄah¢d18062dd1805.‡am2d",
+["gr:9791:of the Eagle"] = "§aa¢d1806d1805alÄamT,ah¢d1806T,d1805-",
+["gr:15374:of the Bear"] = "§aa°d1806alÄamu0ah°d1806u0",
 ["809"] = "§aa¢d1806d1805alÄah¢d1806\000)d1805\000-∆¿am\000)",
 ["15223"] = "§aa¢d1806&d1805;alÄam	ƒah¢d1806	ƒd1805\n'",
-["14501"] = "§aa¢d1806d1805al°d1805\000Çlam\000Çkah¢d1806\000Çkd1805\000–ç",
+["gr:10173:of the Eagle"] = "§aa°d1805alÄah°d1805√Oam√O",
 ["gr:2072:of the Owl"] = "§aa¢d1806d1805al°d1805úamÅah¢d1806Åd1805a",
 ["gr:9908:of Intellect"] = "§aa°d1805alÄah°d1805'am'",
 ["15930"] = "§aa°d1805alÄamu*ah°d1805u*",
 ["2203"] = "§aa°d1805alÄam&¨ah°d1805&¨",
-["gr:15630:of the Owl"] = "§aa°d1805alÄamixah°d1805ix",
 ["2915"] = "§aa¢d1806d1805alÄam\000ìËah¢d1806\000ìËd1805\000•q",
+["gr:15630:of the Owl"] = "§aa°d1805alÄamixah°d1805ix",
 ["9911"] = "§aa¢d1806d1805alÄamÍ/ah¢d1806Í/d1805/®",
 ["gr:9875:of the Wolf"] = "§aa°d1805alÄah°d1805∏am∏",
 ["14903"] = "§aa¢d1806d1805al°d1805|ambah¢d1806bd18057",
 ["gr:15519:of the Whale"] = "§aa¢d1806d1805alÄam€ah¢d1806€d1805Œ",
 ["14795"] = "§aa°d1805alÄah°d1805N amN ",
-["7278"] = "§aa¢d1806d18050al°d1805ﬁamah¢d1806d1805Ë",
-["gr:7473:of the Eagle"] = "§aa¢d1806d1805al°d1805&¨am&´ah¢d1806&´d1805'",
-["10186"] = "§aa¢d1806d1805al°d1805N amõ‹ah¢d1806õ‹d1805ú?",
-["gr:9783:of Stamina"] = "§aa°d1805alÄah°d1805!am!",
-["4278"] = "§aa¢d1806Ñd1805Xal°d1805 amhah¢d1806hd1805-",
 ["2278"] = "§aa¢d1806d1805al°d1805\000›ªam˚Ùah¢d1806˚Ùd1805\000˜Á",
 ["gr:9879:of Stamina"] = "§aa°d1805alÄam∑ah°d1805∑",
+["10186"] = "§aa¢d1806d1805al°d1805N amõ‹ah¢d1806õ‹d1805ú?",
 ["gr:6560:of the Monkey"] = "§aa°d1806alÄam§ah°d1806§",
-["gr:15124:of Agility"] = "§aa°d1805al°d1805ãah°d1805åamã",
+["gr:8199:of Agility"] = "§aa°d1805alÄah°d1805\000Ü˜am\000Ü˜",
 ["gr:15162:of the Bear"] = "§aa°d1805alÄah°d1805NamN",
+["gr:7473:of the Eagle"] = "§aa¢d1806d1805al°d1805&¨am&´ah¢d1806&´d1805'",
+["gr:9783:of Stamina"] = "§aa°d1805alÄah°d1805!am!",
+["7278"] = "§aa¢d1806d18050al°d1805ﬁamah¢d1806d1805Ë",
+["gr:15124:of Agility"] = "§aa°d1805al°d1805ãah°d1805åamã",
 ["gr:7520:of Frozen Wrath"] = "§aa¢d1806d1805al°d1805Méam+/ah¢d1806+/d1805Mè",
 ["gr:9967:of the Bear"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
-["gr:9861:of Spirit"] = "§aa°d1805alÄah°d1805îamî",
 ["gr:9883:of the Eagle"] = "§aa¢d1806d1805alÄah¢d18068;d1805Mºam8;",
 ["9249"] = "§aa¢d1806d1805\nal°d1805∞amµah¢d1806µd1805≤",
-["gr:789:of Arcane Wrath"] = "§aa¢d1806d1805alÄamtah¢d1806td1805v",
+["gr:15130:of the Owl"] = "§aa¢d1806d1805alÄam)gah¢d1806)gd1805#(",
+["gr:9861:of Spirit"] = "§aa°d1805alÄah°d1805îamî",
 ["gr:6603:of the Wolf"] = "§aa°d1805alÄam†ah°d1805†",
 ["14421"] = "§aa¢d1806d1805alÄah¢d1806'd1805◊am'",
-["gr:15130:of the Owl"] = "§aa¢d1806d1805alÄam)gah¢d1806)gd1805#(",
-["gr:14221:of Shadow Wrath"] = "§aa°d1805alÄah°d1805à∏amà∏",
 ["8132"] = "§aa¢d1806d1805alÄah¢d1806}\000d1805√Pam}\000",
+["gr:14221:of Shadow Wrath"] = "§aa°d1805alÄah°d1805à∏amà∏",
+["gr:789:of Arcane Wrath"] = "§aa¢d1806d1805alÄamtah¢d1806td1805v",
 ["gr:15486:of Blocking"] = "§aa°d1805alÄah°d1805ÙamÙ",
-["2132"] = "§aa°d1805alÄah°d1805‹am‹",
-["gr:6550:of Stamina"] = "§aa°d1806alÄam\nÂah°d1806\nÂ",
-["gr:3197:of the Whale"] = "§aa¢d1806d1805alÄam'“ah¢d1806'“d1805'”",
 ["14494"] = "§aa¢d1806d1805alÄam0ah¢d18060d1805u.",
+["15313"] = "§aa¢d1806d1805al°d1805uamuah¢d1806ud1805p",
+["gr:3197:of the Whale"] = "§aa¢d1806d1805alÄam'“ah¢d1806'“d1805'”",
+["6601"] = "§aa¢d1806d1805al°d1805∏amîah¢d1806îd1805t",
 ["gr:7492:of Defense"] = "§aa°d1805alÄah°d1805$am$",
-["gr:10232:of the Falcon"] = "§aa¢d1806d1805alÄam\000kah¢d1806\000kd1805\000_ã",
+["9917"] = "§aa¢d1806d1805	alÄam'ÿah¢d1806'ÿd18052«",
 ["2447"] = "§aa¢d1806d1805Mal°d1805\nam\nah¢d1806\nd18056",
-["10403"] = "§aa¢d1806d1805al°d1805	ƒam\rah¢d1806\rd1805∏",
+["gr:11982:of Concentration"] = "§aa¢d1806d1805al°d1805:òam:òah¢d1806:òd1805u/",
 ["gr:14090:of the Owl"] = "§aa¢d1806d1805al°d1805Óamah¢d1806d1805§",
 ["gr:14234:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806:ód1805<åam:ó",
-["15313"] = "§aa¢d1806d1805al°d1805uamuah¢d1806ud1805p",
+["2132"] = "§aa°d1805alÄah°d1805‹am‹",
 ["15731"] = "§aa¢d1806d1805alÄam:èah¢d1806:èd1805:í",
-["gr:15357:of the Owl"] = "§aa¢d1806d1805al°d1805hamfah¢d1806fd1805i",
+["7378"] = "§aa¢d1806\nd1805al°d1805ûamñah¢d1806ñd1805Ç",
 ["4378"] = "§aa°d1805	alÄam—ah°d1805—",
-["6601"] = "§aa¢d1806d1805al°d1805∏amîah¢d1806îd1805t",
-["gr:15615:of the Eagle"] = "§aa°d1806alÄam√Oah°d1806√O",
+["15325"] = "§aa¢d1806d1805al°d1805\000Iam\000∫∞ah¢d1806\000∫∞d1805\000Ê/",
+["6378"] = "§aa¢d1806d1805\nal°d1805amah¢d1806d1805‡",
 ["3378"] = "§aa°d1805alÄah°d1805am",
 ["gr:9809:of Intellect"] = "§aa¢d1806d1805al°d1805∏am'ah¢d1806'd1805:ñ",
 ["9378"] = "§aa°d1806alÄam\000≠Øah°d1806\000≠Ø",
-["6378"] = "§aa¢d1806d1805\nal°d1805amah¢d1806d1805‡",
-["15325"] = "§aa¢d1806d1805al°d1805\000Iam\000∫∞ah¢d1806\000∫∞d1805\000Ê/",
+["gr:15615:of the Eagle"] = "§aa°d1806alÄam√Oah°d1806√O",
+["gr:15340:of Defense"] = "§aa¢d1806d1805al°d1805	^am∆ah¢d1806∆d1805	_",
 ["10072"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
 ["15794"] = "§aa¢d1806d1805alÄamÊah¢d1806Êd1805Á",
 ["12214"] = "§aa¢d1806d1805al°d1805am\rah¢d1806\rd1805",
@@ -9533,54 +9533,54 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15114:of Defense"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
 ["gr:10406:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806<ød18050‘am<ø",
 ["gr:15619:of the Whale"] = "§aa¢d1806d1805alÄam:4ah¢d1806:4d1805:4",
-["gr:12040:of Eluding"] = "§aa¢d1806d1805al°d1805\000pam√Pah¢d1806√Pd1805\000Dˇ",
-["7478"] = "§aa¢d1806d1805alÄam%ah¢d1806%d1805'",
-["4478"] = "§aa¢d1806d1805alÄam+πah¢d1806+πd1805+π",
+["gr:7108:of Blocking"] = "§aa°d1805al°d1805	Àah°d1805	Ãam	À",
+["4374"] = "§aa°d1805Tal°d1805Èah°d1805ÌamÈ",
+["gr:9915:of Healing"] = "§aa°d1805alÄah°d1805DÕamDÕ",
 ["14191"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805@",
 ["gr:9942:of the Monkey"] = "§aa°d1806alÄam¬Ïah°d1806¬Ï",
 ["gr:15523:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806îd1805amî",
 ["gr:15012:of the Owl"] = "§aa¢d1806d1805alÄamÑah¢d1806Ñd1805",
 ["gr:6604:of the Wolf"] = "§aa°d1805al°d1805;ah°d1805<am;",
-["gr:7108:of Blocking"] = "§aa°d1805al°d1805	Àah°d1805	Ãam	À",
+["15538"] = "§aa¢d1806	d1805alÄamÜah¢d1806Üd1805",
 ["15120"] = "§aa¢d1806\nd1805al°d1805;amœah¢d1806œd1805Ã",
 ["gr:6550:of Strength"] = "§aa¢d1806d1805alÄah¢d1806ld1805òaml",
-["gr:9915:of Healing"] = "§aa°d1805alÄah°d1805DÕamDÕ",
-["gr:9839:of the Eagle"] = "§aa°d1805alÄah°d1805–am–",
-["4374"] = "§aa°d1805Tal°d1805Èah°d1805ÌamÈ",
-["15311"] = "§aa¢d1806d1805al°d1805amÖah¢d1806Öd1805‹",
 ["gr:6547:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806	~d1805tam	~",
-["15538"] = "§aa¢d1806	d1805alÄamÜah¢d1806Üd1805",
+["gr:9839:of the Eagle"] = "§aa°d1805alÄah°d1805–am–",
+["4478"] = "§aa¢d1806d1805alÄam+πah¢d1806+πd1805+π",
+["15311"] = "§aa¢d1806d1805al°d1805amÖah¢d1806Öd1805‹",
+["3478"] = "§aa¢d1806|d1805\\al°d1805Éam~ah¢d1806~d1805Ê",
+["gr:6557:of Agility"] = "§aa¢d1806d1805alÄah¢d1806.d1805†am.",
 ["5478"] = "§aa°d1805alÄamÀah°d1805À",
 ["gr:12022:of Stamina"] = "§aa°d1806alÄam<äah°d1806<ä",
-["gr:6557:of Agility"] = "§aa¢d1806d1805alÄah¢d1806.d1805†am.",
+["7478"] = "§aa¢d1806d1805alÄam%ah¢d1806%d1805'",
 ["15638"] = "§aa¢d1806d1805alÄamtÃah¢d1806tÃd1805N ",
 ["gr:15259:of Power"] = "§aa¢d1806d1805alÄamÎah¢d1806Îd1805'",
-["14319"] = "§aa°d1805alÄah°d1805Ç5amÇ5",
-["21072"] = "§aa¢d1806hd1805Ìal°d1805>am,ah¢d1806,d1805B",
 ["gr:863:of Stamina"] = "§aa°d1805alÄam@sah°d1805@s",
-["gr:15010:of Stamina"] = "§aa°d1806alÄamËah°d1806Ë",
-["gr:9884:of Arcane Wrath"] = "§aa°d1805alÄam'ah°d1805'",
+["21072"] = "§aa¢d1806hd1805Ìal°d1805>am,ah¢d1806,d1805B",
+["gr:15248:of the Boar"] = "§aa¢d1806d1805alÄam\000ah¢d1806\000d1805",
 ["gr:14294:of the Eagle"] = "§aa¢d1806d1805al°d1805JamFPah¢d1806FPd1805a®",
-["gr:14911:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Mºd1805MªamMº",
 ["10372"] = "§aa¢d1806d1805alÄah¢d1806y|d1805Çamy|",
+["gr:15010:of Stamina"] = "§aa°d1806alÄamËah°d1806Ë",
+["gr:14911:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Mºd1805MªamMº",
+["1478"] = "§aa¢d1806%d1805Eal°d1805~amÈah¢d1806Èd1805ﬁ",
 ["gr:4571:of Stamina"] = "§aa¢d1806d1805al°d1805am?ah¢d1806?d1805ò",
 ["gr:15218:of the Monkey"] = "§aa°d1805alÄah°d1805\000œam\000œ",
-["gr:14293:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806Mºd1805V∏amMº",
+["gr:15347:of the Monkey"] = "§aa¢d1806d1805alÄamL,ah¢d1806L,d1805Mº",
 ["gr:14174:of Stamina"] = "§aa°d1805alÄam{ah°d1805{",
 ["gr:9851:of Healing"] = "§aa°d1805al°d1805:òah°d1805XCam:ò",
 ["gr:7331:of the Bear"] = "§aa¢d1806d1805al°d1805≠am´ah¢d1806´d1805!ñ",
-["gr:9863:of Agility"] = "§aa¢d1806d1805alÄam;ƒah¢d1806;ƒd1805N ",
-["gr:14179:of the Eagle"] = "§aa¢d1806d1805alÄamÙah¢d1806Ùd1805#",
-["gr:9948:of Agility"] = "§aa°d1805al°d1805u/ah°d1805u0amu/",
+["7447"] = "§aa¢d1806d1805alÄam¥ah¢d1806¥d1805∏",
+["gr:12023:of Stamina"] = "§aa¢d1806d1805alÄamæ˜ah¢d1806æ˜d1805I«",
+["gr:15520:of the Tiger"] = "§aa°d1806alÄamÀah°d1806À",
 ["gr:9822:of Spirit"] = "§aa¢d1806d1805al°d1805'am'\000ah¢d1806'\000d1805'",
 ["gr:6512:of Spirit"] = "§aa¢d1806d1805al°d1805<amÛah¢d1806Ûd1805–",
-["7447"] = "§aa¢d1806d1805alÄam¥ah¢d1806¥d1805∏",
+["gr:9863:of Agility"] = "§aa¢d1806d1805alÄam;ƒah¢d1806;ƒd1805N ",
 ["gr:14097:of Fiery Wrath"] = "§aa¢d1806d1805alÄam3ah¢d18063d1805œ",
-["2578"] = "§aa¢d1806\rd1805al°d1805æamêah¢d1806êd1805ÿ",
+["gr:14119:of the Whale"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805",
 ["gr:14177:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805%„am%‚ah¢d1806%‚d1805%‰",
 ["gr:15386:of the Bear"] = "§aa°d1805alÄah°d1805ú@amú@",
 ["15016"] = "§aa¢d1806d1805alÄamÉah¢d1806Éd1805Á",
-["gr:14119:of the Whale"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805",
+["2578"] = "§aa¢d1806\rd1805al°d1805æamêah¢d1806êd1805ÿ",
 ["gr:15222:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805§am>ah¢d1806>d1805œ",
 ["gr:15163:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806#(d1805N am#(",
 ["5578"] = "§aa¢d1806d1805al°d1805◊am”ah¢d1806”d1805Ê",
@@ -9592,32 +9592,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4264"] = "§aa¢d1806d1805al°d1805'am'ah¢d1806'd1805ú?",
 ["gr:15110:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806	ƒd1805\n$am	ƒ",
 ["10225"] = "§aa¢d1806d1805al°d1805√Oam\000_,ah¢d1806\000_,d1805√P",
-["gr:14287:of Shadow Wrath"] = "§aa°d1806alÄam\000©ah°d1806\000©",
+["gr:15556:of Power"] = "§aa¢d1806d1805alÄam∑ah¢d1806∑d1805	ƒ",
 ["gr:15014:of Healing"] = "§aa¢d1806d1805al°d1805Ëamah¢d1806d1805",
 ["gr:14914:of the Bear"] = "§aa°d1806alÄamYÿah°d1806Yÿ",
 ["gr:9928:of Power"] = "§aa°d1805alÄam>„ah°d1805>„",
 ["gr:6576:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806	¡d1805	¡am	¡",
-["gr:15556:of Power"] = "§aa¢d1806d1805alÄam∑ah¢d1806∑d1805	ƒ",
+["gr:14287:of Shadow Wrath"] = "§aa°d1806alÄam\000©ah°d1806\000©",
 ["gr:14207:of Healing"] = "§aa¢d1806d1805alÄah¢d18062Œd1805»am2Œ",
 ["13063"] = "§aa¢d1806d1805al°d1805\000T†am√Nah¢d1806√Nd1805\000_ç",
 ["7490"] = "§aa°d1805alÄah°d1805:òam:ò",
 ["gr:14218:of the Falcon"] = "§aa°d1805alÄamÀah°d1805À",
 ["gr:15131:of the Eagle"] = "§aa°d1805al°d1805'ah°d18050‘am'",
-["gr:14133:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805⁄",
-["2406"] = "§aa¢d1806d1805	al°d1805mam_ah¢d1806_d1805n",
 ["gr:15970:of the Wolf"] = "§aa¢d1806d1805al°d1805amWah¢d1806Wd1805Ç",
-["gr:15377:of the Monkey"] = "§aa¢d1806d1805alÄamd\000ah¢d1806d\000d1805:ó",
+["2406"] = "§aa¢d1806d1805	al°d1805mam_ah¢d1806_d1805n",
 ["14331"] = "§aa°d1805al°d1805õ‹ah°d1805\000_,amõ‹",
+["4406"] = "§aa¢d1806d1805.alÄamdah¢d1806dd1805œ",
+["gr:14133:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805⁄",
 ["6406"] = "§aa¢d1806d1805al°d1805 am≈ah¢d1806≈d1805”",
 ["7406"] = "§aa¢d1806\rd1805al°d1805®am®ah¢d1806®d1805‡",
 ["3840"] = "§aa¢d1806d1805al°d1805nam0‘ah¢d18060‘d1805o",
 ["2840"] = "§aa¢d1806ﬁd1805%al°d1805`amxah¢d1806xd1805e",
 ["gr:15373:of Stamina"] = "§aa¢d1806d1805alÄam:ëah¢d1806:ëd1805:ë",
 ["gr:15509:of the Gorilla"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d1805‹",
-["gr:9821:of Healing"] = "§aa°d1805alÄam\rah°d1805\r",
-["4247"] = "§aa¢d1806\rd1805al°d1805ÿamvah¢d1806vd1805Ÿ",
 ["9840"] = "§aa¢d1806\nd1805alÄamhah¢d1806hd1805	√",
-["gr:14129:of Spirit"] = "§aa¢d1806d1805al°d1805Bam@ah¢d1806@d1805;",
+["4247"] = "§aa¢d1806\rd1805al°d1805ÿamvah¢d1806vd1805Ÿ",
+["gr:9821:of Healing"] = "§aa°d1805alÄam\rah°d1805\r",
+["gr:14946:of the Bear"] = "§aa¢d1806d1805alÄam%ah¢d1806%d18059l",
 ["13016"] = "§aa¢d1806\nd1805al°d1805\0008{am˙Uah¢d1806˙Ud1805\000T<",
 ["14788"] = "§aa¢d1806d1805alÄamMºah¢d1806Mºd1805Mº",
 ["159"] = "§aa¢d1806¬d1805™al°d18051am\nah¢d1806\nd1805;",
@@ -9626,44 +9626,44 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["8247"] = "§aa¢d1806d1805alÄam8çah¢d18068çd18058è",
 ["18731"] = "§aa¢d1806d1805al°d1805¬amºah¢d1806ºd1805H",
 ["gr:15009:of the Whale"] = "§aa°d1806alÄamËah°d1806Ë",
-["14454"] = "§aa°d1805alÄamNah°d1805N",
+["gr:9850:of the Owl"] = "§aa¢d1806d1805\nal°d1805namìah¢d1806ìd1805º",
 ["gr:14923:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806ú?d18058§amú?",
 ["gr:9837:of the Bear"] = "§aa¢d1806d1805al°d1805	¬am	¡ah¢d1806	¡d1805",
 ["gr:7441:of the Whale"] = "§aa°d1805alÄah°d1805)+am)+",
-["gr:14946:of the Bear"] = "§aa¢d1806d1805alÄam%ah¢d1806%d18059l",
-["gr:1990:of Power"] = "§aa¢d1806d1805alÄah¢d1806EÏd1805WamEÏ",
-["gr:9859:of Nature's Wrath"] = "§aa¢d1806d1805alÄah¢d1806*¯d1805*¯am*¯",
 ["3306"] = "§aa¢d1806d1805alÄam∞ah¢d1806∞d1805'",
-["gr:15150:of the Whale"] = "§aa°d1806alÄam{ah°d1806{",
+["gr:1990:of Power"] = "§aa¢d1806d1805alÄah¢d1806EÏd1805WamEÏ",
 ["gr:6550:of Power"] = "§aa¢d1806d1805alÄah¢d1806íd1805ìamí",
-["gr:2079:of Strength"] = "§aa¢d1806d1805al°d1805˙am™ah¢d1806™d1805",
-["4306"] = "§aa¢d1806Xd1805zal°d1805´am√ah¢d1806√d1805æ",
-["9940"] = "§aa¢d1806d1805alÄamVJah¢d1806VJd1805Jí",
+["gr:14129:of Spirit"] = "§aa¢d1806d1805al°d1805Bam@ah¢d1806@d1805;",
+["gr:15150:of the Whale"] = "§aa°d1806alÄam{ah°d1806{",
 ["gr:15241:of Strength"] = "§aa¢d1806d1805alÄamêah¢d1806êd1805",
+["gr:14223:of the Owl"] = "§aa¢d1806d1805al°d1805.am5ah¢d18065d1805.ﬂ",
+["gr:9859:of Nature's Wrath"] = "§aa¢d1806d1805alÄah¢d1806*¯d1805*¯am*¯",
+["gr:15489:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806Ëd1805òamË",
+["4306"] = "§aa¢d1806Xd1805zal°d1805´am√ah¢d1806√d1805æ",
 ["2940"] = "§aa¢d1806\rd1805alÄah¢d1806dd1805xamd",
 ["gr:9843:of the Bear"] = "§aa°d1806alÄam@ah°d1806@",
-["2742"] = "§aa¢d1806d1805alÄamêah¢d1806êd1805ª",
-["gr:15114:of the Whale"] = "§aa¢d1806d1805al°d1805lamah¢d1806d1805À",
-["12016"] = "§aa°d1805alÄah°d1805\000Zlam\000Zl",
+["8347"] = "§aa°d1805alÄah°d1805Í`amÍ`",
+["729"] = "§aa¢d1806d1805alÄam3ah¢d18063d1805",
+["9940"] = "§aa¢d1806d1805alÄamVJah¢d1806VJd1805Jí",
 ["9747"] = "§aa¢d1806d1805alÄamèah¢d1806èd1805Î",
 ["gr:9893:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Nd1805NamN",
 ["gr:15260:of Power"] = "§aa¢d1806d1805alÄah¢d1806I–d1805I–amI–",
-["8347"] = "§aa°d1805alÄah°d1805Í`amÍ`",
-["gr:14298:of the Owl"] = "§aa¢d1806d1805alÄam\000_êah¢d1806\000_êd1805\000‘¿",
+["2742"] = "§aa¢d1806d1805alÄamêah¢d1806êd1805ª",
+["6347"] = "§aa¢d1806d1805al°d1805åamÑah¢d1806Ñd1805ñ",
 ["5347"] = "§aa°d1805alÄam&´ah°d1805&´",
-["gr:15489:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806Ëd1805òamË",
-["gr:15166:of the Monkey"] = "§aa°d1805al°d1805:4ah°d1805M∫am:4",
+["12016"] = "§aa°d1805alÄah°d1805\000Zlam\000Zl",
+["gr:15494:of Agility"] = "§aa¢d1806d1805al°d1805ÊamÂah¢d1806Âd1805Ë",
 ["gr:6546:of the Bear"] = "§aa¢d1806d1805alÄamxah¢d1806xd1805@",
-["9742"] = "§aa¢d1806d1805alÄah¢d1806+d1805(am+",
+["gr:15531:of the Monkey"] = "§aa°d1805alÄamáah°d1805á",
 ["15163"] = "§aa¢d1806d1805alÄah¢d1806#(d1805'am#(",
 ["4347"] = "§aa¢d1806d1805al°d1805Ëamçah¢d1806çd18051",
 ["7742"] = "§aa¢d1806d1805al°d180516am' ah¢d1806' d180517",
-["6347"] = "§aa¢d1806d1805al°d1805åamÑah¢d1806Ñd1805ñ",
+["gr:14298:of the Owl"] = "§aa¢d1806d1805alÄam\000_êah¢d1806\000_êd1805\000‘¿",
 ["gr:11998:of Strength"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
 ["gr:14261:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806.d1805W‰am.",
 ["14678"] = "§aa°d1805alÄamú@ah°d1805ú@",
+["9742"] = "§aa¢d1806d1805alÄah¢d1806+d1805(am+",
 ["929"] = "§aa¢d1806Œd1805¥al°d1805eamÇah¢d1806Çd1805Ü",
-["gr:15531:of the Monkey"] = "§aa°d1805alÄamáah°d1805á",
 ["gr:9827:of the Whale"] = "§aa¢d1806d1805al°d1805œamŒah¢d1806Œd1805ò",
 ["gr:15230:of Agility"] = "§aa¢d1806d1805alÄah¢d1806dd1805amd",
 ["14669"] = "§aa¢d1806d1805alÄah¢d1806>Äd1805+πam>Ä",
@@ -9686,19 +9686,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14173:of the Owl"] = "§aa¢d1806d1805al°d1805€am\nah¢d1806\nd1805",
 ["3842"] = "§aa¢d1806d1805\nal°d1805Aam∑ah¢d1806∑d1805B",
 ["2842"] = "§aa¢d1806Éd1805¬alÄamBah¢d1806Bd1805î",
-["gr:4088:of Power"] = "§aa¢d1806d1805al°d1805~Úamc˛ah¢d1806c˛d1805~Û",
+["139"] = "§aa°d1806alÄamÁah°d1806Á",
 ["gr:10072:of the Tiger"] = "§aa°d1805alÄah°d1805ê$amê$",
 ["gr:15229:of Stamina"] = "§aa°d1805alÄah°d1805√Oam√O",
 ["3373"] = "§aa¢d1806d1805alÄah¢d1806*d1805éam*",
 ["gr:10098:of the Eagle"] = "§aa¢d1806d1805al°d18058£amuah¢d1806ud1805w",
-["gr:15112:of the Eagle"] = "§aa°d1805alÄam3ah°d18053",
-["gr:10077:of the Wolf"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
+["4047"] = "§aa¢d1806d1805alÄamwah¢d1806wd1805\"",
+["gr:7468:of the Owl"] = "§aa°d1805alÄamO@ah°d1805O@",
 ["3047"] = "§aa¢d1806d1805al°d1805–amlah¢d1806ld1805≈",
 ["9842"] = "§aa¢d1806\nd1805\ralÄam\r≤ah¢d1806\r≤d1805†",
 ["gr:6607:of the Falcon"] = "§aa°d1805alÄam ah°d1805 ",
 ["6047"] = "§aa°d1805alÄah°d1805BamB",
 ["7047"] = "§aa¢d1806d1805al°d1805!*am!(ah¢d1806!(d1805!.",
-["gr:7468:of the Owl"] = "§aa°d1805alÄamO@ah°d1805O@",
+["gr:10077:of the Wolf"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
 ["gr:15933:of Frozen Wrath"] = "§aa°d1805alÄam5ah°d18055",
 ["15168"] = "§aa¢d1806d1805alÄamBgah¢d1806Bgd1805D\\",
 ["gr:14229:of Frozen Wrath"] = "§aa¢d1806d1805al°d1805uam»ah¢d1806»d1805'",
@@ -9715,11 +9715,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4322"] = "§aa¢d1806d1805	al°d18056am4ah¢d18064d18058",
 ["4340"] = "§aa¢d1806d1805alÄam·ah¢d1806·d1805‚",
 ["15185"] = "§aa°d1805alÄah°d1805√Pam√P",
-["4542"] = "§aa¢d1806\rd1805al°d1805#amah¢d1806d1805)",
-["6542"] = "§aa¢d1806d1805al°d1805	amah¢d1806d1805Ñ",
 ["14908"] = "§aa¢d1806d1805alÄam~êah¢d1806~êd1805‹E",
-["5542"] = "§aa¢d1806\nd1805alÄamGah¢d1806Gd1805P",
 ["gr:6266:of Spirit"] = "§aa°d1805alÄamÚah°d1805Ú",
+["4542"] = "§aa¢d1806\rd1805al°d1805#amah¢d1806d1805)",
+["5542"] = "§aa¢d1806\nd1805alÄamGah¢d1806Gd1805P",
+["6542"] = "§aa¢d1806d1805al°d1805	amah¢d1806d1805Ñ",
 ["gr:10133:of Power"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:7431:of Spirit"] = "§aa¢d1806d1805alÄamàah¢d1806àd1805$",
 ["gr:9868:of Strength"] = "§aa¢d1806d1805alÄam9ah¢d18069d1805í",
@@ -9731,7 +9731,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["789"] = "§aa¢d1806 d18051alÄaméah¢d1806éd1805–",
 ["gr:10146:of Nature's Wrath"] = "§aa¢d1806d1805alÄam\000‘¿ah¢d1806\000‘¿d1805\000\"‡",
 ["gr:6581:of the Tiger"] = "§aa°d1806alÄamîah°d1806î",
-["14451"] = "§aa¢d1806d1805al°d1805NamNah¢d1806Nd1805N",
+["14582"] = "§aa¢d1806d1805al°d18050am	Ωah¢d1806	Ωd1805˛",
 ["gr:10249:of Shadow Wrath"] = "§aa°d1805alÄah°d1805\000\n+Ëam\000\n+Ë",
 ["5642"] = "§aa¢d1806\nd1805al°d1805a◊ama>ah¢d1806a>d1805t`",
 ["gr:1207:of Strength"] = "§aa°d1806alÄam/®ah°d1806/®",
@@ -9739,12 +9739,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7484:of Agility"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805u0",
 ["gr:14900:of Strength"] = "§aa°d1805al°d1805Mºah°d1805NamMº",
 ["gr:14961:of the Bear"] = "§aa°d1805alÄam§ah°d1805§",
-["14582"] = "§aa¢d1806d1805al°d18050am	Ωah¢d1806	Ωd1805˛",
+["14451"] = "§aa¢d1806d1805al°d1805NamNah¢d1806Nd1805N",
 ["14367"] = "§aa¢d1806d1805alÄamUah¢d1806Ud1805",
 ["7440"] = "§aa¢d1806d1805al°d1805!¸am'bah¢d1806'bd1805)",
 ["9806"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d18053",
 ["gr:9792:of the Eagle"] = "§aa°d1805alÄah°d1805'am'",
-["gr:10287:of Frozen Wrath"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805ú@",
+["gr:7366:of Fiery Wrath"] = "§aa¢d1806d1805al°d1805\r¨am\r´ah¢d1806\r´d1805",
 ["gr:15547:of Strength"] = "§aa°d1805al°d1805#ah°d1805$am#",
 ["gr:15494:of Defense"] = "§aa°d1805alÄam<ah°d1805<",
 ["gr:7406:of the Wolf"] = "§aa¢d1806d1805alÄah¢d1806îd1805áamî",
@@ -9752,7 +9752,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["3642"] = "§aa¢d1806d1805alÄah¢d1806Ùd1805ÛamÙ",
 ["gr:6269:of Healing"] = "§aa°d1805alÄah°d1805iami",
 ["gr:2072:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805Beam0‘ah¢d18060‘d1805Bf",
-["gr:7366:of Fiery Wrath"] = "§aa¢d1806d1805al°d1805\r¨am\r´ah¢d1806\r´d1805",
+["gr:10287:of Frozen Wrath"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805ú@",
 ["gr:6603:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806`d1805oQam`",
 ["2642"] = "§aa°d1805alÄam`ah°d1805`",
 ["gr:15518:of Strength"] = "§aa¢d1806d1805al°d1805ìamìah¢d1806ìd1805î",
@@ -9767,11 +9767,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6614:of Arcane Wrath"] = "§aa¢d1806d1805alÄah¢d1806hd1805kamh",
 ["gr:7486:of Agility"] = "§aa¢d1806d1805alÄamà∏ah¢d1806à∏d1805ú@",
 ["gr:9809:of the Whale"] = "§aa¢d1806d1805alÄam†ah¢d1806†d1805Ò",
-["4047"] = "§aa¢d1806d1805alÄamwah¢d1806wd1805\"",
+["gr:15112:of the Eagle"] = "§aa°d1805alÄam3ah°d18053",
 ["gr:15346:of Spirit"] = "§aa°d1805alÄam –ah°d1805 –",
 ["gr:15537:of the Gorilla"] = "§aa¢d1806d1805alÄam\nah¢d1806\nd1805\n",
 ["gr:10177:of the Eagle"] = "§aa°d1805alÄam\000pah°d1805\000p",
-["139"] = "§aa°d1806alÄamÁah°d1806Á",
+["gr:4088:of Power"] = "§aa¢d1806d1805al°d1805~Úamc˛ah¢d1806c˛d1805~Û",
 ["gr:7433:of Healing"] = "§aa¢d1806d1805alÄam?ah¢d1806?d1805{",
 ["gr:15510:of the Eagle"] = "§aa¢d1806d1805al°d18055am>ah¢d1806>d1805∞",
 ["gr:9917:of the Monkey"] = "§aa¢d1806d1805al°d18052«amNah¢d1806Nd1805Ñœ",
@@ -9782,24 +9782,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4540"] = "§aa¢d1806d1805'al°d1805amah¢d1806d1805",
 ["5342"] = "§aa¢d1806)d1805(alÄam}ah¢d1806}d1805X",
 ["6342"] = "§aa¢d1806d1805al°d1805AamOah¢d1806Od1805K",
-["729"] = "§aa¢d1806d1805alÄam3ah¢d18063d1805",
+["gr:15114:of the Whale"] = "§aa¢d1806d1805al°d1805lamah¢d1806d1805À",
 ["gr:14166:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806Td18053amT",
 ["gr:15969:of Spirit"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
 ["8747"] = "§aa¢d1806d1805alÄah¢d1806ëd1805©amë",
 ["15186"] = "§aa°d1805alÄah°d1805Ø˙amØ˙",
-["gr:15494:of Agility"] = "§aa¢d1806d1805al°d1805ÊamÂah¢d1806Âd1805Ë",
+["gr:15166:of the Monkey"] = "§aa°d1805al°d1805:4ah°d1805M∫am:4",
 ["gr:10282:of Power"] = "§aa°d1805alÄamu/ah°d1805u/",
 ["14407"] = "§aa°d1805alÄam œah°d1805 œ",
 ["15589"] = "§aa¢d1806d1805al°d1805&¨ama®ah¢d1806a®d1805<å",
 ["gr:15517:of the Bear"] = "§aa¢d1806d1805	al°d1805ram\nåah¢d1806\nåd1805˜",
+["gr:2079:of Strength"] = "§aa¢d1806d1805al°d1805˙am™ah¢d1806™d1805",
 ["15086"] = "§aa¢d1806d1805	al°d1805}ﬁam}€ah¢d1806}€d1805ÄÉ",
-["gr:14223:of the Owl"] = "§aa¢d1806d1805al°d1805.am5ah¢d18065d1805.ﬂ",
 ["769"] = "§aa¢d1806\nd1805#alÄamMah¢d1806Md18055",
 ["869"] = "§aa¢d1806d1805alÄam\000∫Âah¢d1806\000∫Âd1805\000•J",
-["gr:9850:of the Owl"] = "§aa¢d1806d1805\nal°d1805namìah¢d1806ìd1805º",
+["14454"] = "§aa°d1805alÄamNah°d1805N",
 ["1640"] = "§aa¢d1806d1805alÄam[üah¢d1806[üd1805[Ã",
+["gr:15377:of the Monkey"] = "§aa¢d1806d1805alÄamd\000ah¢d1806d\000d1805:ó",
 ["4668"] = "§aa¢d1806d1805alÄamVah¢d1806Vd1805W",
-["4406"] = "§aa¢d1806d1805.alÄamdah¢d1806dd1805œ",
 ["gr:14242:of Fiery Wrath"] = "§aa°d1805alÄah°d1805l2aml2",
 ["1502"] = "§aa¢d1806d1805alÄam¬ah¢d1806¬d1805∆",
 ["10084"] = "§aa°d1805alÄah°d1805hLamhL",
@@ -9814,26 +9814,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4606"] = "§aa¢d1806d1805alÄamKah¢d1806Kd1805N",
 ["gr:15485:of the Boar"] = "§aa°d1805alÄah°d1805XamX",
 ["gr:15294:of the Eagle"] = "§aa°d1806alÄam∞˜ah°d1806∞˜",
-["gr:15520:of the Tiger"] = "§aa°d1806alÄamÀah°d1806À",
-["gr:12023:of Stamina"] = "§aa¢d1806d1805alÄamæ˜ah¢d1806æ˜d1805I«",
+["gr:9948:of Agility"] = "§aa°d1805al°d1805u/ah°d1805u0amu/",
+["gr:14179:of the Eagle"] = "§aa¢d1806d1805alÄamÙah¢d1806Ùd1805#",
 ["13005"] = "§aa¢d1806d1805	al°d1805'nam'pah¢d1806'pd1805)g",
-["gr:15347:of the Monkey"] = "§aa¢d1806d1805alÄamL,ah¢d1806L,d1805Mº",
-["1478"] = "§aa¢d1806%d1805Eal°d1805~amÈah¢d1806Èd1805ﬁ",
+["gr:14293:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806Mºd1805V∏amMº",
+["gr:9884:of Arcane Wrath"] = "§aa°d1805alÄam'ah°d1805'",
 ["6447"] = "§aa¢d1806d1805al°d1805=am>ah¢d1806>d1805A",
 ["gr:12008:of the Wolf"] = "§aa¢d1806d1805al°d1805#(amò∏ah¢d1806ò∏d1805#à",
-["gr:15248:of the Boar"] = "§aa¢d1806d1805alÄam\000ah¢d1806\000d1805",
+["14319"] = "§aa°d1805alÄah°d1805Ç5amÇ5",
 ["gr:15356:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806‘d1805‘am‘",
 ["14589"] = "§aa¢d1806\nd1805al°d1805'	am.xah¢d1806.xd1805E$",
 ["gr:15298:of Spirit"] = "§aa¢d1806d1805al°d1805ÛamÚah¢d1806Úd1805ﬁ",
 ["gr:15343:of the Falcon"] = "§aa¢d1806d1805al°d1805–am#(ah¢d1806#(d1805#(",
-["3478"] = "§aa¢d1806|d1805\\al°d1805Éam~ah¢d1806~d1805Ê",
+["gr:12040:of Eluding"] = "§aa¢d1806d1805al°d1805\000pam√Pah¢d1806√Pd1805\000Dˇ",
 ["779"] = "§aa°d1805alÄah°d18052am2",
 ["4339"] = "§aa¢d1806 d1805al°d1805	am¸ah¢d1806¸d1805	G",
 ["1506"] = "§aa¢d1806d1805al°d1805damcah¢d1806cd1805g",
 ["gr:9287:of Power"] = "§aa°d1806alÄamah°d1806",
 ["6390"] = "§aa¢d1806d1805al°d1805‚am•ah¢d1806•d1805Â",
 ["gr:7544:of the Owl"] = "§aa¢d1806d1805alÄam0‘ah¢d18060‘d18050‘",
-["7378"] = "§aa¢d1806\nd1805al°d1805ûamñah¢d1806ñd1805Ç",
+["gr:6550:of Stamina"] = "§aa°d1806alÄam\nÂah°d1806\nÂ",
 ["gr:15508:of the Gorilla"] = "§aa°d1806alÄam\nah°d1806\n",
 ["gr:6267:of the Falcon"] = "§aa¢d1806d1805al°d1805vamtah¢d1806td1805x",
 ["14843"] = "§aa¢d1806d1805\ral°d18051\ram)ah¢d1806)d18051",
@@ -9841,10 +9841,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["1447"] = "§aa¢d1806d1805al°d1805\000\"‡am\000ì÷ah¢d1806\000ì÷d1805\000IÈ",
 ["7506"] = "§aa¢d1806d1805al°d1805%am≥ah¢d1806≥d1805'",
 ["6506"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
-["gr:11982:of Concentration"] = "§aa¢d1806d1805al°d1805:òam:òah¢d1806:òd1805u/",
-["9917"] = "§aa¢d1806d1805	alÄam'ÿah¢d1806'ÿd18052«",
+["10403"] = "§aa¢d1806d1805al°d1805	ƒam\rah¢d1806\rd1805∏",
+["gr:10232:of the Falcon"] = "§aa¢d1806d1805alÄam\000kah¢d1806\000kd1805\000_ã",
 ["gr:15611:of the Monkey"] = "§aa¢d1806d1805al°d1805:4am:4ah¢d1806:4d1805S4",
-["gr:15340:of Defense"] = "§aa¢d1806d1805al°d1805	^am∆ah¢d1806∆d1805	_",
+["gr:15357:of the Owl"] = "§aa¢d1806d1805al°d1805hamfah¢d1806fd1805i",
 ["6547"] = "§aa¢d1806\nd1805al°d1805>am>ah¢d1806>d1805?",
 ["gr:9845:of the Falcon"] = "§aa¢d1806d1805alÄam&˜ah¢d1806&˜d1805'",
 ["gr:15486:of Agility"] = "§aa¢d1806d1805al°d1805êamÛah¢d1806Ûd1805¬",
@@ -9853,8 +9853,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15494:of the Gorilla"] = "§aa¢d1806d1805al°d1805JamIah¢d1806Id1805K",
 ["16712"] = "§aa¢d1806d1805	al°d1805\000»&am\000›œah¢d1806\000›œd1805\000	'Ω",
 ["gr:15934:of Arcane Wrath"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
+["4278"] = "§aa¢d1806Ñd1805Xal°d1805 amhah¢d1806hd1805-",
 ["gr:1207:of the Tiger"] = "§aa¢d1806d1805alÄam+Iah¢d1806+Id1805'",
-["gr:8199:of Agility"] = "§aa°d1805alÄah°d1805\000Ü˜am\000Ü˜",
 ["gr:15519:of the Tiger"] = "§aa¢d1806d1805alÄampah¢d1806pd1805'",
 ["gr:14189:of Intellect"] = "§aa¢d1806d1805alÄam:…ah¢d1806:…d18052d",
 ["gr:9753:of the Monkey"] = "§aa¢d1806d1805alÄam⁄ah¢d1806⁄d1805U",
@@ -9864,7 +9864,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15310:of the Eagle"] = "§aa°d1805al°d1805ah°d1805\ram",
 ["gr:15010:of Intellect"] = "§aa¢d1806d1805al°d1805ÆamÈah¢d1806Èd1805á",
 ["6420"] = "§aa¢d1806d1805al°d1805famcah¢d1806cd1805h",
-["gr:10173:of the Eagle"] = "§aa°d1805alÄah°d1805√Oam√O",
+["14501"] = "§aa¢d1806d1805al°d1805\000Çlam\000Çkah¢d1806\000Çkd1805\000–ç",
 ["14230"] = "§aa¢d1806d1805alÄam2aah¢d18062ad1805'",
 ["7541"] = "§aa¢d1806d1805alÄam'ah¢d1806'd18050“",
 ["gr:3195:of the Eagle"] = "§aa¢d1806d1805al°d1805am/ah¢d1806/d1805∫",
@@ -9895,17 +9895,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14117:of the Monkey"] = "§aa°d1805al°d1805wah°d1805xamw",
 ["gr:15502:of the Eagle"] = "§aa¢d1806d1805al°d1805≠am∞ah¢d1806∞d1805∞",
 ["gr:9822:of Healing"] = "§aa°d1805alÄam&¨ah°d1805&¨",
-["gr:9921:of the Eagle"] = "§aa°d1805alÄah°d1805N amN ",
+["10063"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
 ["6267"] = "§aa¢d1806d1805%al°d1805èamäah¢d1806äd1805¨",
-["10507"] = "§aa¢d1806˘d1805(alÄam∫ah¢d1806∫d1805c",
-["gr:9831:of the Falcon"] = "§aa°d1806alÄam¸ah°d1806¸",
 ["gr:9802:of the Eagle"] = "§aa°d1805alÄam	ƒah°d1805	ƒ",
+["gr:9831:of the Falcon"] = "§aa°d1806alÄam¸ah°d1806¸",
+["10507"] = "§aa¢d1806˘d1805(alÄam∫ah¢d1806∫d1805c",
 ["gr:15281:of Healing"] = "§aa¢d1806d1805alÄah¢d1806\000›–d1805\000q∞am\000›–",
 ["gr:10249:of Stamina"] = "§aa°d1806alÄam\000pah°d1806\000p",
-["gr:11986:of Intellect"] = "§aa¢d1806d1805al°d1805#âam#7ah¢d1806#7d1805'",
+["gr:15212:of Strength"] = "§aa¢d1806d1805alÄamoah¢d1806od1805t",
 ["gr:7406:of the Whale"] = "§aa°d1806alÄam|ah°d1806|",
 ["7458"] = "§aa¢d1806d1805alÄamæah¢d1806æd1805¿",
-["gr:9766:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806\r¨d1805\n#am\r¨",
+["gr:15260:of the Tiger"] = "§aa¢d1806d1805al°d1805yZamuqah¢d1806uqd1805à¸",
 ["12360"] = "§aa¢d1806d1805al°d1805\000I‡am\000Æah¢d1806\000Æd1805\000IÔ",
 ["gr:15529:of Power"] = "§aa°d1805alÄah°d1805ÍamÍ",
 ["gr:10136:of Arcane Wrath"] = "§aa°d1806alÄamøhah°d1806øh",
@@ -9919,7 +9919,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14127:of the Owl"] = "§aa¢d1806d1805al°d1805áamah¢d1806d1805o",
 ["12989"] = "§aa¢d1806d1805al°d1805'amWah¢d1806Wd1805\000_å",
 ["gr:15268:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806 d1805÷am ",
-["gr:15560:of the Boar"] = "§aa°d1806alÄamWah°d1806W",
+["gr:15009:of the Monkey"] = "§aa°d1805alÄamïah°d1805ï",
 ["gr:14166:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
 ["gr:7411:of Intellect"] = "§aa°d1805al°d1805@™ah°d1805NWam@™",
 ["gr:9779:of the Whale"] = "§aa°d1806alÄamlah°d1806l",
@@ -9929,7 +9929,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9770:of Intellect"] = "§aa¢d1806d1805al°d1805~amÿah¢d1806ÿd1805",
 ["12810"] = "§aa¢d1806;d1805Tal°d18052-am24ah¢d180624d18052.",
 ["gr:15479:of Power"] = "§aa¢d1806d1805alÄah¢d1806–d1805am–",
-["gr:9960:of the Wolf"] = "§aa°d1806alÄam1kah°d18061k",
+["gr:15511:of the Gorilla"] = "§aa°d1805al°d1805ah°d1805	¡am",
 ["2997"] = "§aa¢d1806´d1805éalÄam]ah¢d1806]d1805¬",
 ["gr:15226:of Power"] = "§aa¢d1806d1805alÄam$≥ah¢d1806$≥d1805#'",
 ["gr:9775:of the Monkey"] = "§aa°d1805alÄam†ah°d1805†",
@@ -9944,7 +9944,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["8130"] = "§aa°d1806alÄamt˛ah°d1806t˛",
 ["gr:9831:of the Whale"] = "§aa¢d1806d1805alÄamÕah¢d1806Õd1805	ƒ",
 ["gr:15339:of Intellect"] = "§aa¢d1806d1805al°d1805'am$Íah¢d1806$Íd1805.ﬂ",
-["8254"] = "§aa¢d1806d1805al°d1805JìamJíah¢d1806Jíd1805Jî",
+["gr:9852:of Spirit"] = "§aa¢d1806d1805alÄam,ah¢d1806,d1805,",
 ["gr:14273:of the Wolf"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["gr:7441:of the Monkey"] = "§aa¢d1806d1805alÄamú7ah¢d1806ú7d1805Í\\",
 ["14568"] = "§aa¢d1806d1805alÄamÉah¢d1806Éd1805–",
@@ -9978,31 +9978,31 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10175:of Intellect"] = "§aa°d1805alÄama®ah°d1805a®",
 ["13109"] = "§aa¢d1806d1805al°d1805\000K˝amØºah¢d1806Øºd1805\000Ë?",
 ["gr:15338:of the Boar"] = "§aa°d1806alÄamàah°d1806à",
-["4054"] = "§aa¢d1806d1805al°d1805ˆam≤ah¢d1806≤d1805˜",
+["gr:15918:of the Eagle"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805.ﬂ",
 ["gr:10081:of the Tiger"] = "§aa°d1806alÄamà∑ah°d1806à∑",
-["1815"] = "§aa¢d1806d1805alÄamªah¢d1806ªd1805Ω",
+["gr:15146:of the Monkey"] = "§aa°d1805alÄah°d1805ø¬amø¬",
 ["gr:8213:of Nature's Wrath"] = "§aa°d1805alÄamp‚ah°d1805p‚",
-["9815"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805	ƒ",
+["gr:10238:of the Monkey"] = "§aa°d1806alÄamN ah°d1806N ",
 ["gr:11989:of the Owl"] = "§aa¢d1806d1805alÄamMÂah¢d1806MÂd1805ú?",
-["gr:15211:of Power"] = "§aa¢d1806d1805alÄamﬁah¢d1806ﬁd1805ì",
-["gr:10098:of the Owl"] = "§aa°d1806alÄama¶ah°d1806a¶",
+["9302"] = "§aa°d1805alÄam(≤ah°d1805(≤",
+["gr:790:of the Eagle"] = "§aa¢d1806d1805alÄam\rìah¢d1806\rìd1805	_",
 ["gr:14159:of the Falcon"] = "§aa¢d1806d1805al°d18051am@ah¢d1806@d1805\n&",
-["15344"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805\r¨",
-["gr:15127:of Stamina"] = "§aa¢d1806d1805al°d1805-Mam-Lah¢d1806-Ld1805:ñ",
-["gr:9971:of the Tiger"] = "§aa°d1806alÄamNah°d1806N",
-["14579"] = "§aa¢d1806d1805\nal°d1805yamEah¢d1806Ed1805A",
-["gr:14965:of Power"] = "§aa°d1805alÄah°d1805u0amu0",
 ["gr:15504:of the Boar"] = "§aa°d1805al°d1805ah°d1805Öam",
+["gr:15127:of Stamina"] = "§aa¢d1806d1805al°d1805-Mam-Lah¢d1806-Ld1805:ñ",
+["gr:9802:of Nature's Wrath"] = "§aa°d1806alÄam	√ah°d1806	√",
+["gr:15121:of Spirit"] = "§aa¢d1806d1805alÄam8ah¢d18068d18058",
+["gr:14965:of Power"] = "§aa°d1805alÄah°d1805u0amu0",
+["2721"] = "§aa¢d1806d1805al°d1805ÍAamØ»ah¢d1806Ø»d1805\000Ü;",
 ["gr:15545:of Strength"] = "§aa¢d1806d1805al°d1805¡amah¢d1806d1805√",
+["gr:15162:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806oÌd1805ñ˝amoÌ",
 ["18944"] = "§aa¢d1806^d1805ûal°d1805Àam¬ah¢d1806¬d1805–",
+["gr:14163:of the Owl"] = "§aa¢d1806d1805	al°d1805\n!am∏ah¢d1806∏d1805∏",
 ["14193"] = "§aa¢d1806d1805al°d1805{am†ah¢d1806†d1805|",
-["14604"] = "§aa¢d1806d1805alÄah¢d1806'»d1805:2am'»",
-["11134"] = "§aa¢d1806d1805Ual°d1805õam¨ah¢d1806¨d1805≠",
 ["gr:10069:of the Owl"] = "§aa¢d1806d1805alÄamJ7ah¢d1806J7d1805J7",
-["gr:14228:of the Eagle"] = "§aa°d1805alÄah°d1805u0amu0",
+["gr:15557:of Stamina"] = "§aa°d1805alÄamüah°d1805ü",
 ["gr:9881:of Stamina"] = "§aa°d1806alÄam\000B?ah°d1806\000B?",
-["gr:15275:of Frozen Wrath"] = "§aa°d1806alÄam\000–êah°d1806\000–ê",
-["gr:7454:of the Monkey"] = "§aa°d1805alÄam!ñah°d1805!ñ",
+["gr:1207:of the Bear"] = "§aa¢d1806d1805al°d1805/æam,¥ah¢d1806,¥d18054",
+["gr:3193:of Stamina"] = "§aa¢d1806d1805al°d1805}am'ah¢d1806'd1805Ü",
 ["22250"] = "§aa¢d1806d1805al°d1805/amHah¢d1806Hd1805	",
 ["gr:14113:of the Wolf"] = "§aa¢d1806d1805alÄamÂah¢d1806Âd1805	`",
 ["gr:6546:of the Eagle"] = "§aa°d1805alÄah°d1805ßamß",
@@ -10020,74 +10020,74 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9771:of the Eagle"] = "§aa°d1805alÄah°d1805>am>",
 ["10593"] = "§aa¢d1806d1805al°d1805\000Ü/am\000Ü(ah¢d1806\000Ü(d1805\000Ü4",
 ["gr:15938:of Fiery Wrath"] = "§aa°d1805alÄam\000\r@ah°d1805\000\r@",
-["gr:14120:of Frozen Wrath"] = "§aa¢d1806d1805al°d1805Tam&ah¢d1806&d1805U",
+["9821"] = "§aa¢d1806d1805\ralÄamıah¢d1806ıd1805\r",
 ["10202"] = "§aa¢d1806d1805al°d1805&¨am.›ah¢d1806.›d1805N",
 ["gr:14282:of Fiery Wrath"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:6593:of Stamina"] = "§aa¢d1806d1805al°d1805\rFamTah¢d1806Td1805\rG",
-["13026"] = "§aa¢d1806d1805al°d1805\000am\000ah¢d1806\000d1805\000p",
+["2778"] = "§aa¢d1806d1805al°d1805Èamﬁah¢d1806ﬁd1805)",
 ["gr:15329:of Intellect"] = "§aa°d1805al°d1805⁄ah°d1805‹am⁄",
 ["15933"] = "§aa¢d1806d1805\ral°d1805ºamah¢d1806d1805Ñ",
 ["gr:15485:of the Monkey"] = "§aa¢d1806d1805al°d1805 amºah¢d1806ºd1805‚",
+["gr:15541:of Strength"] = "§aa¢d1806d1805al°d1805'amªah¢d1806ªd18054W",
 ["3821"] = "§aa¢d1806ød1805al°d1805©am◊ah¢d1806◊d1805˝",
 ["8846"] = "§aa¢d1806Nd1805˚al°d1805¬amìah¢d1806ìd1805'",
-["9778"] = "§aa¢d1806d1805alÄamœah¢d1806œd1805∑",
 ["gr:9808:of the Wolf"] = "§aa°d1805alÄah°d1805'am'",
-["gr:9876:of Stamina"] = "§aa°d1805alÄah°d1805&am&",
+["gr:7407:of Agility"] = "§aa¢d1806d1805al°d1805'qam:óah¢d1806:ód1805:ó",
 ["gr:15291:of the Monkey"] = "§aa°d1806alÄam·»ah°d1806·»",
-["gr:10408:of Defense"] = "§aa°d1806alÄam(Èah°d1806(È",
-["gr:14109:of the Owl"] = "§aa¢d1806	d1805al°d1805Çaméah¢d1806éd1805¢",
+["gr:15150:of the Eagle"] = "§aa°d1805alÄah°d1805'am'",
+["gr:9876:of Stamina"] = "§aa°d1805alÄah°d1805&am&",
 ["gr:14181:of the Whale"] = "§aa¢d1806d1805al°d1805Ÿam€ah¢d1806€d1805⁄",
 ["gr:14186:of the Whale"] = "§aa¢d1806d1805al°d1805\000amˇah¢d1806ˇd1805L",
 ["gr:9853:of the Owl"] = "§aa¢d1806d1805al°d1805ìamîah¢d1806îd1805î",
-["1678"] = "§aa¢d1806d1805alÄam\000≠yah¢d1806\000≠yd1805\000≠{",
-["2678"] = "§aa¢d1806`d1805äal°d1805amah¢d1806d1805",
+["gr:3740:of Stamina"] = "§aa°d1806alÄam`ah°d1806`",
+["gr:15559:of Strength"] = "§aa¢d1806d1805alÄah¢d1806|d1805<am|",
 ["gr:7424:of Defense"] = "§aa¢d1806d1805al°d1805>am;ah¢d1806;d1805!4",
-["11135"] = "§aa¢d1806\rd1805Kal°d1805Kam´ah¢d1806´d1805t",
-["gr:6601:of Power"] = "§aa°d1806alÄama®ah°d1806a®",
+["gr:6602:of Power"] = "§aa°d1805alÄamXah°d1805X",
+["2678"] = "§aa¢d1806`d1805äal°d1805amah¢d1806d1805",
 ["gr:15014:of the Wolf"] = "§aa¢d1806d1805	alÄamKah¢d1806Kd1805O",
-["gr:15572:of the Bear"] = "§aa¢d1806d1805alÄam&ah¢d1806&d1805.‡",
-["gr:9929:of Intellect"] = "§aa¢d1806d1805alÄam.‹ah¢d1806.‹d1805.›",
+["gr:9894:of the Owl"] = "§aa°d1805alÄah°d1805:òam:ò",
+["gr:14127:of Spirit"] = "§aa°d1805alÄah°d1805ØamØ",
 ["gr:1640:of the Whale"] = "§aa¢d1806d1805alÄamúùah¢d1806úùd1805úù",
-["14839"] = "§aa¢d1806d1805al°d1805LamDÉah¢d1806DÉd1805N",
+["gr:15572:of the Bear"] = "§aa¢d1806d1805alÄam&ah¢d1806&d1805.‡",
 ["gr:15310:of the Wolf"] = "§aa°d1805alÄam„ah°d1805„",
-["gr:15984:of the Whale"] = "§aa°d1805alÄam†ah°d1805†",
-["10720"] = "§aa°d1805alÄamu0ah°d1805u0",
+["gr:9880:of the Owl"] = "§aa¢d1806d1805al°d1805VamUah¢d1806Ud1805#%",
+["gr:15375:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806N d1805N amN ",
 ["gr:9800:of Fiery Wrath"] = "§aa¢d1806d1805alÄah¢d1806Úd1805ÚamÚ",
 ["gr:6538:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806¸d1805	`am¸",
-["gr:10381:of Power"] = "§aa°d1805alÄam\0008Äah°d1805\0008Ä",
+["15590"] = "§aa¢d1806d1805al°d1805xam'ah¢d1806'd1805{",
+["gr:9948:of the Eagle"] = "§aa°d1805alÄah°d1805:òam:ò",
 ["5833"] = "§aa¢d1806/d1805\"al°d18050am+ah¢d1806+d1805;",
-["gr:14946:of Defense"] = "§aa°d1805alÄam@ÿah°d1805@ÿ",
 ["gr:9845:of the Eagle"] = "§aa°d1805al°d1805*¯ah°d18054ºam*¯",
 ["gr:15500:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806\nd1805\nam\n",
 ["gr:15118:of Power"] = "§aa¢d1806d1805alÄah¢d1806c”d1805'amc”",
 ["gr:15487:of Strength"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805∞",
-["gr:15231:of the Tiger"] = "§aa¢d1806d1805alÄam\"ƒah¢d1806\"ƒd1805&¨",
-["gr:6548:of the Eagle"] = "§aa¢d1806d1805al°d1805ÑamËah¢d1806Ëd1805∂",
 ["gr:15492:of Strength"] = "§aa°d1806alÄam	_ah°d1806	_",
-["gr:14117:of Fiery Wrath"] = "§aa°d1805alÄah°d1805vamv",
+["gr:6548:of the Eagle"] = "§aa¢d1806d1805al°d1805ÑamËah¢d1806Ëd1805∂",
+["gr:15231:of the Tiger"] = "§aa¢d1806d1805alÄam\"ƒah¢d1806\"ƒd1805&¨",
+["15499"] = "§aa¢d1806$d1805-alÄam8ah¢d18068d1805",
 ["gr:15241:of Power"] = "§aa¢d1806d1805al°d1805œam ah¢d1806 d1805¿",
 ["13135"] = "§aa°d1806alÄam\000[Âah°d1806\000[Â",
 ["gr:10103:of Fiery Wrath"] = "§aa°d1805alÄah°d1805NamN",
 ["gr:15136:of the Wolf"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:9969:of the Boar"] = "§aa°d1805alÄam3*ah°d18053*",
-["15499"] = "§aa¢d1806$d1805-alÄam8ah¢d18068d1805",
+["12985"] = "§aa¢d1806d1805al°d1805&Æam#àah¢d1806#àd1805)	",
 ["gr:4564:of the Bear"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805œ",
+["gr:7544:of the Falcon"] = "§aa°d1805alÄam'ah°d1805'",
+["gr:15287:of the Owl"] = "§aa¢d1806d1805alÄamPwah¢d1806Pwd1805a®",
 ["gr:9831:of Spirit"] = "§aa¢d1806d1805al°d1805ëamèah¢d1806èd1805í",
 ["gr:12030:of the Gorilla"] = "§aa¢d1806d1805al°d1805D#amMXah¢d1806MXd1805D$",
-["3832"] = "§aa°d1805al°d1805	\"ah°d1805	)am	\"",
 ["gr:14131:of the Whale"] = "§aa¢d1806d1805	alÄam4ah¢d18064d1805X",
 ["gr:4569:of Nature's Wrath"] = "§aa¢d1806d1805al°d1805ëamèah¢d1806èd1805î",
-["gr:10077:of the Falcon"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["gr:7416:of Power"] = "§aa¢d1806d1805alÄamùah¢d1806ùd1805ú",
 ["gr:15132:of the Monkey"] = "§aa¢d1806d1805al°d1805'qam'qah¢d1806'qd1805'r",
-["gr:9790:of the Gorilla"] = "§aa¢d1806d1805alÄah¢d1806%8d1805%8am%8",
+["gr:15171:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805√Pam√P",
 ["gr:14182:of Shadow Wrath"] = "§aa°d1806alÄam€ah°d1806€",
 ["13038"] = "§aa¢d1806d1805alÄam\000E@ah¢d1806\000E@d1805\000D",
 ["gr:15561:of the Gorilla"] = "§aa°d1806alÄamah°d1806",
-["gr:15130:of the Eagle"] = "§aa°d1805alÄam'ah°d1805'",
+["11985"] = "§aa¢d1806d1805al°d1805îamîah¢d1806îd1805á",
 ["gr:15291:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806√Pd1805\000am√P",
 ["gr:11987:of the Whale"] = "§aa¢d1806d1805al°d1805'am'ah¢d1806'd1805,$",
-["gr:14175:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805ü",
+["2732"] = "§aa¢d1806Dd1805Wal°d1805ºam>ah¢d1806>d1805›",
 ["gr:15261:of the Gorilla"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N",
 ["gr:15233:of Agility"] = "§aa°d1805al°d1805Jah°d1805JamJ",
 ["2740"] = "§aa¢d1806#d1805alÄamﬂah¢d1806ﬂd1805å",
@@ -10096,12 +10096,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["5740"] = "§aa¢d1806d1805/al°d1805`am\\ah¢d1806\\d1805c",
 ["gr:15261:of Strength"] = "§aa¢d1806d1805alÄam√≥ah¢d1806√≥d1805NÇ",
 ["gr:4567:of Stamina"] = "§aa¢d1806d1805	alÄam√ah¢d1806√d1805%",
-["10620"] = "§aa¢d1806≈d1805‹al°d1805uam7ah¢d18067d1805∂",
+["6599"] = "§aa¢d1806d1805\nalÄamπah¢d1806πd1805ì",
 ["gr:9820:of the Eagle"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:7456:of the Boar"] = "§aa°d1805alÄam'ah°d1805'",
+["812"] = "§aa¢d1806d1805alÄah¢d1806\000LK?d1805\000LK@am\000LK?",
 ["gr:6268:of the Falcon"] = "§aa°d1805alÄamZah°d1805Z",
 ["gr:9807:of Agility"] = "§aa¢d1806d1805alÄah¢d1806'd1805\"óam'",
-["10548"] = "§aa¢d1806d1805alÄamt…ah¢d1806t…d1805s°",
 ["gr:9959:of Agility"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:9798:of Arcane Wrath"] = "§aa°d1805alÄah°d1805TamT",
 ["15250"] = "§aa¢d1806d1805alÄam´ah¢d1806´d1805Ä",
@@ -10110,73 +10110,73 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["10604"] = "§aa¢d1806d1805alÄamah¢d1806d1805@",
 ["14217"] = "§aa¢d1806d1805alÄamah¢d1806d1805¥",
 ["9942"] = "§aa¢d1806d1805alÄam¬Ïah¢d1806¬Ïd1805R",
+["14909"] = "§aa¢d1806d1805al°d1805:òam:òah¢d1806:òd1805I–",
 ["gr:14944:of the Boar"] = "§aa¢d1806d1805alÄam#'ah¢d1806#'d1805#'",
-["14186"] = "§aa¢d1806	d1805\ralÄamah¢d1806d1805˙",
 ["gr:6617:of Frozen Wrath"] = "§aa°d1805alÄah°d1805íamí",
 ["gr:15578:of the Owl"] = "§aa°d1805alÄamN ah°d1805N ",
 ["9855"] = "§aa¢d1806	d1805al°d1805\n'amTah¢d1806Td1805·",
 ["gr:9950:of the Eagle"] = "§aa°d1805alÄah°d1805u0amu0",
 ["gr:15607:of the Bear"] = "§aa°d1805alÄamú@ah°d1805ú@",
-["3825"] = "§aa¢d1806*d1805-al°d1805am\rah¢d1806\rd18050",
+["gr:14158:of Intellect"] = "§aa°d1805alÄam\r¨ah°d1805\r¨",
 ["2825"] = "§aa¢d1806d1805al°d1805\000Ôﬁam\000yah¢d1806\000yd1805\000Ôﬂ",
 ["gr:3187:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Yíd1805u.amYí",
 ["gr:9763:of the Gorilla"] = "§aa¢d1806d1805alÄamah¢d1806d1805X",
-["gr:14158:of Intellect"] = "§aa°d1805alÄam\r¨ah°d1805\r¨",
+["15570"] = "§aa¢d1806d1805\ral°d1805<amqah¢d1806qd1805ê",
 ["gr:9812:of the Boar"] = "§aa°d1806alÄam\\ah°d1806\\",
 ["15573"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805&F",
 ["gr:9772:of Fiery Wrath"] = "§aa¢d1806d1805alÄamPah¢d1806Pd1805S",
 ["7465"] = "§aa¢d1806d1805alÄam%ah¢d1806%d1805L",
 ["gr:7443:of the Wolf"] = "§aa°d1805alÄam®ah°d1805®",
 ["gr:15500:of the Tiger"] = "§aa°d1805alÄam8ah°d18058",
-["932"] = "§aa¢d1806d1805al°d1805:áam'ah¢d1806'd1805:ä",
+["gr:7458:of Defense"] = "§aa¢d1806d1805alÄamiah¢d1806id1805i",
 ["15184"] = "§aa¢d1806d1805alÄah¢d1806ú@d1805N amú@",
 ["gr:15341:of Stamina"] = "§aa°d1806alÄam!3ah°d1806!3",
-["10060"] = "§aa¢d1806d1805al°d1805<√amú@ah¢d1806ú@d1805ló",
+["gr:15157:of the Gorilla"] = "§aa°d1805alÄah°d18050”am0”",
 ["gr:14299:of Shadow Wrath"] = "§aa°d1805alÄama®ah°d1805a®",
 ["gr:15557:of Strength"] = "§aa°d1805al°d1805Xah°d1805'amX",
 ["gr:15169:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806\"¿d1805\"ƒam\"¿",
-["gr:9942:of Spirit"] = "§aa°d1805alÄah°d1805u.amu.",
+["14218"] = "§aa°d1805alÄah°d1805ÀamÀ",
 ["gr:3193:of the Boar"] = "§aa°d1805alÄah°d1805\nam\n",
-["2565"] = "§aa¢d1806d1805al°d1805¨amah¢d1806d1805&©",
+["gr:6562:of Spirit"] = "§aa¢d1806d1805al°d1805óam–ah¢d1806–d1805ò",
 ["gr:14185:of the Wolf"] = "§aa°d1805alÄah°d1805|am|",
 ["4565"] = "§aa¢d1806d1805al°d1805«amVah¢d1806Vd1805+",
-["gr:6578:of Healing"] = "§aa°d1805alÄamN ah°d1805N ",
+["7332"] = "§aa¢d1806d1805al°d1805#(amNah¢d1806Nd1805u0",
 ["gr:6615:of the Eagle"] = "§aa¢d1806d1805al°d1805\"√am\"`ah¢d1806\"`d1805#\\",
 ["gr:14208:of the Owl"] = "§aa¢d1806d1805alÄamØah¢d1806Ød1805#(",
-["gr:3740:of the Monkey"] = "§aa¢d1806\nd1805alÄam‰ah¢d1806‰d1805í",
-["4402"] = "§aa¢d1806”d1805ïal°d18052amàah¢d1806àd1805Å",
+["9825"] = "§aa¢d1806d1805alÄam†ah¢d1806†d1805Ã",
+["4712"] = "§aa¢d1806d1805\nal°d1805	µamah¢d1806d1805\n·",
 ["gr:15489:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
-["14232"] = "§aa¢d1806d1805alÄamùah¢d1806ùd1805;",
+["422"] = "§aa¢d1806d1805al°d1805amGah¢d1806Gd1805 ",
 ["gr:2140:of Nature's Wrath"] = "§aa¢d1806d1805alÄamÑah¢d1806Ñd1805º",
-["gr:9290:of the Bear"] = "§aa¢d1806d1805alÄam#Ñah¢d1806#Ñd1805#Ñ",
+["gr:6578:of Healing"] = "§aa°d1805alÄamN ah°d1805N ",
 ["4725"] = "§aa¢d1806d1805al°d1805'am'ah¢d1806'd1805'\n",
 ["1725"] = "§aa¢d1806d1805al°d18050˚am+Úah¢d1806+Úd18050ˇ",
 ["2725"] = "§aa¢d1806\"d1805?al°d1805†amåah¢d1806åd1805≠",
-["gr:14938:of the Bear"] = "§aa¢d1806d1805alÄam\000üÊah¢d1806\000üÊd1805\000üÊ",
-["6051"] = "§aa¢d1806>d1805?al°d18051amYah¢d1806Yd1805á",
+["gr:14253:of the Whale"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805Ë",
+["gr:15110:of Defense"] = "§aa¢d1806d1805alÄah¢d1806Ud1805\"amU",
 ["8365"] = "§aa¢d1806d1805çal°d1805ñamèah¢d1806èd1805Ω",
-["gr:1613:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806[d1805m`am[",
+["5051"] = "§aa¢d1806\nd1805al°d1805[amah¢d1806d1805~",
 ["gr:14261:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806N d1805W‰amN ",
 ["gr:6581:of Healing"] = "§aa°d1805alÄah°d1805ÃamÃ",
-["13059"] = "§aa¢d1806d1805al°d1805\000\nÆ`am\000\nÆ`ah¢d1806\000\nÆ`d1805\000))",
+["gr:10148:of the Monkey"] = "§aa°d1805alÄam√Pah°d1805√P",
 ["gr:15122:of Agility"] = "§aa¢d1806d1805alÄamSah¢d1806Sd1805V",
 ["gr:15287:of the Falcon"] = "§aa¢d1806d1805alÄah¢d1806\000pd1805tÃam\000p",
 ["14211"] = "§aa¢d1806d1805\nalÄampah¢d1806pd1805ã",
 ["3315"] = "§aa¢d1806d1805al°d1805Úamäah¢d1806äd1805A",
 ["gr:7474:of Spirit"] = "§aa¢d1806d1805al°d1805@am@ah¢d1806@d18052»",
 ["gr:14311:of the Owl"] = "§aa°d1805alÄamN ah°d1805N ",
-["gr:15638:of the Falcon"] = "§aa°d1806alÄamtÃah°d1806tÃ",
+["4717"] = "§aa¢d1806d1805al°d1805«am	Öah¢d1806	Öd1805»",
 ["gr:15912:of Spirit"] = "§aa¢d1806d1805alÄam>ah¢d1806>d1805>",
 ["1465"] = "§aa¢d1806d1805al°d1805-™am+qah¢d1806+qd1805-∞",
 ["gr:6557:of the Owl"] = "§aa¢d1806d1805al°d1805@amwah¢d1806wd1805	ƒ",
 ["3465"] = "§aa°d1805êal°d1805ah°d1805am",
 ["gr:7413:of the Monkey"] = "§aa¢d1806d1805alÄam\000/–ah¢d1806\000/–d1805\000/—",
-["5465"] = "§aa¢d1806Ëd1805˛al°d1805amah¢d1806d1805",
+["14126"] = "§aa¢d1806d1805al°d1805Wamah¢d1806d1805",
 ["gr:15487:of the Bear"] = "§aa¢d1806	d1805al°d1805uam»ah¢d1806»d1805q",
 ["gr:9863:of the Falcon"] = "§aa°d1805alÄamoah°d1805o",
 ["gr:2079:of Power"] = "§aa¢d1806d1805\ralÄam‹ah¢d1806‹d1805ÿ",
+["7611"] = "§aa¢d1806d1805alÄam4∑ah¢d18064∑d18054∫",
 ["3531"] = "§aa¢d1806dd1805val°d1805:am:ah¢d1806:d1805J",
-["18779"] = "§aa¢d1806d1805alÄah¢d1806√Ld1805√Oam√L",
 ["gr:3192:of the Monkey"] = "§aa¢d1806d1805alÄam ah¢d1806 d18055",
 ["gr:15224:of Stamina"] = "§aa¢d1806d1805al°d1805\r®am\r¶ah¢d1806\r¶d1805\r™",
 ["gr:8178:of Agility"] = "§aa¢d1806d1805al°d1805Ùam\rah¢d1806\rd1805*",
@@ -10196,119 +10196,119 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["15150"] = "§aa¢d1806d1805alÄam{ah¢d1806{d1805d",
 ["gr:15323:of Marksmanship"] = "§aa¢d1806d1805alÄamú@ah¢d1806ú@d1805ú@",
 ["9968"] = "§aa¢d1806d1805alÄamΩah¢d1806Ωd1805'",
-["gr:12031:of the Bear"] = "§aa¢d1806\nd1805alÄamIpah¢d1806Ipd1805MQ",
+["1802"] = "§aa°d1805al°d1805Vah°d1805ºamV",
 ["gr:10229:of the Wolf"] = "§aa¢d1806d1805alÄah¢d1806ú@d1805ú@amú@",
-["5973"] = "§aa¢d1806d1805al°d1805⁄amah¢d1806d1805·",
-["gr:2077:of the Bear"] = "§aa¢d1806d1805al°d1805/+amXah¢d1806Xd18056ˇ",
+["14507"] = "§aa°d1805alÄah°d1805\000Äam\000Ä",
+["10940"] = "§aa¢d1806îd1805Nal°d1805MamWah¢d1806Wd1805T",
 ["5765"] = "§aa¢d1806d1805\ralÄam&Òah¢d1806&Òd1805&ﬁ",
 ["11223"] = "§aa¢d1806d1805al°d1805t√amHòah¢d1806Hòd1805t≈",
 ["12996"] = "§aa¢d1806d1805al°d1805a¶am^Îah¢d1806^Îd1805aß",
 ["gr:14242:of the Eagle"] = "§aa°d1805al°d1805W˝ah°d1805u0amW˝",
-["gr:15118:of the Owl"] = "§aa¢d1806d1805al°d1805∏amah¢d1806d1805\r=",
+["5116"] = "§aa¢d1806d1805Öal°d1805[amqah¢d1806qd1805y",
 ["14200"] = "§aa¢d1806d1805\ral°d1805ˆam›ah¢d1806›d1805#'",
-["gr:15250:of Strength"] = "§aa°d1805al°d1805\"^ah°d1805#&am\"^",
+["gr:15118:of the Owl"] = "§aa¢d1806d1805al°d1805∏amah¢d1806d1805\r=",
 ["gr:10221:of the Boar"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
-["7451"] = "§aa¢d1806d1805alÄah¢d1806T˜d1805T˜amT˜",
-["1817"] = "§aa°d1806alÄamÅah°d1806Å",
+["gr:14189:of Healing"] = "§aa¢d1806d1805alÄah¢d1806àd1805u0amà",
+["gr:14949:of the Whale"] = "§aa°d1805alÄam3Iah°d18053I",
 ["gr:6572:of the Bear"] = "§aa¢d1806d1805alÄamËah¢d1806Ëd1805˚",
 ["gr:15234:of the Monkey"] = "§aa°d1805alÄah°d1805N amN ",
-["9451"] = "§aa¢d1806d1805Eal°d1805\"amah¢d1806d1805'",
+["15575"] = "§aa¢d1806d1805	alÄam|ah¢d1806|d1805±",
+["gr:15488:of the Whale"] = "§aa¢d1806d1805al°d1805ùam\r¨ah¢d1806\r¨d1805û",
 ["gr:7459:of Defense"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805'",
-["gr:14183:of the Whale"] = "§aa°d1805alÄam∑ah°d1805∑",
-["gr:15976:of Intellect"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805|",
+["gr:15144:of Nature's Wrath"] = "§aa°d1805alÄah°d1805Q§amQ§",
 ["gr:14911:of the Boar"] = "§aa°d1806alÄamGJah°d1806GJ",
 ["gr:9961:of the Monkey"] = "§aa°d1806alÄamLVah°d1806LV",
 ["gr:7420:of the Monkey"] = "§aa¢d1806d1805alÄam12ah¢d180612d180513",
 ["gr:10408:of the Eagle"] = "§aa¢d1806d1805alÄamM∏ah¢d1806M∏d1805Mπ",
 ["15963"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
 ["6565"] = "§aa¢d1806d1805al°d1805Æam\nÔah¢d1806\nÔd1805Ø",
+["4798"] = "§aa°d1805alÄam∂ah°d1805∂",
 ["gr:4571:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805üam€ah¢d1806€d1805£",
-["2317"] = "§aa°d1805alÄah°d1805ëamë",
 ["gr:1625:of the Whale"] = "§aa°d1805alÄah°d1805S˙amS˙",
 ["gr:15489:of the Boar"] = "§aa¢d1806d1805alÄamÙah¢d1806Ùd1805Ñ",
 ["14481"] = "§aa¢d1806d1805al°d1805NamBgah¢d1806Bgd1805W„",
 ["gr:15225:of the Monkey"] = "§aa¢d1806d1805\ral°d1805Xamah¢d1806d1805™",
 ["gr:7446:of Agility"] = "§aa¢d1806d1805alÄamŸah¢d1806Ÿd1805'",
 ["gr:9864:of the Boar"] = "§aa¢d1806d1805alÄamúah¢d1806úd1805ü",
-["4716"] = "§aa¢d1806d1805al°d1805\n(am	ƒah¢d1806	ƒd1805",
-["11175"] = "§aa¢d1806=d1805NalÄam6ah¢d18066d18058:",
+["gr:9854:of Stamina"] = "§aa°d1805alÄah°d1805'am'",
+["gr:12002:of Regeneration"] = "§aa°d1806alÄamMËah°d1806MË",
 ["4665"] = "§aa°d1805alÄamhah°d1805h",
 ["gr:15016:of the Falcon"] = "§aa¢d1806d1805alÄam;ah¢d1806;d1805k",
 ["gr:12006:of Agility"] = "§aa¢d1806d1805alÄah¢d1806Í_d1805NamÍ_",
 ["3665"] = "§aa¢d1806]d1805al°d1805¨am∂ah¢d1806∂d1805∆",
 ["gr:15338:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806›d1805Áam›",
-["gr:15127:of the Owl"] = "§aa¢d1806d1805alÄam\nah¢d1806\nd1805",
-["gr:15970:of Shadow Wrath"] = "§aa°d1805alÄamËah°d1805Ë",
+["gr:15499:of the Gorilla"] = "§aa°d1805alÄamÊah°d1805Ê",
+["10502"] = "§aa¢d1806d1805al°d1805c4amUah¢d1806Ud1805c7",
 ["gr:9848:of the Eagle"] = "§aa¢d1806d1805al°d1805|amHah¢d1806Hd1805K",
 ["5525"] = "§aa¢d1806Zd1805‚al°d1805QamBah¢d1806Bd1805`",
 ["gr:15281:of Frozen Wrath"] = "§aa°d1806alÄam\000›–ah°d1806\000›–",
 ["10505"] = "§aa¢d1806sd1805Ìal°d1805¨amÇah¢d1806Çd1805 ",
-["gr:14289:of the Owl"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805√P",
+["gr:9287:of the Whale"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:15275:of the Eagle"] = "§aa°d1806alÄam\000OÃah°d1806\000OÃ",
-["gr:15279:of Stamina"] = "§aa°d1806alÄam\0008~ah°d1806\0008~",
+["gr:6268:of the Eagle"] = "§aa°d1805alÄamÑah°d1805Ñ",
 ["gr:865:of Healing"] = "§aa°d1806alÄam!4ah°d1806!4",
 ["4335"] = "§aa¢d1806d1805alÄam§Uah¢d1806§Ud1805|ö",
 ["7065"] = "§aa°d1805alÄam'ah°d1805'",
-["13494"] = "§aa¢d1806d1805alÄam\000]+ah¢d1806\000]+d1805\000XL",
+["gr:6543:of Arcane Wrath"] = "§aa°d1805alÄamu/ah°d1805u/",
 ["gr:15018:of the Owl"] = "§aa¢d1806d1805alÄamoah¢d1806od1805r",
-["2516"] = "§aa¢d1806\rHd18050alÄamah¢d1806d1805",
+["1951"] = "§aa¢d1806d1805	alÄam'ah¢d1806'd1805ü",
 ["gr:14261:of Shadow Wrath"] = "§aa°d1805alÄam√Pah°d1805√P",
 ["gr:10224:of the Bear"] = "§aa°d1806alÄam‹¥ah°d1806‹¥",
 ["11184"] = "§aa¢d18061d1805óal°d1805lambah¢d1806bd1805x",
-["gr:9951:of the Bear"] = "§aa°d1805alÄam_≥ah°d1805_≥",
+["gr:7473:of Intellect"] = "§aa°d1805alÄah°d1805 lam l",
 ["gr:11974:of Arcane Resistance"] = "§aa°d1806alÄamN ah°d1806N ",
 ["9768"] = "§aa¢d1806d1805al°d1805ÑamÉah¢d1806Éd1805Æ",
-["16652"] = "§aa¢d1806	d1805?alÄam1ah¢d18061d1805é",
+["gr:14231:of the Owl"] = "§aa¢d1806d1805alÄam0Tah¢d18060Td18050T",
 ["9779"] = "§aa¢d1806	d1805al°d1805€amËah¢d1806Ëd1805‹",
-["gr:4088:of Nature's Wrath"] = "§aa°d1805alÄamaßah°d1805aß",
+["gr:9951:of the Bear"] = "§aa°d1805alÄam_≥ah°d1805_≥",
 ["gr:9821:of Frozen Wrath"] = "§aa°d1805al°d1805´ah°d1805'pam´",
 ["gr:14229:of the Eagle"] = "§aa°d1806alÄam+\\ah°d1806+\\",
 ["gr:15137:of the Monkey"] = "§aa¢d1806d1805al°d18055am5ah¢d18065d18055",
-["2851"] = "§aa°d1805alÄah°d1805`am`",
+["gr:14113:of Healing"] = "§aa¢d1806d1805al°d1805JamIah¢d1806Id1805K",
 ["1768"] = "§aa¢d1806d1805al°d1805hamfah¢d1806fd1805j",
 ["4768"] = "§aa°d1805al°d1805∑ah°d1805pam∑",
-["11225"] = "§aa¢d1806	d1805alÄah¢d1806#&d1805≠am#&",
+["3798"] = "§aa°d1805al°d1805kah°d1805lamk",
 ["gr:12039:of Eluding"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805√O",
 ["gr:15271:of the Boar"] = "§aa°d1806alÄam\000° ah°d1806\000° ",
 ["gr:15140:of the Wolf"] = "§aa¢d1806d1805alÄama¶ah¢d1806a¶d1805a•",
 ["gr:10281:of the Bear"] = "§aa°d1805alÄah°d1805u.amu.",
 ["3335"] = "§aa¢d1806d1805alÄamÁah¢d1806Ád1805Ë",
-["gr:15336:of the Owl"] = "§aa¢d1806d1805alÄamÃah¢d1806Ãd1805Œ",
-["15366"] = "§aa¢d1806d1805al°d1805$\\am%≈ah¢d1806%≈d1805^#",
+["gr:11985:of Spirit"] = "§aa¢d1806d1805al°d1805îamîah¢d1806îd1805á",
+["gr:15125:of the Bear"] = "§aa¢d1806d1805al°d1805ÑamÑah¢d1806Ñd1805@",
 ["14327"] = "§aa¢d1806d1805alÄah¢d1806N d1805N amN ",
-["gr:14198:of Shadow Wrath"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805[î",
+["10626"] = "§aa°d1805alÄah°d1805\000° am\000° ",
 ["18647"] = "§aa¢d1806d1805\nalÄamah¢d1806d1805’",
 ["gr:9827:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806zd1805{amz",
-["9797"] = "§aa¢d1806d1805alÄam	¬ah¢d1806	¬d1805à",
-["1798"] = "§aa°d1805al°d1805ªah°d1805ºamª",
+["gr:12025:of Concentration"] = "§aa°d1805alÄah°d1805v\\amv\\",
+["gr:4089:of the Falcon"] = "§aa¢d1806d1805al°d1805u(amu&ah¢d1806u&d1805u)",
 ["2879"] = "§aa¢d1806d1805al°d1805ëaméah¢d1806éd1805\\",
 ["10211"] = "§aa¢d1806d1805alÄam\000x>ah¢d1806\000x>d1805\000·",
 ["9435"] = "§aa¢d1806d1805al°d1805Ø¿amú@ah¢d1806ú@d1805Ø»",
-["13486"] = "§aa°d1805alÄam\000‰·¿ah°d1805\000‰·¿",
+["gr:14172:of Intellect"] = "§aa°d1805alÄah°d1805%am%",
 ["8188"] = "§aa¢d1806d1805	al°d1805˘amÓah¢d1806Ód1805",
 ["8492"] = "§aa°d1805al°d1805	^ah°d1805	`am	^",
 ["gr:9914:of the Owl"] = "§aa°d1805alÄamN ah°d1805N ",
 ["9879"] = "§aa¢d1806d1805alÄamÒah¢d1806Òd1805Ò",
-["gr:10404:of the Wolf"] = "§aa°d1806alÄam'ah°d1806'",
+["14667"] = "§aa¢d1806d1805alÄamVŒah¢d1806VŒd1805pä",
 ["9868"] = "§aa¢d1806d1805al°d1805‰am„ah¢d1806„d1805\r¨",
 ["gr:3198:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
 ["gr:15523:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806`d1805Ùam`",
 ["gr:14165:of the Owl"] = "§aa¢d1806d1805al°d1805Åamˇah¢d1806ˇd1805Ω",
 ["gr:4564:of the Monkey"] = "§aa¢d1806d1805al°d1805›amºah¢d1806ºd1805‡",
 ["14246"] = "§aa¢d1806d1805	alÄam/>ah¢d1806/>d1805L",
-["10223"] = "§aa°d1805alÄam≠pah°d1805≠p",
-["gr:15493:of the Gorilla"] = "§aa¢d1806d1805al°d1805⁄amah¢d1806d1805",
 ["3868"] = "§aa¢d1806	d1805al°d1805Ëam≥ah¢d1806≥d1805-N",
+["gr:15493:of the Gorilla"] = "§aa¢d1806d1805al°d1805⁄amah¢d1806d1805",
+["3182"] = "§aa¢d1806Od1805nal°d1805“am^ah¢d1806^d1805`",
 ["2868"] = "§aa¢d1806d1805al°d1805,amuah¢d1806ud1805/",
 ["3065"] = "§aa¢d1806	d1805al°d1805:amÜah¢d1806Üd1805‹",
-["4065"] = "§aa¢d1806d1805al°d1805|amôah¢d1806ôd1805ñ",
-["gr:12007:of the Falcon"] = "§aa°d1805alÄah°d1805'am'",
 ["15752"] = "§aa¢d1806d1805	al°d1805}am|ah¢d1806|d1805",
+["gr:12007:of the Falcon"] = "§aa°d1805alÄah°d1805'am'",
+["4065"] = "§aa¢d1806d1805al°d1805|amôah¢d1806ôd1805ñ",
 ["gr:14234:of Frozen Wrath"] = "§aa°d1805alÄam√Pah°d1805√P",
 ["gr:14186:of Shadow Wrath"] = "§aa°d1805alÄah°d1805&ıam&ı",
 ["gr:15231:of Stamina"] = "§aa°d1805alÄam?ah°d1805?",
 ["gr:15512:of Strength"] = "§aa¢d1806d1805alÄah¢d1806{d1805bam{",
-["gr:15151:of the Eagle"] = "§aa¢d1806d1805alÄamoah¢d1806od1805p",
+["12808"] = "§aa¢d1806\rd1805\ral°d1805ëñamìah¢d1806ìd1805îé",
 ["2579"] = "§aa¢d1806d1805al°d1805Ûaméah¢d1806éd1805Á",
 ["15647"] = "§aa°d1806alÄamu0ah°d1806u0",
 ["gr:15010:of the Monkey"] = "§aa°d1805al°d1805äah°d1805ãamä",
@@ -10323,7 +10323,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15487:of the Boar"] = "§aa¢d1806d1805al°d1805Ñam∞ah¢d1806∞d1805Á",
 ["1539"] = "§aa¢d1806d1805al°d1805LamÙah¢d1806Ùd1805∞",
 ["gr:6572:of the Gorilla"] = "§aa°d1805alÄam\\ah°d1805\\",
-["gr:8178:of the Boar"] = "§aa¢d1806d1805al°d1805Uam$ah¢d1806$d1805",
+["gr:15353:of the Whale"] = "§aa¢d1806d1805alÄam+\\ah¢d1806+\\d1805!ó",
 ["gr:8199:of Power"] = "§aa°d1805alÄam\000ÿ®ah°d1805\000ÿ®",
 ["4568"] = "§aa¢d1806\"d1805*alÄamSah¢d1806Sd18051",
 ["gr:14131:of Intellect"] = "§aa°d1806alÄamah°d1806",
@@ -10333,16 +10333,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15280:of the Wolf"] = "§aa°d1805al°d1805úCah°d1805úDamúC",
 ["gr:9815:of the Boar"] = "§aa°d1805alÄam„ah°d1805„",
 ["gr:12043:of the Wolf"] = "§aa°d1806alÄam√Oah°d1806√O",
-["11165"] = "§aa¢d1806d1805alÄamáah¢d1806ád1805ã",
+["gr:7415:of the Owl"] = "§aa¢d1806d1805al°d1805RamQah¢d1806Qd1805S",
 ["4365"] = "§aa¢d1806fd1805Eal°d1805õam∫ah¢d1806∫d1805â",
 ["3365"] = "§aa¢d1806d1805alÄamÁah¢d1806Ád1805Ú",
-["gr:9808:of Spirit"] = "§aa¢d1806d1805alÄah¢d1806\rGd1805\rHam\rG",
+["gr:14123:of Spirit"] = "§aa¢d1806d1805al°d1805amXah¢d1806Xd1805",
 ["gr:7421:of the Whale"] = "§aa¢d1806d1805alÄam®ah¢d1806®d1805‹",
-["10200"] = "§aa°d1805alÄam\000oah°d1805\000o",
+["gr:14280:of Fiery Wrath"] = "§aa°d1805alÄamR‹ah°d1805R‹",
 ["gr:15190:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806Ü`d1805ú@amÜ`",
 ["3679"] = "§aa°d1805alÄamlah°d1805l",
-["gr:14280:of Fiery Wrath"] = "§aa°d1805alÄamR‹ah°d1805R‹",
-["gr:14163:of the Whale"] = "§aa°d1805alÄah°d1805SamS",
+["3135"] = "§aa¢d1806∞d1805‘alÄamah¢d1806d1805",
+["10423"] = "§aa°d1806alÄamKah°d1806K",
 ["16647"] = "§aa¢d1806d18057al°d1805Çamzah¢d1806zd1805´",
 ["8165"] = "§aa¢d18064d1805al°d1805amÿah¢d1806ÿd1805\r",
 ["gr:14929:of the Bear"] = "§aa°d1805alÄam:˙ah°d1805:˙",
@@ -10361,7 +10361,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7434:of Frozen Wrath"] = "§aa°d1805alÄah°d1805wamw",
 ["gr:9940:of the Owl"] = "§aa¢d1806d1805al°d1805©πam©∫ah¢d1806©∫d1805©∫",
 ["gr:9923:of the Eagle"] = "§aa¢d1806d1805alÄam.ﬂah¢d1806.ﬂd1805.ﬂ",
-["gr:7528:of Agility"] = "§aa°d1805alÄam:òah°d1805:ò",
+["gr:12019:of Concentration"] = "§aa°d1805alÄah°d1805LèamLè",
 ["gr:15125:of the Tiger"] = "§aa°d1805alÄam0‘ah°d18050‘",
 ["gr:6552:of the Monkey"] = "§aa°d1806alÄam<ah°d1806<",
 ["gr:15969:of the Eagle"] = "§aa¢d1806d1805alÄamöah¢d1806öd1805ú",
@@ -10369,23 +10369,23 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15392:of Intellect"] = "§aa°d1806alÄam_Pah°d1806_P",
 ["14785"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N",
 ["gr:7455:of the Boar"] = "§aa°d1806alÄam,àah°d1806,à",
-["gr:10194:of Intellect"] = "§aa°d1805alÄam@tah°d1805@t",
+["gr:9288:of the Gorilla"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:9881:of the Wolf"] = "§aa°d1805alÄah°d1805àamà",
 ["7531"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
 ["gr:15485:of Strength"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
 ["2819"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805ã",
 ["gr:9965:of the Falcon"] = "§aa°d1806alÄam√Pah°d1806√P",
-["15580"] = "§aa¢d1806d1805alÄamóah¢d1806ód1805»",
+["gr:9785:of the Tiger"] = "§aa°d1805alÄam›ah°d1805›",
 ["5379"] = "§aa¢d1806d1805al°d1805.am.ah¢d1806.d1805R",
 ["4379"] = "§aa¢d1806d1805al°d1805\rœam\rah¢d1806\rd1805+",
-["gr:10085:of Intellect"] = "§aa°d1805alÄah°d1805W‰amW‰",
+["gr:9942:of the Whale"] = "§aa°d1805al°d1805u/ah°d1805u0amu/",
 ["6379"] = "§aa¢d1806	d1805al°d1805Æam£ah¢d1806£d1805\nä",
 ["gr:9839:of the Bear"] = "§aa¢d1806d1805al°d1805	`am:ah¢d1806:d1805<",
-["gr:15489:of Stamina"] = "§aa°d1805al°d1805™ah°d1805œam™",
+["gr:7409:of the Wolf"] = "§aa¢d1806d1805al°d1805àam”ah¢d1806”d1805¡",
 ["12425"] = "§aa¢d1806d1805alÄam√Oah¢d1806√Od1805√N",
 ["2220"] = "§aa°d1805al°d1805÷ah°d1805	¿am÷",
 ["gr:9806:of the Tiger"] = "§aa°d1805alÄah°d1805\r¨am\r¨",
-["15395"] = "§aa¢d1806d1805al°d1805tÃamN ah¢d1806N d1805ú@",
+["gr:15165:of the Owl"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:15355:of the Whale"] = "§aa¢d1806d1805alÄamÊah¢d1806Êd1805Ê",
 ["gr:15308:of the Wolf"] = "§aa°d1805al°d1805\r¨ah°d1805√Pam\r¨",
 ["gr:7356:of Fiery Wrath"] = "§aa°d1805alÄah°d1805óamó",
@@ -10396,30 +10396,30 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["10141"] = "§aa°d1805alÄam\000Ü†ah°d1805\000Ü†",
 ["gr:4089:of the Monkey"] = "§aa¢d1806d1805alÄamu/ah¢d1806u/d1805\000\r#",
 ["8368"] = "§aa¢d1806d1805al°d1805amÚah¢d1806Úd1805",
-["gr:3185:of the Owl"] = "§aa°d1805al°d1805&¨ah°d1805'am&¨",
+["13034"] = "§aa¢d1806d1805al°d1805\000IÔam\000÷cah¢d1806\000÷cd1805\000g;",
 ["gr:7469:of the Whale"] = "§aa°d1805alÄah°d1805:óam:ó",
-["6274"] = "§aa¢d1806d1805\ral°d1805ÔamÎah¢d1806Îd1805",
+["gr:14243:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d1806u0d1805D\\amu0",
 ["gr:15356:of the Eagle"] = "§aa°d1806alÄam+\\ah°d1806+\\",
-["gr:15190:of the Owl"] = "§aa¢d1806d1805alÄamõ‹ah¢d1806õ‹d1805õ‹",
-["gr:15381:of Stamina"] = "§aa¢d1806d1805alÄam√Pah¢d1806√Pd1805√P",
+["6274"] = "§aa¢d1806d1805\ral°d1805ÔamÎah¢d1806Îd1805",
+["1372"] = "§aa¢d1806d1805alÄamÁah¢d1806Ád1805Á",
+["gr:9786:of the Bear"] = "§aa°d1805alÄamXah°d1805X",
 ["gr:12032:of the Boar"] = "§aa¢d1806d1805al°d1805W‰am≠kah¢d1806≠kd1805ús",
-["gr:7461:of the Monkey"] = "§aa°d1805alÄah°d1805xamx",
 ["gr:15376:of Stamina"] = "§aa¢d1806d1805alÄamu/ah¢d1806u/d1805√O",
-["gr:9876:of Shadow Wrath"] = "§aa°d1805alÄam1ˇah°d18051ˇ",
-["14479"] = "§aa¢d1806d1805alÄam!íah¢d1806!íd1805-I",
-["gr:9836:of Power"] = "§aa¢d1806d1805alÄah¢d1806&«d1805+am&«",
+["14829"] = "§aa¢d1806d1805al°d18052∆am*ˆah¢d1806*ˆd1805:˘",
+["4412"] = "§aa¢d1806d1805al°d1805vamëah¢d1806ëd1805y",
+["7412"] = "§aa¢d1806d1805\nal°d1805òam\nÔah¢d1806\nÔd1805„",
 ["8320"] = "§aa¢d1806d1805alÄah¢d1806\000_çd1805ú>am\000_ç",
-["gr:6539:of the Owl"] = "§aa¢d1806d1805	al°d1805≤amúah¢d1806úd1805≥",
+["gr:15570:of Strength"] = "§aa¢d1806d1805al°d1805&Eam&Gah¢d1806&Gd1805&G",
 ["4479"] = "§aa¢d1806?d1805al°d1805	¬amπah¢d1806πd1805≥",
 ["5479"] = "§aa¢d18065d1805—al°d1805äamVah¢d1806Vd1805é",
 ["gr:15338:of the Owl"] = "§aa¢d1806d1805alÄam\rah¢d1806\rd1805\r",
 ["14184"] = "§aa¢d1806d1805al°d1805	√am-?ah¢d1806-?d1805à",
 ["2320"] = "§aa¢d1806†d1805Ãal°d1805am\rah¢d1806\rd1805",
 ["15505"] = "§aa¢d1806d1805alÄam>ah¢d1806>d18058",
-["gr:15486:of the Boar"] = "§aa¢d1806d1805al°d1805πamÙah¢d1806Ùd1805∫",
+["gr:6590:of Stamina"] = "§aa°d1805alÄam#(ah°d1805#(",
 ["12435"] = "§aa¢d1806id1805RalÄamjah¢d1806jd1805p",
 ["gr:15308:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806€d1805ºam€",
-["9805"] = "§aa¢d1806d1805$al°d1805Mamah¢d1806d1805	",
+["18711"] = "§aa°d1805alÄam\000[ˆah°d1805\000[ˆ",
 ["gr:9782:of the Owl"] = "§aa°d1806alÄamÃah°d1806Ã",
 ["5468"] = "§aa¢d1806d1805alÄamqah¢d1806qd1805",
 ["1501"] = "§aa¢d1806d1805al°d1805≈am√ah¢d1806√d1805»",
@@ -10429,32 +10429,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["6468"] = "§aa¢d1806d1805alÄamØGah¢d1806ØGd1805ú@",
 ["7468"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805O@",
 ["gr:7357:of the Whale"] = "§aa¢d1806d1805al°d18059am'ah¢d1806'd1805&ƒ",
-["8501"] = "§aa°d1805alÄah°d1805ÿÃamÿÃ",
-["gr:15346:of Intellect"] = "§aa¢d1806d1805al°d1805èamçah¢d1806çd1805\"\000",
 ["gr:15244:of Frozen Wrath"] = "§aa°d1805alÄah°d1805u/amu/",
+["gr:15346:of Intellect"] = "§aa¢d1806d1805al°d1805èamçah¢d1806çd1805\"\000",
+["gr:15362:of Agility"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:15139:of the Whale"] = "§aa¢d1806d1805alÄah¢d18069d1805Æam9",
 ["1468"] = "§aa¢d1806'd1805Ial°d1805amah¢d1806d1805#",
 ["gr:15128:of Spirit"] = "§aa°d1806alÄamàah°d1806à",
-["gr:14221:of the Owl"] = "§aa¢d1806d1805al°d1805ƒam√ah¢d1806√d1805∆",
+["gr:9907:of the Whale"] = "§aa¢d1806d1805alÄam&´ah¢d1806&´d1805\"`",
 ["9420"] = "§aa°d1806alÄam\000fàah°d1806\000fà",
 ["gr:8215:of Intellect"] = "§aa°d1806alÄam√Pah°d1806√P",
 ["gr:9831:of the Owl"] = "§aa¢d1806d1805alÄamîah¢d1806îd1805É",
-["gr:14177:of Fiery Wrath"] = "§aa¢d1806d1805alÄam∏ah¢d1806∏d1805œ",
+["gr:3192:of the Whale"] = "§aa¢d1806d1805al°d1805(amÙah¢d1806Ùd1805I",
 ["gr:14972:of the Bear"] = "§aa°d1806alÄam√Pah°d1806√P",
-["15348"] = "§aa¢d1806	d1805alÄamÕah¢d1806Õd1805Õ",
+["gr:14159:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806	√d1805†am	√",
 ["gr:7409:of Stamina"] = "§aa¢d1806d1805alÄah¢d1806≥d1805Éam≥",
 ["gr:9905:of Frozen Wrath"] = "§aa°d1805alÄamNah°d1805N",
 ["1420"] = "§aa°d1806alÄamaah°d1806a",
-["5266"] = "§aa¢d1806d1805al°d1805\000ø am\000\r?ah¢d1806\000\r?d1805\000\r@",
+["15348"] = "§aa¢d1806	d1805alÄamÕah¢d1806Õd1805Õ",
 ["gr:15330:of Stamina"] = "§aa¢d1806d1805al°d1805gamgah¢d1806gd1805h",
-["gr:14159:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806	√d1805†am	√",
-["gr:15541:of the Bear"] = "§aa¢d1806d1805alÄam∞ah¢d1806∞d1805'\n",
+["gr:15017:of the Bear"] = "§aa¢d1806d1805alÄam)ah¢d1806)d1805)",
+["5266"] = "§aa¢d1806d1805al°d1805\000ø am\000\r?ah¢d1806\000\r?d1805\000\r@",
 ["gr:15323:of Spirit"] = "§aa°d1805alÄamN<ah°d1805N<",
 ["gr:6603:of Spirit"] = "§aa°d1805alÄah°d1805am",
 ["gr:9803:of Stamina"] = "§aa¢d1806d1805alÄam–ah¢d1806–d1805˚",
 ["gr:15918:of the Owl"] = "§aa¢d1806d1805alÄam+Xah¢d1806+Xd1805&¨",
 ["gr:7444:of the Gorilla"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805&¨",
-["14245"] = "§aa¢d1806d1805alÄamÇah¢d1806Çd1805É",
+["gr:789:of the Bear"] = "§aa¢d1806d1805\nalÄam	åah¢d1806	åd1805–",
 ["gr:3198:of the Gorilla"] = "§aa¢d1806d1805al°d1805∂am≥ah¢d1806≥d1805",
 ["gr:7470:of the Wolf"] = "§aa°d1805alÄam»ah°d1805»",
 ["gr:15307:of Agility"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
@@ -10462,8 +10462,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15212:of the Tiger"] = "§aa¢d1806d1805\nalÄam$ah¢d1806$d1805",
 ["5001"] = "§aa¢d1806d1805al°d1805ﬂam,ah¢d1806,d1805M",
 ["gr:3193:of the Whale"] = "§aa¢d1806d1805al°d1805∫am4ah¢d18064d1805/",
+["gr:15249:of the Whale"] = "§aa¢d1806d1805al°d1805„am‡ah¢d1806‡d1805Â",
 ["13010"] = "§aa¢d1806d1805al°d1805\0008|am\0008wah¢d1806\0008wd1805\0008",
-["10276"] = "§aa¢d1806d1805alÄam\000$˜ah¢d1806\000$˜d1805\000$ˆ",
 ["gr:15295:of the Tiger"] = "§aa°d1806alÄam\000ü<ah°d1806\000ü<",
 ["gr:3195:of Stamina"] = "§aa¢d1806d1805alÄam	ƒah¢d1806	ƒd1805T",
 ["gr:9953:of Intellect"] = "§aa°d1805alÄah°d1805I»amI»",
@@ -10475,8 +10475,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["6520"] = "§aa¢d1806d1805al°d1805lamjah¢d1806jd1805ª",
 ["gr:10084:of the Falcon"] = "§aa°d1805alÄah°d1805hLamhL",
 ["gr:3201:of the Wolf"] = "§aa°d1805alÄah°d1805am",
-["7520"] = "§aa¢d1806d1805al°d1805Méam+/ah¢d1806+/d1805Mè",
 ["gr:9801:of the Wolf"] = "§aa¢d1806d1805alÄah¢d1806àd1805‰amà",
+["7520"] = "§aa¢d1806d1805al°d1805Méam+/ah¢d1806+/d1805Mè",
 ["gr:14238:of the Eagle"] = "§aa°d1805al°d1805Uah°d1805W‰amU",
 ["gr:9927:of Power"] = "§aa°d1806alÄamNah°d1806N",
 ["10239"] = "§aa°d1805alÄah°d1805qTamqT",
@@ -10494,7 +10494,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9847:of the Eagle"] = "§aa°d1805alÄah°d1805#Mam#M",
 ["gr:15162:of the Gorilla"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:9954:of Agility"] = "§aa°d1805alÄam\000$≈ah°d1805\000$≈",
-["gr:15536:of the Tiger"] = "§aa°d1805al°d1805<Ôah°d1805<am<Ô",
+["15552"] = "§aa¢d1806d1805\nalÄam'ah¢d1806'd1805L",
 ["gr:14218:of Spirit"] = "§aa°d1805alÄamÀah°d1805À",
 ["gr:15515:of the Whale"] = "§aa¢d1806d1805alÄamah¢d1806d1805û",
 ["gr:1613:of the Boar"] = "§aa°d1806alÄamà∏ah°d1806à∏",
@@ -10507,12 +10507,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:1640:of the Boar"] = "§aa¢d1806d1805alÄam[üah¢d1806[üd1805aÛ",
 ["14505"] = "§aa¢d1806d1805alÄah¢d1806\000LK@d1805\000LK@am\000LK@",
 ["gr:15973:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806\r¨d1805\r¨am\r¨",
-["gr:6542:of Intellect"] = "§aa°d1805alÄamÑah°d1805Ñ",
+["gr:14090:of the Monkey"] = "§aa¢d1806d1805alÄamah¢d1806d1805U",
 ["gr:15503:of Healing"] = "§aa°d1805alÄamæah°d1805æ",
 ["gr:15500:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806˙d1805{am˙",
 ["14608"] = "§aa¢d1806d1805al°d18058am5ah¢d18065d1805}",
 ["gr:15188:of the Bear"] = "§aa°d1806alÄamu0ah°d1806u0",
-["gr:9904:of the Wolf"] = "§aa¢d1806d1805alÄam3Hah¢d18063Hd1805N ",
+["gr:9959:of the Wolf"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:9855:of the Eagle"] = "§aa¢d1806d1805alÄam[ah¢d1806[d1805»",
 ["gr:6577:of the Bear"] = "§aa°d1805alÄah°d1805∑am∑",
 ["gr:10190:of the Eagle"] = "§aa°d1805alÄamú@ah°d1805ú@",
@@ -10521,20 +10521,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10243:of Power"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["gr:9845:of Spirit"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
 ["13091"] = "§aa°d1805al°d1805\000’ah°d1805\000Iam\000’",
-["gr:9860:of Healing"] = "§aa°d1805alÄah°d1805/0am/0",
-["gr:10504:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806\0008~d1805\000^Ûam\0008~",
+["14261"] = "§aa¢d1806d1805alÄam.ah¢d1806.d1805#&",
+["15276"] = "§aa¢d1806d1805alÄam\000–êah¢d1806\000–êd1805\0003",
 ["gr:15144:of Intellect"] = "§aa°d1805alÄah°d1805&¨am&¨",
 ["gr:6578:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806Ùd1805amÙ",
 ["gr:6611:of Fiery Wrath"] = "§aa°d1806alÄamàah°d1806à",
 ["gr:9898:of Strength"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:9875:of Intellect"] = "§aa°d1805al°d1805€ah°d1805‹am€",
-["7415"] = "§aa¢d1806d1805alÄam\n'ah¢d1806\n'd1805∑",
+["gr:6584:of the Monkey"] = "§aa°d1806alÄamI∆ah°d1806I∆",
+["9999"] = "§aa¢d1806d1805al°d1805UamVah¢d1806Vd1805V",
 ["gr:6574:of the Bear"] = "§aa°d1805alÄam\nåah°d1805\nå",
-["1315"] = "§aa°d1805al°d1805\000–èah°d1805\000W.am\000–è",
 ["14983"] = "§aa°d1805alÄah°d1805\000yXam\000yX",
+["14559"] = "§aa¢d1806d1805al°d1805ÁamÙah¢d1806Ùd1805",
 ["gr:14174:of the Owl"] = "§aa°d1805al°d1805Ëah°d1805amË",
 ["gr:10406:of the Owl"] = "§aa¢d1806d1805alÄam)…ah¢d1806)…d1805.{",
-["gr:15191:of the Monkey"] = "§aa°d1805alÄah°d1805÷ÿam÷ÿ",
 ["gr:15393:of the Monkey"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["10184"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805N ",
 ["gr:15933:of the Whale"] = "§aa¢d1806d1805al°d1805Éamah¢d1806d1805Ñ",
@@ -10555,24 +10555,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14261:of Stamina"] = "§aa°d1805alÄah°d1805#&am#&",
 ["gr:7108:of the Gorilla"] = "§aa°d1805alÄah°d1805ËamË",
 ["2101"] = "§aa¢d1806d1805al°d1805ÒamÜah¢d1806Üd1805Û",
-["gr:9842:of the Tiger"] = "§aa¢d1806d1805alÄamVÿah¢d1806Vÿd1805Vÿ",
+["2453"] = "§aa¢d1806πd1805Eal°d1805Éamfah¢d1806fd1805Ø",
 ["gr:14129:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805 amËah¢d1806Ëd1805Ö",
+["gr:11987:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806N d1805u0amN ",
 ["gr:2632:of Strength"] = "§aa¢d1806d1805al°d1805IamFah¢d1806Fd1805L",
-["4067"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805)J",
 ["gr:6582:of the Owl"] = "§aa°d1806alÄam∑ah°d1806∑",
 ["11983"] = "§aa¢d1806d1805alÄam!4ah¢d1806!4d1805'",
 ["gr:9937:of the Eagle"] = "§aa°d1805al°d1805J@ah°d1805MºamJ@",
+["10286"] = "§aa¢d1806ad1805≤alÄamah¢d1806d1805Æ",
 ["gr:3196:of the Wolf"] = "§aa¢d1806d1805al°d18059am8ah¢d18068d1805:",
 ["gr:15517:of Stamina"] = "§aa¢d1806d1805alÄam~ah¢d1806~d1805Å",
-["10286"] = "§aa¢d1806ad1805≤alÄamah¢d1806d1805Æ",
 ["gr:7478:of the Monkey"] = "§aa°d1805alÄah°d1805N amN ",
-["2587"] = "§aa¢d1806d1805alÄah¢d1806Üd1805–amÜ",
+["gr:9922:of the Bear"] = "§aa¢d1806d1805alÄah¢d18062«d18052»am2«",
 ["gr:14255:of Fiery Wrath"] = "§aa°d1805alÄah°d1805'am'",
-["10050"] = "§aa¢d1806fd1805Aal°d1805+ am*ah¢d1806*d1805,",
-["gr:14310:of Frozen Wrath"] = "§aa¢d1806d1805alÄam\000Ûpah¢d1806\000Ûpd1805\000Ûp",
+["gr:6612:of the Owl"] = "§aa°d1805alÄah°d1805pamp",
+["gr:9766:of Fiery Wrath"] = "§aa°d1805alÄah°d1805ŒamŒ",
+["gr:14924:of the Bear"] = "§aa¢d1806d1805alÄam\000pah¢d1806\000pd1805\000%[",
+["gr:15114:of the Falcon"] = "§aa°d1806alÄam4ah°d18064",
 ["gr:6610:of Frozen Wrath"] = "§aa¢d1806d1805alÄam\000\r\"ah¢d1806\000\r\"d1805\"√",
-["gr:15213:of the Tiger"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805'",
-["gr:14208:of Frozen Wrath"] = "§aa¢d1806d1805alÄamb{ah¢d1806b{d1805b{",
 ["11610"] = "§aa¢d1806d1805al°d1805&®am8ah¢d18068d1805&©",
 ["gr:15526:of the Bear"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
 ["gr:14121:of Intellect"] = "§aa°d1805alÄah°d1805\n?am\n?",
@@ -10587,10 +10587,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["16204"] = "§aa¢d1806Íd1805¸al°d1805\"|amLah¢d1806Ld1805\"Å",
 ["gr:10408:of the Boar"] = "§aa°d1806alÄam%≥ah°d1806%≥",
 ["gr:15495:of Strength"] = "§aa°d1805al°d1805	ƒah°d1805\r¨am	ƒ",
-["gr:6575:of Strength"] = "§aa°d1806alÄam	ƒah°d1806	ƒ",
+["gr:10279:of the Bear"] = "§aa°d1806alÄam\000ê@ah°d1806\000ê@",
 ["gr:7439:of Nature's Wrath"] = "§aa°d1805alÄam/®ah°d1805/®",
 ["gr:6546:of the Whale"] = "§aa°d1805alÄah°d1805jamj",
-["gr:9891:of the Whale"] = "§aa°d1805al°d1805Pah°d1805!ñamP",
+["gr:12047:of the Boar"] = "§aa°d1805alÄah°d1805~Ùam~Ù",
 ["6588"] = "§aa¢d1806d1805al°d1805ñam+ah¢d1806+d1805µ",
 ["gr:6585:of Arcane Wrath"] = "§aa¢d1806d1805alÄamËah¢d1806Ëd1805Ë",
 ["12983"] = "§aa¢d1806d1805alÄamõÿah¢d1806õÿd1805Mª",
@@ -10606,8 +10606,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6582:of the Eagle"] = "§aa°d1805alÄah°d1805{am{",
 ["gr:8178:of the Eagle"] = "§aa¢d1806d1805al°d1805,amÙah¢d1806Ùd1805-",
 ["gr:15331:of the Eagle"] = "§aa°d1805alÄah°d1805am",
+["gr:15356:of the Whale"] = "§aa°d1805alÄam\"ƒah°d1805\"ƒ",
 ["gr:2078:of Power"] = "§aa¢d1806d1805alÄah¢d1806˚d1805Œam˚",
-["gr:9902:of the Owl"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:3187:of the Tiger"] = "§aa°d1806alÄam[ah°d1806[",
 ["15160"] = "§aa¢d1806d1805al°d1805%amêiah¢d1806êid1805@t",
 ["10277"] = "§aa¢d1806d1805alÄamRœah¢d1806Rœd1805_≥",
@@ -10616,17 +10616,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9896:of Power"] = "§aa°d1805alÄah°d1805&¨am&¨",
 ["gr:7479:of Stamina"] = "§aa°d1805al°d1805√Oah°d1805\000pam√O",
 ["4037"] = "§aa¢d1806d1805	al°d1805:ñamJah¢d1806Jd1805u0",
-["4392"] = "§aa¢d1806!d1805õalÄamºah¢d1806ºd1805ø",
+["2312"] = "§aa¢d1806d1805	alÄamäah¢d1806äd1805",
 ["gr:9921:of Healing"] = "§aa°d1806alÄamu0ah°d1806u0",
 ["gr:14120:of the Owl"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805Ú",
 ["10203"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805N ",
 ["gr:11998:of the Gorilla"] = "§aa¢d1806d1805al°d1805K∆amK√ah¢d1806K√d1805K»",
 ["gr:15260:of the Boar"] = "§aa°d1805alÄah°d1805;¬am;¬",
 ["8925"] = "§aa¢d18061d1805<al°d1805˘am˜ah¢d1806˜d1805¸",
-["gr:7528:of the Owl"] = "§aa°d1806alÄamV∫ah°d1806V∫",
 ["gr:15222:of Stamina"] = "§aa¢d1806d1805alÄam¡ah¢d1806¡d1805Ò",
+["gr:7528:of the Owl"] = "§aa°d1806alÄamV∫ah°d1806V∫",
 ["gr:7541:of the Gorilla"] = "§aa¢d1806d1805alÄam0“ah¢d18060“d18050“",
-["gr:7409:of Agility"] = "§aa¢d1806d1805alÄah¢d1806'd1805†am'",
+["gr:15975:of Healing"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:6267:of the Eagle"] = "§aa¢d1806d1805al°d1805•amah¢d1806d1805 ",
 ["9752"] = "§aa°d1806alÄam,ah°d1806,",
 ["gr:6604:of the Whale"] = "§aa°d1805alÄah°d1805∏am∏",
@@ -10644,9 +10644,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9942:of Healing"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["gr:9922:of Agility"] = "§aa°d1805alÄah°d1805a®ama®",
 ["gr:15380:of the Monkey"] = "§aa°d1805alÄamN ah°d1805N ",
-["gr:15187:of Nature's Wrath"] = "§aa°d1805alÄamÜƒah°d1805Üƒ",
-["gr:14250:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806#'d1805#'am#'",
-["7192"] = "§aa°d1806alÄam\000Iah°d1806\000I",
+["gr:10209:of the Bear"] = "§aa¢d1806d1805alÄam=∑ah¢d1806=∑d1805.ﬁ",
+["7112"] = "§aa¢d1806d1805alÄah¢d1806&˚d1805&˙am&˚",
+["gr:7474:of Shadow Wrath"] = "§aa°d1806alÄam:òah°d1806:ò",
 ["15231"] = "§aa¢d1806d1805alÄam=ah¢d1806=d1805π",
 ["gr:15186:of the Monkey"] = "§aa°d1805alÄam√Pah°d1805√P",
 ["14569"] = "§aa¢d1806d1805alÄah¢d1806ßd1805ìamß",
@@ -10675,10 +10675,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15231:of Power"] = "§aa°d1805al°d1805*ıah°d1805*ˆam*ı",
 ["gr:12010:of Agility"] = "§aa°d1806alÄamú?ah°d1806ú?",
 ["gr:14180:of the Whale"] = "§aa¢d1806d1805al°d1805Åam}ah¢d1806}d1805Û",
-["gr:15373:of the Bear"] = "§aa¢d1806d1805alÄamb£ah¢d1806b£d1805:è",
+["gr:15014:of Frozen Wrath"] = "§aa¢d1806d1805alÄamHah¢d1806Hd1805O",
 ["14778"] = "§aa¢d1806d1805al°d1805'am2«ah¢d18062«d1805(	",
 ["9937"] = "§aa¢d1806d1805alÄam&¨ah¢d1806&¨d18051",
-["gr:6572:of the Monkey"] = "§aa¢d1806d1805alÄam˝ah¢d1806˝d1805˝",
+["gr:6616:of Healing"] = "§aa¢d1806d1805alÄah¢d1806u.d1805u/amu.",
 ["gr:15304:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806\ræd1805˙am\ræ",
 ["gr:6612:of Frozen Wrath"] = "§aa°d1806alÄam\r´ah°d1806\r´",
 ["gr:7496:of the Boar"] = "§aa°d1805alÄah°d1805D\\amD\\",
@@ -10689,19 +10689,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7460:of the Whale"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805Á",
 ["15974"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
 ["5752"] = "§aa¢d1806d1805al°d1805ìamëºah¢d1806ëºd1805ø",
-["12833"] = "§aa¢d1806d1805alÄam\000_êah¢d1806\000_êd1805\000Ü†",
+["gr:12026:of the Eagle"] = "§aa°d1806alÄam\000Ü|ah°d1806\000Ü|",
 ["7752"] = "§aa¢d1806d1805alÄamÕkah¢d1806Õkd1805‘€",
 ["gr:9875:of the Owl"] = "§aa¢d1806d1805alÄamßah¢d1806ßd1805@",
 ["gr:15516:of the Whale"] = "§aa°d1805alÄah°d1805⁄am⁄",
 ["gr:7529:of the Owl"] = "§aa°d1805alÄam2»ah°d18052»",
 ["9952"] = "§aa¢d1806d1805alÄam0‘ah¢d18060‘d1805D[",
 ["8952"] = "§aa¢d1806Jd1805>alÄah¢d1806d1805Ûam",
+["gr:6605:of the Monkey"] = "§aa¢d1806d1805alÄamàah¢d1806àd1805à",
 ["gr:9833:of Healing"] = "§aa°d1805alÄam!4ah°d1805!4",
-["15386"] = "§aa¢d1806d1805al°d1805hLam.oah¢d1806.od1805u0",
 ["gr:1639:of the Tiger"] = "§aa¢d1806d1805alÄam¬Ïah¢d1806¬Ïd1805È¸",
 ["14962"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:14967:of the Bear"] = "§aa°d1805alÄamu0ah°d1805u0",
-["gr:14217:of the Owl"] = "§aa°d1806alÄamah°d1806",
+["gr:10231:of the Wolf"] = "§aa°d1805alÄamhüah°d1805hü",
 ["11975"] = "§aa¢d1806d1805al°d1805NamNah¢d1806Nd1805N ",
 ["gr:12014:of the Tiger"] = "§aa°d1805alÄah°d1805ú@amú@",
 ["gr:10062:of Healing"] = "§aa°d1805alÄamM–ah°d1805M–",
@@ -10718,14 +10718,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15244:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806D\\d1805YDamD\\",
 ["gr:15971:of Intellect"] = "§aa¢d1806d1805al°d1805ìamêah¢d1806êd1805î",
 ["gr:9798:of the Owl"] = "§aa¢d1806d1805al°d1805=amdah¢d1806dd1805K",
-["gr:9925:of the Owl"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805X",
+["3314"] = "§aa¢d1806d1805al°d1805Qam	_ah¢d1806	_d1805Œ",
 ["6452"] = "§aa¢d1806¢d18055al°d18050am%ah¢d1806%d1805<",
-["4314"] = "§aa¢d1806d18051al°d1805éamÖah¢d1806Öd1805Ú",
+["15171"] = "§aa¢d1806d1805alÄah¢d1806N d1805√PamN ",
 ["gr:12006:of the Falcon"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
-["gr:15117:of the Gorilla"] = "§aa°d1805alÄah°d1805\r‘am\r‘",
-["gr:11969:of Shadow Resistance"] = "§aa¢d1806d1805al°d1805*amŒah¢d1806Œd1805+",
-["gr:7476:of the Owl"] = "§aa¢d1806d1805al°d1805ZamÁah¢d1806Ád1805Á",
+["2681"] = "§aa¢d1806d1805val°d1805amah¢d1806d1805	",
 ["gr:9838:of Strength"] = "§aa¢d1806d1805alÄamoah¢d1806od1805X",
+["gr:7476:of the Owl"] = "§aa¢d1806d1805al°d1805ZamÁah¢d1806Ád1805Á",
+["12029"] = "§aa¢d1806d1805al°d1805,ÏamNah¢d1806Nd1805:ï",
 ["gr:15151:of the Owl"] = "§aa¢d1806d1805al°d1805#'amdah¢d1806dd1805'",
 ["gr:15310:of the Tiger"] = "§aa¢d1806d1805alÄam\rah¢d1806\rd1805\r",
 ["gr:9920:of Defense"] = "§aa°d1805alÄamah°d1805",
@@ -10780,12 +10780,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15216:of the Bear"] = "§aa°d1805al°d1805âah°d1805ú?amâ",
 ["15282"] = "§aa¢d1806d1805alÄah¢d1806\000[`d1805\000am\000[`",
 ["15294"] = "§aa¢d1806	d1805alÄam∞˜ah¢d1806∞˜d1805\000Ü†",
-["gr:4564:of Strength"] = "§aa¢d1806d1805\nal°d18057am ah¢d1806 d1805ó",
-["6458"] = "§aa¢d1806d1805al°d1805damºah¢d1806ºd1805",
+["gr:10067:of the Whale"] = "§aa¢d1806d1805alÄamJËah¢d1806JËd1805JË",
+["gr:15577:of Power"] = "§aa°d1805alÄam'ah°d1805'",
 ["3652"] = "§aa¢d1806	d1805al°d1805\"amah¢d1806d1805’",
 ["gr:15528:of the Boar"] = "§aa¢d1806d1805al°d1805œam–ah¢d1806–d1805–",
 ["gr:10216:of the Eagle"] = "§aa°d1806alÄamu¯ah°d1806u¯",
-["gr:6569:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806'Rd1805u0am'R",
+["gr:15351:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805	ƒ",
 ["2324"] = "§aa¢d1806!d18057al°d1805Kam\\ah¢d1806\\d1805^",
 ["3201"] = "§aa¢d1806\rd1805alÄamcah¢d1806cd1805",
 ["gr:12002:of the Boar"] = "§aa¢d1806d1805alÄam>Äah¢d1806>Äd1805Mº",
@@ -10796,10 +10796,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14444"] = "§aa°d1805al°d1805N ah°d1805~amN ",
 ["gr:7492:of the Bear"] = "§aa¢d1806d1805alÄambah¢d1806bd18057",
 ["gr:15210:of Strength"] = "§aa¢d1806d1805al°d1805=am‹ah¢d1806‹d1805Ω",
-["gr:9906:of the Owl"] = "§aa¢d1806d1805alÄam\"¡ah¢d1806\"¡d1805'j",
+["gr:6560:of the Tiger"] = "§aa°d1806alÄam–ah°d1806–",
 ["gr:9802:of Stamina"] = "§aa¢d1806d1805alÄamîah¢d1806îd1805î",
 ["15153"] = "§aa¢d1806d1805alÄamàah¢d1806àd1805#",
-["14850"] = "§aa°d1805alÄah°d1805^üam^ü",
+["gr:15654:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806I2d1805I2amI2",
 ["3857"] = "§aa¢d1806Pd1805QalÄamÇah¢d1806Çd1805¡",
 ["12019"] = "§aa¢d1806d1805\nalÄamNah¢d1806Nd1805Lè",
 ["gr:4564:of Power"] = "§aa¢d1806d1805al°d1805ÄamËah¢d1806Ëd1805Ç",
@@ -10807,10 +10807,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10089:of the Boar"] = "§aa°d1805alÄam1ah°d18051",
 ["gr:14127:of Arcane Wrath"] = "§aa°d1806alÄam/ah°d1806/",
 ["15566"] = "§aa¢d1806d1805al°d1805\nŸam%ah¢d1806%d1805G",
-["6591"] = "§aa¢d1806d1805al°d1805øampah¢d1806pd1805¿",
+["gr:14160:of the Owl"] = "§aa¢d1806d1805alÄamÿah¢d1806ÿd1805⁄",
 ["gr:15615:of the Falcon"] = "§aa°d1805alÄah°d1805u/amu/",
 ["gr:7410:of Healing"] = "§aa°d1806alÄamah°d1806",
-["gr:14177:of the Whale"] = "§aa°d1805alÄamûah°d1805û",
+["gr:12031:of the Gorilla"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805#(",
 ["14282"] = "§aa¢d1806d1805al°d1805'am\"∏ah¢d1806\"∏d1805N ",
 ["4352"] = "§aa¢d1806d1805alÄamπah¢d1806πd1805Ù",
 ["gr:9783:of the Eagle"] = "§aa°d1805al°d1805∞ah°d1805œam∞",
@@ -10821,7 +10821,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7422:of the Monkey"] = "§aa°d1805al°d1805'ßah°d1805+,am'ß",
 ["7052"] = "§aa¢d1806d1805al°d1805'amèah¢d1806èd1805+a",
 ["gr:9292:of Stamina"] = "§aa°d1805alÄah°d1805NamN",
-["16055"] = "§aa°d1806alÄam\000]pah°d1806\000]p",
+["10002"] = "§aa¢d1806d1805al°d1805uamuah¢d1806ud1805u",
 ["14595"] = "§aa¢d1806d1805alÄamMgah¢d1806Mgd1805L,",
 ["gr:12006:of Eluding"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:14164:of Intellect"] = "§aa°d1806alÄam–ah°d1806–",
@@ -10832,9 +10832,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:11994:of Regeneration"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:6612:of the Eagle"] = "§aa°d1805al°d1805DYah°d1805DZamDY",
 ["12365"] = "§aa¢d1806vd1805…alÄamÔah¢d1806Ôd1805Ë",
-["gr:7330:of the Monkey"] = "§aa¢d1806d1805alÄam-¯ah¢d1806-¯d1805p",
-["gr:9780:of Defense"] = "§aa°d1805alÄam∞ah°d1805∞",
 ["gr:15113:of the Monkey"] = "§aa¢d1806d1805al°d1805\nÔam	ƒah¢d1806	ƒd1805\r´",
+["gr:9780:of Defense"] = "§aa°d1805alÄam∞ah°d1805∞",
+["gr:7330:of the Monkey"] = "§aa¢d1806d1805alÄam-¯ah¢d1806-¯d1805p",
 ["gr:10073:of Defense"] = "§aa°d1805alÄah°d1805u0amu0",
 ["gr:866:of the Wolf"] = "§aa¢d1806d1805alÄamu.ah¢d1806u.d1805u0",
 ["10104"] = "§aa¢d1806d1805al°d1805\000Ü6am\000Ü8ah¢d1806\000Ü8d1805\000Ü7",
@@ -10875,7 +10875,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15133:of Shadow Wrath"] = "§aa°d1805alÄam|ah°d1805|",
 ["4087"] = "§aa¢d1806d1805al°d1805Rgam@◊ah¢d1806@◊d1805U",
 ["gr:7419:of Stamina"] = "§aa°d1805alÄah°d1805\nÍam\nÍ",
-["gr:1207:of Shadow Wrath"] = "§aa°d1805alÄah°d18050pam0p",
+["gr:7470:of Shadow Wrath"] = "§aa°d1805alÄah°d1805u/amu/",
 ["6552"] = "§aa¢d1806d1805\ralÄamœah¢d1806œd1805û",
 ["7110"] = "§aa¢d1806d1805al°d1805∏am∂ah¢d1806∂d1805√",
 ["8110"] = "§aa¢d1806d1805al°d1805F=amF8ah¢d1806F8d1805FA",
@@ -10887,26 +10887,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14323"] = "§aa°d1805alÄam\000E@ah°d1805\000E@",
 ["8223"] = "§aa¢d1806d1805al°d1805\000:tam\000øah¢d1806\000ød1805\000zÑ",
 ["gr:15245:of Arcane Wrath"] = "§aa°d1805alÄah°d1805ú:amú:",
-["4242"] = "§aa¢d1806\rd18053alÄamåah¢d1806åd1805¥",
 ["gr:9769:of the Falcon"] = "§aa¢d1806d1805alÄam≤ah¢d1806≤d1805∑",
+["4242"] = "§aa¢d1806\rd18053alÄamåah¢d1806åd1805¥",
 ["gr:15550:of the Monkey"] = "§aa°d1806alÄamIpah°d1806Ip",
 ["13444"] = "§aa¢d1806d1805Cal°d1805#(am$Pah¢d1806$Pd1805'\r",
 ["gr:15244:of the Tiger"] = "§aa¢d1806d1805alÄama˙ah¢d1806a˙d1805gŸ",
 ["gr:15384:of the Monkey"] = "§aa°d1805alÄamu0ah°d1805u0",
 ["gr:9954:of the Monkey"] = "§aa¢d1806d1805al°d1805u/am√Pah¢d1806√Pd1805√P",
-["gr:9858:of Agility"] = "§aa°d1805alÄah°d1805!3am!3",
+["gr:9832:of the Tiger"] = "§aa°d1806alÄam/®ah°d1806/®",
 ["7974"] = "§aa¢d1806«d1805Val°d1805Kam5ah¢d18065d1805_",
 ["gr:15544:of the Bear"] = "§aa°d1805alÄam@ah°d1805@",
 ["gr:7488:of Intellect"] = "§aa°d1805alÄam6Lah°d18056L",
 ["gr:14195:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806'd1805	`am'",
-["2276"] = "§aa¢d1806d1805alÄah¢d1806\000Td1805\000]xam\000T",
-["gr:15229:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806\000\r!d1805\000\r!am\000\r!",
+["gr:15260:of the Bear"] = "§aa¢d1806d1805al°d1805<ãam<ãah¢d1806<ãd1805>~",
+["gr:9864:of Defense"] = "§aa¢d1806d1805alÄampah¢d1806pd1805è",
 ["2581"] = "§aa¢d1806≠d1805ral°d1805amah¢d1806d1805",
 ["7450"] = "§aa¢d1806d1805al°d1805ÕamZah¢d1806Zd1805",
 ["gr:15011:of Intellect"] = "§aa°d1805alÄamqah°d1805q",
 ["gr:14185:of the Whale"] = "§aa¢d1806d1805alÄamÅah¢d1806Åd1805Ç",
 ["6450"] = "§aa¢d1806d1805åalÄam“ah¢d1806“d1805Õ",
-["gr:14158:of Spirit"] = "§aa°d1806alÄam≤ah°d1806≤",
+["gr:6540:of the Eagle"] = "§aa°d1805al°d1805<ah°d18054am<",
 ["gr:7440:of the Owl"] = "§aa°d1805alÄam!¸ah°d1805!¸",
 ["gr:14179:of Shadow Wrath"] = "§aa¢d1806d1805al°d1805/;am,Ïah¢d1806,Ïd1805/<",
 ["gr:14946:of the Gorilla"] = "§aa°d1805alÄah°d1805'am'",
@@ -10917,7 +10917,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:6562:of Stamina"] = "§aa°d1805alÄam	ºah°d1805	º",
 ["gr:4571:of Strength"] = "§aa¢d1806d1805al°d1805€am;ah¢d1806;d1805>",
 ["gr:14161:of Arcane Wrath"] = "§aa¢d1806d1805al°d1805WamÙah¢d1806Ùd1805Ù",
-["gr:7446:of Stamina"] = "§aa°d1805alÄam∆ah°d1805∆",
+["gr:12007:of the Wolf"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805N ",
 ["2883"] = "§aa¢d1806d1805\ral°d1805ÙamÓah¢d1806Ód1805S",
 ["gr:9864:of the Eagle"] = "§aa°d1805alÄah°d1805hamh",
 ["gr:9756:of the Gorilla"] = "§aa°d1805alÄah°d1805ÁamÁ",
@@ -10944,7 +10944,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["2035"] = "§aa°d1806alÄam	ah°d1806	",
 ["gr:7523:of the Whale"] = "§aa°d1806alÄam:òah°d1806:ò",
 ["16214"] = "§aa°d1805alÄam\000p¸ah°d1805\000p¸",
-["gr:10180:of Healing"] = "§aa¢d1806d1805alÄamMªah¢d1806Mªd1805ˇ≈",
+["4422"] = "§aa¢d1806d1805\ral°d1805pam~ah¢d1806~d1805y",
 ["gr:9861:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806´d1805‹am´",
 ["14745"] = "§aa¢d1806d1805alÄam‰ah¢d1806‰d1805r",
 ["gr:15338:of Defense"] = "§aa°d1805alÄam∏ah°d1805∏",
@@ -10969,10 +10969,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15503:of the Gorilla"] = "§aa¢d1806d1805alÄam√ah¢d1806√d1805	æ",
 ["gr:9833:of the Monkey"] = "§aa¢d1806d1805alÄam.‹ah¢d1806.‹d18052»",
 ["gr:14291:of Healing"] = "§aa°d1805alÄah°d1805\000am\000",
-["gr:14952:of the Monkey"] = "§aa°d1805alÄam@\\ah°d1805@\\",
+["2744"] = "§aa¢d1806	d1805alÄamÖah¢d1806Öd1805ã",
 ["gr:9801:of the Whale"] = "§aa¢d1806d1805al°d1805qamÒah¢d1806Òd1805–",
+["gr:15493:of Strength"] = "§aa¢d1806d1805al°d1805˛am”ah¢d1806”d1805",
 ["gr:6587:of the Falcon"] = "§aa¢d1806d1805al°d1805amÁah¢d1806Ád1805d",
-["gr:9767:of the Whale"] = "§aa¢d1806d1805alÄamaah¢d1806ad1805a",
 ["gr:9834:of the Eagle"] = "§aa¢d1806d1805alÄam$Sah¢d1806$Sd1805$¨",
 ["gr:14232:of the Whale"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:7474:of the Eagle"] = "§aa°d1805alÄam‹ah°d1805‹",
@@ -10982,7 +10982,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["13931"] = "§aa¢d1806Ãd1805walÄamxah¢d1806xd1805¬",
 ["9961"] = "§aa°d1806alÄamLVah°d1806LV",
 ["gr:14131:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805ò",
-["gr:6540:of the Owl"] = "§aa°d1805alÄamÓah°d1805Ó",
+["15364"] = "§aa¢d1806d1805alÄampah¢d1806pd1805î",
 ["gr:14186:of the Wolf"] = "§aa¢d1806d1805alÄah¢d1806d1805am",
 ["gr:10289:of the Wolf"] = "§aa°d1805alÄah°d1805u0amu0",
 ["6446"] = "§aa°d1806alÄam2«ah°d18062«",
@@ -10990,7 +10990,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15534:of the Boar"] = "§aa¢d1806d1805alÄamÖah¢d1806Öd1805Ö",
 ["gr:9819:of Arcane Wrath"] = "§aa¢d1806d1805alÄah¢d1806#d1805$am#",
 ["gr:14200:of the Owl"] = "§aa¢d1806d1805al°d1805pam›ah¢d1806›d1805#(",
-["gr:9951:of the Monkey"] = "§aa¢d1806d1805al°d1805@◊am√Pah¢d1806√Pd1805@ÿ",
+["gr:4089:of the Whale"] = "§aa°d1805alÄah°d1805√Iam√I",
 ["gr:15263:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806≈pd1805∑yam≈p",
 ["gr:14117:of the Whale"] = "§aa¢d1806d1805alÄamËah¢d1806Ëd1805∑",
 ["6391"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
@@ -11011,7 +11011,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["15642"] = "§aa¢d1806d1805alÄah¢d1806öØd1805ú@amöØ",
 ["11407"] = "§aa¢d1806d1805^al°d1805åam~ah¢d1806~d1805ì",
 ["gr:9838:of the Monkey"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805N",
-["gr:12001:of Strength"] = "§aa°d1805alÄamNah°d1805N",
+["13491"] = "§aa¢d1806d1805al°d1805'jam\"∑ah¢d1806\"∑d18050π",
 ["gr:7470:of the Owl"] = "§aa¢d1806d1805alÄam&˚ah¢d1806&˚d1805VŒ",
 ["gr:15016:of the Gorilla"] = "§aa¢d1806d1805alÄamwah¢d1806wd1805w",
 ["gr:15542:of the Gorilla"] = "§aa¢d1806d1805alÄamXah¢d1806Xd1805X",
@@ -11062,7 +11062,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14294"] = "§aa¢d1806d1805al°d1805Jam:òah¢d1806:òd1805a®",
 ["gr:3198:of Stamina"] = "§aa¢d1806d1805alÄam˚ah¢d1806˚d1805¸",
 ["2865"] = "§aa¢d1806d1805al°d1805Ìamœah¢d1806œd1805Ÿ",
-["14477"] = "§aa°d1805alÄah°d1805√Pam√P",
+["gr:10210:of Frozen Wrath"] = "§aa°d1806alÄam\000W0ah°d1806\000W0",
 ["gr:14223:of the Eagle"] = "§aa¢d1806d1805alÄam0”ah¢d18060”d1805X",
 ["9950"] = "§aa¢d1806d1805alÄamT[ah¢d1806T[d1805u0",
 ["8950"] = "§aa¢d1806d1805alÄah¢d1806éd1805Ùamé",
@@ -11073,9 +11073,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["12028"] = "§aa¢d1806d1805al°d18050‘amD∏ah¢d1806D∏d1805@ÿ",
 ["2780"] = "§aa°d1805alÄah°d1805ÙamÙ",
 ["gr:15362:of the Monkey"] = "§aa¢d1806d1805alÄamWah¢d1806Wd1805tÃ",
-["gr:7489:of the Wolf"] = "§aa°d1806alÄamàah°d1806à",
+["gr:14962:of Power"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:7108:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806åd1805Ùamå",
-["15259"] = "§aa¢d1806d1805.alÄam_ah¢d1806_d1805\\",
+["gr:15009:of Power"] = "§aa¢d1806d1805alÄah¢d1806≈d1805≈am≈",
 ["gr:7482:of the Boar"] = "§aa°d1805alÄam.‡ah°d1805.‡",
 ["gr:15590:of the Whale"] = "§aa°d1805alÄam{ah°d1805{",
 ["10080"] = "§aa¢d1806d1805alÄam[ah¢d1806[d1805u0",
@@ -11089,7 +11089,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["13085"] = "§aa¢d1806d1805alÄah¢d1806\000d1805\000°am\000",
 ["gr:7414:of the Owl"] = "§aa°d1805al°d1805øah°d1805áamø",
 ["gr:7554:of the Whale"] = "§aa¢d1806d1805al°d1805amœah¢d1806œd1805",
-["gr:14291:of the Whale"] = "§aa°d1806alÄam2»ah°d18062»",
+["gr:14258:of the Owl"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805|",
 ["gr:15295:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806ı¥d1805ı¥amı¥",
 ["6561"] = "§aa¢d1806d1805al°d1805+am∞ah¢d1806∞d1805-",
 ["9810"] = "§aa¢d1806d1805\nalÄam¸ah¢d1806¸d1805	ø",
@@ -11121,10 +11121,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7412:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806d1805}am",
 ["5972"] = "§aa¢d1806d1805al°d1805	ëam	]ah¢d1806	]d1805	í",
 ["gr:15520:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806òd1805˛amò",
-["9846"] = "§aa¢d1806d1805al°d1805\n#am˚ah¢d1806˚d1805",
+["5965"] = "§aa°d1805alÄam!4ah°d1805!4",
 ["gr:14091:of Shadow Wrath"] = "§aa°d1805alÄah°d1805LamL",
 ["7965"] = "§aa¢d1806?d1805#al°d1805àamÇah¢d1806Çd1805ä",
-["5965"] = "§aa°d1805alÄam!4ah°d1805!4",
+["9846"] = "§aa¢d1806d1805al°d1805\n#am˚ah¢d1806˚d1805",
 ["gr:15324:of the Eagle"] = "§aa°d1805alÄam\000£Ïah°d1805\000£Ï",
 ["1730"] = "§aa¢d1806d1805al°d1805¥am≤ah¢d1806≤d1805Ê",
 ["8069"] = "§aa¢d1806\n(d1805@alÄamah¢d1806d1805",
@@ -11136,12 +11136,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9806:of the Owl"] = "§aa°d1805alÄah°d18053am3",
 ["gr:14974:of Strength"] = "§aa°d1805alÄam]¿ah°d1805]¿",
 ["15478"] = "§aa¢d1806d1805alÄah¢d1806Wd1805‘amW",
-["814"] = "§aa¢d1806:d1805Äal°d1805.amah¢d1806d1805K",
+["gr:15593:of the Tiger"] = "§aa°d1806alÄamNah°d1806N",
 ["gr:7441:of Intellect"] = "§aa¢d1806d1805alÄah¢d1806UÔd1805XEamUÔ",
 ["gr:9903:of the Monkey"] = "§aa°d1805al°d1805EÜah°d1805NamEÜ",
 ["gr:15254:of the Wolf"] = "§aa°d1806alÄamÊxah°d1806Êx",
 ["7475"] = "§aa¢d1806d1805alÄamzah¢d1806zd1805z",
-["6475"] = "§aa¢d1806d1805al°d1805améah¢d1806éd1805",
+["14755"] = "§aa¢d1806d1805alÄam∂ah¢d1806∂d1805ë",
 ["gr:15491:of Healing"] = "§aa¢d1806d1805alÄamËah¢d1806Ëd1805Ë",
 ["gr:15014:of the Owl"] = "§aa¢d1806d1805al°d1805∑am±ah¢d1806±d1805π",
 ["gr:10082:of the Whale"] = "§aa¢d1806d1805alÄam[ah¢d1806[d1805[",
@@ -11163,7 +11163,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14627"] = "§aa¢d1806d1805alÄah¢d1806∏d1805∏am∏",
 ["gr:6542:of Healing"] = "§aa°d1805alÄam	ah°d1805	",
 ["774"] = "§aa¢d1806£d1805£alÄamah¢d1806d1805",
-["gr:9794:of the Eagle"] = "§aa°d1805alÄah°d1805&Gam&G",
+["gr:9792:of the Owl"] = "§aa¢d1806d1805al°d1805ûam\nåah¢d1806\nåd1805p",
 ["13459"] = "§aa¢d1806d1805alÄamNah¢d1806Nd1805a®",
 ["gr:9948:of the Owl"] = "§aa°d1805alÄam8@ah°d18058@",
 ["gr:9916:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806Æd1805!3amÆ",
@@ -11172,7 +11172,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15233:of the Boar"] = "§aa¢d1806d1805alÄah¢d1806Mªd1805MºamMª",
 ["gr:14905:of the Monkey"] = "§aa°d1805alÄah°d1805eame",
 ["15226"] = "§aa¢d1806\rd1805al°d1805\"√am$≥ah¢d1806$≥d1805\"ƒ",
-["gr:7330:of the Bear"] = "§aa°d1806alÄamcah°d1806c",
+["gr:6611:of Healing"] = "§aa¢d1806d1805alÄam†ah¢d1806†d1805F",
 ["9775"] = "§aa¢d1806d1805alÄam|ah¢d1806|d1805œ",
 ["15755"] = "§aa°d1805alÄah°d1805√Pam√P",
 ["gr:14276:of Fiery Wrath"] = "§aa°d1805alÄam*Eah°d1805*E",
@@ -11205,7 +11205,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14226"] = "§aa¢d1806d1805alÄam>ah¢d1806>d1805'\r",
 ["gr:7488:of the Wolf"] = "§aa°d1805alÄamFPah°d1805FP",
 ["6275"] = "§aa¢d1806d1805al°d1805	^amŒah¢d1806Œd1805	_",
-["15263"] = "§aa¢d1806d1805al°d1805†óamç÷ah¢d1806ç÷d1805\000p",
+["gr:14180:of Stamina"] = "§aa°d1805alÄamıah°d1805ı",
 ["gr:9932:of the Eagle"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15118:of the Eagle"] = "§aa°d1805al°d1805üah°d1805†amü",
 ["5635"] = "§aa¢d1806Dd1805+al°d1805,amªah¢d1806ªd1805.",
@@ -11216,7 +11216,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["2635"] = "§aa¢d1806d1805alÄam^ah¢d1806^d1805^",
 ["13065"] = "§aa¢d1806d1805alÄah¢d1806\000lÃd1805\000ì›am\000lÃ",
 ["gr:7356:of Healing"] = "§aa¢d1806d1805alÄah¢d1806ìd1805|amì",
-["gr:7422:of the Bear"] = "§aa¢d1806d1805al°d1805\ramÙah¢d1806Ùd1805Ü",
+["gr:15312:of Spirit"] = "§aa¢d1806d1805al°d1805Aam@ah¢d1806@d1805B",
 ["6395"] = "§aa¢d1806d1805\ral°d1805dam[ah¢d1806[d1805À",
 ["14967"] = "§aa°d1805alÄamN ah°d1805N ",
 ["gr:7471:of the Owl"] = "§aa¢d1806d1805alÄamÒah¢d1806Òd1805'u",
@@ -11226,30 +11226,30 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:727:of Stamina"] = "§aa¢d1806d1805	alÄamπah¢d1806πd1805",
 ["4319"] = "§aa¢d1806	d1805	al°d1805»amƒah¢d1806ƒd1805Œ",
 ["gr:9777:of Spirit"] = "§aa¢d1806d1805alÄamah¢d1806d1805◊",
-["2163"] = "§aa¢d1806d1805alÄam\000\\ah¢d1806\000\\d1805\000\\",
+["15574"] = "§aa°d1805alÄam&¨ah°d1805&¨",
 ["gr:9873:of Blocking"] = "§aa°d1805alÄah°d1805‹am‹",
 ["gr:8194:of the Tiger"] = "§aa¢d1806d1805alÄah¢d1806>€d1805>€am>€",
 ["15610"] = "§aa¢d1806d1805alÄah¢d1806N d1805N amN ",
-["gr:14195:of the Owl"] = "§aa°d1805alÄah°d1805#am#",
+["4237"] = "§aa¢d1806	d1805al°d1805*am)ah¢d1806)d1805Ú",
 ["14241"] = "§aa°d1805al°d1805#(ah°d1805N am#(",
 ["gr:9916:of the Monkey"] = "§aa°d1805al°d1805:òah°d1805tÃam:ò",
 ["5488"] = "§aa¢d1806d1805al°d1805Ham/ah¢d1806/d1805™",
 ["10168"] = "§aa°d1805alÄamÍ`ah°d1805Í`",
 ["15606"] = "§aa¢d1806d1805al°d1805:3am.‡ah¢d1806.‡d1805:4",
 ["gr:14905:of Strength"] = "§aa¢d1806d1805alÄamLèah¢d1806Lèd1805Lè",
-["gr:6587:of the Bear"] = "§aa°d1805alÄah°d1805&0am&0",
-["15351"] = "§aa¢d1806d1805al°d1805 am>ah¢d1806>d1805	ƒ",
+["2892"] = "§aa°d1805alÄam‹ah°d1805‹",
+["gr:9812:of Defense"] = "§aa¢d1806d1805al°d1805¢amah¢d1806d1805£",
 ["gr:14117:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806d1805$am",
 ["gr:14269:of Frozen Wrath"] = "§aa°d1806alÄam\0008Äah°d1806\0008Ä",
 ["gr:7420:of the Eagle"] = "§aa°d1805alÄam†ah°d1805†",
-["gr:10225:of the Monkey"] = "§aa¢d1806d1805al°d1805√Oam\000_,ah¢d1806\000_,d1805√P",
+["17056"] = "§aa¢d1806ºd1805Éal°d1805\ramah¢d1806d1805",
 ["gr:8196:of the Bear"] = "§aa¢d1806d1805alÄamMWah¢d1806MWd1805N",
 ["6889"] = "§aa¢d1806d1805/alÄamºah¢d1806ºd1805k",
 ["15510"] = "§aa¢d1806d1805 al°d18055am‚ah¢d1806‚d1805Á",
 ["1766"] = "§aa¢d1806d1805alÄah¢d1806Éd1805ÜamÉ",
 ["gr:9802:of the Monkey"] = "§aa°d1806alÄam'ah°d1806'",
 ["2889"] = "§aa°d1805alÄamlah°d1805l",
-["3575"] = "§aa¢d1806èd1805al°d1805éamwah¢d1806wd1805®",
+["gr:15391:of the Owl"] = "§aa°d1806alÄamú@ah°d1806ú@",
 ["4575"] = "§aa¢d1806%d1805@al°d1805–am\n&ah¢d1806\n&d1805\r",
 ["5575"] = "§aa¢d1806d1805\nalÄam!˚ah¢d1806!˚d1805\"\\",
 ["10290"] = "§aa°d1806alÄam	Gah°d1806	G",
@@ -11265,7 +11265,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["8348"] = "§aa°d1806alÄam\000IÔah°d1806\000IÔ",
 ["gr:14187:of the Eagle"] = "§aa¢d1806d1805al°d1805'am'ah¢d1806'd1805æ†",
 ["15627"] = "§aa°d1805alÄamØ»ah°d1805Ø»",
-["16737"] = "§aa°d1806alÄam\000ºPah°d1806\000ºP",
+["gr:6565:of the Whale"] = "§aa¢d1806d1805al°d1805∑amcah¢d1806cd1805\r¨",
 ["gr:15160:of Nature's Wrath"] = "§aa°d1806alÄamêiah°d1806êi",
 ["gr:7487:of Agility"] = "§aa°d1805al°d1805Nah°d1805u-amN",
 ["4075"] = "§aa¢d1806d1805al°d1805‰am‹ah¢d1806‹d1805Ê",
@@ -11309,7 +11309,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:10128:of Strength"] = "§aa¢d1806d1805alÄamÔÿah¢d1806Ôÿd1805Ôÿ",
 ["gr:2077:of Frozen Wrath"] = "§aa¢d1806d1805alÄam8lah¢d18068ld1805'q",
 ["14166"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d1805‹",
-["gr:15018:of Agility"] = "§aa¢d1806d1805al°d1805<am\r¨ah¢d1806\r¨d1805Ö",
+["13055"] = "§aa¢d1806d1805al°d1805\000kam\000Û˛ah¢d1806\000Û˛d1805\000l",
 ["2219"] = "§aa¢d1806d1805al°d1805‰amÂah¢d1806Âd1805Á",
 ["gr:14202:of Frozen Wrath"] = "§aa°d1806alÄamu0ah°d1806u0",
 ["9375"] = "§aa¢d1806d1805alÄah¢d1806\000„√d1805\000\"Uam\000„√",
@@ -11329,7 +11329,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["15007"] = "§aa¢d1806d1805alÄah¢d1806ad1805cama",
 ["10161"] = "§aa¢d1806d1805alÄam√Oah¢d1806√Od1805Í_",
 ["6573"] = "§aa¢d1806d1805\nal°d1805œam–ah¢d1806–d1805–",
-["gr:9827:of the Falcon"] = "§aa°d1805alÄam∏ah°d1805∏",
+["gr:1625:of the Monkey"] = "§aa°d1805alÄamÖah°d1805Ö",
 ["gr:9845:of Stamina"] = "§aa¢d1806d1805alÄamÎah¢d1806Îd1805û",
 ["gr:15236:of the Monkey"] = "§aa°d1806alÄamÒhah°d1806Òh",
 ["gr:7519:of the Monkey"] = "§aa°d1805alÄam√Pah°d1805√P",
@@ -11337,7 +11337,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["14108"] = "§aa¢d1806d1805al°d1805ú5amu%ah¢d1806u%d1805ú7",
 ["gr:9837:of Power"] = "§aa°d1805al°d1805ñah°d1805óamñ",
 ["gr:15594:of the Bear"] = "§aa¢d1806d1805al°d1805N amN ah¢d1806N d1805Rk",
-["gr:10194:of the Whale"] = "§aa°d1805alÄamN ah°d1805N ",
+["15611"] = "§aa¢d1806d1805alÄam&´ah¢d1806&´d1805*¯",
 ["gr:15337:of Stamina"] = "§aa°d1805alÄam\r¨ah°d1805\r¨",
 ["gr:14133:of the Eagle"] = "§aa¢d1806d1805alÄam!ìah¢d1806!ìd1805a",
 ["6521"] = "§aa°d1806alÄamMah°d1806M",
@@ -11363,7 +11363,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["10241"] = "§aa¢d1806d1805al°d1805VRamVSah¢d1806VSd1805u,",
 ["9305"] = "§aa¢d1806d1805al°d18059iam9hah¢d18069hd1805N",
 ["gr:7528:of the Monkey"] = "§aa¢d1806d1805alÄah¢d1806æWd1805\000œ»amæW",
-["gr:14174:of Spirit"] = "§aa¢d1806d1805al°d1805'amËah¢d1806Ëd1805\000I",
+["864"] = "§aa¢d1806d1805al°d1805/úam-\rah¢d1806-\rd18053",
 ["gr:15504:of Strength"] = "§aa¢d1806d1805alÄah¢d1806‘d1805∫am‘",
 ["gr:1640:of Stamina"] = "§aa°d1805alÄamoTah°d1805oT",
 ["gr:6577:of the Whale"] = "§aa°d1806alÄam§ah°d1806§",
@@ -11375,7 +11375,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7485:of the Eagle"] = "§aa¢d1806d1805al°d1805?am>ah¢d1806>d1805'",
 ["2489"] = "§aa¢d1806d1805alÄam\rﬁah¢d1806\rﬁd1805Ú",
 ["14756"] = "§aa¢d1806d1805al°d1805Ωamπah¢d1806πd1805¿",
-["13461"] = "§aa°d1805alÄah°d1805√Pam√P",
+["gr:14184:of the Owl"] = "§aa°d1805al°d1805'ah°d1805+gam'",
 ["7489"] = "§aa¢d1806d1805alÄamàah¢d1806àd1805&›",
 ["8175"] = "§aa¢d1806d1805al°d1805ÊamHah¢d1806Hd1805%",
 ["5489"] = "§aa¢d1806d1805alÄam'1ah¢d1806'1d1805'0",
@@ -11438,7 +11438,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15237:of the Wolf"] = "§aa°d1805alÄam\000pah°d1805\000p",
 ["9949"] = "§aa°d1805alÄamuêah°d1805uê",
 ["gr:9753:of the Tiger"] = "§aa°d1806alÄam>ah°d1806>",
-["gr:15308:of the Falcon"] = "§aa°d1805alÄam8ah°d18058",
+["12987"] = "§aa¢d1806d1805al°d1805Íƒam√Pah¢d1806√Pd1805\0008Ä",
 ["2289"] = "§aa¢d1806d1805al°d1805zamtah¢d1806td1805Ç",
 ["2011"] = "§aa¢d1806d1805al°d18052«am.›ah¢d1806.›d18052»",
 ["3011"] = "§aa¢d1806d1805al°d1805)Hamoah¢d1806od18050–",
@@ -11449,10 +11449,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15355:of Defense"] = "§aa°d1805alÄamKah°d1805K",
 ["gr:15427:of Agility"] = "§aa¢d1806d1805alÄah¢d1806ú@d1805ú@amú@",
 ["6598"] = "§aa¢d1806d1805	alÄam‰ah¢d1806‰d1805Ä",
-["gr:7108:of Stamina"] = "§aa°d1806alÄam1ah°d18061",
-["14973"] = "§aa°d1805alÄam\0008Äah°d1805\0008Ä",
+["2244"] = "§aa°d1805alÄah°d1805\000c.†am\000c.†",
+["gr:15134:of the Whale"] = "§aa°d1805alÄamHDah°d1805HD",
 ["15125"] = "§aa¢d1806d1805al°d1805‹am	√ah¢d1806	√d1805»",
-["8128"] = "§aa°d1805alÄam4Kah°d18054K",
+["gr:14184:of Arcane Wrath"] = "§aa°d1805al°d1805	√ah°d1805àam	√",
 ["8133"] = "§aa¢d1806d1805alÄah¢d1806L,d1805S˚amL,",
 ["gr:14945:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806N d1805N amN ",
 ["gr:9781:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806;d1805\n&am;",
@@ -11469,8 +11469,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["7494"] = "§aa¢d1806d1805alÄam€ah¢d1806€d1805X",
 ["gr:10406:of the Eagle"] = "§aa¢d1806d1805al°d1805u.amtgah¢d1806tgd1805u/",
 ["gr:15214:of Power"] = "§aa¢d1806d1805al°d1805D¥amD≥ah¢d1806D≥d1805N",
-["14264"] = "§aa¢d1806d1805al°d1805:óam:òah¢d1806:òd1805:ò",
-["7439"] = "§aa¢d1806d1805alÄam‹ah¢d1806‹d1805¢",
+["gr:12022:of the Owl"] = "§aa¢d1806d1805al°d1805Hõam@◊ah¢d1806@◊d1805Hú",
+["9428"] = "§aa¢d1806d1805alÄam\000° ah¢d1806\000° d1805\000° ",
 ["15635"] = "§aa°d1805al°d1805Døah°d1805N amDø",
 ["4389"] = "§aa¢d1806d1805MalÄamƒah¢d1806ƒd1805Ô",
 ["8161"] = "§aa¢d1806d1805al°d1805ÜamÒah¢d1806Òd1805á",
@@ -11487,7 +11487,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["3485"] = "§aa°d1806alÄam	¡ah°d1806	¡",
 ["3197"] = "§aa¢d1806d1805$alÄam'sah¢d1806'sd1805'”",
 ["10181"] = "§aa°d1805alÄah°d1805N amN ",
-["gr:14937:of the Gorilla"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805u0",
+["15498"] = "§aa¢d1806d1805al°d1805ÁamËah¢d1806Ëd1805Ë",
 ["14438"] = "§aa°d1805alÄam.‡ah°d1805.‡",
 ["gr:10070:of Power"] = "§aa°d1806alÄam\000Iah°d1806\000I",
 ["gr:9769:of the Whale"] = "§aa¢d1806d1805al°d1805ıamÛah¢d1806Ûd1805˜",
@@ -11495,13 +11495,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:9895:of Agility"] = "§aa°d1805al°d1805:óah°d1805:òam:ó",
 ["gr:7544:of the Whale"] = "§aa°d1805alÄam'ah°d1805'",
 ["gr:15502:of Healing"] = "§aa°d1805alÄah°d1805IamI",
+["1738"] = "§aa¢d1806d1805al°d1805àamáah¢d1806ád1805â",
 ["gr:14232:of the Owl"] = "§aa°d1805al°d1805;ah°d1805=am;",
-["gr:15612:of Defense"] = "§aa¢d1806d1805alÄam&¨ah¢d1806&¨d1805&¨",
 ["gr:14179:of Fiery Wrath"] = "§aa°d1806alÄamàah°d1806à",
+["gr:15612:of Defense"] = "§aa¢d1806d1805alÄam&¨ah¢d1806&¨d1805&¨",
+["gr:14313:of the Whale"] = "§aa°d1805alÄamu0ah°d1805u0",
+["6372"] = "§aa¢d18060d1805fal°d1805éamah¢d1806d18051",
 ["gr:7477:of the Whale"] = "§aa°d1806alÄamE$ah°d1806E$",
-["gr:15295:of the Falcon"] = "§aa¢d1806d1805alÄah¢d1806\000Ü†d1805\0008am\000Ü†",
-["2738"] = "§aa¢d1806&d18058alÄam?ah¢d1806?d1805e",
-["gr:9894:of Stamina"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:9805:of Healing"] = "§aa°d1805alÄam–ah°d1805–",
 ["gr:5216:of the Falcon"] = "§aa°d1806alÄamâah°d1806â",
 ["gr:15535:of Stamina"] = "§aa°d1805alÄah°d1805&´am&´",
@@ -11516,40 +11516,40 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15377:of Nature's Wrath"] = "§aa°d1805alÄah°d18055am5",
 ["gr:9951:of the Eagle"] = "§aa°d1806alÄam:òah°d1806:ò",
 ["8111"] = "§aa¢d1806d1805al°d1805:óam4”ah¢d18064”d1805:ò",
-["8272"] = "§aa°d1805alÄah°d1805N amN ",
+["gr:15528:of Strength"] = "§aa¢d1806d1805al°d1805	ƒam\n÷ah¢d1806\n÷d1805!",
 ["15630"] = "§aa°d1805alÄamixah°d1805ix",
-["7084"] = "§aa¢d1806d1805al°d1805	¡am	∫ah¢d1806	∫d1805	√",
+["8272"] = "§aa°d1805alÄah°d1805N amN ",
 ["gr:6558:of the Boar"] = "§aa°d1805alÄam∏ah°d1805∏",
+["gr:15575:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806ê$d1805ê$amê$",
 ["gr:9959:of the Whale"] = "§aa°d1805alÄam.ﬂah°d1805.ﬂ",
-["gr:14109:of the Whale"] = "§aa¢d1806d1805alÄamÏah¢d1806Ïd1805Ï",
 ["gr:15349:of the Bear"] = "§aa°d1806alÄamÙah°d1806Ù",
 ["10062"] = "§aa¢d1806d1805al°d1805FòamNah¢d1806Nd1805N",
 ["3473"] = "§aa¢d1806	d1805alÄah¢d1806ed1805?ame",
 ["gr:11999:of the Boar"] = "§aa¢d1806d1805alÄam3Ùah¢d18063Ùd18056Æ",
 ["gr:9821:of the Whale"] = "§aa°d1805alÄam¨ah°d1805¨",
-["7538"] = "§aa°d1805alÄah°d1805N amN ",
+["13886"] = "§aa°d1806alÄam.‡ah°d1806.‡",
 ["gr:9887:of Power"] = "§aa°d1806alÄam:òah°d1806:ò",
 ["gr:7415:of the Boar"] = "§aa°d1805alÄah°d1805«am«",
-["4538"] = "§aa¢d1806éd1805Mal°d1805amoah¢d1806od1805Q",
+["gr:9783:of the Whale"] = "§aa°d1805alÄam€ah°d1805€",
 ["gr:15974:of the Whale"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805'",
-["7473"] = "§aa¢d1806d1805\nalÄamah¢d1806d1805",
+["gr:8194:of the Monkey"] = "§aa°d1805alÄamNah°d1805N",
 ["gr:14162:of Spirit"] = "§aa¢d1806d1805al°d18056am⁄ah¢d1806⁄d1805°",
-["6308"] = "§aa¢d1806d1805dal°d1805amƒah¢d1806ƒd18050",
-["gr:15333:of Healing"] = "§aa¢d1806d1805alÄam*)ah¢d1806*)d1805*)",
+["2966"] = "§aa¢d1806d1805alÄam¬ah¢d1806¬d1805",
+["gr:9897:of the Monkey"] = "§aa°d1806alÄamN ah°d1806N ",
 ["15148"] = "§aa¢d1806d1805\nalÄam\r¨ah¢d1806\r¨d18054",
-["gr:15348:of Spirit"] = "§aa¢d1806d1805al°d1805ÕamÕah¢d1806Õd1805Œ",
+["gr:15333:of Healing"] = "§aa¢d1806d1805alÄam*)ah¢d1806*)d1805*)",
 ["gr:15241:of Frozen Wrath"] = "§aa°d1805al°d1805∂ah°d1805∑am∂",
 ["10226"] = "§aa°d1805alÄah°d1805æ†amæ†",
-["gr:15973:of Arcane Wrath"] = "§aa¢d1806d1805alÄam∑ah¢d1806∑d1805∑",
+["gr:9886:of Power"] = "§aa°d1806alÄam6∞ah°d18066∞",
 ["8498"] = "§aa¢d1806d1805alÄam\000\r@ah¢d1806\000\r@d1805\0004A",
 ["gr:15647:of the Boar"] = "§aa°d1806alÄamu0ah°d1806u0",
-["gr:15510:of the Boar"] = "§aa°d1805al°d1805Áah°d1805kamÁ",
-["gr:14270:of the Owl"] = "§aa°d1805al°d1805|ah°d1805aßam|",
+["gr:15973:of Arcane Wrath"] = "§aa¢d1806d1805alÄam∑ah¢d1806∑d1805∑",
+["5187"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
 ["4498"] = "§aa¢d1806d1805alÄah¢d1806	`d1805	∑am	`",
 ["5498"] = "§aa¢d1806yd18053alÄam˜ah¢d1806˜d1805Î",
-["gr:15164:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806Ç5d1805MºamÇ5",
+["2491"] = "§aa¢d1806d1805alÄah¢d1806	Ùd1805£am	Ù",
 ["14630"] = "§aa¢d1806d1805al°d18056amgah¢d1806gd1805ï",
-["gr:15540:of the Bear"] = "§aa°d1805alÄam'ah°d1805'",
+["gr:10087:of the Eagle"] = "§aa°d1805alÄam@ah°d1805@",
 ["gr:10069:of the Monkey"] = "§aa°d1805alÄamS¸ah°d1805S¸",
 ["14199"] = "§aa¢d1806d1805alÄam&ùah¢d1806&ùd1805†",
 ["12982"] = "§aa¢d1806	d1805	al°d1805û3amêƒah¢d1806êƒd1805√N",
@@ -11592,8 +11592,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:14133:of Frozen Wrath"] = "§aa¢d1806d1805alÄah¢d1806'd1805'am'",
 ["gr:10408:of the Bear"] = "§aa¢d1806d1805alÄah¢d1806>d1805&™am>",
 ["3170"] = "§aa°d1806alÄamñah°d1806ñ",
-["gr:15495:of the Bear"] = "§aa¢d1806d1805	alÄam©ah¢d1806©d1805´",
-["7555"] = "§aa¢d1806d1805alÄah¢d1806:òd1805≥ am:ò",
+["gr:6546:of Power"] = "§aa°d1806alÄamúah°d1806ú",
+["gr:7357:of Fiery Wrath"] = "§aa°d1806alÄamW„ah°d1806W„",
 ["gr:6602:of the Whale"] = "§aa¢d1806d1805al°d1805∂am'ah¢d1806'd1805∑",
 ["gr:6592:of the Eagle"] = "§aa°d1805alÄah°d1805∏am∏",
 ["2598"] = "§aa¢d1806\rd1805alÄamah¢d1806d1805 ",
@@ -11604,18 +11604,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15014:of the Falcon"] = "§aa¢d1806d1805al°d1805Åamah¢d1806d1805w",
 ["gr:15243:of Stamina"] = "§aa°d1805alÄam8°ah°d18058°",
 ["gr:4561:of Power"] = "§aa¢d1806d1805al°d1805Ñamîah¢d1806îd1805≠",
-["14952"] = "§aa¢d1806d1805al°d1805@\\am†ah¢d1806†d1805UÔ",
+["gr:9769:of Healing"] = "§aa°d1806alÄam‰ah°d1806‰",
 ["gr:9919:of the Owl"] = "§aa°d1805alÄam>ah°d1805>",
 ["10095"] = "§aa¢d1806d1805alÄamu0ah¢d1806u0d1805ú@",
 ["gr:6584:of the Whale"] = "§aa°d1806alÄam8ah°d18068",
 ["gr:15521:of Strength"] = "§aa¢d1806d1805alÄam‘ah¢d1806‘d1805Ú",
 ["6519"] = "§aa¢d1806d1805alÄah¢d1806,d1805,am,",
-["gr:15539:of the Bear"] = "§aa¢d1806d1805al°d1805∂am>ah¢d1806>d1805∑",
+["gr:12008:of the Falcon"] = "§aa¢d1806d1805alÄamú<ah¢d1806ú<d1805&G",
 ["4698"] = "§aa¢d1806d1805al°d1805◊amòah¢d1806òd1805",
-["9908"] = "§aa¢d1806d1805alÄamJah¢d1806Jd1805\"Æ",
+["5774"] = "§aa¢d1806d1805al°d1805ﬂam≤ah¢d1806≤d1805‡",
 ["14181"] = "§aa¢d1806\nd1805alÄamàah¢d1806àd1805ã",
+["gr:15009:of the Eagle"] = "§aa°d1806alÄamËah°d1806Ë",
 ["11590"] = "§aa¢d1806d1805alÄah¢d1806\r¨d1805Îam\r¨",
-["7373"] = "§aa¢d1806d1805al°d18059am@ah¢d1806@d1805>",
 ["gr:7554:of Healing"] = "§aa¢d1806d1805alÄah¢d1806#ld1805#lam#l",
 ["15525"] = "§aa¢d1806d1805alÄam¥ah¢d1806¥d1805µ",
 ["gr:15308:of Intellect"] = "§aa°d1806alÄamÙah°d1806Ù",
@@ -11639,19 +11639,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["8398"] = "§aa¢d1806d1805alÄamLah¢d1806Ld1805P",
 ["gr:15515:of Strength"] = "§aa¢d1806	d1805al°d1805»amˇah¢d1806ˇd1805æ",
 ["gr:6580:of Power"] = "§aa¢d1806d1805alÄam	ƒah¢d1806	ƒd1805Ü",
+["gr:14212:of the Owl"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
 ["4055"] = "§aa¢d1806d1805\nal°d1805Âam9ah¢d18069d1805£",
-["gr:9848:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806„d1805†am„",
 ["12260"] = "§aa°d1805alÄam†(ah°d1805†(",
 ["13095"] = "§aa¢d1806d1805alÄam\000Ê0ah¢d1806\000Ê0d1805\000X„",
 ["gr:4087:of Spirit"] = "§aa°d1806alÄamFPah°d1806FP",
-["gr:15250:of the Tiger"] = "§aa¢d1806d1805alÄam:òah¢d1806:òd1805's",
+["gr:15979:of the Eagle"] = "§aa°d1805alÄamN ah°d1805N ",
 ["15387"] = "§aa°d1805alÄah°d18050‘am0‘",
 ["gr:14160:of Shadow Wrath"] = "§aa¢d1806d1805alÄah¢d1806∂d1805∑am∂",
-["gr:15969:of Frozen Wrath"] = "§aa¢d1806d1805alÄamÁah¢d1806Ád1805Ë",
+["14110"] = "§aa°d1805alÄah°d1805am",
 ["gr:9875:of the Eagle"] = "§aa°d1805alÄah°d1805!ïam!ï",
 ["16045"] = "§aa¢d1806d1805al°d18052am™ah¢d1806™d1805K",
 ["gr:15121:of the Gorilla"] = "§aa°d1805alÄam–ah°d1805–",
-["gr:6590:of the Eagle"] = "§aa°d1805al°d1805˙ah°d1805„am˙",
+["gr:14133:of Intellect"] = "§aa°d1805al°d1805üah°d1805¡amü",
 ["gr:9879:of the Owl"] = "§aa¢d1806d1805al°d1805Òamˆah¢d1806ˆd1805˜",
 ["gr:9778:of the Gorilla"] = "§aa°d1806alÄamœah°d1806œ",
 ["gr:9947:of the Whale"] = "§aa¢d1806d1805alÄah¢d1806}»d1805}»am}»",
@@ -11682,13 +11682,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:15211:of the Monkey"] = "§aa¢d1806d1805\nalÄamÇah¢d1806Çd1805Û",
 ["gr:9835:of Nature's Wrath"] = "§aa°d1805alÄamWah°d1805W",
 ["gr:15351:of Agility"] = "§aa°d1805alÄamdah°d1805d",
-["15274"] = "§aa¢d1806d1805alÄam\000ah¢d1806\000d1805Í`",
+["4364"] = "§aa¢d1806§d1805µalÄam(ah¢d1806(d1805∏",
 ["gr:9856:of the Whale"] = "§aa°d1805alÄampah°d1805p",
 ["gr:9869:of the Monkey"] = "§aa°d1805alÄah°d1805îamî",
 ["gr:7492:of the Monkey"] = "§aa°d1806alÄam'ah°d1806'",
 ["gr:15365:of the Owl"] = "§aa°d1806alÄamJah°d1806J",
-["gr:14228:of the Whale"] = "§aa°d1805alÄam\"ºah°d1805\"º",
-["gr:15137:of the Falcon"] = "§aa°d1806alÄam+ah°d1806+",
+["9838"] = "§aa¢d1806d1805al°d1805?amoah¢d1806od1805–",
+["gr:11996:of Regeneration"] = "§aa¢d1806d1805alÄampah¢d1806pd1805œ",
 ["gr:10061:of Fiery Wrath"] = "§aa¢d1806d1805al°d1805\000(am\000(ah¢d1806\000(d1805\000uC",
 ["gr:9885:of the Owl"] = "§aa°d1805alÄah°d1805'am'",
 ["gr:14235:of Intellect"] = "§aa°d1805alÄah°d1805üamü",
@@ -11726,8 +11726,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["9491"] = "§aa°d1805alÄah°d1805\000Çpam\000Çp",
 ["gr:6553:of Power"] = "§aa¢d1806d1805al°d1805amah¢d1806d1805",
 ["9762"] = "§aa°d1806alÄam‹ah°d1806‹",
-["gr:9763:of the Bear"] = "§aa¢d1806d1805alÄamah¢d1806d1805",
-["gr:15228:of Shadow Wrath"] = "§aa°d1806alÄam\000¿ah°d1806\000¿",
+["gr:8211:of the Owl"] = "§aa¢d1806d1805alÄamN ah¢d1806N d1805u0",
+["gr:8178:of the Tiger"] = "§aa¢d1806\nd1805al°d18057am2ah¢d18062d1805Ë",
 ["gr:6586:of the Falcon"] = "§aa¢d1806d1805al°d1805ﬁamﬂah¢d1806ﬂd1805ﬂ",
 ["15932"] = "§aa¢d1806d1805\ralÄamπah¢d1806πd1805Ä",
 ["gr:7356:of the Eagle"] = "§aa¢d1806d1805alÄah¢d1806»d1805	‘am»",
@@ -11800,7 +11800,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["720"] = "§aa¢d1806d1805al°d1805NamL+ah¢d1806L+d1805XE",
 ["7411"] = "§aa¢d1806d1805\nal°d1805	Hamìah¢d1806ìd1805	I",
 ["gr:15981:of the Owl"] = "§aa¢d1806d1805alÄah¢d1806'd1805&¨am'",
-["gr:6562:of the Owl"] = "§aa¢d1806d1805al°d1805\r¨am\nÔah¢d1806\nÔd1805ÿ",
+["765"] = "§aa¢d1806d1805´alÄamah¢d1806d1805",
 ["6411"] = "§aa¢d1806d1805alÄam%rah¢d1806%rd18053",
 ["gr:11993:of Regeneration"] = "§aa°d1806alÄam†ah°d1806†",
 ["gr:9771:of the Owl"] = "§aa¢d1806d1805al°d1805àam¯ah¢d1806¯d1805",
@@ -11835,14 +11835,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["4311"] = "§aa¢d1806d1805al°d1805'am“ah¢d1806“d1805\nÿ",
 ["gr:14213:of the Owl"] = "§aa°d1806alÄam ah°d1806 ",
 ["6311"] = "§aa°d1805alÄamah°d1805",
-["14758"] = "§aa¢d1806d1805al°d1805Lam9ah¢d18069d1805&¨",
+["gr:6565:of the Eagle"] = "§aa°d1806alÄamàah°d1806à",
 ["gr:6614:of Spirit"] = "§aa¢d1806d1805al°d1805Àamüah¢d1806üd1805Ã",
 ["15423"] = "§aa¢d1806d1805_al°d1805áamÑah¢d1806Ñd1805è",
-["gr:6551:of Defense"] = "§aa°d1806alÄam‹ah°d1806‹",
+["gr:15232:of the Eagle"] = "§aa¢d1806d1805alÄam&Ôah¢d1806&Ôd1805&Ô",
 ["gr:3430:of the Owl"] = "§aa¢d1806d1805al°d1805rBamrBah¢d1806rBd1805u/",
 ["3727"] = "§aa¢d18068d1805<al°d1805ºam±ah¢d1806±d1805Ø",
 ["12977"] = "§aa¢d1806d1805alÄam\000nah¢d1806\000nd1805\000o",
-["1727"] = "§aa¢d1806d1805al°d1805ÂØamóãah¢d1806óãd1805Ë",
+["gr:15972:of the Wolf"] = "§aa¢d1806d1805al°d1805–am⁄ah¢d1806⁄d1805l",
 ["15617"] = "§aa¢d1806d1805alÄama®ah¢d1806a®d18050‘",
 ["2870"] = "§aa¢d1806d1805al°d1805OïamNah¢d1806Nd1805Oß",
 ["gr:9856:of the Owl"] = "§aa¢d1806d1805alÄamaah¢d1806ad1805a",
@@ -11926,7 +11926,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:7424:of the Monkey"] = "§aa°d1805alÄamÍah°d1805Í",
 ["gr:9909:of Intellect"] = "§aa°d1805alÄah°d18059am9",
 ["gr:3184:of Strength"] = "§aa°d1805	alÄah°d1805–am–",
-["gr:14235:of Healing"] = "§aa°d1806alÄam'ah°d1806'",
+["gr:9882:of the Whale"] = "§aa°d1806alÄam\"ƒah°d1806\"ƒ",
 ["gr:14229:of Healing"] = "§aa¢d1806d1805alÄam'ah¢d1806'd1805{",
 ["1493"] = "§aa¢d1806d1805alÄamú?ah¢d1806ú?d1805\000;ê",
 ["gr:9833:of the Owl"] = "§aa¢d1806d1805alÄam¯ah¢d1806¯d1805à",
@@ -11944,7 +11944,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["3430"] = "§aa¢d1806d1805al°d1805LÒam:óah¢d1806:ód1805LÚ",
 ["13040"] = "§aa¢d1806d1805alÄah¢d1806\000]pd1805\000[çÄam\000]p",
 ["gr:3206:of the Wolf"] = "§aa¢d1806d1805al°d1805amáah¢d1806ád1805",
-["3466"] = "§aa¢d1806d1805alÄah¢d1806 ‰d1805Ìam ‰",
+["gr:15525:of the Monkey"] = "§aa°d1806alÄamDah°d1806D",
 ["gr:15260:of Strength"] = "§aa¢d1806d1805alÄamu/ah¢d1806u/d1805t ",
 ["gr:9847:of Stamina"] = "§aa¢d1806d1805al°d1805\r¨am&¨ah¢d1806&¨d1805á",
 ["12804"] = "§aa¢d1806d1805al°d1805*am ah¢d1806 d18053",
@@ -12033,7 +12033,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["gr:4566:of the Owl"] = "§aa¢d1806d1805al°d1805Äam'ah¢d1806'd18050",
 ["gr:14247:of Shadow Wrath"] = "§aa°d1806alÄamL^ah°d1806L^",
 ["1993"] = "§aa¢d1806d1805	alÄamËah¢d1806Ëd1805\r™",
-["9252"] = "§aa¢d1806d1805al°d1805àamÇah¢d1806Çd1805„",
+["3307"] = "§aa¢d1806d1805al°d1805RamXah¢d1806Xd1805ö",
 ["4307"] = "§aa¢d1806d1805\nal°d1805'am%ah¢d1806%d1805(",
 ["gr:10288:of the Whale"] = "§aa¢d1806d1805alÄamUÍah¢d1806UÍd1805UÍ",
 ["gr:12023:of the Eagle"] = "§aa¢d1806d1805alÄamuéah¢d1806uéd1805p",
@@ -12212,35 +12212,35 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 ["2325"] = 1000,
 ["4599"] = 400,
 ["2134"] = 82,
-["4289"] = 50,
+["2287"] = 25,
 ["4602"] = 400,
-["6256"] = 23,
+["4538"] = 100,
 ["4496"] = 500,
 ["1194"] = 104,
 ["4471"] = 135,
-["2287"] = 25,
+["4289"] = 50,
 ["852"] = 1739,
 ["4540"] = 5,
 ["8925"] = 500,
-["4601"] = 400,
-["3466"] = 2000,
-["4342"] = 2500,
 ["2509"] = 414,
+["3466"] = 2000,
+["8953"] = 800,
 ["4536"] = 5,
+["8950"] = 800,
 ["1205"] = 100,
 ["1197"] = 2666,
 ["15326"] = 4,
 ["2516"] = 0.05,
 ["1196"] = 2214,
 ["2507"] = 1751,
-["2321"] = 100,
+["3131"] = 0.15,
 ["4541"] = 25,
 ["5441"] = 1000,
 ["3107"] = 0.375,
 ["5042"] = 50,
-["853"] = 2409,
-["2131"] = 54,
 ["1645"] = 400,
+["2131"] = 54,
+["8952"] = 800,
 ["4539"] = 200,
 ["2946"] = 0.15,
 ["2519"] = 0.25,
@@ -12253,50 +12253,50 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 ["2026"] = 6286,
 ["2207"] = 2390,
 ["2928"] = 20,
-["3108"] = 1,
+["__dbversion"] = 1,
 ["2489"] = 342,
-["2605"] = 100,
+["8343"] = 2000,
 ["4291"] = 500,
 ["2320"] = 10,
 ["2024"] = 6078,
-["4399"] = 200,
-["3135"] = 0.375,
-["3033"] = 1.5,
 ["2692"] = 40,
-["8766"] = 800,
 ["3857"] = 500,
+["3033"] = 1.5,
+["6260"] = 50,
+["8766"] = 800,
+["6217"] = 124,
 ["5048"] = 50,
 ["5486"] = 440,
-["6217"] = 124,
+["11362"] = 1000,
 ["2130"] = 54,
-["2488"] = 536,
+["2506"] = 285,
 ["2025"] = 5304,
 ["117"] = 5,
 ["5488"] = 400,
-["11362"] = 1000,
-["2506"] = 285,
-["6260"] = 50,
+["3135"] = 0.375,
+["2488"] = 536,
+["4399"] = 200,
 ["2139"] = 57,
 ["1198"] = 2676,
 ["2132"] = 102,
 ["6532"] = 250,
-["8343"] = 2000,
-["__dbversion"] = 1,
+["2605"] = 100,
+["3108"] = 1,
 ["2490"] = 540,
 ["854"] = 3022,
 ["3771"] = 200,
-["3131"] = 0.15,
+["2321"] = 100,
 ["4542"] = 100,
 ["2208"] = 3650,
-["8952"] = 800,
+["853"] = 2409,
 ["2029"] = 4419,
-["8950"] = 800,
-["8953"] = 800,
+["4601"] = 400,
+["4342"] = 2500,
 ["3770"] = 100,
 ["4544"] = 200,
 ["7005"] = 82,
 ["2515"] = 0.25,
-["4538"] = 100,
+["6256"] = 23,
 ["2030"] = 5544,
 ["3030"] = 1.5,
 ["2493"] = 701,

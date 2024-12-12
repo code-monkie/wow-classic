@@ -4,8 +4,8 @@ BetterBagsDB = {
 ["Khaeloche - Doomhowl"] = "Default",
 ["Khaeldez - Doomhowl"] = "Default",
 ["Jimmyporter - Doomhowl"] = "Default",
-["Khaelnume - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
+["Khaelnume - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -141,26 +141,6 @@ true,
 ["name"] = "Two-Hand",
 ["dynamic"] = true,
 },
-["Chest"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Chest",
-["dynamic"] = true,
-},
-["Miscellaneous"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Miscellaneous",
-["dynamic"] = true,
-},
 ["Feet"] = {
 ["enabled"] = {
 true,
@@ -179,6 +159,26 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Free Space",
+["dynamic"] = true,
+},
+["Miscellaneous"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Miscellaneous",
+["dynamic"] = true,
+},
+["Chest"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Chest",
 ["dynamic"] = true,
 },
 ["Consumable"] = {
@@ -314,16 +314,16 @@ true,
 ["Two-Hand"] = {
 ["shown"] = true,
 },
-["Chest"] = {
+["Feet"] = {
+["shown"] = true,
+},
+["Free Space"] = {
 ["shown"] = true,
 },
 ["Miscellaneous"] = {
 ["shown"] = true,
 },
-["Feet"] = {
-["shown"] = true,
-},
-["Free Space"] = {
+["Chest"] = {
 ["shown"] = true,
 },
 ["Consumable"] = {
