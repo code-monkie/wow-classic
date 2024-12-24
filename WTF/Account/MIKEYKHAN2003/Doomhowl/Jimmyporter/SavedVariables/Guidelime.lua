@@ -31,11 +31,11 @@ GuidelimeDataChar = {
 ["level"] = 4,
 ["mainFrameFontSize"] = 14,
 ["arrowX"] = 0,
-["mainFrameShowScrollBar"] = true,
 ["showArrow"] = true,
-["editorFrameRelative"] = "CENTER",
+["mainFrameShowScrollBar"] = true,
 ["guideSize"] = {
 },
+["editorFrameRelative"] = "CENTER",
 ["arrowSize"] = 64,
 ["mainFrameShowing"] = true,
 ["completedSteps"] = {

@@ -6,6 +6,19 @@ VER 3 0000000000000008 "CT" "134400"
 /console floatingCombatTextCombatDamage 1
 /console floatingCombatTextCombatHealing 1
 END
+VER 3 0000000000000017 "D HT" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Healing Touch
+END
+VER 3 0000000000000018 "D MF" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Moonfire
+END
+VER 3 0000000000000016 "D W" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Wrath
+END
 VER 3 000000000000000B "Enchant" "134400"
 /click CraftCreateButton
 /use 9
@@ -22,8 +35,8 @@ VER 3 000000000000000C "Follow" "134148"
 END
 VER 3 000000000000000E "Mark" "134400"
 /script SetRaidTarget("player",6)
-/script SetRaidTarget("party1",5)
-/script SetRaidTarget("party2",8)
+/script SetRaidTarget("party1",4)
+/script SetRaidTarget("party2",3)
 END
 VER 3 0000000000000013 "S EBT" "134400"
 #showtooltip

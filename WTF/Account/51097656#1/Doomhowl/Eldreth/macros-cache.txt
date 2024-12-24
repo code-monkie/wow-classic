@@ -37,3 +37,7 @@ VER 3 0000000001000007 "P" "134400"
 #showtooltip
 /use [@mouseover,nodead,harm] [] Polymorph
 END
+VER 3 000000000100000A "RC" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] []  Remove Lesser Curse
+END

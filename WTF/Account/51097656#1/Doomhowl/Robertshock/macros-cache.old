@@ -1,14 +1,55 @@
+VER 3 000000000100000E "CP" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Cure Poison
+END
+VER 3 000000000100000C "EBT" "134400"
+#showtooltip
+/use Earthbind Totem
+END
 VER 3 0000000001000003 "ES" "134400"
 #showtooltip
 /startattack
 /use [@mouseover,nodead,harm] [] Earth Shock
 END
-VER 3 0000000001000002 "HW" "134400"
-#showtooltip
-/use [@mouseover,nodead,help] [] Healing Wave;
-END
-VER 3 0000000001000001 "LB" "134400"
+VER 3 0000000001000008 "ES1" "134400"
 #showtooltip
 /startattack
-/use [@mouseover,nodead,harm] [] Lightning Bolt;
+/use [@mouseover,nodead,harm] [] Earth Shock(Rank 1)
+END
+VER 3 000000000100000A "FN" "134400"
+#showtooltip
+/use Fire Nova Totem
+END
+VER 3 0000000001000007 "FS" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Flame Shock
+END
+VER 3 000000000100000F "FTW" "134400"
+#showtooltip
+/use Flametongue Weapon
+END
+VER 3 0000000001000006 "Hw2" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Healing Wave(Rank 2)
+END
+VER 3 0000000001000005 "LS" "134400"
+#showtooltip
+/use Lightning Shield
+END
+VER 3 000000000100000B "P" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Purge
+END
+VER 3 0000000001000004 "RB" "134400"
+#showtooltip
+/use Rockbiter Weapon
+END
+VER 3 000000000100000D "SOET" "134400"
+#showtooltip
+/use Strength of Earth Totem
+END
+VER 3 0000000001000009 "ST" "134400"
+#showtooltip
+/use Searing Totem
 END

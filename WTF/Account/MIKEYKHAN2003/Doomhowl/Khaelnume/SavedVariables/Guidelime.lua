@@ -35,9 +35,9 @@ GuidelimeDataChar = {
 },
 ["mainFrameShowing"] = true,
 ["arrowSize"] = 64,
-["editorFrameRelative"] = "CENTER",
 ["guideSize"] = {
 },
+["editorFrameRelative"] = "CENTER",
 ["mainFrameShowScrollBar"] = true,
 ["showArrow"] = true,
 ["mainFrameFontSize"] = 14,

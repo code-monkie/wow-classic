@@ -1,11 +1,10 @@
 ## Interface: 40401
 ## Title: What's Training?
-## Version: 7.1.1
+## Version: 8.0.1
 ## Author: Sveng
 ## Notes: Shows you what spells are available at your class trainer
 ## SavedVariables: WT_ShowIgnoreNotice, WT_ShowLearnedNotice
 ## SavedVariablesPerCharacter: WT_LearnedPetAbilities, WT_NeedsToOpenBeastTraining, WT_IgnoredSpells
-## OptionalDeps: ClassTrainerPlus
 ## X-Curse-Project-ID: 324944
 ## X-WoWI-ID: 25031
 ## X-Thanks: Venomisto on curse for updating everything to Cataclysm!
@@ -15,6 +14,7 @@ libs\CallbackHandler-1.0.lua
 libs\LibDataBroker-1.1.lua
 libs\FusionIgnoreStore\IgnoreStore.lua
 
+Localization.lua
 Utils.lua
 Cache.lua
 
@@ -29,7 +29,6 @@ Classes\Cata\Shaman.lua
 Classes\Cata\Warlock.lua
 Classes\Cata\Warrior.lua
 
-Localization.lua
 WhatsTrainingUI.lua
 WhatsTraining.lua
 

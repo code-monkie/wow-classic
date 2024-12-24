@@ -1,17 +1,21 @@
 
 OmniCCDB = {
-["profileKeys"] = {
-["Khaeloche - Doomhowl"] = "Default",
-["Jimmyporter - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
-["Akahune - Lava Lash"] = "Default",
-["Khaelnume - Doomhowl"] = "Default",
-["Khaelahune - Doomhowl"] = "Default",
-["Khaelhune - Doomhowl"] = "Default",
-},
 ["global"] = {
 ["dbVersion"] = 6,
 ["addonVersion"] = "11.0.6",
+},
+["profileKeys"] = {
+["Khaeloche - Doomhowl"] = "Default",
+["Khaelahune - Doomhowl"] = "Default",
+["Khaelhune - Doomhowl"] = "Default",
+["Arcarius - Dreamscythe"] = "Default",
+["Jimmyporter - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
+["Khaeloche - Dreamscythe"] = "Default",
+["Benvankrkwyk - Doomhowl"] = "Default",
+["Khaelnume - Doomhowl"] = "Default",
+["Akahune - Lava Lash"] = "Default",
+["Randlcarlson - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -43,15 +47,35 @@ OmniCCDB = {
 ["name"] = "Action Bars",
 ["id"] = "actions",
 },
+{
+["patterns"] = {
+"PlaterMainAuraIcon",
+"PlaterSecondaryAuraIcon",
+"ExtraIconRowIcon",
+},
+["id"] = "Plater Nameplates Rule",
+["priority"] = 4,
+["theme"] = "Plater Nameplates Theme",
+},
 },
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
+["soon"] = {
+},
 ["minutes"] = {
+},
+["seconds"] = {
+},
+},
+},
+["Plater Nameplates Theme"] = {
+["textStyles"] = {
+["seconds"] = {
 },
 ["soon"] = {
 },
-["seconds"] = {
+["minutes"] = {
 },
 },
 },

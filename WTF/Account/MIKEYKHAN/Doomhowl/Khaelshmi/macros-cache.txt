@@ -1,4 +1,13 @@
+VER 3 0000000001000008 "CP" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Cure Poison
+END
 VER 3 0000000001000003 "ES" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Earth Shock
+END
+VER 3 0000000001000006 "ES1" "134400"
 #showtooltip
 /startattack
 /use [@mouseover,nodead,harm] [] Earth Shock(Rank 1)
@@ -8,9 +17,17 @@ VER 3 0000000001000004 "FS" "134400"
 /startattack
 /use [@mouseover,nodead,harm] [] Flame Shock
 END
+VER 3 0000000001000009 "FTW" "134400"
+@showtooltip
+/use Flametongue Weapon
+END
 VER 3 0000000001000002 "HW" "134400"
 #showtooltip
 /use [@mouseover,nodead,help] [] Healing Wave;
+END
+VER 3 000000000100000A "HWL" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] []Healing Wave(Rank 2)
 END
 VER 3 0000000001000001 "LB" "134400"
 #showtooltip
@@ -20,4 +37,8 @@ END
 VER 3 0000000001000005 "P" "134400"
 #showtooltip
 /use [@mouseover,nodead,harm] [] Purge
+END
+VER 3 0000000001000007 "SOET" "134400"
+#showtooltip
+/use Strength of Earth Totem(Rank 1)
 END

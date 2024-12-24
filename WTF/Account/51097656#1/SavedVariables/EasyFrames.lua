@@ -2,18 +2,25 @@
 EasyFramesDB = {
 ["profileKeys"] = {
 ["Khnume - Doomhowl"] = "Doomhowl",
-["Khaeldez - Doomhowl"] = "Default",
 ["Eldreth - Doomhowl"] = "Default",
 ["Robertshock - Doomhowl"] = "Default",
-["Akahune - Doomhowl"] = "Default",
+["Jahanahjames - Doomhowl"] = "Default",
+["Flintdibbel - Doomhowl"] = "Default",
+["Senloche - Doomhowl"] = "Default",
+["Khaelray - Doomhowl"] = "Default",
+["Aldez - Doomhowl"] = "Default",
 ["Stashexfer - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
+["Akahune - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-["party"] = {
+["player"] = {
+["portrait"] = "1",
 ["scaleFrame"] = 1.25,
 },
 ["general"] = {
+["forceManaBarTexture"] = true,
 ["classColoredForShamans"] = true,
 ["hideOutOfCombat"] = true,
 ["framesPoints"] = {
@@ -38,14 +45,15 @@ EasyFramesDB = {
 -499.9999389648438,
 },
 },
-["forceManaBarTexture"] = true,
-["hideOutOfCombatOpacity"] = 0.25,
 ["showWelcomeMessage"] = false,
+["lightTexture"] = true,
+["hideOutOfCombatOpacity"] = 0.7,
 },
 ["target"] = {
 ["scaleFrame"] = 1.25,
+["portrait"] = "1",
 },
-["player"] = {
+["party"] = {
 ["scaleFrame"] = 1.25,
 },
 },

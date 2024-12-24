@@ -1,0 +1,12 @@
+VER 3 0000000001000001 "MOTW" "134400"
+#showtooltip
+/use Mark of The Wild
+END
+VER 3 0000000001000002 "R" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Rejuvenation
+END
+VER 3 0000000001000003 "T" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Thorns
+END

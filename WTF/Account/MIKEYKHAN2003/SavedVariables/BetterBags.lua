@@ -2,10 +2,14 @@
 BetterBagsDB = {
 ["profileKeys"] = {
 ["Khaeloche - Doomhowl"] = "Default",
+["Benvankrkwyk - Doomhowl"] = "Default",
+["Arcarius - Dreamscythe"] = "Default",
 ["Khaeldez - Doomhowl"] = "Default",
+["Khaeloche - Dreamscythe"] = "Default",
+["Randlcarlson - Doomhowl"] = "Default",
 ["Jimmyporter - Doomhowl"] = "Default",
-["Khaelahune - Doomhowl"] = "Default",
 ["Khaelnume - Doomhowl"] = "Default",
+["Khaelahune - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -16,7 +20,7 @@ nil,
 [0] = {
 ["itemsPerRow"] = 4,
 ["columnCount"] = 3,
-["scale"] = 86,
+["scale"] = 125,
 },
 },
 },
@@ -101,6 +105,26 @@ true,
 ["name"] = "Reagent",
 ["dynamic"] = true,
 },
+["Herb"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Herb",
+["dynamic"] = true,
+},
+["Keeper"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Keeper",
+["dynamic"] = true,
+},
 ["Hands"] = {
 ["enabled"] = {
 true,
@@ -131,6 +155,56 @@ true,
 ["name"] = "Junk",
 ["dynamic"] = true,
 },
+["Wrist"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Wrist",
+["dynamic"] = true,
+},
+["Potions"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Potions",
+["dynamic"] = true,
+},
+["Waist"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Waist",
+["dynamic"] = true,
+},
+["Armor"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Armor",
+["dynamic"] = true,
+},
+["Recipe"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Recipe",
+["dynamic"] = true,
+},
 ["Two-Hand"] = {
 ["enabled"] = {
 true,
@@ -139,26 +213,6 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Two-Hand",
-["dynamic"] = true,
-},
-["Feet"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Feet",
-["dynamic"] = true,
-},
-["Free Space"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Free Space",
 ["dynamic"] = true,
 },
 ["Miscellaneous"] = {
@@ -181,6 +235,26 @@ true,
 ["name"] = "Chest",
 ["dynamic"] = true,
 },
+["Feet"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Feet",
+["dynamic"] = true,
+},
+["Free Space"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Free Space",
+["dynamic"] = true,
+},
 ["Consumable"] = {
 ["enabled"] = {
 true,
@@ -201,14 +275,14 @@ true,
 ["name"] = "Quest - Quest",
 ["dynamic"] = true,
 },
-["Quest"] = {
+["Back"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Quest",
+["name"] = "Back",
 ["dynamic"] = true,
 },
 ["Consumable - Consumable"] = {
@@ -221,62 +295,76 @@ true,
 ["name"] = "Consumable - Consumable",
 ["dynamic"] = true,
 },
-["Back"] = {
+["Quest"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Back",
+["name"] = "Quest",
 ["dynamic"] = true,
 },
-["Recipe"] = {
+["Ammo"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Recipe",
+["name"] = "Ammo",
 ["dynamic"] = true,
 },
-["Armor"] = {
+["BoE"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Armor",
-["dynamic"] = true,
+["name"] = "BoE",
 },
 },
 ["itemLevel"] = {
 {
-["sort"] = false,
 ["descending"] = false,
+["sort"] = false,
 },
 [0] = {
-["sort"] = false,
 ["descending"] = false,
+["sort"] = false,
 },
 },
-["firstTimeMenu"] = false,
+["customCategoryIndex"] = {
+[118] = "Potions",
+[2447] = "Herb",
+[2455] = "Potions",
+[2456] = "Potions",
+[785] = "Herb",
+[2457] = "Potions",
+[2450] = "Herb",
+[858] = "Potions",
+[765] = "Herb",
+[2452] = "Herb",
+[6218] = "Keeper",
+[7005] = "Keeper",
+[2449] = "Herb",
+},
 ["positions"] = {
 {
-["y"] = -141.8084716796875,
-["x"] = -247.6296691894531,
-["point"] = "TOP",
+["y"] = 56.46127319335938,
+["x"] = 577.1400756835938,
+["point"] = "CENTER",
 ["scale"] = 1,
 },
 [0] = {
-["y"] = 83.17944939867448,
-["x"] = -279.633262021438,
-["point"] = "RIGHT",
-["scale"] = 0.8600000143051147,
+["y"] = 1.817598342895508,
+["x"] = 454.4187774658203,
+["point"] = "CENTER",
+["scale"] = 1.25,
 },
 },
+["firstTimeMenu"] = false,
 ["categoryOptions"] = {
 ["Ranged"] = {
 ["shown"] = true,
@@ -302,6 +390,12 @@ true,
 ["Reagent"] = {
 ["shown"] = true,
 },
+["Herb"] = {
+["shown"] = true,
+},
+["Keeper"] = {
+["shown"] = true,
+},
 ["Hands"] = {
 ["shown"] = true,
 },
@@ -311,13 +405,22 @@ true,
 ["Quest"] = {
 ["shown"] = true,
 },
+["Wrist"] = {
+["shown"] = true,
+},
+["Potions"] = {
+["shown"] = true,
+},
+["Waist"] = {
+["shown"] = true,
+},
+["Armor"] = {
+["shown"] = true,
+},
+["Recipe"] = {
+["shown"] = true,
+},
 ["Two-Hand"] = {
-["shown"] = true,
-},
-["Feet"] = {
-["shown"] = true,
-},
-["Free Space"] = {
 ["shown"] = true,
 },
 ["Miscellaneous"] = {
@@ -326,26 +429,76 @@ true,
 ["Chest"] = {
 ["shown"] = true,
 },
+["Feet"] = {
+["shown"] = true,
+},
+["Free Space"] = {
+["shown"] = true,
+},
 ["Consumable"] = {
 ["shown"] = true,
 },
 ["Quest - Quest"] = {
 ["shown"] = true,
 },
-["Junk"] = {
+["Back"] = {
 ["shown"] = true,
 },
 ["Consumable - Consumable"] = {
 ["shown"] = true,
 },
-["Back"] = {
+["Junk"] = {
 ["shown"] = true,
 },
-["Recipe"] = {
+["Ammo"] = {
 ["shown"] = true,
 },
-["Armor"] = {
+["BoE"] = {
 ["shown"] = true,
+},
+},
+["customCategoryFilters"] = {
+["Potions"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+[2455] = true,
+[2456] = true,
+[2457] = true,
+[858] = true,
+[118] = true,
+},
+["name"] = "Potions",
+["save"] = true,
+},
+["Herb"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+[2449] = true,
+[765] = true,
+[2452] = true,
+[785] = true,
+[2447] = true,
+[2450] = true,
+},
+["name"] = "Herb",
+["save"] = true,
+},
+["Keeper"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+[7005] = true,
+},
+["name"] = "Keeper",
+["save"] = true,
 },
 },
 ["showFullSectionNames"] = {

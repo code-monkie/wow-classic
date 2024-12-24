@@ -1,0 +1,55 @@
+
+GuidelimeDataChar = {
+["mainFrameHeight"] = 560.5079345703125,
+["showUnavailableSteps"] = true,
+["guideSkip"] = {
+["Bustea's Horde Leveling guide 1-6 Valley of Trials_Troll"] = {
+},
+["Tactics Hardcore Route 1-6 Valley of Trials"] = {
+},
+["Bustea's Horde Leveling guide START WITH THIS as Troll"] = {
+},
+},
+["maxNumOfTargetButtons"] = 8,
+["arrowY"] = -20,
+["arrowRelative"] = "TOP",
+["mainFrameX"] = 63,
+["mainFrameLocked"] = false,
+["arrowLocked"] = false,
+["guidesFrameY"] = 0,
+["guidesFrameX"] = 0,
+["mainFrameAlpha"] = 0.5,
+["currentGuide"] = "Bustea's Horde Leveling guide 1-6 Valley of Trials_Troll",
+["showTitle"] = true,
+["mainFrameY"] = 98,
+["learnedSpells"] = {
+},
+["version"] = "4.010",
+["showTargetButtons"] = "LEFT",
+["mainFrameRelative"] = "LEFT",
+["guidesFrameRelative"] = "CENTER",
+["arrowAlpha"] = 0.8,
+["arrowFontSize"] = 14,
+["editorFrameX"] = 0,
+["mainFrameWidth"] = 430.2539367675781,
+["editorFrameY"] = 0,
+["showCompletedSteps"] = false,
+["maxNumOfItemButtons"] = 8,
+["level"] = 6,
+["mainFrameFontSize"] = 14,
+["arrowX"] = 0,
+["showArrow"] = true,
+["mainFrameShowScrollBar"] = true,
+["editorFrameRelative"] = "CENTER",
+["guideSize"] = {
+["Bustea's Horde Leveling guide 1-6 Valley of Trials_Troll"] = 77,
+["Tactics Hardcore Route 1-6 Valley of Trials"] = 60,
+["Bustea's Horde Leveling guide START WITH THIS as Troll"] = 6,
+},
+["arrowSize"] = 64,
+["mainFrameShowing"] = true,
+["completedSteps"] = {
+},
+["showUseItemButtons"] = "LEFT",
+["showMinimapButton"] = true,
+}

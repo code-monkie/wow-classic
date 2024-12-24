@@ -2,9 +2,13 @@
 DynamicCamDB = {
 ["profileKeys"] = {
 ["Khaeloche - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
-["Jimmyporter - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
+["Arcarius - Dreamscythe"] = "Default",
+["Jimmyporter - Doomhowl"] = "Default",
+["Khaeloche - Dreamscythe"] = "Default",
+["Randlcarlson - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
+["Benvankrkwyk - Doomhowl"] = "Default",
 ["Khaelnume - Doomhowl"] = "Default",
 },
 ["profiles"] = {

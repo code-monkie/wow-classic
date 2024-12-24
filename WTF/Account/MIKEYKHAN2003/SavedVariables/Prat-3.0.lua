@@ -97,12 +97,16 @@ Prat3DB = {
 },
 ["profileKeys"] = {
 ["Khaeloche - Doomhowl"] = "Default",
-["Jimmyporter - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
-["Khaelahune - Doomhowl"] = "Default",
 ["Khaelnume - Doomhowl"] = "Default",
-["Akahune - Lava Lash"] = "Default",
 ["Khaelhune - Doomhowl"] = "Default",
+["Randlcarlson - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
+["Jimmyporter - Doomhowl"] = "Default",
+["Khaeloche - Dreamscythe"] = "Default",
+["Khaelahune - Doomhowl"] = "Default",
+["Benvankrkwyk - Doomhowl"] = "Default",
+["Akahune - Lava Lash"] = "Default",
+["Arcarius - Dreamscythe"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

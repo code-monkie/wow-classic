@@ -1,7 +1,8 @@
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
-AI_VoiceOver: enabled
-AI_VoiceOverData_Vanilla: enabled
+AI_VoiceOver: disabled
+AI_VoiceOverData_Vanilla: disabled
 WhatsTraining: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+OPie_Classic: disabled

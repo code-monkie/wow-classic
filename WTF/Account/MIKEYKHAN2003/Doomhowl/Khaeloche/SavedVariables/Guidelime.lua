@@ -12,6 +12,8 @@ GuidelimeDataChar = {
 ["arrowLocked"] = false,
 ["guidesFrameY"] = 0,
 ["guidesFrameX"] = 0,
+["tradeSkills"] = {
+},
 ["mainFrameAlpha"] = 0.5,
 ["showTitle"] = true,
 ["mainFrameY"] = -107,
@@ -28,18 +30,18 @@ GuidelimeDataChar = {
 ["editorFrameY"] = 0,
 ["showCompletedSteps"] = false,
 ["maxNumOfItemButtons"] = 8,
-["level"] = 17,
-["mainFrameFontSize"] = 14,
+["showMinimapButton"] = true,
+["showUseItemButtons"] = "LEFT",
 ["arrowX"] = 0,
-["showArrow"] = true,
-["mainFrameShowScrollBar"] = true,
-["guideSize"] = {
-},
-["editorFrameRelative"] = "CENTER",
-["arrowSize"] = 64,
-["mainFrameShowing"] = true,
 ["completedSteps"] = {
 },
-["showUseItemButtons"] = "LEFT",
-["showMinimapButton"] = true,
+["mainFrameShowing"] = true,
+["arrowSize"] = 64,
+["editorFrameRelative"] = "CENTER",
+["guideSize"] = {
+},
+["mainFrameShowScrollBar"] = true,
+["showArrow"] = true,
+["mainFrameFontSize"] = 14,
+["level"] = 1,
 }

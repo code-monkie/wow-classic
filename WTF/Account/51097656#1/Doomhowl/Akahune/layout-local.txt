@@ -1,9 +1,23 @@
 Version: 1
-Frame: WorldMapFrame
+Frame: PlayerFrame
 FrameLevel: 1
 Anchor: CENTER
+X: -141
+Y: -101
+W: 232
+H: 100
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 141
+Y: -99
+W: 232
+H: 100
+Frame: WorldMapFrame
+FrameLevel: 1
+Anchor: TOPLEFT
 X: 0
-Y: 20
+Y: 0
 W: 1024
 H: 712
 Frame: BetterBagsForm0BetterBags Settings
@@ -13,10 +27,3 @@ X: 0
 Y: 0
 W: 600
 H: 800
-Frame: BetterBagsBagBackpack
-FrameLevel: 500
-Anchor: RIGHT
-X: -301
-Y: 124
-W: 290
-H: 278

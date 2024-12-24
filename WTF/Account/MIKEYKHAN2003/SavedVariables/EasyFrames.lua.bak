@@ -2,12 +2,16 @@
 EasyFramesDB = {
 ["profileKeys"] = {
 ["Khaeloche - Doomhowl"] = "Default",
-["Jimmyporter - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
-["Akahune - Lava Lash"] = "Default",
-["Khaelnume - Doomhowl"] = "Default",
 ["Khaelahune - Doomhowl"] = "Default",
 ["Khaelhune - Doomhowl"] = "Default",
+["Arcarius - Dreamscythe"] = "Default",
+["Jimmyporter - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
+["Khaeloche - Dreamscythe"] = "Default",
+["Benvankrkwyk - Doomhowl"] = "Default",
+["Khaelnume - Doomhowl"] = "Default",
+["Akahune - Lava Lash"] = "Default",
+["Randlcarlson - Doomhowl"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -36,7 +40,7 @@ nil,
 },
 ["showWelcomeMessage"] = false,
 ["lightTexture"] = true,
-["hideOutOfCombatOpacity"] = 0.25,
+["hideOutOfCombatOpacity"] = 0.55,
 ["frameToSetPoints"] = "target",
 },
 ["target"] = {

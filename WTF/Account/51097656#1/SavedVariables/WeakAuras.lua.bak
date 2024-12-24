@@ -13,9 +13,9 @@ WeakAurasSaved = {
 ["historyCutoff"] = 730,
 ["dbVersion"] = 78,
 ["migrationCutoff"] = 730,
-["features"] = {
-},
 ["registered"] = {
+},
+["features"] = {
 },
 ["lastUpgrade"] = 1733863682,
 ["editor_font_size"] = 12,

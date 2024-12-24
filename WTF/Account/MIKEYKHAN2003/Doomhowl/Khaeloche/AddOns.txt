@@ -4,3 +4,4 @@ AI_VoiceOver: enabled
 AI_VoiceOverData_Vanilla: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+OPie_Classic: disabled

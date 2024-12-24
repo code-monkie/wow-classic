@@ -1,0 +1,42 @@
+VER 3 0000000001000006 "Fort" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] []  Power Word: Fortitude
+END
+VER 3 000000000100000B "H" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Heal
+END
+VER 3 000000000100000A "IF" "134400"
+#showtooltip
+/use Inner Fire
+END
+VER 3 0000000001000002 "LH" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Lesser Heal
+END
+VER 3 0000000001000009 "LH 2" "134400"
+#showtooltip
+/use [@mouseover] [] Lesser Heal(Rank 2)
+END
+VER 3 0000000001000008 "MB" "134400"
+#showtooltip
+/startattack
+/use Mind Blast
+END
+VER 3 0000000001000003 "PW:S" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Power Word: Shield
+END
+VER 3 0000000001000004 "R" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Renew;
+END
+VER 3 0000000001000001 "Sm" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Smite
+END
+VER 3 0000000001000007 "SWP" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Shadow Word: Pain
+END

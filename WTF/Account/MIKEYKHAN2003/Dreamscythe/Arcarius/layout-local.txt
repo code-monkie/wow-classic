@@ -1,0 +1,15 @@
+Version: 1
+Frame: VoiceOverFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: 0
+Y: 200
+W: 420
+H: 120
+Frame: WorldMapFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 0
+Y: 0
+W: 1024
+H: 712

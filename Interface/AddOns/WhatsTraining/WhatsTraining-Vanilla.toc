@@ -1,6 +1,6 @@
 ## Interface: 11505
 ## Title: What's Training?
-## Version: 7.1.1
+## Version: 8.0.1
 ## Author: Sveng
 ## Notes: Shows you what spells are available at your class trainer
 ## SavedVariables: WT_ShowIgnoreNotice, WT_ShowLearnedNotice
@@ -13,22 +13,25 @@
 libs\LibStub.lua
 libs\CallbackHandler-1.0.lua
 libs\LibDataBroker-1.1.lua
+libs\LibBabble-CreatureType-3.0\lib.xml
 libs\FusionIgnoreStore\IgnoreStore.lua
 
+Localization.lua
 Utils.lua
 Cache.lua
 
 Classes\Classic\Druid.lua
 Classes\Classic\Hunter.lua
+Classes\Classic\HunterPets.lua
 Classes\Classic\Mage.lua
 Classes\Classic\Paladin.lua
 Classes\Classic\Priest.lua
 Classes\Classic\Rogue.lua
 Classes\Classic\Shaman.lua
 Classes\Classic\Warlock.lua
+Classes\Classic\WarlockTomes.lua
 Classes\Classic\Warrior.lua
 
-Localization.lua
 WhatsTrainingUI.lua
 WhatsTraining.lua
 

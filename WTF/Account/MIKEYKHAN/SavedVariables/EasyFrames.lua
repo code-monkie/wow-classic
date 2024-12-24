@@ -1,19 +1,25 @@
 
 EasyFramesDB = {
 ["profileKeys"] = {
-["Stashe - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
-["Khaelshmi - Doomhowl"] = "Updated",
+["Boblazar - Doomhowl"] = "Default",
+["Khaelshot - Doomhowl"] = "Default",
+["Jimmycorseti - Doomhowl"] = "Default",
 ["Aquafino - Doomhowl"] = "Default",
 ["Khaelcrow - Doomhowl"] = "Default",
-["Khaelshot - Doomhowl"] = "Default",
+["Khaelboom - Dreamscythe"] = "Default",
 ["Khaelboom - Doomhowl"] = "Updated",
+["Tmpshaman - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
+["Khaelshmi - Doomhowl"] = "Updated",
+["Milorossi - Doomhowl"] = "Default",
+["Stashe - Doomhowl"] = "Default",
+["Khaeldez - Dreamscythe"] = "Default",
 },
 ["profiles"] = {
 ["Updated"] = {
 ["general"] = {
 ["frameToSetPoints"] = "target",
-["hideOutOfCombatOpacity"] = 0.6,
+["showWelcomeMessage"] = false,
 ["classColoredForShamans"] = true,
 ["hideOutOfCombat"] = true,
 ["framesPoints"] = {
@@ -32,7 +38,7 @@ nil,
 106,
 },
 },
-["showWelcomeMessage"] = false,
+["hideOutOfCombatOpacity"] = 0.6,
 },
 ["player"] = {
 ["portrait"] = "1",

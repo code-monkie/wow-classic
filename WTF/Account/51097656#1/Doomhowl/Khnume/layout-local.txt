@@ -8,11 +8,11 @@ W: 232
 H: 100
 Frame: WorldMapFrame
 FrameLevel: 1
-Anchor: TOPLEFT
+Anchor: CENTER
 X: 0
-Y: 0
-W: 610
-H: 438
+Y: 20
+W: 1024
+H: 712
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: BOTTOM

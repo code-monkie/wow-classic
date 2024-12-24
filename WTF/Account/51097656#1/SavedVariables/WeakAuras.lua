@@ -5,7 +5,7 @@ WeakAurasSaved = {
 ["editor_tab_spaces"] = 4,
 ["displays"] = {
 },
-["registered"] = {
+["features"] = {
 },
 ["lastArchiveClear"] = 1733863680,
 ["minimap"] = {
@@ -14,7 +14,7 @@ WeakAurasSaved = {
 ["historyCutoff"] = 730,
 ["dbVersion"] = 78,
 ["migrationCutoff"] = 730,
-["features"] = {
+["registered"] = {
 },
 ["editor_font_size"] = 12,
 ["lastUpgrade"] = 1733863682,

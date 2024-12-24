@@ -1,0 +1,12 @@
+VER 3 0000000001000002 "BS A" "134400"
+#showtooltip
+/use [stealth] Pick Pocket
+/use [stealth] Ambush
+/use [nostealth] Backstab
+END
+VER 3 0000000001000001 "SS" "134400"
+#showtooltip
+/startattack [nostealth]
+/use [stealth] Pick Pocket
+/use [@mouseover,nodead,harm] [] Sinister Strike
+END

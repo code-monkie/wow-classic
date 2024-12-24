@@ -14,6 +14,10 @@ VER 3 000000000000002E "D Mark" "134400"
 #showtooltip
 /use Mark of the Wild
 END
+VER 3 0000000000000030 "dontdie" "132094"
+/salute
+/s Don't die, mon!
+END
 VER 3 0000000000000016 "Drink" "135861"
 /use Conjured Crystal Water
 /use Conjured Sparkling Water
@@ -39,6 +43,11 @@ VER 3 0000000000000008 "PW: F" "INV_MISC_QUESTIONMARK"
 /dismount [mounted]
 /use [@mouseover,nodead,help] [] Prayer of Fortitude(Rank 2);
 END
+VER 3 0000000000000031 "R SS" "134400"
+#showtooltip
+/startattack
+/use Sinister Strike
+END
 VER 3 000000000000002B "S EBT" "134400"
 #showtooltip
 /use Earthbind Totem
@@ -47,6 +56,10 @@ VER 3 000000000000002A "S ES" "134400"
 #showtooltip
 /startattack
 /use [@mouseover,nodead,harm] [] Earth Shock;
+END
+VER 3 000000000000002F "S FS" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Flame Shock
 END
 VER 3 0000000000000026 "S HW" "134400"
 #showtooltip
@@ -57,11 +70,11 @@ VER 3 0000000000000025 "S LB" "134400"
 /startattack
 /use Lightning Bolt
 END
-VER 3 0000000000000029 "S SST" "134400"
+VER 3 0000000000000028 "S SCT" "134400"
 #showtooltip
-/use Stoneskin Totem
+/use Stoneclaw Totem
 END
-VER 3 0000000000000028 "S SST" "134400"
+VER 3 0000000000000029 "S SST" "134400"
 #showtooltip
 /use Stoneskin Totem
 END

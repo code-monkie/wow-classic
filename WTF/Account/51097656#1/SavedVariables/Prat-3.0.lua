@@ -102,10 +102,14 @@ Prat3DB = {
 },
 ["profileKeys"] = {
 ["Khnume - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
 ["Eldreth - Doomhowl"] = "Default",
 ["Robertshock - Doomhowl"] = "Default",
+["Jahanahjames - Doomhowl"] = "Default",
+["Flintdibbel - Doomhowl"] = "Default",
+["Senloche - Doomhowl"] = "Default",
+["Aldez - Doomhowl"] = "Default",
 ["Stashexfer - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
 ["Akahune - Doomhowl"] = "Default",
 },
 ["profiles"] = {

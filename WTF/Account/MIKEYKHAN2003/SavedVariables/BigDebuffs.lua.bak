@@ -1,0 +1,17 @@
+
+BigDebuffsDB = {
+["profileKeys"] = {
+["Khaeloche - Doomhowl"] = "Default",
+["Jimmyporter - Doomhowl"] = "Default",
+["Randlcarlson - Doomhowl"] = "Default",
+["Khaeloche - Dreamscythe"] = "Default",
+["Benvankrkwyk - Doomhowl"] = "Default",
+["Khaelahune - Doomhowl"] = "Default",
+["Khaelnume - Doomhowl"] = "Default",
+["Arcarius - Dreamscythe"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

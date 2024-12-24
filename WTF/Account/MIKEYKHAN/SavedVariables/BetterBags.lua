@@ -1,11 +1,18 @@
 
 BetterBagsDB = {
 ["profileKeys"] = {
+["Boblazar - Doomhowl"] = "Default",
 ["Stashe - Doomhowl"] = "Default",
-["Khaeldez - Doomhowl"] = "Default",
+["Jimmycorseti - Doomhowl"] = "Default",
+["Aquafino - Doomhowl"] = "Default",
+["Khaelboom - Dreamscythe"] = "Default",
 ["Khaelboom - Doomhowl"] = "Default",
+["Tmpshaman - Doomhowl"] = "Default",
+["Khaeldez - Doomhowl"] = "Default",
 ["Khaelshot - Doomhowl"] = "Default",
+["Milorossi - Doomhowl"] = "Default",
 ["Khaelshmi - Doomhowl"] = "Default",
+["Khaeldez - Dreamscythe"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -32,26 +39,6 @@ true,
 ["name"] = "Waist",
 ["dynamic"] = true,
 },
-["Bag"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Bag",
-["dynamic"] = true,
-},
-["Held In Off-hand"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Held In Off-hand",
-["dynamic"] = true,
-},
 ["Legs"] = {
 ["enabled"] = {
 true,
@@ -62,14 +49,14 @@ true,
 ["name"] = "Legs",
 ["dynamic"] = true,
 },
-["One-Hand"] = {
+["Ammo"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "One-Hand",
+["name"] = "Ammo",
 ["dynamic"] = true,
 },
 ["Trade Goods"] = {
@@ -82,34 +69,14 @@ true,
 ["name"] = "Trade Goods",
 ["dynamic"] = true,
 },
-["Main Hand"] = {
+["Thrown"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Main Hand",
-["dynamic"] = true,
-},
-["Recipe"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Recipe",
-["dynamic"] = true,
-},
-["Reagent"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Reagent",
+["name"] = "Thrown",
 ["dynamic"] = true,
 },
 ["Shirt"] = {
@@ -132,24 +99,144 @@ true,
 ["name"] = "Hands",
 ["dynamic"] = true,
 },
-["Recent Items"] = {
+["Off Hand"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Recent Items",
+["name"] = "Off Hand",
 ["dynamic"] = true,
 },
-["Junk"] = {
+["Quest"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Junk",
+["name"] = "Quest",
+["dynamic"] = true,
+},
+["Potions"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Potions",
+["dynamic"] = true,
+},
+["Feet"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Feet",
+["dynamic"] = true,
+},
+["Chest"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Chest",
+["dynamic"] = true,
+},
+["Keeper"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Keeper",
+["dynamic"] = true,
+},
+["Ranged"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Ranged",
+["dynamic"] = true,
+},
+["Bag"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Bag",
+["dynamic"] = true,
+},
+["Held In Off-hand"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Held In Off-hand",
+["dynamic"] = true,
+},
+["One-Hand"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "One-Hand",
+["dynamic"] = true,
+},
+["Recipe"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Recipe",
+["dynamic"] = true,
+},
+["Reagent"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Reagent",
+["dynamic"] = true,
+},
+["Key"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Key",
+["dynamic"] = true,
+},
+["Leathers"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Leathers",
 ["dynamic"] = true,
 },
 ["Wrist"] = {
@@ -172,24 +259,24 @@ true,
 ["name"] = "Two-Hand",
 ["dynamic"] = true,
 },
-["Ammo"] = {
+["Herbs"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Ammo",
+["name"] = "Herbs",
 ["dynamic"] = true,
 },
-["Feet"] = {
+["Recent Items"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Feet",
+["name"] = "Recent Items",
 ["dynamic"] = true,
 },
 ["Miscellaneous"] = {
@@ -222,56 +309,6 @@ true,
 ["name"] = "Consumable",
 ["dynamic"] = true,
 },
-["Quest"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Quest",
-["dynamic"] = true,
-},
-["Chest"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Chest",
-["dynamic"] = true,
-},
-["Ranged"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Ranged",
-["dynamic"] = true,
-},
-["Off Hand"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Off Hand",
-["dynamic"] = true,
-},
-["Thrown"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Thrown",
-["dynamic"] = true,
-},
 ["Back"] = {
 ["enabled"] = {
 true,
@@ -281,6 +318,55 @@ true,
 },
 ["name"] = "Back",
 ["dynamic"] = true,
+},
+["Metals"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Metals",
+["dynamic"] = true,
+},
+["Main Hand"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Main Hand",
+["dynamic"] = true,
+},
+["Junk"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Junk",
+["dynamic"] = true,
+},
+["Shoulder"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Shoulder",
+["dynamic"] = true,
+},
+["BoE"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "BoE",
 },
 },
 ["itemLevel"] = {
@@ -293,41 +379,52 @@ true,
 ["sort"] = false,
 },
 },
+["customCategoryIndex"] = {
+[2770] = "Metals",
+[118] = "Potions",
+[7005] = "Keeper",
+[5060] = "Keeper",
+[774] = "Ore",
+[2319] = "Leathers",
+[2447] = "Herbs",
+[2449] = "Herbs",
+[3470] = "Metals",
+[3383] = "Potions",
+[4596] = "Potions",
+[2457] = "Potions",
+[2862] = "Keeper",
+[5631] = "Potions",
+[858] = "Potions",
+[2934] = "Leathers",
+[765] = "Herbs",
+[2841] = "Metals",
+[3478] = "Metals",
+[2318] = "Leathers",
+[2901] = "Keeper",
+[5498] = "Metals",
+[2459] = "Potions",
+[2450] = "Herbs",
+[2452] = "Herbs",
+[785] = "Herbs",
+[2456] = "Potions",
+[2458] = "Potions",
+[5956] = "Keeper",
+},
 ["firstTimeMenu"] = false,
-["positions"] = {
-[0] = {
-["y"] = 46.9411373560215,
-["x"] = -328.5233603104716,
-["point"] = "RIGHT",
-["scale"] = 0.8999999761581421,
-},
-},
 ["categoryOptions"] = {
 ["Waist"] = {
-["shown"] = true,
-},
-["Bag"] = {
-["shown"] = true,
-},
-["Held In Off-hand"] = {
 ["shown"] = true,
 },
 ["Legs"] = {
 ["shown"] = true,
 },
-["One-Hand"] = {
+["Ammo"] = {
 ["shown"] = true,
 },
 ["Trade Goods"] = {
 ["shown"] = true,
 },
-["Main Hand"] = {
-["shown"] = true,
-},
-["Recipe"] = {
-["shown"] = true,
-},
-["Reagent"] = {
+["Thrown"] = {
 ["shown"] = true,
 },
 ["Shirt"] = {
@@ -336,22 +433,61 @@ true,
 ["Hands"] = {
 ["shown"] = true,
 },
-["Recent Items"] = {
+["Off Hand"] = {
 ["shown"] = true,
 },
-["Quest"] = {
+["Junk"] = {
+["shown"] = true,
+},
+["Potions"] = {
+["shown"] = true,
+},
+["Feet"] = {
+["shown"] = true,
+},
+["Chest"] = {
+["shown"] = true,
+},
+["Keeper"] = {
+["shown"] = true,
+},
+["Ranged"] = {
+["shown"] = true,
+},
+["Bag"] = {
+["shown"] = true,
+},
+["Held In Off-hand"] = {
+["shown"] = true,
+},
+["One-Hand"] = {
+["shown"] = true,
+},
+["Recipe"] = {
+["shown"] = true,
+},
+["Reagent"] = {
+["shown"] = true,
+},
+["Key"] = {
+["shown"] = true,
+},
+["Leathers"] = {
 ["shown"] = true,
 },
 ["Wrist"] = {
 ["shown"] = true,
 },
+["Herbs"] = {
+["shown"] = true,
+},
 ["Two-Hand"] = {
 ["shown"] = true,
 },
-["Ammo"] = {
+["Recent Items"] = {
 ["shown"] = true,
 },
-["Feet"] = {
+["Back"] = {
 ["shown"] = true,
 },
 ["Miscellaneous"] = {
@@ -363,23 +499,117 @@ true,
 ["Consumable"] = {
 ["shown"] = true,
 },
-["Junk"] = {
+["Main Hand"] = {
 ["shown"] = true,
 },
-["Ranged"] = {
+["Metals"] = {
 ["shown"] = true,
 },
-["Chest"] = {
+["Quest"] = {
 ["shown"] = true,
 },
-["Off Hand"] = {
+["Ore"] = {
 ["shown"] = true,
 },
-["Thrown"] = {
+["Shoulder"] = {
 ["shown"] = true,
 },
-["Back"] = {
+["BoE"] = {
 ["shown"] = true,
+},
+},
+["customSectionSort"] = {
+[0] = {
+["Back"] = 2,
+["Ammo"] = 1,
+},
+},
+["customCategoryFilters"] = {
+["Potions"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+[2459] = true,
+[5631] = true,
+[3383] = true,
+[2456] = true,
+},
+["name"] = "Potions",
+["save"] = true,
+},
+["Leathers"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+[2934] = true,
+[2318] = true,
+[2319] = true,
+},
+["name"] = "Leathers",
+["save"] = true,
+},
+["Keeper"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+[5956] = true,
+[2901] = true,
+[2862] = true,
+[5060] = true,
+},
+["name"] = "Keeper",
+["save"] = true,
+},
+["Metals"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+[2770] = true,
+[3478] = true,
+[5498] = true,
+[3470] = true,
+[2841] = true,
+},
+["name"] = "Metals",
+["save"] = true,
+},
+["Herbs"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+[2449] = true,
+[765] = true,
+[2452] = true,
+[785] = true,
+[2447] = true,
+[2450] = true,
+},
+["name"] = "Herbs",
+["save"] = true,
+},
+},
+["positions"] = {
+{
+["y"] = 76.19052124023438,
+["x"] = -221.5474853515625,
+["point"] = "CENTER",
+["scale"] = 1,
+},
+[0] = {
+["y"] = -63.31358402193655,
+["x"] = -448.9321859069169,
+["point"] = "RIGHT",
+["scale"] = 0.8999999761581421,
 },
 },
 ["showFullSectionNames"] = {

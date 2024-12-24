@@ -1,4 +1,11 @@
 Version: 1
+Frame: PlayerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -147
+Y: -115
+W: 232
+H: 100
 Frame: WorldMapFrame
 FrameLevel: 1
 Anchor: TOPLEFT
@@ -13,3 +20,10 @@ X: 0
 Y: 200
 W: 420
 H: 120
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 150
+Y: -116
+W: 232
+H: 100

@@ -1,3 +1,36 @@
+VER 3 0000000001000008 "B" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Bash
+END
+VER 3 0000000001000011 "Bear" "134400"
+#showtooltip
+/use !Bear Form
+END
+VER 3 000000000100000E "D Cat" "134400"
+#showtooltip
+/use !Cat Form
+END
+VER 3 0000000001000013 "Demo" "134400"
+#showtooltip
+/use Demoralizing Roar
+END
+VER 3 000000000100000B "ER" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Entangling Roots
+END
+VER 3 000000000100000F "F Claw" "134400"
+#showtooltip
+/startattack
+/use Claw
+END
+VER 3 000000000100000C "FF" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Faerie Fire
+END
+VER 3 000000000100000A "H" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Hibernate
+END
 VER 3 0000000001000002 "HT" "134400"
 #showtooltip
 /use [@mouseover,nodead,help] [] Healing Touch
@@ -15,6 +48,24 @@ END
 VER 3 0000000001000003 "Rej" "134400"
 #showtooltip
 /use [@mouseover,nodead,help] [] Rejuvenation;
+END
+VER 3 0000000001000007 "RG" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] Regrowth
+END
+VER 3 000000000100000D "S" "134400"
+#showtooltip
+/startattack
+/use Swipe
+END
+VER 3 0000000001000012 "Starfire" "134400"
+#showtooltip
+/startattack
+/use [@mouseover,nodead,harm] [] Starfire
+END
+VER 3 0000000001000010 "Stealth" "134400"
+#showtooltip
+/use !Prowl
 END
 VER 3 0000000001000005 "T" "134400"
 #showtooltip

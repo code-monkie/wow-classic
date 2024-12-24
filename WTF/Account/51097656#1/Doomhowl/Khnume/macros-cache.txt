@@ -1,0 +1,4 @@
+VER 3 0000000001000001 "ES 1" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] [] Earth Shock(Rank 1)
+END
